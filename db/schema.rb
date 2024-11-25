@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_11_25_174406) do
+ActiveRecord::Schema[7.1].define(version: 2024_11_25_180014) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -18,6 +18,29 @@ ActiveRecord::Schema[7.1].define(version: 2024_11_25_174406) do
     t.string "name"
     t.string "category"
     t.float "carbon_per_gram"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "meals", force: :cascade do |t|
+    t.boolean "cooked"
+    t.integer "carbon_saving"
+    t.integer "cost_saving"
+    t.bigint "user_id", null: false
+    t.bigint "recipe_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["recipe_id"], name: "index_meals_on_recipe_id"
+    t.index ["user_id"], name: "index_meals_on_user_id"
+  end
+
+  create_table "recipes", force: :cascade do |t|
+    t.string "name"
+    t.text "instructions"
+    t.string "cuisine"
+    t.string "image_url"
+    t.string "cook_time"
+    t.string "difficulty"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -37,17 +60,6 @@ ActiveRecord::Schema[7.1].define(version: 2024_11_25_174406) do
     t.index ["user_id"], name: "index_user_ingredients_on_user_id"
   end
 
-  create_table "recipes", force: :cascade do |t|
-    t.string "name"
-    t.text "instructions"
-    t.string "cuisine"
-    t.string "image_url"
-    t.string "cook_time"
-    t.string "difficulty"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
     t.string "encrypted_password", default: "", null: false
@@ -62,6 +74,8 @@ ActiveRecord::Schema[7.1].define(version: 2024_11_25_174406) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
+  add_foreign_key "meals", "recipes"
+  add_foreign_key "meals", "users"
   add_foreign_key "user_ingredients", "ingredients"
   add_foreign_key "user_ingredients", "users"
 end

@@ -1,10 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- Bootstrap and Popper.js JS (Place before closing </body>) -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-  <!-- Link to your custom JavaScript (home.js) -->
-  <script src="app/javascript/controllers/home.js"></script>
 
 <head>
   <meta charset="UTF-8">
@@ -19,54 +14,60 @@
 
   <!-- Optional custom CSS for the carousel or other styling -->
   <link href="styles.css" rel="stylesheet">
+
 </head>
 
 <body>
   <div class="background">
 
-    <!-- search bar at top -->
-    <div class="search-bar">
-      <input type="text" placeholder="Search">
-    </div>
-
     <div class="Menu">
-      <%= link_to 'Menu', "" , class: "btn btn-seondary" %>
+      <%= link_to 'Menu', "" , class: "btn btn-primary" %>
     </div>
 
     <!-- title -->
     <div class="title">DIG IN</div>
+
+
+
+
+
+
+    <!-- SLIDESHOW EXPERIMENT -->
+    <div id="slideshow-container">
+    <img id="slideshow-image" src="<%= asset_path('meals/food1.jpg', class: "small-image") %>" alt="Lovely meals" />
+    </div>
+
+
+
+
+
+
 
     <!-- sub-title -->
     <p class="subtitle">
       <span class="co2">CO<span class="subscript">2</span></span>ok a Meal. Save the Planet
     </p>
 
-    <!-- Bootstrap Carousel Component -->
-    <div id="mealCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
-      <div class="carousel-inner" id="carouselItemsContainer">
-        <!-- Carousel Items (Images) will be inserted dynamically here -->
-      </div>
-
-      <div class="divider"></div>
-        <%= image_tag("meals/food1.jpg", class: "small-image") %>
-
       <div class="intro-text">
             Welcome to Dig In! <br><br>
         </div>
-
         <div class="intro-text">
             A place for those who love to cook, and care about Mother Earth. <br><br>
         </div>
-
         <div class="intro-text">
             Wondering what to do with bits in your fridge so they don't go to waste, and enjoy a delicious meal at the same time? <br><br>
         </div>
-
         <div class="intro-text">
             Dig In has you covered! Log your ingredients, browse recipes tailored for you, select the dish that's caught your eye, and cook! <br><br>
         </div>
     </div>
   </div>
+
+<!-- Bootstrap and Popper.js JS (Place before closing </body>) -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  <!-- Link to your custom JavaScript (home.js) -->
+  <script src="app/javascript/controllers/home.js"></script>
 
 </body>
 </html>

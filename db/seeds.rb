@@ -86,7 +86,7 @@ recipes = JSON.parse(recipes_serialized)
   ).read
   recipe_info = JSON.parse(recipe_ids_serialized)
 
-  p recipe_info["extendedIngredients"]
+  # p recipe_info["extendedIngredients"]
 
   # seeding recipes
   new_recipe = {
@@ -97,18 +97,45 @@ recipes = JSON.parse(recipes_serialized)
     difficulty: ["easy", "medium", "hard"].sample
   }
 
-  new_recipe
-  # Recipe.create!(new_recipe)
+  recipe = Recipe.create!(new_recipe)
 
   # # seeding ingredients
-  # recipe_info["ingredients"].each do |ingredient|
-  #   ingredient = Ingredient.find_by_name("#{ingredient[nameClean]}")
-      if ingredient
-        RecipeIngredient.create(ingredient:ingredient)
-      else
+  recipe_info["extendedIngredients"].each do |ingredient|
+    found_ingredient = Ingredient.find_by_name("#{ingredient["nameClean"]}")
+    carbon_array = {
+      "chicken" => 9.87,
+      "beef" => 99.48,
+      "lamb" => 39.72,
+      "prawn" => 26.87,
+      "cheese" => 23.88,
+      "pork" => 12.31,
+      "egg" => 4.67,
+      "rice" => 4.45,
+      "milk" => 3.15,
+      "tomato" => 2.09
+    }
 
-  #     new_ingredient = {
-  #       name: ingredient["name"]
+    serving = ingredient["measures"]["metric"]["unit"] == "" ? "servings" : ingredient["measures"]["metric"]["unit"]
+    if found_ingredient
+      RecipeIngredient.create(
+        ingredient: ingredient,
+        recipe: recipe,
+        quantity: ingredient["amount"],
+        unit: serving
+        )
+    else
+      carbon_value = carbon_array[ingredient["nameClean"]] || 2.5
+      new_ingredient = Ingredient.create(
+        name: ingredient["nameClean"],
+        category: ingredient["aisle"],
+        carbon_per_gram: carbon_value
+      )
 
-  #     }
-      end
+      RecipeIngredient.create(
+        ingredient: new_ingredient,
+        recipe: recipe,
+        quantity: ingredient["amount"],
+        unit: serving
+        )
+    end
+  end

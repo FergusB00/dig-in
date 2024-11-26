@@ -1,77 +1,95 @@
-// Specific CSS for your home-page
+body {
+    // margin: 0;
+    // font-family: Arial, sans-serif;
+    // background-color: #786565;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // height: 100vh;
+  }
 
-<style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #fefefe;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
+  .background {
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 15px;
+  }
 
-    .container {
-      width: 90%;
-      max-width: 400px;
-      text-align: center;
-      background-color: #ffffff;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      border-radius: 10px;
-      padding: 15px;
-    }
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+  }
 
-    .icons {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 10px;
-    }
+  .search-bar input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 5px;
+  }
 
-    .icons img {
-      width: 24px;
-      height: 24px;
-    }
+  .image-placeholder {
+    width: 100%;
+    height: 200px;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
 
-    .search-bar {
-      display: flex;
-      align-items: center;
-      background-color: #f9f9f9;
-      border: 1px solid #e0e0e0;
-      border-radius: 5px;
-      padding: 5px 10px;
-      margin-bottom: 20px;
-    }
+  .title {
+    font-family: Aboreto;
+    font-size: 44px;
+    color: #78C5AD;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+  }
 
-    .search-bar input {
-      border: none;
-      outline: none;
-      flex: 1;
-      padding: 5px;
-    }
+  /* Styling for the subtitle text */
+  .subtitle {
+    font-size: 20px;
+    color: #cccccc; /* Light gray color */
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: 300; /* Light weight for subtitle */
+    margin-top: 10px;
+  }
 
-    .image-placeholder {
-      width: 100%;
-      height: 200px;
-      background-color: #e0e0e0;
-      border-radius: 8px;
-      margin-bottom: 20px;
-    }
+  /* Custom styling for the fade-in effect */
+  .fade-image {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
 
-    .title {
-      font-size: 24px;
-      color: #88bca9;
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
+  .fade-image.loaded {
+    opacity: 1;
+  }
 
-    .divider {
-      height: 1px;
-      background-color: #e0e0e0;
-      margin: 10px 0;
-    }
+  /* Styling for the CO₂ part of the subtitle */
+  .subtitle .co2 {
+    font-size: 20px;
+    font-weight: 300;
+  }
 
-    .menu {
-      font-size: 14px;
-      color: #aaa;
-    }
-  </style>
+  .subtitle .subscript {
+    font-size: 12px;
+    vertical-align: sub; /* Makes the "2" appear as a subscript */
+  }
+
+  .divider {
+    height: 1px;
+    background-color: #e0e0e0;
+    margin: 10px 0;
+  }
+
+  .intro-text {
+    font-size: 14px;
+    color: #aaa;
+  }

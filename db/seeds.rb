@@ -103,12 +103,12 @@ recipes = JSON.parse(recipes_serialized)
   # # seeding ingredients
   # recipe_info["ingredients"].each do |ingredient|
   #   ingredient = Ingredient.find_by_name("#{ingredient[nameClean]}")
-  #   if ingredient
+      if ingredient
         RecipeIngredient.create(ingredient:ingredient)
-else
+      else
 
   #     new_ingredient = {
   #       name: ingredient["name"]
 
   #     }
-  # end
+      end

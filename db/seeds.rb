@@ -35,4 +35,19 @@ Recipe.create(name: "Guacamole", instructions: "Mash the flesh of ripe avocados 
 
 Recipe.create(name: "Ratatouille", instructions: "Slice zucchini, eggplant, and tomatoes into thin rounds, then layer them in a baking dish with a tomato-based sauce. Drizzle with olive oil, season with herbs like thyme, and bake until tender and golden", cuisine: "French", image_url: "https://www.howtocook.recipes/wp-content/uploads/2021/05/Ratatouille-recipe.jpg", cook_time: "1hr 30 minutes", difficulty: "hard")
 
-puts "Created #{Recipe.count} users."
+puts "Created #{Recipe.count} recipes."
+
+puts "Creating ingredients..."
+
+Ingredient.create(name: "Avocado", category: "Fruit", carbon_per_gram: 2.5)
+Ingredient.create(name: "Tomato", category: "Vegetable", carbon_per_gram: 0.2)
+Ingredient.create(name: "Onion", category: "Vegetable", carbon_per_gram: 0.1)
+Ingredient.create(name: "Lime", category: "Fruit", carbon_per_gram: 0.3)
+
+Ingredient.create(name: "Tomato", category: "Vegetable", carbon_per_gram: 0.2)
+Ingredient.create(name: "Courgette", category: "Vegetable", carbon_per_gram: 0.15)
+Ingredient.create(name: "Aubergine", category: "Vegetable", carbon_per_gram: 0.25)
+Ingredient.create(name: "Bell Pepper", category: "Vegetable", carbon_per_gram: 0.3)
+Ingredient.create(name: "Garlic", category: "Vegetable", carbon_per_gram: 0.1)
+
+puts "Created #{Ingredient.count} ingredients."

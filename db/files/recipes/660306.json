@@ -1,0 +1,467 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 13,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 22,
+  "healthScore": 100,
+  "creditsText": "foodista.com",
+  "sourceName": "foodista.com",
+  "pricePerServing": 298.81,
+  "extendedIngredients": [
+    {
+      "id": 2010,
+      "aisle": "Spices and Seasonings",
+      "image": "cinnamon.jpg",
+      "consistency": "SOLID",
+      "name": "cinnamon",
+      "nameClean": "cinnamon",
+      "original": "2 tsp cinnamon",
+      "originalName": "cinnamon",
+      "amount": 2.0,
+      "unit": "tsp",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 1002014,
+      "aisle": "Spices and Seasonings",
+      "image": "ground-cumin.jpg",
+      "consistency": "SOLID",
+      "name": "cumin",
+      "nameClean": "cumin",
+      "original": "1 Tbsp dried cumin",
+      "originalName": "dried cumin",
+      "amount": 1.0,
+      "unit": "Tbsp",
+      "meta": [
+        "dried"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        }
+      }
+    },
+    {
+      "id": 16056,
+      "aisle": "Canned and Jarred",
+      "image": "chickpeas.png",
+      "consistency": "SOLID",
+      "name": "garbanzo beans *1",
+      "nameClean": "dried chickpeas",
+      "original": "16 oz bag of dried garbanzo beans (rinsed, but not soaked) *1",
+      "originalName": "dried garbanzo beans (rinsed, but not soaked) *1",
+      "amount": 16.0,
+      "unit": "oz",
+      "meta": [
+        "dried",
+        "rinsed",
+        "(, but not soaked)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 16.0,
+          "unitShort": "oz",
+          "unitLong": "ounces"
+        },
+        "metric": {
+          "amount": 453.592,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 1002030,
+      "aisle": "Spices and Seasonings",
+      "image": "pepper.jpg",
+      "consistency": "SOLID",
+      "name": "ground pepper",
+      "nameClean": "black pepper",
+      "original": "2 tsp ground black pepper",
+      "originalName": "ground black pepper",
+      "amount": 2.0,
+      "unit": "tsp",
+      "meta": [
+        "black"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 11282,
+      "aisle": "Produce",
+      "image": "brown-onion.png",
+      "consistency": "SOLID",
+      "name": "onion",
+      "nameClean": "onion",
+      "original": "1 small onion, sliced",
+      "originalName": "onion, sliced",
+      "amount": 1.0,
+      "unit": "small",
+      "meta": [
+        "sliced"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "small",
+          "unitLong": "small"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "small",
+          "unitLong": "small"
+        }
+      }
+    },
+    {
+      "id": 10010225,
+      "aisle": "Meat",
+      "image": "pork-loin.jpg",
+      "consistency": "SOLID",
+      "name": "pork should roast",
+      "nameClean": "pork roast",
+      "original": "3lb Pork Should Roast – bone-in",
+      "originalName": "Pork Should Roast – bone-in",
+      "amount": 3.0,
+      "unit": "lb",
+      "meta": [
+        "bone-in"
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "lb",
+          "unitLong": "pounds"
+        },
+        "metric": {
+          "amount": 1.361,
+          "unitShort": "kgs",
+          "unitLong": "kgs"
+        }
+      }
+    },
+    {
+      "id": 2047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt.jpg",
+      "consistency": "SOLID",
+      "name": "salt",
+      "nameClean": "table salt",
+      "original": "2 tsp salt",
+      "originalName": "salt",
+      "amount": 2.0,
+      "unit": "tsp",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 14412,
+      "aisle": "Beverages",
+      "image": "water.png",
+      "consistency": "LIQUID",
+      "name": "water *2",
+      "nameClean": "water",
+      "original": "4 cups of water (also see “Notes” at bottom of recipe) *2",
+      "originalName": "water (also see “Notes” at bottom of recipe) *2",
+      "amount": 4.0,
+      "unit": "cups",
+      "meta": [
+        "(also see “Notes” at bottom of recipe)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 946.352,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    }
+  ],
+  "id": 660306,
+  "title": "Slow Cooker: Pork and Garbanzo Beans",
+  "readyInMinutes": 45,
+  "servings": 6,
+  "sourceUrl": "https://www.foodista.com/recipe/6BFKWQ7C/slow-cooker-pork-and-garbanzo-beans",
+  "image": "https://img.spoonacular.com/recipes/660306-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Slow Cooker: Pork and Garbanzo Beans takes approximately <b>45 minutes</b> from beginning to end. This recipe serves 6. This main course has <b>587 calories</b>, <b>66g of protein</b>, and <b>14g of fat</b> per serving. For <b>$2.99 per serving</b>, this recipe <b>covers 45%</b> of your daily requirements of vitamins and minerals. Head to the store and pick up water *2, cumin, pork should roast, and a few other things to make it today. This recipe is liked by 22 foodies and cooks. It is brought to you by Foodista. It is a good option if you're following a <b>gluten free and dairy free</b> diet. With a spoonacular <b>score of 96%</b>, this dish is outstanding. Similar recipes include <a href=\"https://spoonacular.com/recipes/slow-cooker-pork-and-beans-619424\">Slow Cooker Pork and Beans</a>, <a href=\"https://spoonacular.com/recipes/slow-cooker-pork-and-beans-1242889\">Slow Cooker Pork and Beans</a>, and <a href=\"https://spoonacular.com/recipes/slow-cooker-pork-and-beans-244959\">Slow Cooker Pork and Beans</a>.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "lunch",
+    "main course",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "<ol><li>In slow cooker layer in this order: pork, then garbanzo beans, onion, pour water over all. Mix spices together and sprinkle over pork and beans. Cover. Set on low and cook for approximately 6 hours. The beans should be tender and creamy. The pork should fall very easily from the bone. The pork can be either shredded for cubed for your preference. *3</li><li>Serving Suggestion: Scoop about 1 cup of beans with broth into a soup bowl. Top with shredded pork. Add 1/4 of an avocado sliced, top with chopped fresh cilantro.</li><li>NOTES:</li><li>*1 The beans do not need to be soaked before adding to the slow cooker. They will be perfectly soft and creamy without pre-soaking.</li><li>*2 Substitute the water for: 2 cups water and 1 bottle of good quality dark beer like Negra Modelo. You can also substitute the water for chicken stock or pork stock. Each of these substitutions will add an extra dimension of flavor.</li><li>*3 If you want to shred the pork, it is easiest to do when the pork is hot. Use two forks to pull the pork apart and shred. If you want to slice the pork (like for sandwiches) it is best to do when the pork is cold. Let the pork rest in the refrigerator for several hours or over night. Slice with a serrated knife or a very sharp chef knife.</li></ol>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "In slow cooker layer in this order: pork, then garbanzo beans, onion, pour water over all.",
+          "ingredients": [
+            {
+              "id": 16057,
+              "name": "chickpeas",
+              "localizedName": "chickpeas",
+              "image": "chickpeas.png"
+            },
+            {
+              "id": 11282,
+              "name": "onion",
+              "localizedName": "onion",
+              "image": "brown-onion.png"
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            },
+            {
+              "id": 10010219,
+              "name": "pork",
+              "localizedName": "pork",
+              "image": "pork-tenderloin-raw.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404718,
+              "name": "slow cooker",
+              "localizedName": "slow cooker",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/slow-cooker.jpg"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Mix spices together and sprinkle over pork and beans. Cover. Set on low and cook for approximately 6 hours. The beans should be tender and creamy. The pork should fall very easily from the bone. The pork can be either shredded for cubed for your preference. *3Serving Suggestion: Scoop about 1 cup of beans with broth into a soup bowl. Top with shredded pork.",
+          "ingredients": [
+            {
+              "id": 16009,
+              "name": "pork and beans",
+              "localizedName": "pork and beans",
+              "image": "baked-beans.jpg"
+            },
+            {
+              "id": 98944,
+              "name": "pulled pork",
+              "localizedName": "pulled pork",
+              "image": "pulled-pork.png"
+            },
+            {
+              "id": 2035,
+              "name": "spices",
+              "localizedName": "spices",
+              "image": "spices.png"
+            },
+            {
+              "id": 0,
+              "name": "beans",
+              "localizedName": "beans",
+              "image": "kidney-beans.jpg"
+            },
+            {
+              "id": 1006615,
+              "name": "broth",
+              "localizedName": "broth",
+              "image": "chicken-broth.png"
+            },
+            {
+              "id": 0,
+              "name": "bone",
+              "localizedName": "bone",
+              "image": ""
+            },
+            {
+              "id": 10010219,
+              "name": "pork",
+              "localizedName": "pork",
+              "image": "pork-tenderloin-raw.png"
+            },
+            {
+              "id": 0,
+              "name": "soup",
+              "localizedName": "soup",
+              "image": ""
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ],
+          "length": {
+            "number": 360,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 3,
+          "step": "Add 1/4 of an avocado sliced, top with chopped fresh cilantro.NOTES:*1 The beans do not need to be soaked before adding to the slow cooker. They will be perfectly soft and creamy without pre-soaking.*2 Substitute the water for: 2 cups water and 1 bottle of good quality dark beer like Negra Modelo. You can also substitute the water for chicken stock or pork stock. Each of these substitutions will add an extra dimension of flavor.*3 If you want to shred the pork, it is easiest to do when the pork is hot. Use two forks to pull the pork apart and shred. If you want to slice the pork (like for sandwiches) it is best to do when the pork is cold.",
+          "ingredients": [
+            {
+              "id": 11165,
+              "name": "fresh cilantro",
+              "localizedName": "fresh cilantro",
+              "image": "cilantro.png"
+            },
+            {
+              "id": 6172,
+              "name": "chicken stock",
+              "localizedName": "chicken stock",
+              "image": "chicken-broth.png"
+            },
+            {
+              "id": 1016170,
+              "name": "pork stock",
+              "localizedName": "pork stock",
+              "image": "chicken-broth.png"
+            },
+            {
+              "id": 10014003,
+              "name": "dark beer",
+              "localizedName": "dark beer",
+              "image": "guinness.png"
+            },
+            {
+              "id": 9037,
+              "name": "avocado",
+              "localizedName": "avocado",
+              "image": "avocado.jpg"
+            },
+            {
+              "id": 0,
+              "name": "beans",
+              "localizedName": "beans",
+              "image": "kidney-beans.jpg"
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            },
+            {
+              "id": 10010219,
+              "name": "pork",
+              "localizedName": "pork",
+              "image": "pork-tenderloin-raw.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404718,
+              "name": "slow cooker",
+              "localizedName": "slow cooker",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/slow-cooker.jpg"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "step": "Let the pork rest in the refrigerator for several hours or over night. Slice with a serrated knife or a very sharp chef knife.",
+          "ingredients": [
+            {
+              "id": 10010219,
+              "name": "pork",
+              "localizedName": "pork",
+              "image": "pork-tenderloin-raw.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404740,
+              "name": "serrated knife",
+              "localizedName": "serrated knife",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/serrated-knife.jpg"
+            },
+            {
+              "id": 404745,
+              "name": "knife",
+              "localizedName": "knife",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/chefs-knife.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 98.11973571777344,
+  "spoonacularSourceUrl": "https://spoonacular.com/slow-cooker-pork-and-garbanzo-beans-660306"
+}

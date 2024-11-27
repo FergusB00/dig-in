@@ -1,0 +1,449 @@
+{
+  "vegetarian": true,
+  "vegan": true,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 8,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 11,
+  "healthScore": 100,
+  "creditsText": "foodista.com",
+  "sourceName": "foodista.com",
+  "pricePerServing": 115.56,
+  "extendedIngredients": [
+    {
+      "id": 4053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "olive oil",
+      "nameClean": "olive oil",
+      "original": "2 Tbs olive oil",
+      "originalName": "olive oil",
+      "amount": 2.0,
+      "unit": "Tbs",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "Tbs",
+          "unitLong": "Tbs"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "Tbs",
+          "unitLong": "Tbs"
+        }
+      }
+    },
+    {
+      "id": 11282,
+      "aisle": "Produce",
+      "image": "brown-onion.png",
+      "consistency": "SOLID",
+      "name": "onion",
+      "nameClean": "onion",
+      "original": "1 onion, chopped",
+      "originalName": "onion, chopped",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 11215,
+      "aisle": "Produce",
+      "image": "garlic.png",
+      "consistency": "SOLID",
+      "name": "garlic",
+      "nameClean": "garlic",
+      "original": "2 cloves garlic, minced",
+      "originalName": "garlic, minced",
+      "amount": 2.0,
+      "unit": "cloves",
+      "meta": [
+        "minced"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "cloves",
+          "unitLong": "cloves"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "cloves",
+          "unitLong": "cloves"
+        }
+      }
+    },
+    {
+      "id": 11124,
+      "aisle": "Produce",
+      "image": "sliced-carrot.png",
+      "consistency": "SOLID",
+      "name": "carrots",
+      "nameClean": "carrot",
+      "original": "3 carrots cut into cubes",
+      "originalName": "carrots cut into cubes",
+      "amount": 3.0,
+      "unit": "",
+      "meta": [
+        "cut into cubes"
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 3.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 11531,
+      "aisle": "Canned and Jarred",
+      "image": "tomatoes-canned.png",
+      "consistency": "SOLID",
+      "name": "tomatoes",
+      "nameClean": "canned diced tomatoes",
+      "original": "480g canned chopped tomatoes",
+      "originalName": "canned chopped tomatoes",
+      "amount": 480.0,
+      "unit": "g",
+      "meta": [
+        "canned",
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.058,
+          "unitShort": "lb",
+          "unitLong": "pounds"
+        },
+        "metric": {
+          "amount": 480.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 2004,
+      "aisle": "Spices and Seasonings",
+      "image": "bay-leaves.jpg",
+      "consistency": "SOLID",
+      "name": "bay leaf",
+      "nameClean": "bay leaves",
+      "original": "1 bay leaf",
+      "originalName": "bay leaf",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 14412,
+      "aisle": "Beverages",
+      "image": "water.png",
+      "consistency": "LIQUID",
+      "name": "water",
+      "nameClean": "water",
+      "original": "1.3 l water",
+      "originalName": "water",
+      "amount": 1.3,
+      "unit": "l",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.374,
+          "unitShort": "qt",
+          "unitLong": "quarts"
+        },
+        "metric": {
+          "amount": 1.3,
+          "unitShort": "l",
+          "unitLong": "liters"
+        }
+      }
+    },
+    {
+      "id": 10316069,
+      "aisle": "Pasta and Rice",
+      "image": "lentils-brown.jpg",
+      "consistency": "SOLID",
+      "name": "lentils",
+      "nameClean": "lentils",
+      "original": "250 g lentils",
+      "originalName": "lentils",
+      "amount": 250.0,
+      "unit": "g",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 8.818,
+          "unitShort": "oz",
+          "unitLong": "ounces"
+        },
+        "metric": {
+          "amount": 250.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 2047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt.jpg",
+      "consistency": "SOLID",
+      "name": "salt",
+      "nameClean": "table salt",
+      "original": "¼ tsp salt",
+      "originalName": "salt",
+      "amount": 0.25,
+      "unit": "tsp",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.25,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 11297,
+      "aisle": "Produce",
+      "image": "parsley.jpg",
+      "consistency": "SOLID",
+      "name": "parsley",
+      "nameClean": "parsley",
+      "original": "1 bunch chopped parsley",
+      "originalName": "chopped parsley",
+      "amount": 1.0,
+      "unit": "bunch",
+      "meta": [
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "bunch",
+          "unitLong": "bunch"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "bunch",
+          "unitLong": "bunch"
+        }
+      }
+    }
+  ],
+  "id": 663559,
+  "title": "Tomato and lentil soup",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "sourceUrl": "https://www.foodista.com/recipe/5V4PTMT2/tomato-and-lentil-soup",
+  "image": "https://img.spoonacular.com/recipes/663559-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Tomato and lentil soup might be a good recipe to expand your main course recipe box. This recipe makes 4 servings with <b>340 calories</b>, <b>18g of protein</b>, and <b>8g of fat</b> each. For <b>$1.16 per serving</b>, this recipe <b>covers 34%</b> of your daily requirements of vitamins and minerals. It is perfect for <b>Autumn</b>. This recipe from Foodista requires bay leaf, onion, garlic, and carrots. 11 person were glad they tried this recipe. From preparation to the plate, this recipe takes about <b>45 minutes</b>. It is a good option if you're following a <b>gluten free, dairy free, lacto ovo vegetarian, and vegan</b> diet. With a spoonacular <b>score of 96%</b>, this dish is great. Users who liked this recipe also liked <a href=\"https://spoonacular.com/recipes/tomato-and-lentil-soup-482854\">Tomato and Lentil Soup</a>, <a href=\"https://spoonacular.com/recipes/lentil-tomato-soup-398380\">Lentil-Tomato Soup</a>, and <a href=\"https://spoonacular.com/recipes/lentil-tomato-soup-108370\">Lentil & Tomato Soup</a>.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "lunch",
+    "soup",
+    "main course",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free",
+    "lacto ovo vegetarian",
+    "vegan"
+  ],
+  "occasions": [
+    "fall",
+    "winter"
+  ],
+  "instructions": "Saut onion and garlic in olive oil for 5 minutes.\nAdd the carrot, saut for another 2 minutes.\nAdd tomatoes, bay leaf and water, stir and bring to the boil.\nStir in lentils, season with salt and cook for 5 minutes.\nBefore serving sprinkle with chopped parsley.",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Saut onion and garlic in olive oil for 5 minutes.",
+          "ingredients": [
+            {
+              "id": 4053,
+              "name": "olive oil",
+              "localizedName": "olive oil",
+              "image": "olive-oil.jpg"
+            },
+            {
+              "id": 11215,
+              "name": "garlic",
+              "localizedName": "garlic",
+              "image": "garlic.png"
+            },
+            {
+              "id": 11282,
+              "name": "onion",
+              "localizedName": "onion",
+              "image": "brown-onion.png"
+            }
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 5,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 2,
+          "step": "Add the carrot, saut for another 2 minutes.",
+          "ingredients": [
+            {
+              "id": 11124,
+              "name": "carrot",
+              "localizedName": "carrot",
+              "image": "sliced-carrot.png"
+            }
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 2,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 3,
+          "step": "Add tomatoes, bay leaf and water, stir and bring to the boil.",
+          "ingredients": [
+            {
+              "id": 2004,
+              "name": "bay leaves",
+              "localizedName": "bay leaves",
+              "image": "bay-leaves.jpg"
+            },
+            {
+              "id": 11529,
+              "name": "tomato",
+              "localizedName": "tomato",
+              "image": "tomato.png"
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 4,
+          "step": "Stir in lentils, season with salt and cook for 5 minutes.",
+          "ingredients": [
+            {
+              "id": 10316069,
+              "name": "lentils",
+              "localizedName": "lentils",
+              "image": "lentils-brown.jpg"
+            },
+            {
+              "id": 2047,
+              "name": "salt",
+              "localizedName": "salt",
+              "image": "salt.jpg"
+            }
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 5,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 5,
+          "step": "Before serving sprinkle with chopped parsley.",
+          "ingredients": [
+            {
+              "id": 11297,
+              "name": "parsley",
+              "localizedName": "parsley",
+              "image": "parsley.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 97.74645233154297,
+  "spoonacularSourceUrl": "https://spoonacular.com/tomato-and-lentil-soup-663559"
+}

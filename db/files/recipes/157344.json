@@ -1,0 +1,453 @@
+{
+  "vegetarian": true,
+  "vegan": false,
+  "glutenFree": true,
+  "dairyFree": false,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 21,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 6,
+  "healthScore": 78,
+  "creditsText": "coffeebean",
+  "sourceName": "spoonacular.com",
+  "pricePerServing": 458.2,
+  "extendedIngredients": [
+    {
+      "id": 12061,
+      "aisle": "Nuts",
+      "image": "almonds.jpg",
+      "consistency": "SOLID",
+      "name": "almonds",
+      "nameClean": "almonds",
+      "original": "15 grams almonds",
+      "originalName": "almonds",
+      "amount": 15.0,
+      "unit": "grams",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.529,
+          "unitShort": "oz",
+          "unitLong": "ounces"
+        },
+        "metric": {
+          "amount": 15.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 9037,
+      "aisle": "Produce",
+      "image": "avocado.jpg",
+      "consistency": "SOLID",
+      "name": "avocado",
+      "nameClean": "avocado",
+      "original": "1/2 avocado",
+      "originalName": "avocado",
+      "amount": 0.5,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 2069,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "balsamic-vinegar.jpg",
+      "consistency": "LIQUID",
+      "name": "balsamic vinegar",
+      "nameClean": "balsamic vinegar",
+      "original": "5 ml balsamic vinegar",
+      "originalName": "balsamic vinegar",
+      "amount": 5.0,
+      "unit": "ml",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.182,
+          "unitShort": "fl. oz",
+          "unitLong": "fl. ozs"
+        },
+        "metric": {
+          "amount": 5.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 1009,
+      "aisle": "Cheese",
+      "image": "cheddar-cheese.png",
+      "consistency": "SOLID",
+      "name": "cheddar cheese",
+      "nameClean": "cheddar cheese",
+      "original": "1/4 cup (30 grams) cheddar cheese",
+      "originalName": "1/4 cup cheddar cheese",
+      "amount": 30.0,
+      "unit": "grams",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.058,
+          "unitShort": "oz",
+          "unitLong": "ounces"
+        },
+        "metric": {
+          "amount": 30.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 16033,
+      "aisle": "Pasta and Rice",
+      "image": "kidney-beans.jpg",
+      "consistency": "SOLID",
+      "name": "kidney beans",
+      "nameClean": "kidney beans",
+      "original": "1/2 cup (113 grams) cooked kidney beans",
+      "originalName": "1/2 cup cooked kidney beans",
+      "amount": 113.0,
+      "unit": "grams",
+      "meta": [
+        "cooked"
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.986,
+          "unitShort": "oz",
+          "unitLong": "ounces"
+        },
+        "metric": {
+          "amount": 113.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 21052,
+      "aisle": "Produce",
+      "image": "mixed-greens-or-mesclun.jpg",
+      "consistency": "SOLID",
+      "name": "greens",
+      "nameClean": "mesclun",
+      "original": "150 grams mixed greens",
+      "originalName": "mixed greens",
+      "amount": 150.0,
+      "unit": "grams",
+      "meta": [
+        "mixed"
+      ],
+      "measures": {
+        "us": {
+          "amount": 5.291,
+          "unitShort": "oz",
+          "unitLong": "ounces"
+        },
+        "metric": {
+          "amount": 150.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 4053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "olive oil",
+      "nameClean": "olive oil",
+      "original": "10 ml olive oil",
+      "originalName": "olive oil",
+      "amount": 10.0,
+      "unit": "ml",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.309,
+          "unitShort": "fl. oz",
+          "unitLong": "fl. ozs"
+        },
+        "metric": {
+          "amount": 10.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 12585,
+      "aisle": "Nuts",
+      "image": "cashews.jpg",
+      "consistency": "SOLID",
+      "name": "roasted cashews",
+      "nameClean": "salted roasted cashews",
+      "original": "15 grams roasted salted cashews",
+      "originalName": "roasted salted cashews",
+      "amount": 15.0,
+      "unit": "grams",
+      "meta": [
+        "salted"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.529,
+          "unitShort": "oz",
+          "unitLong": "ounces"
+        },
+        "metric": {
+          "amount": 15.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 11955,
+      "aisle": "Canned and Jarred",
+      "image": "sundried-tomatoes.jpg",
+      "consistency": "SOLID",
+      "name": "sundried tomatoes",
+      "nameClean": "sun dried tomatoes",
+      "original": "2-3 sundried tomatoes",
+      "originalName": "sundried tomatoes",
+      "amount": 2.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 1026168,
+      "aisle": "Condiments",
+      "image": "hot-sauce-or-tabasco.png",
+      "consistency": "LIQUID",
+      "name": "tabasco",
+      "nameClean": "tabasco sauce",
+      "original": "2 dashes (or more if you like it hot!) Tabasco",
+      "originalName": "(or more if you like it hot!) Tabasco",
+      "amount": 2.0,
+      "unit": "dashes",
+      "meta": [
+        "( if you like it hot!)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "dashes",
+          "unitLong": "dashes"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "dashes",
+          "unitLong": "dashes"
+        }
+      }
+    }
+  ],
+  "id": 157344,
+  "title": "Spicy Salad with Kidney Beans, Cheddar, and Nuts",
+  "author": "coffeebean",
+  "readyInMinutes": 10,
+  "servings": 1,
+  "sourceUrl": "http://spoonacular.com/-1384191937003",
+  "image": "https://img.spoonacular.com/recipes/157344-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Spicy Salad with Kidney Beans, Cheddar, and Nuts might be just the main course you are searching for. One serving contains <b>719 calories</b>, <b>27g of protein</b>, and <b>49g of fat</b>. This recipe serves 1 and costs $4.58 per serving. It is a good option if you're following a <b>gluten free and lacto ovo vegetarian</b> diet. Head to the store and pick up almonds, greens, sundried tomatoes, and a few other things to make it today. From preparation to the plate, this recipe takes about <b>10 minutes</b>. It is brought to you by spoonacular user <a href=\"/profile/coffeebean\">coffeebean</a>. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/curried-red-kidney-beans-with-paneer-paneer-rajma-593415\">Curried Red Kidney Beans with Paneer (Paneer Rajma)</a>, <a href=\"https://spoonacular.com/recipes/steak-and-kidney-pie-with-port-and-pickled-walnuts-661494\">Steak and Kidney Pie With Port and Pickled Walnuts</a>, and <a href=\"https://spoonacular.com/recipes/lamb-and-kidney-hot-pot-157834\">LAMB AND KIDNEY HOT- POT</a>.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "side dish",
+    "lunch",
+    "main course",
+    "salad",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+    "gluten free",
+    "lacto ovo vegetarian"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "<p>     1. Rinse and drain the kidney beans, cut the sundried tomatoes, and tear the slice of cheese into small pieces.</p><p>     2. Put the mixed greens in a bowl and top with kidney beans, sundried tomatoes, cheddar cheese, and nuts.</p><p>     3. Mix together the olive oil, balsamic vinegar, and hot sauce in a small bowl. Pour the dressing over the salad.</p><p>     Fast, easy, and healthy-- one of my favorite lunches!</p>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Rinse and drain the kidney beans, cut the sundried tomatoes, and tear the slice of cheese into small pieces.",
+          "ingredients": [
+            {
+              "id": 11955,
+              "name": "sun dried tomatoes",
+              "localizedName": "sun dried tomatoes",
+              "image": "sundried-tomatoes.jpg"
+            },
+            {
+              "id": 16033,
+              "name": "kidney beans",
+              "localizedName": "kidney beans",
+              "image": "kidney-beans.jpg"
+            },
+            {
+              "id": 1041009,
+              "name": "cheese",
+              "localizedName": "cheese",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/cheddar-cheese.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Put the mixed greens in a bowl and top with kidney beans, sundried tomatoes, cheddar cheese, and nuts.",
+          "ingredients": [
+            {
+              "id": 11955,
+              "name": "sun dried tomatoes",
+              "localizedName": "sun dried tomatoes",
+              "image": "sundried-tomatoes.jpg"
+            },
+            {
+              "id": 1009,
+              "name": "cheddar cheese",
+              "localizedName": "cheddar cheese",
+              "image": "cheddar-cheese.png"
+            },
+            {
+              "id": 16033,
+              "name": "kidney beans",
+              "localizedName": "kidney beans",
+              "image": "kidney-beans.jpg"
+            },
+            {
+              "id": 21052,
+              "name": "mixed greens",
+              "localizedName": "mixed greens",
+              "image": "mixed-greens-or-mesclun.jpg"
+            },
+            {
+              "id": 12135,
+              "name": "nuts",
+              "localizedName": "nuts",
+              "image": "nuts-mixed.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Mix together the olive oil, balsamic vinegar, and hot sauce in a small bowl.",
+          "ingredients": [
+            {
+              "id": 2069,
+              "name": "balsamic vinegar",
+              "localizedName": "balsamic vinegar",
+              "image": "balsamic-vinegar.jpg"
+            },
+            {
+              "id": 6168,
+              "name": "hot sauce",
+              "localizedName": "hot sauce",
+              "image": "hot-sauce-or-tabasco.png"
+            },
+            {
+              "id": 4053,
+              "name": "olive oil",
+              "localizedName": "olive oil",
+              "image": "olive-oil.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "step": "Pour the dressing over the salad.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 5,
+          "step": "Fast, easy, and healthy-- one of my favorite lunches!",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 96.81639099121094,
+  "spoonacularSourceUrl": "https://spoonacular.com/spicy-salad-with-kidney-beans-cheddar-and-nuts-157344"
+}

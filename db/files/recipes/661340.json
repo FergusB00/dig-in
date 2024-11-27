@@ -1,0 +1,438 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": true,
+  "dairyFree": false,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 8,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 15,
+  "healthScore": 79,
+  "creditsText": "foodista.com",
+  "sourceName": "foodista.com",
+  "pricePerServing": 338.97,
+  "extendedIngredients": [
+    {
+      "id": 10112061,
+      "aisle": "Baking",
+      "image": "almonds.jpg",
+      "consistency": "SOLID",
+      "name": "almonds",
+      "nameClean": "sliced almonds",
+      "original": "1 tbsp. sliced almonds",
+      "originalName": "sliced almonds",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "meta": [
+        "sliced"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        }
+      }
+    },
+    {
+      "id": 2069,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "balsamic-vinegar.jpg",
+      "consistency": "LIQUID",
+      "name": "balsamic vinegar",
+      "nameClean": "balsamic vinegar",
+      "original": "1/4 cup – balsamic vinegar",
+      "originalName": "– balsamic vinegar",
+      "amount": 0.25,
+      "unit": "cup",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 63.75,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 5114,
+      "aisle": "Meat",
+      "image": "rotisserie-chicken.png",
+      "consistency": "SOLID",
+      "name": "chicken",
+      "nameClean": "cooked chicken",
+      "original": "2 oz of chicken – cooked",
+      "originalName": "chicken – cooked",
+      "amount": 2.0,
+      "unit": "oz",
+      "meta": [
+        "cooked"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "oz",
+          "unitLong": "ounces"
+        },
+        "metric": {
+          "amount": 56.699,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 1032046,
+      "aisle": "Condiments",
+      "image": "dijon-mustard.jpg",
+      "consistency": "LIQUID",
+      "name": "dijon mustard",
+      "nameClean": "dijon mustard",
+      "original": "1 1/4 tsp. dijon mustard",
+      "originalName": "dijon mustard",
+      "amount": 1.25,
+      "unit": "tsp",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.25,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 1.25,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 1019,
+      "aisle": "Cheese",
+      "image": "feta.png",
+      "consistency": "SOLID",
+      "name": "feta cheese",
+      "nameClean": "feta cheese",
+      "original": "1/2 oz. feta cheese",
+      "originalName": "feta cheese",
+      "amount": 0.5,
+      "unit": "oz",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "oz",
+          "unitLong": "ounces"
+        },
+        "metric": {
+          "amount": 14.175,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 1012049,
+      "aisle": "Produce",
+      "image": "thyme.jpg",
+      "consistency": "SOLID",
+      "name": "thyme",
+      "nameClean": "fresh thyme",
+      "original": "2 tsp. fresh thyme",
+      "originalName": "fresh thyme",
+      "amount": 2.0,
+      "unit": "tsp",
+      "meta": [
+        "fresh"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 1002030,
+      "aisle": "Spices and Seasonings",
+      "image": "pepper.jpg",
+      "consistency": "SOLID",
+      "name": "ground pepper",
+      "nameClean": "black pepper",
+      "original": "1/4 tsp. ground pepper",
+      "originalName": "ground pepper",
+      "amount": 0.25,
+      "unit": "tsp",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.25,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 11677,
+      "aisle": "Produce",
+      "image": "shallots.jpg",
+      "consistency": "SOLID",
+      "name": "shallot",
+      "nameClean": "shallot",
+      "original": "1/2 shallot – chopped",
+      "originalName": "shallot – chopped",
+      "amount": 0.5,
+      "unit": "",
+      "meta": [
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 10011457,
+      "aisle": "Produce",
+      "image": "spinach.jpg",
+      "consistency": "SOLID",
+      "name": "spinach leaves",
+      "nameClean": "spinach",
+      "original": "2 cups fresh spinach leaves",
+      "originalName": "fresh spinach leaves",
+      "amount": 2.0,
+      "unit": "cups",
+      "meta": [
+        "fresh"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 60.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 9316,
+      "aisle": "Produce",
+      "image": "strawberries.png",
+      "consistency": "SOLID",
+      "name": "strawberries",
+      "nameClean": "strawberries",
+      "original": "2/3 cup strawberries - chopped",
+      "originalName": "strawberries - chopped",
+      "amount": 0.6666667,
+      "unit": "cup",
+      "meta": [
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.6666667,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 96.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 9316,
+      "aisle": "Produce",
+      "image": "strawberries.png",
+      "consistency": "SOLID",
+      "name": "strawberries",
+      "nameClean": "strawberries",
+      "original": "4 strawberries - sliced",
+      "originalName": "strawberries - sliced",
+      "amount": 4.0,
+      "unit": "",
+      "meta": [
+        "sliced"
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 14412,
+      "aisle": "Beverages",
+      "image": "water.png",
+      "consistency": "LIQUID",
+      "name": "water",
+      "nameClean": "water",
+      "original": "1/4 cup water",
+      "originalName": "water",
+      "amount": 0.25,
+      "unit": "cup",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 59.147,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    }
+  ],
+  "id": 661340,
+  "title": "Spinach Salad with Strawberry Vinaigrette",
+  "readyInMinutes": 45,
+  "servings": 1,
+  "sourceUrl": "https://www.foodista.com/recipe/5HT32BN5/spinach-salad-with-strawberry-vinaigrette",
+  "image": "https://img.spoonacular.com/recipes/661340-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Need a <b>gluten free and primal main course</b>? Spinach Salad with Strawberry Vinaigrette could be a great recipe to try. This recipe makes 1 servings with <b>322 calories</b>, <b>22g of protein</b>, and <b>13g of fat</b> each. For <b>$3.39 per serving</b>, this recipe <b>covers 33%</b> of your daily requirements of vitamins and minerals. A mixture of water, balsamic vinegar, ground pepper, and a handful of other ingredients are all it takes to make this recipe so delicious. It will be a hit at your <b>Mother's Day</b> event. 15 people have made this recipe and would make it again. It is brought to you by Foodista. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 96%</b>. This score is awesome. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/strawberry-avocado-spinach-salad-with-strawberry-vinaigrette-583232\">Strawberry Avocado Spinach Salad with Strawberry Vinaigrette</a>, <a href=\"https://spoonacular.com/recipes/strawberry-avocado-spinach-salad-with-strawberry-vinaigrette-1231959\">Strawberry Avocado Spinach Salad with Strawberry Vinaigrette</a>, and <a href=\"https://spoonacular.com/recipes/spinach-strawberry-salad-with-strawberry-vinaigrette-1296303\">Spinach Strawberry Salad with Strawberry Vinaigrette</a>.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "side dish",
+    "lunch",
+    "main course",
+    "salad",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+    "gluten free",
+    "primal"
+  ],
+  "occasions": [
+    "mother's day"
+  ],
+  "instructions": "<ol><li>For Salad:</li><li>Place everything on a plate!  :)</li><li>Serves 1</li><li>Calories for salad without dressing:  139,  Fat:  4,  Sodium:  215, Potassium: 456, Carbs:  7,  Fiber 3,  Protein: 20</li><li>Directions for Dressing:</li><li>Place all ingredient in a blender and process until smooth, about 30 seconds</li><li>Makes 1 cup</li><li>Calories per Tbsp.  3,  Fat:  .01,  Sodium:  10,  Potassium:  13,  Carbs:  1,  Fiber:  .01,  Sugar:  .03,  Protein:  .01</li></ol>",
+  "analyzedInstructions": [
+    {
+      "name": "For Salad",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place everything on a plate!  :)",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Serves 1Calories for salad without dressing  139,  Fat  4,  Sodium  215, Potassium 456, Carbs  7,  Fiber 3,  Protein 20Directions for Dressing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place all ingredient in a blender and process until smooth, about 30 seconds",
+          "ingredients": [
+
+          ],
+          "equipment": [
+            {
+              "id": 404726,
+              "name": "blender",
+              "localizedName": "blender",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/blender.png"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Makes 1 cup",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Calories per Tbsp.  3,  Fat:  .01,  Sodium:  10,  Potassium:  13,  Carbs:  1,  Fiber:  .01,  Sugar:  .03,  Protein:  .01",
+          "ingredients": [
+            {
+              "id": 19335,
+              "name": "sugar",
+              "localizedName": "sugar",
+              "image": "sugar-in-bowl.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 96.54873657226562,
+  "spoonacularSourceUrl": "https://spoonacular.com/spinach-salad-with-strawberry-vinaigrette-661340"
+}

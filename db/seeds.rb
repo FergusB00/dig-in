@@ -1,4 +1,3 @@
-
 require "json"
 require "open-uri"
 require 'uri'
@@ -18,15 +17,127 @@ adam = User.create(
   email: "adam@jones.com",
   password: "password"
 )
-
 ellie = User.create!(
   first_name: "Ellie",
   last_name: "Stevens",
   email: "ellie@stevens.com",
   password: "password"
 )
-
 puts "Created #{User.count} users."
+
+# API URL for recipes
+
+url = "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/complexSearch\?offset\=0\&number\=20"
+
+# Creating a recipes file
+
+recipes_filename = "db/files/recipe_list.json"
+if File.exist?(recipes_filename)
+  puts "File exists, using that..."
+  recipes = JSON.parse(File.open(recipes_filename, "r").read)
+else
+  puts "Fetching recipes from API..."
+  recipes_serialized = URI.open(
+    url,
+    "x-rapidapi-key" => 'fd2411960bmsh4b56087a6e0b8e1p1a1c6ejsn0af91bca7bfc',
+    "x-rapidapi-host" => 'spoonacular-recipe-food-nutrition-v1.p.rapidapi.com'
+  ).read
+  recipes = JSON.parse(recipes_serialized)
+  File.open(recipes_filename, "w") do |f|
+    f.write(JSON.pretty_generate(recipes))
+  end
+end
+
+# API request to fill information for each individual recipe
+
+recipes["results"].each do |recipe|
+  id_url = "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/#{recipe["id"]}/information"
+
+  # Creating a recipe file
+
+  recipe_filename = "db/files/recipes/#{recipe["id"]}.json"
+  if File.exist?(recipe_filename)
+    puts "File exists, using that..."
+    recipe = JSON.parse(File.open(recipe_filename, "r").read)
+  else
+    puts "Fetching recipe from API..."
+    recipe_ids_serialized = URI.open(
+      id_url,
+      "x-rapidapi-key" => 'fd2411960bmsh4b56087a6e0b8e1p1a1c6ejsn0af91bca7bfc',
+      "x-rapidapi-host" => 'spoonacular-recipe-food-nutrition-v1.p.rapidapi.com'
+    ).read
+    recipe_info = JSON.parse(recipe_ids_serialized)
+    File.open(recipe_filename, "w") do |f|
+      f.write(JSON.pretty_generate(recipe_info))
+    end
+  end
+  recipe_ids_serialized = URI.open(
+        id_url,
+        "x-rapidapi-key" => 'fd2411960bmsh4b56087a6e0b8e1p1a1c6ejsn0af91bca7bfc',
+        "x-rapidapi-host" => 'spoonacular-recipe-food-nutrition-v1.p.rapidapi.com'
+      ).read
+      recipe_info = JSON.parse(recipe_ids_serialized)
+
+  # seeding recipes
+
+  new_recipe = {
+    name: recipe_info["title"],
+    instructions: recipe_info["instructions"],
+    image_url: recipe_info["image"],
+    cook_time: recipe_info["cookingMinutes"],
+    difficulty: ["easy", "medium", "hard"].sample
+  }
+
+  recipe = Recipe.create!(new_recipe)
+
+  # seeding ingredients
+  recipe_info["extendedIngredients"].each do |ingredient|
+    found_ingredient = Ingredient.find_by_name("#{ingredient["nameClean"]}")
+    carbon_array = {
+      "chicken" => 9.87,
+      "beef" => 99.48,
+      "lamb" => 39.72,
+      "prawn" => 26.87,
+      "cheese" => 23.88,
+      "pork" => 12.31,
+      "egg" => 4.67,
+      "rice" => 4.45,
+      "milk" => 3.15,
+      "tomato" => 2.09
+    }
+
+    serving = ingredient["measures"]["metric"]["unitShort"] == "" ? "servings" : ingredient["measures"]["metric"]["unitShort"]
+
+    if found_ingredient
+      puts "Found ingredient already"
+      p found_ingredient
+      RecipeIngredient.create(
+        ingredient: found_ingredient,
+        recipe: recipe,
+        quantity: ingredient["amount"],
+        unit: serving
+        )
+    else
+      puts "Creating new ingredient"
+      carbon_value = carbon_array[ingredient["nameClean"]] || 2.5
+      new_ingredient = Ingredient.create(
+        name: ingredient["nameClean"],
+        category: ingredient["aisle"],
+        carbon_per_gram: carbon_value
+      )
+
+      RecipeIngredient.create(
+        ingredient: new_ingredient,
+        recipe: recipe,
+        quantity: ingredient["amount"],
+        unit: serving
+        )
+    end
+  end
+end
+
+puts "Created #{Recipe.count} recipes, #{Ingredient.count} ingredients and #{RecipeIngredient.count} recipe ingredients."
+
 
 # puts "Creating recipes..."
 
@@ -63,116 +174,3 @@ puts "Created #{User.count} users."
 
 # garlic = Ingredient.create(name: "Garlic", category: "Vegetable", carbon_per_gram: 0.1)
 # RecipeIngredient.create(recipe: ratatouille, ingredient: garlic, weight_in_grams: 10, quantity: 10, unit: "g")
-
-# API request for recipes
-url = "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/complexSearch\?offset\=0\&number\=46"
-
-
-# Creating a recipes file
-
-# recipes_filename = "db/files/recipe_list.json"
-# if File.exist?(recipes_filename)
-#   puts "File exists, using that..."
-#   recipes = JSON.parse(File.open(recipes_filename, "r").read)
-# else
-#   puts "Fetching recipes from API..."
-#   recipes_serialized = URI.open(
-#     url,
-#     "x-rapidapi-key" => 'fd2411960bmsh4b56087a6e0b8e1p1a1c6ejsn0af91bca7bfc',
-#     "x-rapidapi-host" => 'spoonacular-recipe-food-nutrition-v1.p.rapidapi.com'
-#   ).read
-#   recipes = JSON.parse(recipes_serialized)
-#   File.open(recipes_filename, "w") do |f|
-#     f.write(JSON.pretty_generate(recipes))
-#   end
-# end
-# API request to fill information for each individual recipe
-
-# p recipes
-
-# recipes["results"].each do |recipe|
-
-  id_url = "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/715415/information"
-
-  # Creating a recipe file
-
-  # recipe_filename = "db/files/recipes/715415.json"
-  # if File.exist?(recipe_filename)
-  #   puts "File exists, using that..."
-  #   recipe = JSON.parse(File.open(recipe_filename, "r").read)
-  # else
-  #   puts "Fetching recipe from API..."
-  #   recipe_ids_serialized = URI.open(
-  #     id_url,
-  #     "x-rapidapi-key" => 'fd2411960bmsh4b56087a6e0b8e1p1a1c6ejsn0af91bca7bfc',
-  #     "x-rapidapi-host" => 'spoonacular-recipe-food-nutrition-v1.p.rapidapi.com'
-  #   ).read
-  #   recipe_info = JSON.parse(recipe_ids_serialized)
-  #   File.open(recipe_filename, "w") do |f|
-  #     f.write(JSON.pretty_generate(recipe_info))
-  #   end
-  # end
-
-  recipe_ids_serialized = URI.open(
-        id_url,
-        "x-rapidapi-key" => 'fd2411960bmsh4b56087a6e0b8e1p1a1c6ejsn0af91bca7bfc',
-        "x-rapidapi-host" => 'spoonacular-recipe-food-nutrition-v1.p.rapidapi.com'
-      ).read
-      recipe_info = JSON.parse(recipe_ids_serialized)
-
-  # seeding recipes
-
-  new_recipe = {
-    name: recipe_info["title"],
-    instructions: recipe_info["instructions"],
-    image_url: recipe_info["image"],
-    cook_time: recipe_info["cookingMinutes"],
-    difficulty: ["easy", "medium", "hard"].sample
-  }
-
-  recipe = Recipe.create!(new_recipe)
-
-  # # seeding ingredients
-  recipe_info["extendedIngredients"].each do |ingredient|
-    found_ingredient = Ingredient.find_by_name("#{ingredient["nameClean"]}")
-    carbon_array = {
-      "chicken" => 9.87,
-      "beef" => 99.48,
-      "lamb" => 39.72,
-      "prawn" => 26.87,
-      "cheese" => 23.88,
-      "pork" => 12.31,
-      "egg" => 4.67,
-      "rice" => 4.45,
-      "milk" => 3.15,
-      "tomato" => 2.09
-    }
-
-    p ingredient["measures"]["metric"]["unitShort"]
-
-    serving = ingredient["measures"]["metric"]["unitShort"] == "" ? "servings" : ingredient["measures"]["metric"]["unitShort"]
-    if found_ingredient
-      RecipeIngredient.create(
-        ingredient: ingredient,
-        recipe: recipe,
-        quantity: ingredient["amount"],
-        unit: serving
-        )
-    else
-      carbon_value = carbon_array[ingredient["nameClean"]] || 2.5
-      new_ingredient = Ingredient.create(
-        name: ingredient["nameClean"],
-        category: ingredient["aisle"],
-        carbon_per_gram: carbon_value
-      )
-
-      RecipeIngredient.create(
-        ingredient: new_ingredient,
-        recipe: recipe,
-        quantity: ingredient["amount"],
-        unit: serving
-        )
-    end
-  end
-# end
-puts "Created #{Recipe.count} recipes, #{Ingredient.count} ingredients and #{RecipeIngredient.count} recipe ingredients."

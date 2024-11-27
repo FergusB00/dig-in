@@ -1,0 +1,627 @@
+{
+  "vegetarian": true,
+  "vegan": true,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 3,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 14,
+  "healthScore": 90,
+  "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+  "license": "CC BY 3.0",
+  "sourceName": "Foodista",
+  "pricePerServing": 81.56,
+  "extendedIngredients": [
+    {
+      "id": 11147,
+      "aisle": "Produce",
+      "image": "swiss-chard.jpg",
+      "consistency": "SOLID",
+      "name": "swiss chard leaves",
+      "nameClean": "swiss chard",
+      "original": "6-7 large swiss chard leaves, rinsed and dried",
+      "originalName": "swiss chard leaves, rinsed and dried",
+      "amount": 6.0,
+      "unit": "large",
+      "meta": [
+        "dried",
+        "rinsed"
+      ],
+      "measures": {
+        "us": {
+          "amount": 6.0,
+          "unitShort": "large",
+          "unitLong": "larges"
+        },
+        "metric": {
+          "amount": 6.0,
+          "unitShort": "large",
+          "unitLong": "larges"
+        }
+      }
+    },
+    {
+      "id": 9200,
+      "aisle": "Produce",
+      "image": "orange.png",
+      "consistency": "SOLID",
+      "name": "orange cauliflower",
+      "nameClean": "orange",
+      "original": "1 small head of orange cauliflower",
+      "originalName": "orange cauliflower",
+      "amount": 1.0,
+      "unit": "small head",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "small head",
+          "unitLong": "small head"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "small head",
+          "unitLong": "small head"
+        }
+      }
+    },
+    {
+      "id": 4053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "olive oil",
+      "nameClean": "olive oil",
+      "original": "1 1/2 Tbs olive oil",
+      "originalName": "olive oil",
+      "amount": 1.5,
+      "unit": "Tbs",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.5,
+          "unitShort": "Tbs",
+          "unitLong": "Tbs"
+        },
+        "metric": {
+          "amount": 1.5,
+          "unitShort": "Tbs",
+          "unitLong": "Tbs"
+        }
+      }
+    },
+    {
+      "id": 11215,
+      "aisle": "Produce",
+      "image": "garlic.png",
+      "consistency": "SOLID",
+      "name": "garlic",
+      "nameClean": "garlic",
+      "original": "3 cloves garlic, pressed or minced",
+      "originalName": "garlic, pressed or minced",
+      "amount": 3.0,
+      "unit": "cloves",
+      "meta": [
+        "minced",
+        "pressed"
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "cloves",
+          "unitLong": "cloves"
+        },
+        "metric": {
+          "amount": 3.0,
+          "unitShort": "cloves",
+          "unitLong": "cloves"
+        }
+      }
+    },
+    {
+      "id": 2047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt.jpg",
+      "consistency": "SOLID",
+      "name": "salt",
+      "nameClean": "table salt",
+      "original": "pinch of salt",
+      "originalName": "pinch of salt",
+      "amount": 1.0,
+      "unit": "pinch",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "pinch",
+          "unitLong": "pinch"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "pinch",
+          "unitLong": "pinch"
+        }
+      }
+    },
+    {
+      "id": 2044,
+      "aisle": "Produce",
+      "image": "fresh-basil.jpg",
+      "consistency": "SOLID",
+      "name": "basil",
+      "nameClean": "fresh basil",
+      "original": "1 sprig of fresh basil, leaves finely chopped",
+      "originalName": "fresh basil, leaves finely chopped",
+      "amount": 1.0,
+      "unit": "sprig",
+      "meta": [
+        "fresh",
+        "finely chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "sprig",
+          "unitLong": "sprig"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "sprig",
+          "unitLong": "sprig"
+        }
+      }
+    },
+    {
+      "id": 11477,
+      "aisle": "Produce",
+      "image": "zucchini.jpg",
+      "consistency": "SOLID",
+      "name": "zucchini",
+      "nameClean": "zucchini",
+      "original": "1 medium zucchini (courgette)",
+      "originalName": "zucchini (courgette)",
+      "amount": 1.0,
+      "unit": "medium",
+      "meta": [
+        "(courgette)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "medium",
+          "unitLong": "medium"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "medium",
+          "unitLong": "medium"
+        }
+      }
+    },
+    {
+      "id": 11821,
+      "aisle": "Produce",
+      "image": "red-pepper.jpg",
+      "consistency": "SOLID",
+      "name": "bell pepper",
+      "nameClean": "red pepper",
+      "original": "1 large red pepper, thinly sliced",
+      "originalName": "red pepper, thinly sliced",
+      "amount": 1.0,
+      "unit": "large",
+      "meta": [
+        "red",
+        "thinly sliced"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "large",
+          "unitLong": "large"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "large",
+          "unitLong": "large"
+        }
+      }
+    },
+    {
+      "id": 9037,
+      "aisle": "Produce",
+      "image": "avocado.jpg",
+      "consistency": "SOLID",
+      "name": "avocado",
+      "nameClean": "avocado",
+      "original": "1 medium avocado, sliced",
+      "originalName": "avocado, sliced",
+      "amount": 1.0,
+      "unit": "medium",
+      "meta": [
+        "sliced"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "medium",
+          "unitLong": "medium"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "medium",
+          "unitLong": "medium"
+        }
+      }
+    },
+    {
+      "id": 16091,
+      "aisle": "Savory Snacks",
+      "image": "peanuts.png",
+      "consistency": "SOLID",
+      "name": "trader joe's spicy peanut vinaigrette",
+      "nameClean": "peanuts",
+      "original": "3-4 Tbs Trader Joe's Asian Style Spicy Peanut Vinaigrette (or your favorite sauce)",
+      "originalName": "Trader Joe's Asian Style Spicy Peanut Vinaigrette (or your favorite sauce)",
+      "amount": 3.0,
+      "unit": "Tbs",
+      "meta": [
+        "asian style",
+        "your favorite",
+        "(or sauce)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "Tbs",
+          "unitLong": "Tbs"
+        },
+        "metric": {
+          "amount": 3.0,
+          "unitShort": "Tbs",
+          "unitLong": "Tbs"
+        }
+      }
+    }
+  ],
+  "id": 662670,
+  "title": "Swiss Chard Wraps",
+  "readyInMinutes": 45,
+  "servings": 6,
+  "sourceUrl": "https://www.foodista.com/recipe/LHXZRNVW/swiss-chard-wraps",
+  "image": "https://img.spoonacular.com/recipes/662670-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Swiss Chard Wraps is a <b>gluten free, dairy free, paleolithic, and lacto ovo vegetarian</b> recipe with 6 servings. One serving contains <b>137 calories</b>, <b>4g of protein</b>, and <b>11g of fat</b>. For <b>82 cents per serving</b>, this recipe <b>covers 18%</b> of your daily requirements of vitamins and minerals. It works best as a side dish, and is done in about <b>45 minutes</b>. 14 people were impressed by this recipe. If you have swiss chard leaves, orange cauliflower, olive oil, and a few other ingredients on hand, you can make it. It is brought to you by Foodista. Overall, this recipe earns an <b>excellent spoonacular score of 96%</b>. <a href=\"https://spoonacular.com/recipes/swiss-chard-wraps-1367505\">Swiss Chard Wraps</a>, <a href=\"https://spoonacular.com/recipes/sweet-thai-chile-chicken-swiss-chard-wraps-with-peanut-ginger-sauce-703915\">Sweet Thai Chile Chicken Swiss Chard Wraps with Peanut Ginger Sauce</a>, and <a href=\"https://spoonacular.com/recipes/swiss-chard-353815\">Swiss Chard</a> are very similar to this recipe.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "side dish"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free",
+    "paleolithic",
+    "lacto ovo vegetarian",
+    "primal",
+    "vegan"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "Chop off the stems of the swiss chard at the point where it meets the leaf. You could stem the swiss chard entirely. I like leaving a bit of stem with the leaves to give better structure to the wraps.\nChop the cauliflower into small pieces and pulse them in a food processor until it looks like rice. I usually pulse the cauliflower florets and the stalk together.\nPlace the olive oil in a saut pan over medium-high heat. Once the pan is hot, add the garlic and let it fry for about a minute or two, or until the garlic starts to brown. Add the pulsed cauliflower rice and cook it for about 2-3 minutes. The cauliflower should turn into a vibrant yellow-orange color when it is cooked. Add a pinch of salt and chopped basil to the cauliflower and stir.\nSpiralize the zucchini with Blade B to create zucchini noodles. If you do not have a spiralizer, just create zucchini ribbons with a vegetable peeler.\nTo assemble the wraps, place a large leaf flat down. Add a bit of sauted cauliflower, zucchini noodles, red pepper, and avocado along the swiss chard stalk. Drizzle a bit of vinaigrette on top of the vegetables and wrap everything up.\nEnjoy these wraps as a side to your favorite protein! Feel free to dip these wraps in more sauce.\nThese wraps are best consumed when they are freshly made. Refrigerate any leftovers in an airtight container.",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Chop off the stems of the swiss chard at the point where it meets the leaf. You could stem the swiss chard entirely. I like leaving a bit of stem with the leaves to give better structure to the wraps.",
+          "ingredients": [
+            {
+              "id": 11147,
+              "name": "swiss chard",
+              "localizedName": "swiss chard",
+              "image": "swiss-chard.jpg"
+            },
+            {
+              "id": 10018364,
+              "name": "wrap",
+              "localizedName": "wrap",
+              "image": "flour-tortilla.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Chop the cauliflower into small pieces and pulse them in a food processor until it looks like rice. I usually pulse the cauliflower florets and the stalk together.",
+          "ingredients": [
+            {
+              "id": 10011135,
+              "name": "cauliflower florets",
+              "localizedName": "cauliflower florets",
+              "image": "cauliflower.jpg"
+            },
+            {
+              "id": 11135,
+              "name": "cauliflower",
+              "localizedName": "cauliflower",
+              "image": "cauliflower.jpg"
+            },
+            {
+              "id": 20444,
+              "name": "rice",
+              "localizedName": "rice",
+              "image": "uncooked-white-rice.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404771,
+              "name": "food processor",
+              "localizedName": "food processor",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/food-processor.png"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Place the olive oil in a saut pan over medium-high heat. Once the pan is hot, add the garlic and let it fry for about a minute or two, or until the garlic starts to brown.",
+          "ingredients": [
+            {
+              "id": 4053,
+              "name": "olive oil",
+              "localizedName": "olive oil",
+              "image": "olive-oil.jpg"
+            },
+            {
+              "id": 11215,
+              "name": "garlic",
+              "localizedName": "garlic",
+              "image": "garlic.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404645,
+              "name": "frying pan",
+              "localizedName": "frying pan",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "step": "Add the pulsed cauliflower rice and cook it for about 2-3 minutes. The cauliflower should turn into a vibrant yellow-orange color when it is cooked.",
+          "ingredients": [
+            {
+              "id": 10111135,
+              "name": "cauliflower rice",
+              "localizedName": "cauliflower rice",
+              "image": "cauliflower.jpg"
+            },
+            {
+              "id": 11135,
+              "name": "cauliflower",
+              "localizedName": "cauliflower",
+              "image": "cauliflower.jpg"
+            },
+            {
+              "id": 9200,
+              "name": "orange",
+              "localizedName": "orange",
+              "image": "orange.png"
+            }
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 3,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 5,
+          "step": "Add a pinch of salt and chopped basil to the cauliflower and stir.",
+          "ingredients": [
+            {
+              "id": 11135,
+              "name": "cauliflower",
+              "localizedName": "cauliflower",
+              "image": "cauliflower.jpg"
+            },
+            {
+              "id": 2044,
+              "name": "basil",
+              "localizedName": "basil",
+              "image": "basil.jpg"
+            },
+            {
+              "id": 2047,
+              "name": "salt",
+              "localizedName": "salt",
+              "image": "salt.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 6,
+          "step": "Spiralize the zucchini with Blade B to create zucchini noodles. If you do not have a spiralizer, just create zucchini ribbons with a vegetable peeler.",
+          "ingredients": [
+            {
+              "id": 10111477,
+              "name": "zucchini noodles",
+              "localizedName": "zucchini noodles",
+              "image": "zoodles.jpg"
+            },
+            {
+              "id": 11583,
+              "name": "vegetable",
+              "localizedName": "vegetable",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/mixed-vegetables.png"
+            },
+            {
+              "id": 11477,
+              "name": "zucchini",
+              "localizedName": "zucchini",
+              "image": "zucchini.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404693,
+              "name": "peeler",
+              "localizedName": "peeler",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/peeler.png"
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "step": "To assemble the wraps, place a large leaf flat down.",
+          "ingredients": [
+            {
+              "id": 10018364,
+              "name": "wrap",
+              "localizedName": "wrap",
+              "image": "flour-tortilla.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 8,
+          "step": "Add a bit of sauted cauliflower, zucchini noodles, red pepper, and avocado along the swiss chard stalk.",
+          "ingredients": [
+            {
+              "id": 10111477,
+              "name": "zucchini noodles",
+              "localizedName": "zucchini noodles",
+              "image": "zoodles.jpg"
+            },
+            {
+              "id": 11135,
+              "name": "cauliflower",
+              "localizedName": "cauliflower",
+              "image": "cauliflower.jpg"
+            },
+            {
+              "id": 11147,
+              "name": "swiss chard",
+              "localizedName": "swiss chard",
+              "image": "swiss-chard.jpg"
+            },
+            {
+              "id": 11821,
+              "name": "red pepper",
+              "localizedName": "red pepper",
+              "image": "red-pepper.jpg"
+            },
+            {
+              "id": 9037,
+              "name": "avocado",
+              "localizedName": "avocado",
+              "image": "avocado.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 9,
+          "step": "Drizzle a bit of vinaigrette on top of the vegetables and wrap everything up.",
+          "ingredients": [
+            {
+              "id": 4135,
+              "name": "vinaigrette",
+              "localizedName": "vinaigrette",
+              "image": "vinaigrette.jpg"
+            },
+            {
+              "id": 11583,
+              "name": "vegetable",
+              "localizedName": "vegetable",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/mixed-vegetables.png"
+            },
+            {
+              "id": 10018364,
+              "name": "wrap",
+              "localizedName": "wrap",
+              "image": "flour-tortilla.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 10,
+          "step": "Enjoy these wraps as a side to your favorite protein! Feel free to dip these wraps in more sauce.",
+          "ingredients": [
+            {
+              "id": 0,
+              "name": "sauce",
+              "localizedName": "sauce",
+              "image": ""
+            },
+            {
+              "id": 10018364,
+              "name": "wrap",
+              "localizedName": "wrap",
+              "image": "flour-tortilla.jpg"
+            },
+            {
+              "id": 0,
+              "name": "dip",
+              "localizedName": "dip",
+              "image": ""
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 11,
+          "step": "These wraps are best consumed when they are freshly made. Refrigerate any leftovers in an airtight container.",
+          "ingredients": [
+            {
+              "id": 10018364,
+              "name": "wrap",
+              "localizedName": "wrap",
+              "image": "flour-tortilla.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 97.74446105957031,
+  "spoonacularSourceUrl": "https://spoonacular.com/swiss-chard-wraps-662670"
+}

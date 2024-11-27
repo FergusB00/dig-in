@@ -1,0 +1,880 @@
+{
+  "vegetarian": true,
+  "vegan": true,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 9,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 53,
+  "healthScore": 96,
+  "creditsText": "foodandspice.com",
+  "sourceName": "foodandspice.com",
+  "pricePerServing": 168.43,
+  "extendedIngredients": [
+    {
+      "id": 20041,
+      "aisle": "Pasta and Rice",
+      "image": "rice-brown-cooked.png",
+      "consistency": "SOLID",
+      "name": "brown rice",
+      "nameClean": "cooked brown rice",
+      "original": "2/3 cup dried brown rice (2 cups cooked)",
+      "originalName": "2/3 cup dried brown rice cooked)",
+      "amount": 2.0,
+      "unit": "cups",
+      "meta": [
+        "dried",
+        "cooked"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 390.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 11124,
+      "aisle": "Produce",
+      "image": "sliced-carrot.png",
+      "consistency": "SOLID",
+      "name": "carrots",
+      "nameClean": "carrot",
+      "original": "2 medium carrots, sliced",
+      "originalName": "carrots, sliced",
+      "amount": 2.0,
+      "unit": "medium",
+      "meta": [
+        "sliced"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "medium",
+          "unitLong": "mediums"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "medium",
+          "unitLong": "mediums"
+        }
+      }
+    },
+    {
+      "id": 11143,
+      "aisle": "Produce",
+      "image": "celery.jpg",
+      "consistency": "SOLID",
+      "name": "celery",
+      "nameClean": "celery",
+      "original": "2 stalks celery, sliced",
+      "originalName": "celery, sliced",
+      "amount": 2.0,
+      "unit": "stalks",
+      "meta": [
+        "sliced"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "stalks",
+          "unitLong": "stalks"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "stalks",
+          "unitLong": "stalks"
+        }
+      }
+    },
+    {
+      "id": 2007,
+      "aisle": "Spices and Seasonings",
+      "image": "celery-seed.jpg",
+      "consistency": "SOLID",
+      "name": "celery seed",
+      "nameClean": "celery seed",
+      "original": "1 teaspoon celery seed",
+      "originalName": "celery seed",
+      "amount": 1.0,
+      "unit": "teaspoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        }
+      }
+    },
+    {
+      "id": 16032,
+      "aisle": "Pasta and Rice",
+      "image": "kidney-beans.jpg",
+      "consistency": "SOLID",
+      "name": "kidney beans",
+      "nameClean": "dried kidney beans",
+      "original": "2/3 cup dried kidney beans (2 cups cooked)",
+      "originalName": "2/3 cup dried kidney beans cooked)",
+      "amount": 2.0,
+      "unit": "cups",
+      "meta": [
+        "dried",
+        "cooked"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 368.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 1002023,
+      "aisle": "Spices and Seasonings",
+      "image": "marjoram.jpg",
+      "consistency": "SOLID",
+      "name": "marjoram",
+      "nameClean": "dried marjoram",
+      "original": "1 teaspoon dried marjoram",
+      "originalName": "dried marjoram",
+      "amount": 1.0,
+      "unit": "teaspoon",
+      "meta": [
+        "dried"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        }
+      }
+    },
+    {
+      "id": 2042,
+      "aisle": "Spices and Seasonings",
+      "image": "thyme.jpg",
+      "consistency": "SOLID",
+      "name": "thyme",
+      "nameClean": "dried thyme",
+      "original": "2 teaspoons dried thyme",
+      "originalName": "dried thyme",
+      "amount": 2.0,
+      "unit": "teaspoons",
+      "meta": [
+        "dried"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 11209,
+      "aisle": "Produce",
+      "image": "eggplant.png",
+      "consistency": "SOLID",
+      "name": "eggplant",
+      "nameClean": "eggplant",
+      "original": "1 medium eggplant, chopped",
+      "originalName": "eggplant, chopped",
+      "amount": 1.0,
+      "unit": "medium",
+      "meta": [
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "medium",
+          "unitLong": "medium"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "medium",
+          "unitLong": "medium"
+        }
+      }
+    },
+    {
+      "id": 11215,
+      "aisle": "Produce",
+      "image": "garlic.png",
+      "consistency": "SOLID",
+      "name": "garlic",
+      "nameClean": "garlic",
+      "original": "2 cloves garlic, minced or crushed",
+      "originalName": "garlic, minced or crushed",
+      "amount": 2.0,
+      "unit": "cloves",
+      "meta": [
+        "minced",
+        "crushed"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "cloves",
+          "unitLong": "cloves"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "cloves",
+          "unitLong": "cloves"
+        }
+      }
+    },
+    {
+      "id": 11052,
+      "aisle": "Produce",
+      "image": "green-beans-or-string-beans.jpg",
+      "consistency": "SOLID",
+      "name": "green beans",
+      "nameClean": "green beans",
+      "original": "3 handfuls of green beans, chopped",
+      "originalName": "green beans, chopped",
+      "amount": 3.0,
+      "unit": "handfuls",
+      "meta": [
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "handfuls",
+          "unitLong": "handfuls"
+        },
+        "metric": {
+          "amount": 3.0,
+          "unitShort": "handfuls",
+          "unitLong": "handfuls"
+        }
+      }
+    },
+    {
+      "id": 1002030,
+      "aisle": "Spices and Seasonings",
+      "image": "pepper.jpg",
+      "consistency": "SOLID",
+      "name": "ground pepper",
+      "nameClean": "black pepper",
+      "original": "fresh ground black pepper",
+      "originalName": "fresh ground black pepper",
+      "amount": 6.0,
+      "unit": "servings",
+      "meta": [
+        "fresh",
+        "black"
+      ],
+      "measures": {
+        "us": {
+          "amount": 6.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 6.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 1012038,
+      "aisle": "Spices and Seasonings",
+      "image": "dried-sage.png",
+      "consistency": "SOLID",
+      "name": "ground sage",
+      "nameClean": "ground sage",
+      "original": "2 teaspoons ground sage",
+      "originalName": "ground sage",
+      "amount": 2.0,
+      "unit": "teaspoons",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 93627,
+      "aisle": "Condiments",
+      "image": "dark-sauce.jpg",
+      "consistency": "SOLID",
+      "name": "liquid smoke",
+      "nameClean": "liquid smoke",
+      "original": "1/2 to 1 teaspoon liquid smoke, to taste",
+      "originalName": "liquid smoke, to taste",
+      "amount": 0.5,
+      "unit": "teaspoon",
+      "meta": [
+        "to taste"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 4053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "olive oil",
+      "nameClean": "olive oil",
+      "original": "2 tablespoons olive oil",
+      "originalName": "olive oil",
+      "amount": 2.0,
+      "unit": "tablespoons",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 11821,
+      "aisle": "Produce",
+      "image": "red-pepper.jpg",
+      "consistency": "SOLID",
+      "name": "bell pepper",
+      "nameClean": "red pepper",
+      "original": "1 red bell pepper, seeded and chopped",
+      "originalName": "red bell pepper, seeded and chopped",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+        "red",
+        "seeded",
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 11282,
+      "aisle": "Produce",
+      "image": "brown-onion.png",
+      "consistency": "SOLID",
+      "name": "onion",
+      "nameClean": "onion",
+      "original": "1 small white or red onion, diced",
+      "originalName": "white or red onion, diced",
+      "amount": 1.0,
+      "unit": "small",
+      "meta": [
+        "diced",
+        "white",
+        "red"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "small",
+          "unitLong": "small"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "small",
+          "unitLong": "small"
+        }
+      }
+    },
+    {
+      "id": 1012047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt.jpg",
+      "consistency": "SOLID",
+      "name": "sea salt",
+      "nameClean": "coarse sea salt",
+      "original": "1 1/2 teaspoons sea salt, or to taste",
+      "originalName": "sea salt, or to taste",
+      "amount": 1.5,
+      "unit": "teaspoons",
+      "meta": [
+        "to taste"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 1.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 6168,
+      "aisle": "Condiments",
+      "image": "hot-sauce-or-tabasco.png",
+      "consistency": "LIQUID",
+      "name": "sriracha",
+      "nameClean": "hot sauce",
+      "original": "1 teaspoon sriracha or other hot sauce",
+      "originalName": "sriracha or other hot sauce",
+      "amount": 1.0,
+      "unit": "teaspoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        }
+      }
+    },
+    {
+      "id": 11529,
+      "aisle": "Produce",
+      "image": "tomato.png",
+      "consistency": "SOLID",
+      "name": "tomatoes",
+      "nameClean": "tomato",
+      "original": "2 medium tomatoes, diced",
+      "originalName": "tomatoes, diced",
+      "amount": 2.0,
+      "unit": "medium",
+      "meta": [
+        "diced"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "medium",
+          "unitLong": "mediums"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "medium",
+          "unitLong": "mediums"
+        }
+      }
+    },
+    {
+      "id": 6615,
+      "aisle": "Canned and Jarred",
+      "image": "chicken-broth.png",
+      "consistency": "LIQUID",
+      "name": "vegetable stock",
+      "nameClean": "vegetable stock",
+      "original": "3 cups vegetable stock",
+      "originalName": "vegetable stock",
+      "amount": 3.0,
+      "unit": "cups",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 705.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    }
+  ],
+  "id": 782601,
+  "title": "Red Kidney Bean Jambalaya",
+  "readyInMinutes": 45,
+  "servings": 6,
+  "sourceUrl": "https://www.foodandspice.com/2016/05/red-kidney-bean-jambalaya.html",
+  "image": "https://img.spoonacular.com/recipes/782601-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Red Kidney Bean Jambalayan is a main course that serves 6. One portion of this dish contains approximately <b>18g of protein</b>, <b>6g of fat</b>, and a total of <b>393 calories</b>. For <b>$1.68 per serving</b>, this recipe <b>covers 33%</b> of your daily requirements of vitamins and minerals. 53 people were glad they tried this recipe. A mixture of vegetable stock, tomatoes, onion, and a handful of other ingredients are all it takes to make this recipe so flavorful. It is a good option if you're following a <b>gluten free, dairy free, lacto ovo vegetarian, and vegan</b> diet. This recipe is typical of Cajun cuisine. It is brought to you by foodandspice.blogspot.com. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. Overall, this recipe earns a <b>tremendous spoonacular score of 99%</b>. Users who liked this recipe also liked <a href=\"https://spoonacular.com/recipes/red-kidney-bean-jambalaya-1407231\">Red Kidney Bean Jambalaya</a>, <a href=\"https://spoonacular.com/recipes/red-kidney-bean-salad-94525\">Red Kidney Bean Salad</a>, and <a href=\"https://spoonacular.com/recipes/red-kidney-bean-curry-80686\">Red Kidney Bean Curry</a>.",
+  "cuisines": [
+    "Creole",
+    "Cajun"
+  ],
+  "dishTypes": [
+    "lunch",
+    "main course",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free",
+    "lacto ovo vegetarian",
+    "vegan"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "Rinse the kidney beans and brown rice separately. Cover the kidney beans with water and soak for 8 hours or overnight. In a separate bowl, cover the brown rice with water and soak for 8 hours or overnight.Drain and rinse the kidney beans, then transfer to a medium saucepan and cover with fresh water. Bring to a boil, reduce heat to medium-low, cover, and simmer for 1 hour or until just tender but not falling apart. Drain and set aside.Heat the oil in a large saucepan over medium heat. When hot, add the onion and saut for 5 minutes. Now add the garlic, carrots, celery and green beans, and stir for another 5 minutes. Next add the tomatoes, red pepper, eggplant, sage, thyme, marjoram and celery seed, and continue to stir for another few minutes.Pour in the vegetable stock, liquid smoke, rice and the cooked kidney beans. Bring to a boil, reduce heat to medium low, cover, and cook, stirring occasionally, for 45 minutes or until the rice is tender. Add water as necessary if the stew becomes too dry.Season with sriracha, salt and pepper, and taste for seasoning  add more liquid smoke, sriracha, salt, pepper or herbs as desired.",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Rinse the kidney beans and brown rice separately. Cover the kidney beans with water and soak for 8 hours or overnight. In a separate bowl, cover the brown rice with water and soak for 8 hours or overnight.",
+          "ingredients": [
+            {
+              "id": 16033,
+              "name": "kidney beans",
+              "localizedName": "kidney beans",
+              "image": "kidney-beans.jpg"
+            },
+            {
+              "id": 20040,
+              "name": "brown rice",
+              "localizedName": "brown rice",
+              "image": "uncooked-brown-rice.png"
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ],
+          "length": {
+            "number": 960,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 2,
+          "step": "Drain and rinse the kidney beans, then transfer to a medium saucepan and cover with fresh water. Bring to a boil, reduce heat to medium-low, cover, and simmer for 1 hour or until just tender but not falling apart.",
+          "ingredients": [
+            {
+              "id": 16033,
+              "name": "kidney beans",
+              "localizedName": "kidney beans",
+              "image": "kidney-beans.jpg"
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404669,
+              "name": "sauce pan",
+              "localizedName": "sauce pan",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/sauce-pan.jpg"
+            }
+          ],
+          "length": {
+            "number": 60,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 3,
+          "step": "Drain and set aside.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 4,
+          "step": "Heat the oil in a large saucepan over medium heat. When hot, add the onion and saut for 5 minutes. Now add the garlic, carrots, celery and green beans, and stir for another 5 minutes. Next add the tomatoes, red pepper, eggplant, sage, thyme, marjoram and celery seed, and continue to stir for another few minutes.",
+          "ingredients": [
+            {
+              "id": 2007,
+              "name": "celery seed",
+              "localizedName": "celery seed",
+              "image": "celery-seed.jpg"
+            },
+            {
+              "id": 11052,
+              "name": "green beans",
+              "localizedName": "green beans",
+              "image": "green-beans-or-string-beans.jpg"
+            },
+            {
+              "id": 11821,
+              "name": "red pepper",
+              "localizedName": "red pepper",
+              "image": "red-pepper.jpg"
+            },
+            {
+              "id": 11209,
+              "name": "eggplant",
+              "localizedName": "eggplant",
+              "image": "eggplant.png"
+            },
+            {
+              "id": 2023,
+              "name": "marjoram",
+              "localizedName": "marjoram",
+              "image": "marjoram.jpg"
+            },
+            {
+              "id": 11529,
+              "name": "tomato",
+              "localizedName": "tomato",
+              "image": "tomato.png"
+            },
+            {
+              "id": 11124,
+              "name": "carrot",
+              "localizedName": "carrot",
+              "image": "sliced-carrot.png"
+            },
+            {
+              "id": 11143,
+              "name": "celery",
+              "localizedName": "celery",
+              "image": "celery.jpg"
+            },
+            {
+              "id": 11215,
+              "name": "garlic",
+              "localizedName": "garlic",
+              "image": "garlic.png"
+            },
+            {
+              "id": 11282,
+              "name": "onion",
+              "localizedName": "onion",
+              "image": "brown-onion.png"
+            },
+            {
+              "id": 2049,
+              "name": "thyme",
+              "localizedName": "thyme",
+              "image": "thyme.jpg"
+            },
+            {
+              "id": 99226,
+              "name": "sage",
+              "localizedName": "sage",
+              "image": "fresh-sage.png"
+            },
+            {
+              "id": 4582,
+              "name": "cooking oil",
+              "localizedName": "cooking oil",
+              "image": "vegetable-oil.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404669,
+              "name": "sauce pan",
+              "localizedName": "sauce pan",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/sauce-pan.jpg"
+            }
+          ],
+          "length": {
+            "number": 10,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 5,
+          "step": "Pour in the vegetable stock, liquid smoke, rice and the cooked kidney beans. Bring to a boil, reduce heat to medium low, cover, and cook, stirring occasionally, for 45 minutes or until the rice is tender.",
+          "ingredients": [
+            {
+              "id": 6615,
+              "name": "vegetable stock",
+              "localizedName": "vegetable stock",
+              "image": "chicken-broth.png"
+            },
+            {
+              "id": 16033,
+              "name": "kidney beans",
+              "localizedName": "kidney beans",
+              "image": "kidney-beans.jpg"
+            },
+            {
+              "id": 93627,
+              "name": "liquid smoke",
+              "localizedName": "liquid smoke",
+              "image": "dark-sauce.jpg"
+            },
+            {
+              "id": 20444,
+              "name": "rice",
+              "localizedName": "rice",
+              "image": "uncooked-white-rice.png"
+            }
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 45,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 6,
+          "step": "Add water as necessary if the stew becomes too dry.Season with sriracha, salt and pepper, and taste for seasoning  add more liquid smoke, sriracha, salt, pepper or herbs as desired.",
+          "ingredients": [
+            {
+              "id": 1102047,
+              "name": "salt and pepper",
+              "localizedName": "salt and pepper",
+              "image": "salt-and-pepper.jpg"
+            },
+            {
+              "id": 93627,
+              "name": "liquid smoke",
+              "localizedName": "liquid smoke",
+              "image": "dark-sauce.jpg"
+            },
+            {
+              "id": 1042027,
+              "name": "seasoning",
+              "localizedName": "seasoning",
+              "image": "seasoning.png"
+            },
+            {
+              "id": 1016168,
+              "name": "sriracha",
+              "localizedName": "sriracha",
+              "image": "hot-sauce-or-tabasco.png"
+            },
+            {
+              "id": 1002030,
+              "name": "pepper",
+              "localizedName": "pepper",
+              "image": "pepper.jpg"
+            },
+            {
+              "id": 1002044,
+              "name": "herbs",
+              "localizedName": "herbs",
+              "image": "mixed-fresh-herbs.jpg"
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            },
+            {
+              "id": 2047,
+              "name": "salt",
+              "localizedName": "salt",
+              "image": "salt.jpg"
+            },
+            {
+              "id": 0,
+              "name": "stew",
+              "localizedName": "stew",
+              "image": ""
+            }
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 98.81368255615234,
+  "spoonacularSourceUrl": "https://spoonacular.com/red-kidney-bean-jambalaya-782601"
+}

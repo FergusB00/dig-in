@@ -13,12 +13,12 @@ class RecipeIngredient < ApplicationRecord
 
   def convert_weight_to_grams
     self.weight_in_grams = case unit.downcase
-                           when "servings" then quantity * 100
-                           when "g" then quantity
+                           when "servings" then quantity * 75
+                           when "g", "ml" then quantity
                            when "cloves" then quantity * 10
                            when "tbsps" then quantity * 15
-                           when "l" then quantity * 1000
-                           when "ml" then quantity * 1
+                           when "tsps" then quantity * 5
+                           when "l", "kg" then quantity * 1000
                            else quantity * 20
                            end
     self.save!

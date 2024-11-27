@@ -19,6 +19,7 @@ class RecipeIngredient < ApplicationRecord
                            when "tbsps" then quantity * 15
                            when "tsps" then quantity * 5
                            when "l", "kg" then quantity * 1000
+                           when "dashes" then quantity * 0
                            else quantity * 20
                            end
     self.save!

@@ -1,7 +1,11 @@
-class IngredientsController < ApplicationController
+class UserIngredientsController < ApplicationController
   def create
     @ingredient = Ingredient.find(params[:ingredient_id])
     @new_user_ingredient = user_ingredient.new(new_user_ingredient_params)
+  end
+
+  def new
+    @user_ingredient = UserIngredient.new
   end
 
   private

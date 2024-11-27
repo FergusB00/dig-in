@@ -1,8 +1,7 @@
 .profile-page {
-  max-width: 393px;
   margin: 0 auto;
   padding: 10px;
-  font-family: Arial, sans-serif;
+  font-family: Aboreto, sans-serif
 }
 
 .profile-title {
@@ -10,6 +9,7 @@
   font-weight: bold;
   letter-spacing: 2px;
   margin-bottom: 15px;
+  font-family: Aboreto, sans-serif
 }
 
 .profile-card {
@@ -23,19 +23,32 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+.profile-pic-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch
+}
+
 .profile-picture {
-  width: 50%;
-  height: 50%;
+  width: 200px;
+  height: 200px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #ffc6a0;
   border-radius: 10%;
   object-fit: cover;
-  border: 5px solid #ffc6a0;
 }
 
 .profile-page-stats {
+  flex: 1;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
   width: 100%;
-  max-width: 250px;
   gap: 10px;
 }
 

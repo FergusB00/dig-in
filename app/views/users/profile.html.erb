@@ -6,15 +6,15 @@
   <div class="profile-card mt-3">
     <div class="profile-pic-wrapper">
       <img src="https://yaktribe.games/community/media/placeholder-jpg.84782/full" alt="Profile Picture" class="profile-picture">
-    </div>
-    <div class="profile-page-stats">
-      <div class="per-stat">
-        <p>Carbon footprint:</p>
-        <h2>30</h2>  <!-- Here will be there @user.carbon_footprint -->
-      </div>
-      <div class="per-stat">
-        <p>Cost savings:</p>
-        <h2>£30.86</h2>  <!-- Here will be there @user.savings -->
+      <div class="profile-page-stats">
+        <div class="per-stat mb-1">
+          <p>Carbon footprint:</p>
+          <h2>30</h2>  <!-- Here will be there @user.carbon_footprint -->
+        </div>
+        <div class="per-stat">
+          <p>Cost savings:</p>
+          <h2>£30.86</h2>  <!-- Here will be there @user.savings -->
+        </div>
       </div>
     </div>
   </div>
@@ -22,7 +22,6 @@
   <hr class="divider">
 
   <!-- uncomment once all controllers are setup AND DELETE THE BUTTON BELOW -->
-  <%#= render "users/modal_profile"%>
   <div class="text-center">
     <button type="button" class="btn add-items-button" data-toggle="modal" data-target="#exampleModal">
       +ADD ITEMS

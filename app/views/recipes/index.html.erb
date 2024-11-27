@@ -1,13 +1,19 @@
-<h1>All Recipes</h1>
-
-<!-- filter for all recipes and recipes with user ingredients only-->
-<p><%= link_to "All Recipes", recipes_path %></p>
-<p><%= link_to "Recipes I can make", recipes_path(available_ingredients_only: true) %></p>
-
-<!-- add images to recipes-->
-
-<ul>
+<div class="recipes-container">
   <% @recipes.each do |recipe| %>
-  <li><%= recipe.name %></li>
+    <div class="recipe-card" data-controller="recipedropdown">
+      <div class="recipe-image">
+        <img src="<%= recipe.image_url %>" alt="<%= recipe.name %>" class="img-fluid">
+        <button class="recipe-dropdown-button" data-action="click->recipedropdown#toggle">
+          <i class="fa-solid fa-chevron-down fa-2xl"></i>
+        </button>
+      </div>
+
+      <div class="recipe-info" data-recipedropdown-target="content">
+        <h3><%= recipe.name %></h3>
+        <p class="each-recipe-info"><strong>Cuisine:</strong> <%= recipe.cuisine %></p>
+        <p class="each-recipe-info"><strong>Total time:</strong> <%= recipe.cook_time %></p>
+        <p class="each-recipe-info"><strong>Difficulty:</strong> <%= recipe.difficulty %></p>
+      </div>
+    </div>
   <% end %>
-</ul>
+</div>

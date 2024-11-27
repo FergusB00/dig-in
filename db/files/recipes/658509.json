@@ -1,0 +1,342 @@
+{
+  "vegetarian": true,
+  "vegan": true,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 0,
+  "gaps": "GAPS_FULL",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 11,
+  "healthScore": 70,
+  "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+  "license": "CC BY 3.0",
+  "sourceName": "Foodista",
+  "pricePerServing": 30.33,
+  "extendedIngredients": [
+    {
+      "id": 10011090,
+      "aisle": "Produce",
+      "image": "broccoli.jpg",
+      "consistency": "SOLID",
+      "name": "broccoli florets",
+      "nameClean": "broccoli florets",
+      "original": "5 cups Organic Broccoli Florets",
+      "originalName": "Organic Broccoli Florets",
+      "amount": 5.0,
+      "unit": "cups",
+      "meta": [
+        "organic"
+      ],
+      "measures": {
+        "us": {
+          "amount": 5.0,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 455.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 1034053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "extra virgin olive oil",
+      "nameClean": "extra virgin olive oil",
+      "original": "2 teaspoons Extra Virgin Olive Oil",
+      "originalName": "Extra Virgin Olive Oil",
+      "amount": 2.0,
+      "unit": "teaspoons",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 11215,
+      "aisle": "Produce",
+      "image": "garlic.png",
+      "consistency": "SOLID",
+      "name": "garlic",
+      "nameClean": "garlic",
+      "original": "1 clove of garlic, or more",
+      "originalName": "garlic, or more",
+      "amount": 1.0,
+      "unit": "clove",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "clove",
+          "unitLong": "clove"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "clove",
+          "unitLong": "clove"
+        }
+      }
+    },
+    {
+      "id": 1002030,
+      "aisle": "Spices and Seasonings",
+      "image": "pepper.jpg",
+      "consistency": "SOLID",
+      "name": "ground pepper",
+      "nameClean": "black pepper",
+      "original": "½ teaspoons Ground Black Pepper",
+      "originalName": "Ground Black Pepper",
+      "amount": 0.5,
+      "unit": "teaspoons",
+      "meta": [
+        "black"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 9152,
+      "aisle": "Produce",
+      "image": "lemon-juice.jpg",
+      "consistency": "LIQUID",
+      "name": "lemon juice",
+      "nameClean": "lemon juice",
+      "original": "½ teaspoons Lemon Juice",
+      "originalName": "Lemon Juice",
+      "amount": 0.5,
+      "unit": "teaspoons",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 2047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt.jpg",
+      "consistency": "SOLID",
+      "name": "salt",
+      "nameClean": "table salt",
+      "original": "1/2 teaspoon salt",
+      "originalName": "salt",
+      "amount": 0.5,
+      "unit": "teaspoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    }
+  ],
+  "id": 658509,
+  "title": "Roasted Broccoli with Lemon and Garlic",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "sourceUrl": "https://www.foodista.com/recipe/3Z8R4RGY/roasted-broccoli-with-lemon-and-garlic",
+  "image": "https://img.spoonacular.com/recipes/658509-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Roasted Broccoli with Lemon and Garlic is a side dish that serves 4. One portion of this dish contains approximately <b>3g of protein</b>, <b>2g of fat</b>, and a total of <b>58 calories</b>. For <b>30 cents per serving</b>, this recipe <b>covers 14%</b> of your daily requirements of vitamins and minerals. If you have lemon juice, ground pepper, salt, and a few other ingredients on hand, you can make it. 11 person have tried and liked this recipe. It is brought to you by Foodista. It is a good option if you're following a <b>gluten free, dairy free, paleolithic, and lacto ovo vegetarian</b> diet. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 96%</b>, which is awesome. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/roasted-broccoli-with-lemon-and-garlic-1345079\">Roasted Broccoli with Lemon and Garlic</a>, <a href=\"https://spoonacular.com/recipes/roasted-broccoli-with-lemon-and-garlic-1337497\">Roasted Broccoli with Lemon and Garlic</a>, and <a href=\"https://spoonacular.com/recipes/roasted-garlic-lemon-broccoli-110090\">Roasted Garlic Lemon Broccoli</a>.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "side dish"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free",
+    "paleolithic",
+    "lacto ovo vegetarian",
+    "primal",
+    "whole 30",
+    "vegan"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "<ol><li>Preheat the oven to 400 degrees F</li><li>In a large bowl, add broccoli florets, olive oil, salt, pepper and garlic. Spread the broccoli out in an even layer on a baking sheet.</li><li>Bake in the preheated oven until broccoli is tender enough to pierce the stems with a fork, 15 to 20 minutes.</li><li>Remove and place in a bowl, toss with lemon juice.</li></ol>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Preheat the oven to 400 degrees FIn a large bowl, add broccoli florets, olive oil, salt, pepper and garlic.",
+          "ingredients": [
+            {
+              "id": 10011090,
+              "name": "broccoli florets",
+              "localizedName": "broccoli florets",
+              "image": "broccoli.jpg"
+            },
+            {
+              "id": 4053,
+              "name": "olive oil",
+              "localizedName": "olive oil",
+              "image": "olive-oil.jpg"
+            },
+            {
+              "id": 11215,
+              "name": "garlic",
+              "localizedName": "garlic",
+              "image": "garlic.png"
+            },
+            {
+              "id": 1002030,
+              "name": "pepper",
+              "localizedName": "pepper",
+              "image": "pepper.jpg"
+            },
+            {
+              "id": 2047,
+              "name": "salt",
+              "localizedName": "salt",
+              "image": "salt.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            },
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Spread the broccoli out in an even layer on a baking sheet.",
+          "ingredients": [
+            {
+              "id": 11090,
+              "name": "broccoli",
+              "localizedName": "broccoli",
+              "image": "broccoli.jpg"
+            },
+            {
+              "id": 0,
+              "name": "spread",
+              "localizedName": "spread",
+              "image": ""
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404727,
+              "name": "baking sheet",
+              "localizedName": "baking sheet",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/baking-sheet.jpg"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Bake in the preheated oven until broccoli is tender enough to pierce the stems with a fork, 15 to 20 minutes.",
+          "ingredients": [
+            {
+              "id": 11090,
+              "name": "broccoli",
+              "localizedName": "broccoli",
+              "image": "broccoli.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            }
+          ],
+          "length": {
+            "number": 15,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 4,
+          "step": "Remove and place in a bowl, toss with lemon juice.",
+          "ingredients": [
+            {
+              "id": 9152,
+              "name": "lemon juice",
+              "localizedName": "lemon juice",
+              "image": "lemon-juice.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 96.81462860107422,
+  "spoonacularSourceUrl": "https://spoonacular.com/roasted-broccoli-with-lemon-and-garlic-658509"
+}

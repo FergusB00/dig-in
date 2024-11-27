@@ -1,0 +1,299 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": false,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 12,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 262,
+  "healthScore": 45,
+  "creditsText": "afrolems.com",
+  "sourceName": "afrolems.com",
+  "pricePerServing": 151.08,
+  "extendedIngredients": [
+    {
+      "id": 6172,
+      "aisle": "Canned and Jarred",
+      "image": "chicken-broth.png",
+      "consistency": "LIQUID",
+      "name": "chicken stock",
+      "nameClean": "chicken stock",
+      "original": "2 cups of chicken stock",
+      "originalName": "chicken stock",
+      "amount": 2.0,
+      "unit": "cups",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 480.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 99186,
+      "aisle": "Meat",
+      "image": "diced-ham.jpg",
+      "consistency": "SOLID",
+      "name": "seasoning cubes",
+      "nameClean": "diced ham",
+      "original": "Seasoning cubes",
+      "originalName": "Seasoning cubes",
+      "amount": 2.0,
+      "unit": "servings",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 9176,
+      "aisle": "Produce",
+      "image": "mango.jpg",
+      "consistency": "SOLID",
+      "name": "mango",
+      "nameClean": "mango",
+      "original": "3 slices of mango cubed",
+      "originalName": "mango cubed",
+      "amount": 3.0,
+      "unit": "slices",
+      "meta": [
+        "cubed"
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "slice",
+          "unitLong": "slices"
+        },
+        "metric": {
+          "amount": 3.0,
+          "unitShort": "slice",
+          "unitLong": "slices"
+        }
+      }
+    },
+    {
+      "id": 20444,
+      "aisle": "Pasta and Rice",
+      "image": "uncooked-white-rice.png",
+      "consistency": "SOLID",
+      "name": "rice",
+      "nameClean": "rice",
+      "original": "1 cup of rice",
+      "originalName": "rice",
+      "amount": 1.0,
+      "unit": "cup",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "cup",
+          "unitLong": "cup"
+        },
+        "metric": {
+          "amount": 185.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 11583,
+      "aisle": "Frozen",
+      "image": "mixed-vegetables.png",
+      "consistency": "SOLID",
+      "name": "vegetables",
+      "nameClean": "mixed vegetables",
+      "original": "1 cup of chopped vegetables",
+      "originalName": "chopped vegetables",
+      "amount": 1.0,
+      "unit": "cup",
+      "meta": [
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "cup",
+          "unitLong": "cup"
+        },
+        "metric": {
+          "amount": 182.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 10011819,
+      "aisle": "Ethnic Foods",
+      "image": "habanero-pepper.jpg",
+      "consistency": "SOLID",
+      "name": "scotch bonnet pepper",
+      "nameClean": "habanero chili",
+      "original": "1 scotch bonnet pepper",
+      "originalName": "scotch bonnet pepper",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    }
+  ],
+  "id": 716311,
+  "title": "Mango Fried Rice",
+  "readyInMinutes": 45,
+  "servings": 2,
+  "sourceUrl": "https://www.afrolems.com/2015/05/02/mango-fried-rice/",
+  "image": "https://img.spoonacular.com/recipes/716311-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Mango Fried Rice is a Chinese main course. This recipe makes 2 servings with <b>486 calories</b>, <b>16g of protein</b>, and <b>4g of fat</b> each. For <b>$1.51 per serving</b>, this recipe <b>covers 19%</b> of your daily requirements of vitamins and minerals. Several people made this recipe, and 262 would say it hit the spot. Head to the store and pick up scotch bonnet pepper, seasoning cubes, rice, and a few other things to make it today. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. It is brought to you by Afrolems. It is a good option if you're following a <b>gluten free and dairy free</b> diet. Overall, this recipe earns a <b>great spoonacular score of 94%</b>. <a href=\"https://spoonacular.com/recipes/mango-pork-fried-rice-176007\">Mango-Pork Fried Rice</a>, <a href=\"https://spoonacular.com/recipes/thai-beef-mango-fried-rice-1326163\">Thai Beef & Mango Fried Rice</a>, and <a href=\"https://spoonacular.com/recipes/thai-chicken-and-mango-fried-rice-509300\">Thai Chicken and Mango Fried Rice</a> are very similar to this recipe.",
+  "cuisines": [
+    "Chinese",
+    "Asian"
+  ],
+  "dishTypes": [
+    "side dish",
+    "lunch",
+    "main course",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "Wash your rice and bring to boil on medium heat with very little water as you are still going to cook it in chicken stock.Once the rice is slightly soft and the initial water has dried up, reduce the heat and pour in the chicken stock and cook till the chicken stock is all absorbed and has dried up. The chicken stock if freshly made will have some oil from the chicken so your rice does not need oil.Increase the heat and stir in the chopped vegetables and pepper. Add your seasoning cube.Finally stir in your cubed mango and serve warm with any protein of your choice. I’d say chicken but it’s up to you.",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Wash your rice and bring to boil on medium heat with very little water as you are still going to cook it in chicken stock.Once the rice is slightly soft and the initial water has dried up, reduce the heat and pour in the chicken stock and cook till the chicken stock is all absorbed and has dried up. The chicken stock if freshly made will have some oil from the chicken so your rice does not need oil.Increase the heat and stir in the chopped vegetables and pepper.",
+          "ingredients": [
+            {
+              "id": 6172,
+              "name": "chicken stock",
+              "localizedName": "chicken stock",
+              "image": "chicken-broth.png"
+            },
+            {
+              "id": 11583,
+              "name": "vegetable",
+              "localizedName": "vegetable",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/mixed-vegetables.png"
+            },
+            {
+              "id": 0,
+              "name": "chicken",
+              "localizedName": "chicken",
+              "image": "whole-chicken.jpg"
+            },
+            {
+              "id": 1002030,
+              "name": "pepper",
+              "localizedName": "pepper",
+              "image": "pepper.jpg"
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            },
+            {
+              "id": 20444,
+              "name": "rice",
+              "localizedName": "rice",
+              "image": "uncooked-white-rice.png"
+            },
+            {
+              "id": 4582,
+              "name": "cooking oil",
+              "localizedName": "cooking oil",
+              "image": "vegetable-oil.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Add your seasoning cube.Finally stir in your cubed mango and serve warm with any protein of your choice. I’d say chicken but it’s up to you.",
+          "ingredients": [
+            {
+              "id": 0,
+              "name": "seasoning cube",
+              "localizedName": "seasoning cube",
+              "image": "stock-cube.jpg"
+            },
+            {
+              "id": 0,
+              "name": "chicken",
+              "localizedName": "chicken",
+              "image": "whole-chicken.jpg"
+            },
+            {
+              "id": 9176,
+              "name": "mango",
+              "localizedName": "mango",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/mango.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 96.95679473876953,
+  "spoonacularSourceUrl": "https://spoonacular.com/mango-fried-rice-716311"
+}

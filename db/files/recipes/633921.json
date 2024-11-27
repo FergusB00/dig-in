@@ -1,0 +1,775 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 8,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 28,
+  "healthScore": 82,
+  "creditsText": "foodista.com",
+  "sourceName": "foodista.com",
+  "pricePerServing": 443.76,
+  "extendedIngredients": [
+    {
+      "id": 2048,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "apple-cider-vinegar.jpg",
+      "consistency": "LIQUID",
+      "name": "apple cider vinegar",
+      "nameClean": "apple cider vinegar",
+      "original": "2 tablespoons apple cider vinegar",
+      "originalName": "apple cider vinegar",
+      "amount": 2.0,
+      "unit": "tablespoons",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 11011,
+      "aisle": "Produce",
+      "image": "asparagus.png",
+      "consistency": "SOLID",
+      "name": "asparagus",
+      "nameClean": "asparagus",
+      "original": "12 stalks asparagus",
+      "originalName": "asparagus",
+      "amount": 12.0,
+      "unit": "stalks",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 12.0,
+          "unitShort": "stalks",
+          "unitLong": "stalks"
+        },
+        "metric": {
+          "amount": 12.0,
+          "unitShort": "stalks",
+          "unitLong": "stalks"
+        }
+      }
+    },
+    {
+      "id": 2069,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "balsamic-vinegar.jpg",
+      "consistency": "LIQUID",
+      "name": "balsamic vinegar",
+      "nameClean": "balsamic vinegar",
+      "original": "1 tablespoon balsamic vinegar",
+      "originalName": "balsamic vinegar",
+      "amount": 1.0,
+      "unit": "tablespoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        }
+      }
+    },
+    {
+      "id": 2017,
+      "aisle": "Spices and Seasonings",
+      "image": "dill.jpg",
+      "consistency": "SOLID",
+      "name": "dill",
+      "nameClean": "dried dill",
+      "original": "2 pinches (1/8 teaspoon) dried dill",
+      "originalName": "pinches dried dill",
+      "amount": 0.125,
+      "unit": "teaspoon",
+      "meta": [
+        "dried"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.125,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.125,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 11215,
+      "aisle": "Produce",
+      "image": "garlic.png",
+      "consistency": "SOLID",
+      "name": "garlic",
+      "nameClean": "garlic",
+      "original": "3 cloves garlic, minced",
+      "originalName": "garlic, minced",
+      "amount": 3.0,
+      "unit": "cloves",
+      "meta": [
+        "minced"
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "cloves",
+          "unitLong": "cloves"
+        },
+        "metric": {
+          "amount": 3.0,
+          "unitShort": "cloves",
+          "unitLong": "cloves"
+        }
+      }
+    },
+    {
+      "id": 4517,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "vegetable-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "grapeseed oil",
+      "nameClean": "grape seed oil",
+      "original": "1 tablespoon grapeseed oil",
+      "originalName": "grapeseed oil",
+      "amount": 1.0,
+      "unit": "tablespoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        }
+      }
+    },
+    {
+      "id": 1012042,
+      "aisle": "Spices and Seasonings",
+      "image": "dried-herbs.png",
+      "consistency": "SOLID",
+      "name": "herbs de provence",
+      "nameClean": "herbes de provence",
+      "original": "1 teaspoon herbs de Provence",
+      "originalName": "herbs de Provence",
+      "amount": 1.0,
+      "unit": "teaspoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        }
+      }
+    },
+    {
+      "id": 19296,
+      "aisle": "Nut butters, Jams, and Honey",
+      "image": "honey.png",
+      "consistency": "LIQUID",
+      "name": "honey",
+      "nameClean": "honey",
+      "original": "1 tablespoon honey",
+      "originalName": "honey",
+      "amount": 1.0,
+      "unit": "tablespoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        }
+      }
+    },
+    {
+      "id": 9152,
+      "aisle": "Produce",
+      "image": "lemon-juice.jpg",
+      "consistency": "LIQUID",
+      "name": "juice of lemon",
+      "nameClean": "lemon juice",
+      "original": "Juice of half a lemon",
+      "originalName": "Juice of half a lemon",
+      "amount": 2.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 9156,
+      "aisle": "Produce",
+      "image": "zest-lemon.jpg",
+      "consistency": "SOLID",
+      "name": "lemon zest",
+      "nameClean": "lemon peel",
+      "original": "Zest of 1 lemon",
+      "originalName": "Zest of lemon",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 10115076,
+      "aisle": "Seafood",
+      "image": "salmon.png",
+      "consistency": "SOLID",
+      "name": "salmon fillet",
+      "nameClean": "salmon fillets",
+      "original": "0.5 pound salmon fillet",
+      "originalName": "salmon fillet",
+      "amount": 0.5,
+      "unit": "pound",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "lb",
+          "unitLong": "pounds"
+        },
+        "metric": {
+          "amount": 226.796,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 1102047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt-and-pepper.jpg",
+      "consistency": "SOLID",
+      "name": "salt and pepper",
+      "nameClean": "salt and pepper",
+      "original": "Salt and pepper",
+      "originalName": "Salt and pepper",
+      "amount": 2.0,
+      "unit": "servings",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 6615,
+      "aisle": "Canned and Jarred",
+      "image": "chicken-broth.png",
+      "consistency": "LIQUID",
+      "name": "vegetable stock",
+      "nameClean": "vegetable stock",
+      "original": "2 tablespoons vegetable stock",
+      "originalName": "vegetable stock",
+      "amount": 2.0,
+      "unit": "tablespoons",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    }
+  ],
+  "id": 633921,
+  "title": "Balsamic & Honey Glazed Salmon with Lemony Asparagus",
+  "readyInMinutes": 60,
+  "servings": 2,
+  "sourceUrl": "https://www.foodista.com/recipe/CK5NCLGT/balsamic-honey-glazed-salmon-with-lemony-asparagus",
+  "image": "https://img.spoonacular.com/recipes/633921-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "If you want to add more <b>gluten free, dairy free, and pescatarian</b> recipes to your recipe box, Balsamic & Honey Glazed Salmon with Lemony Asparagus might be a recipe you should try. For <b>$4.44 per serving</b>, this recipe <b>covers 26%</b> of your daily requirements of vitamins and minerals. One portion of this dish contains approximately <b>25g of protein</b>, <b>14g of fat</b>, and a total of <b>301 calories</b>. This recipe serves 2. 28 people were impressed by this recipe. From preparation to the plate, this recipe takes roughly <b>1 hour</b>. It is brought to you by Foodista. It works well as a pretty expensive main course. Head to the store and pick up juice of lemon, herbs de provence, salmon fillet, and a few other things to make it today. Taking all factors into account, this recipe <b>earns a spoonacular score of 96%</b>, which is great. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/balsamic-honey-glazed-salmon-with-lemony-asparagus-1501683\">Balsamic & Honey Glazed Salmon with Lemony Asparagus</a>, <a href=\"https://spoonacular.com/recipes/balsamic-honey-glazed-salmon-with-lemony-asparagus-1614063\">Balsamic & Honey Glazed Salmon with Lemony Asparagus</a>, and <a href=\"https://spoonacular.com/recipes/balsamic-honey-glazed-salmon-with-lemony-asparagus-1363909\">Balsamic & Honey Glazed Salmon with Lemony Asparagus</a>.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "lunch",
+    "main course",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free",
+    "pescatarian"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "<ol><li>In a small mixing bowl or blender, combine all of the ingredients for the balsamic marinade except for the lemon juice (balsamic vinegar, apple cider vinegar, 1 tbsp grapeseed oil, honey, dried dill, herbs de provence, salt and pepper).</li><li> Whisk or blend until oil and vinegar are well incorporated and no longer separate.</li><li>  Place salmon fillet in a baking dish (I use a small casserole dish). Pour the marinade over the salmon and allow it to marinate for at least 15 minutes (or up to 24 hours covered in the refrigerator). </li><li> Turn your oven on high broil. </li><li>Just before putting the salmon in the oven, drizzle the lemon juice over the fish. </li><li>Bake for 10 to 12 minutes on the top rack or until salmon is glazed, browned and sizzling.</li><li>While the salmon is baking, prepare the asparagus. </li><li> Wash the asparagus and cut off the bottom inch and a half of each stalk and discard.</li><li>  Spread the asparagus on in a large skillet. Drizzle the grapeseed oil over the asparagus and spread the oil on the asparagus with your hands so that all stalks are completely coated. </li><li> Sprinkle asparagus with desired amount of salt and pepper. </li><li>Saute over medium heat for 5 minutes. </li><li>Add the two tablespoons of vegetable stock and cover the skillet. </li><li>Saute 4 minutes. </li><li>Remove lid and add the minced garlic. </li><li>Place cover back over the asparagus. </li><li>Continue cooking an additional 3 to 5 minutes until asparagus is cooked but not too soft.  Grate lemon zest over the top of the asparagus.</li></ol>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "In a small mixing bowl or blender, combine all of the ingredients for the balsamic marinade except for the lemon juice (balsamic vinegar, apple cider vinegar, 1 tbsp grapeseed oil, honey, dried dill, herbs de provence, salt and pepper).",
+          "ingredients": [
+            {
+              "id": 2048,
+              "name": "apple cider vinegar",
+              "localizedName": "apple cider vinegar",
+              "image": "apple-cider-vinegar.jpg"
+            },
+            {
+              "id": 1012042,
+              "name": "herbes de provence",
+              "localizedName": "herbes de provence",
+              "image": "dried-herbs.png"
+            },
+            {
+              "id": 2069,
+              "name": "balsamic vinegar",
+              "localizedName": "balsamic vinegar",
+              "image": "balsamic-vinegar.jpg"
+            },
+            {
+              "id": 1102047,
+              "name": "salt and pepper",
+              "localizedName": "salt and pepper",
+              "image": "salt-and-pepper.jpg"
+            },
+            {
+              "id": 4517,
+              "name": "grape seed oil",
+              "localizedName": "grape seed oil",
+              "image": "vegetable-oil.jpg"
+            },
+            {
+              "id": 9152,
+              "name": "lemon juice",
+              "localizedName": "lemon juice",
+              "image": "lemon-juice.jpg"
+            },
+            {
+              "id": 2017,
+              "name": "dried dill",
+              "localizedName": "dried dill",
+              "image": "dill.jpg"
+            },
+            {
+              "id": 0,
+              "name": "marinade",
+              "localizedName": "marinade",
+              "image": "seasoning.png"
+            },
+            {
+              "id": 19296,
+              "name": "honey",
+              "localizedName": "honey",
+              "image": "honey.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 405907,
+              "name": "mixing bowl",
+              "localizedName": "mixing bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/mixing-bowl.jpg"
+            },
+            {
+              "id": 404726,
+              "name": "blender",
+              "localizedName": "blender",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/blender.png"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Whisk or blend until oil and vinegar are well incorporated and no longer separate.",
+          "ingredients": [
+            {
+              "id": 2053,
+              "name": "vinegar",
+              "localizedName": "vinegar",
+              "image": "vinegar-(white).jpg"
+            },
+            {
+              "id": 4582,
+              "name": "cooking oil",
+              "localizedName": "cooking oil",
+              "image": "vegetable-oil.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404661,
+              "name": "whisk",
+              "localizedName": "whisk",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/whisk.png"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Place salmon fillet in a baking dish (I use a small casserole dish).",
+          "ingredients": [
+            {
+              "id": 10115076,
+              "name": "salmon fillets",
+              "localizedName": "salmon fillets",
+              "image": "salmon.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404635,
+              "name": "casserole dish",
+              "localizedName": "casserole dish",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/casserole-dish.png"
+            },
+            {
+              "id": 404646,
+              "name": "baking pan",
+              "localizedName": "baking pan",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/roasting-pan.jpg"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "step": "Pour the marinade over the salmon and allow it to marinate for at least 15 minutes (or up to 24 hours covered in the refrigerator).  Turn your oven on high broil. Just before putting the salmon in the oven, drizzle the lemon juice over the fish.",
+          "ingredients": [
+            {
+              "id": 9152,
+              "name": "lemon juice",
+              "localizedName": "lemon juice",
+              "image": "lemon-juice.jpg"
+            },
+            {
+              "id": 0,
+              "name": "marinade",
+              "localizedName": "marinade",
+              "image": "seasoning.png"
+            },
+            {
+              "id": 15076,
+              "name": "salmon",
+              "localizedName": "salmon",
+              "image": "salmon.png"
+            },
+            {
+              "id": 10115261,
+              "name": "fish",
+              "localizedName": "fish",
+              "image": "fish-fillet.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            }
+          ],
+          "length": {
+            "number": 1455,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 5,
+          "step": "Bake for 10 to 12 minutes on the top rack or until salmon is glazed, browned and sizzling.While the salmon is baking, prepare the asparagus.  Wash the asparagus and cut off the bottom inch and a half of each stalk and discard.",
+          "ingredients": [
+            {
+              "id": 11011,
+              "name": "asparagus",
+              "localizedName": "asparagus",
+              "image": "asparagus.png"
+            },
+            {
+              "id": 15076,
+              "name": "salmon",
+              "localizedName": "salmon",
+              "image": "salmon.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            }
+          ],
+          "length": {
+            "number": 10,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 6,
+          "step": "Spread the asparagus on in a large skillet.",
+          "ingredients": [
+            {
+              "id": 11011,
+              "name": "asparagus",
+              "localizedName": "asparagus",
+              "image": "asparagus.png"
+            },
+            {
+              "id": 0,
+              "name": "spread",
+              "localizedName": "spread",
+              "image": ""
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404645,
+              "name": "frying pan",
+              "localizedName": "frying pan",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "step": "Drizzle the grapeseed oil over the asparagus and spread the oil on the asparagus with your hands so that all stalks are completely coated.",
+          "ingredients": [
+            {
+              "id": 4517,
+              "name": "grape seed oil",
+              "localizedName": "grape seed oil",
+              "image": "vegetable-oil.jpg"
+            },
+            {
+              "id": 11011,
+              "name": "asparagus",
+              "localizedName": "asparagus",
+              "image": "asparagus.png"
+            },
+            {
+              "id": 0,
+              "name": "spread",
+              "localizedName": "spread",
+              "image": ""
+            },
+            {
+              "id": 4582,
+              "name": "cooking oil",
+              "localizedName": "cooking oil",
+              "image": "vegetable-oil.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 8,
+          "step": "Sprinkle asparagus with desired amount of salt and pepper.",
+          "ingredients": [
+            {
+              "id": 1102047,
+              "name": "salt and pepper",
+              "localizedName": "salt and pepper",
+              "image": "salt-and-pepper.jpg"
+            },
+            {
+              "id": 11011,
+              "name": "asparagus",
+              "localizedName": "asparagus",
+              "image": "asparagus.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 9,
+          "step": "Saute over medium heat for 5 minutes.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 5,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 10,
+          "step": "Add the two tablespoons of vegetable stock and cover the skillet.",
+          "ingredients": [
+            {
+              "id": 6615,
+              "name": "vegetable stock",
+              "localizedName": "vegetable stock",
+              "image": "chicken-broth.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404645,
+              "name": "frying pan",
+              "localizedName": "frying pan",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "step": "Saute 4 minutes.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 4,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 12,
+          "step": "Remove lid and add the minced garlic.",
+          "ingredients": [
+            {
+              "id": 0,
+              "name": "minced garlic",
+              "localizedName": "minced garlic",
+              "image": "garlic.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 13,
+          "step": "Place cover back over the asparagus. Continue cooking an additional 3 to 5 minutes until asparagus is cooked but not too soft.  Grate lemon zest over the top of the asparagus.",
+          "ingredients": [
+            {
+              "id": 9156,
+              "name": "lemon zest",
+              "localizedName": "lemon zest",
+              "image": "zest-lemon.jpg"
+            },
+            {
+              "id": 11011,
+              "name": "asparagus",
+              "localizedName": "asparagus",
+              "image": "asparagus.png"
+            }
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 3,
+            "unit": "minutes"
+          }
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 96.4059066772461,
+  "spoonacularSourceUrl": "https://spoonacular.com/balsamic-honey-glazed-salmon-with-lemony-asparagus-633921"
+}

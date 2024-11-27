@@ -1,0 +1,401 @@
+{
+  "vegetarian": true,
+  "vegan": true,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 6,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 22,
+  "healthScore": 94,
+  "creditsText": "foodista.com",
+  "sourceName": "foodista.com",
+  "pricePerServing": 49.7,
+  "extendedIngredients": [
+    {
+      "id": 2004,
+      "aisle": "Spices and Seasonings",
+      "image": "bay-leaves.jpg",
+      "consistency": "SOLID",
+      "name": "bay leaf",
+      "nameClean": "bay leaves",
+      "original": "1 bay leaf",
+      "originalName": "bay leaf",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 2063,
+      "aisle": "Produce",
+      "image": "rosemary.jpg",
+      "consistency": "SOLID",
+      "name": "rosemary",
+      "nameClean": "fresh rosemary",
+      "original": "1 tablespoon chopped fresh rosemary",
+      "originalName": "chopped fresh rosemary",
+      "amount": 1.0,
+      "unit": "tablespoon",
+      "meta": [
+        "fresh",
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        }
+      }
+    },
+    {
+      "id": 11215,
+      "aisle": "Produce",
+      "image": "garlic.png",
+      "consistency": "SOLID",
+      "name": "garlic",
+      "nameClean": "garlic",
+      "original": "6 cloves garlic",
+      "originalName": "garlic",
+      "amount": 6.0,
+      "unit": "cloves",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 6.0,
+          "unitShort": "cloves",
+          "unitLong": "cloves"
+        },
+        "metric": {
+          "amount": 6.0,
+          "unitShort": "cloves",
+          "unitLong": "cloves"
+        }
+      }
+    },
+    {
+      "id": 4053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "olive oil",
+      "nameClean": "olive oil",
+      "original": "1 teaspoon olive oil",
+      "originalName": "olive oil",
+      "amount": 1.0,
+      "unit": "teaspoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        }
+      }
+    },
+    {
+      "id": 11282,
+      "aisle": "Produce",
+      "image": "brown-onion.png",
+      "consistency": "SOLID",
+      "name": "onion",
+      "nameClean": "onion",
+      "original": "1 medium onion, chopped",
+      "originalName": "onion, chopped",
+      "amount": 1.0,
+      "unit": "medium",
+      "meta": [
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "medium",
+          "unitLong": "medium"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "medium",
+          "unitLong": "medium"
+        }
+      }
+    },
+    {
+      "id": 2047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt.jpg",
+      "consistency": "SOLID",
+      "name": "salt",
+      "nameClean": "table salt",
+      "original": "Salt",
+      "originalName": "Salt",
+      "amount": 6.0,
+      "unit": "servings",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 6.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 6.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 14412,
+      "aisle": "Beverages",
+      "image": "water.png",
+      "consistency": "LIQUID",
+      "name": "water",
+      "nameClean": "water",
+      "original": "2 tablespoons water",
+      "originalName": "water",
+      "amount": 2.0,
+      "unit": "tablespoons",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 10316049,
+      "aisle": "Canned and Jarred",
+      "image": "white-beans.jpg",
+      "consistency": "SOLID",
+      "name": "beans",
+      "nameClean": "dried white beans",
+      "original": "2 cups dried white beans, such as great northern or cannellini",
+      "originalName": "dried white beans, such as great northern or cannellini",
+      "amount": 2.0,
+      "unit": "cups",
+      "meta": [
+        "dried",
+        "white",
+        " such as great northern or cannellini"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 404.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    }
+  ],
+  "id": 664147,
+  "title": "Tuscan White Bean Soup with Olive Oil and Rosemary",
+  "readyInMinutes": 45,
+  "servings": 6,
+  "sourceUrl": "https://www.foodista.com/recipe/HPKTNKY5/tuscan-white-bean-soup-with-olive-oil-and-rosemary",
+  "image": "https://img.spoonacular.com/recipes/664147-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Tuscan White Bean Soup with Olive Oil and Rosemary is a <b>gluten free, dairy free, lacto ovo vegetarian, and vegan</b> recipe with 6 servings. This main course has <b>242 calories</b>, <b>16g of protein</b>, and <b>1g of fat</b> per serving. For <b>50 cents per serving</b>, this recipe <b>covers 19%</b> of your daily requirements of vitamins and minerals. It will be a hit at your <b>Autumn</b> event. 22 people found this recipe to be tasty and satisfying. Head to the store and pick up olive oil, rosemary, garlic, and a few other things to make it today. It is brought to you by Foodista. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. With a spoonacular <b>score of 79%</b>, this dish is good. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/white-bean-soup-with-pasta-and-rosemary-oil-drizzle-855454\">White Bean Soup with Pastan and Rosemary Oil Drizzle</a>, <a href=\"https://spoonacular.com/recipes/tuscan-white-bean-and-fennel-stew-with-orange-and-rosemary-105383\">Tuscan White Bean and Fennel Stew With Orange and Rosemary</a>, and <a href=\"https://spoonacular.com/recipes/tuscan-white-bean-soup-1054940\">Tuscan White Bean Soup</a>.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "lunch",
+    "soup",
+    "main course",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free",
+    "lacto ovo vegetarian",
+    "vegan"
+  ],
+  "occasions": [
+    "fall",
+    "winter"
+  ],
+  "instructions": "<ol><li>Rinse the beans thoroughly and place them in a 7-quart slow cooker along with the water, onion, garlic, and bay leaf. Cover and cook on LOW for about 8 hours, or until the beans are nice and tender.</li><li>Remove the bay leaf. Using a handheld immersion blender, puree the remaining ingredients to the desired texture. Add the salt to taste.</li><li>Ladle the soup into bowls. Drizzle with the olive oil, sprinkle with rosemary, and serve.</li></ol>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Rinse the beans thoroughly and place them in a 7-quart slow cooker along with the water, onion, garlic, and bay leaf. Cover and cook on LOW for about 8 hours, or until the beans are nice and tender.",
+          "ingredients": [
+            {
+              "id": 2004,
+              "name": "bay leaves",
+              "localizedName": "bay leaves",
+              "image": "bay-leaves.jpg"
+            },
+            {
+              "id": 11215,
+              "name": "garlic",
+              "localizedName": "garlic",
+              "image": "garlic.png"
+            },
+            {
+              "id": 0,
+              "name": "beans",
+              "localizedName": "beans",
+              "image": "kidney-beans.jpg"
+            },
+            {
+              "id": 11282,
+              "name": "onion",
+              "localizedName": "onion",
+              "image": "brown-onion.png"
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404718,
+              "name": "slow cooker",
+              "localizedName": "slow cooker",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/slow-cooker.jpg"
+            }
+          ],
+          "length": {
+            "number": 480,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 2,
+          "step": "Remove the bay leaf. Using a handheld immersion blender, puree the remaining ingredients to the desired texture.",
+          "ingredients": [
+            {
+              "id": 2004,
+              "name": "bay leaves",
+              "localizedName": "bay leaves",
+              "image": "bay-leaves.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404776,
+              "name": "immersion blender",
+              "localizedName": "immersion blender",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/immersion-blender.png"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Add the salt to taste.Ladle the soup into bowls.",
+          "ingredients": [
+            {
+              "id": 2047,
+              "name": "salt",
+              "localizedName": "salt",
+              "image": "salt.jpg"
+            },
+            {
+              "id": 0,
+              "name": "soup",
+              "localizedName": "soup",
+              "image": ""
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            },
+            {
+              "id": 404630,
+              "name": "ladle",
+              "localizedName": "ladle",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/ladle.jpg"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "step": "Drizzle with the olive oil, sprinkle with rosemary, and serve.",
+          "ingredients": [
+            {
+              "id": 4053,
+              "name": "olive oil",
+              "localizedName": "olive oil",
+              "image": "olive-oil.jpg"
+            },
+            {
+              "id": 2036,
+              "name": "rosemary",
+              "localizedName": "rosemary",
+              "image": "rosemary.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 98.54786682128906,
+  "spoonacularSourceUrl": "https://spoonacular.com/tuscan-white-bean-soup-with-olive-oil-and-rosemary-664147"
+}

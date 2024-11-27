@@ -1,0 +1,227 @@
+{
+  "vegetarian": true,
+  "vegan": true,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": false,
+  "cheap": false,
+  "veryPopular": true,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 5,
+  "gaps": "GAPS_FULL",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 1330,
+  "healthScore": 34,
+  "creditsText": "Jen West",
+  "sourceName": "Pink When",
+  "pricePerServing": 91.76,
+  "extendedIngredients": [
+    {
+      "id": 9037,
+      "aisle": "Produce",
+      "image": "avocado.jpg",
+      "consistency": "SOLID",
+      "name": "avocados",
+      "nameClean": "avocado",
+      "original": "2 Avocados",
+      "originalName": "Avocados",
+      "amount": 2.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 11165,
+      "aisle": "Produce",
+      "image": "cilantro.png",
+      "consistency": "SOLID",
+      "name": "cilantro",
+      "nameClean": "cilantro",
+      "original": "1 1/2 Tbsp Chopped cilantro",
+      "originalName": "Chopped cilantro",
+      "amount": 1.5,
+      "unit": "Tbsp",
+      "meta": [
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.5,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 1.5,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 9160,
+      "aisle": "Produce",
+      "image": "lime-juice.png",
+      "consistency": "LIQUID",
+      "name": "juice of lime",
+      "nameClean": "lime juice",
+      "original": "1 large lime (juiced)",
+      "originalName": "lime (juiced)",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+        "juiced",
+        "()"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 1002030,
+      "aisle": "Spices and Seasonings",
+      "image": "pepper.jpg",
+      "consistency": "SOLID",
+      "name": "pepper",
+      "nameClean": "black pepper",
+      "original": "1/2 tsp pepper",
+      "originalName": "pepper",
+      "amount": 0.5,
+      "unit": "tsp",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 10011282,
+      "aisle": "Produce",
+      "image": "red-onion.png",
+      "consistency": "SOLID",
+      "name": "onion",
+      "nameClean": "red onion",
+      "original": "1/4 cup chopped red onion",
+      "originalName": "chopped red onion",
+      "amount": 0.25,
+      "unit": "cup",
+      "meta": [
+        "red",
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 40.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 10211529,
+      "aisle": "Produce",
+      "image": "roma-tomatoes.png",
+      "consistency": "SOLID",
+      "name": "roma tomato",
+      "nameClean": "italian tomato",
+      "original": "1 Roma Tomato",
+      "originalName": "Roma Tomato",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    }
+  ],
+  "id": 715543,
+  "title": "Homemade Guacamole",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "sourceUrl": "https://www.pinkwhen.com/homemade-guacamole-recipe/",
+  "image": "https://img.spoonacular.com/recipes/715543-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "If you want to add more <b>gluten free, dairy free, paleolithic, and lacto ovo vegetarian</b> recipes to your recipe box, Homemade Guacamole might be a recipe you should try. For <b>92 cents per serving</b>, this recipe <b>covers 9%</b> of your daily requirements of vitamins and minerals. This recipe makes 4 servings with <b>170 calories</b>, <b>2g of protein</b>, and <b>15g of fat</b> each. It is an <b>inexpensive</b> recipe for fans of Mexican food. Many people really liked this hor d'oeuvre. This recipe from Pink When has 1330 fans. A mixture of roma tomato, onion, pepper, and a handful of other ingredients are all it takes to make this recipe so tasty. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. With a spoonacular <b>score of 97%</b>, this dish is amazing. Similar recipes are <a href=\"https://spoonacular.com/recipes/homemade-guacamole-883310\">Homemade Guacamole</a>, <a href=\"https://spoonacular.com/recipes/homemade-guacamole-1059336\">Homemade Guacamole</a>, and <a href=\"https://spoonacular.com/recipes/homemade-guacamole-1170259\">Homemade Guacamole</a>.",
+  "cuisines": [
+    "Mexican"
+  ],
+  "dishTypes": [
+    "antipasti",
+    "condiment",
+    "starter",
+    "snack",
+    "appetizer",
+    "dip",
+    "antipasto",
+    "hor d'oeuvre",
+    "spread"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free",
+    "paleolithic",
+    "lacto ovo vegetarian",
+    "primal",
+    "whole 30",
+    "vegan"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": null,
+  "analyzedInstructions": [
+
+  ],
+  "originalId": null,
+  "spoonacularScore": 96.86571502685547,
+  "spoonacularSourceUrl": "https://spoonacular.com/homemade-guacamole-715543"
+}

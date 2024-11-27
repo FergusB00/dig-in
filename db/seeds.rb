@@ -78,64 +78,64 @@ recipes = JSON.parse(recipes_serialized)
 # API request to fill information for each individual recipe
 
 # recipes["results"].each do |recipe|
-  id_url = "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/715415/information"
-  recipe_ids_serialized = URI.open(
-    id_url,
-    "x-rapidapi-key" => 'fd2411960bmsh4b56087a6e0b8e1p1a1c6ejsn0af91bca7bfc',
-    "x-rapidapi-host" => 'spoonacular-recipe-food-nutrition-v1.p.rapidapi.com'
-  ).read
-  recipe_info = JSON.parse(recipe_ids_serialized)
+  # id_url = "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/715415/information"
+  # recipe_ids_serialized = URI.open(
+  #   id_url,
+  #   "x-rapidapi-key" => 'fd2411960bmsh4b56087a6e0b8e1p1a1c6ejsn0af91bca7bfc',
+  #   "x-rapidapi-host" => 'spoonacular-recipe-food-nutrition-v1.p.rapidapi.com'
+  # ).read
+  # recipe_info = JSON.parse(recipe_ids_serialized)
 
-  # p recipe_info["extendedIngredients"]
+  # # p recipe_info["extendedIngredients"]
 
-  # seeding recipes
-  new_recipe = {
-    name: recipe_info["title"],
-    instructions: recipe_info["instructions"],
-    image_url: recipe_info["image"],
-    cook_time: recipe_info["cookingMinutes"],
-    difficulty: ["easy", "medium", "hard"].sample
-  }
+  # # seeding recipes
+  # new_recipe = {
+  #   name: recipe_info["title"],
+  #   instructions: recipe_info["instructions"],
+  #   image_url: recipe_info["image"],
+  #   cook_time: recipe_info["cookingMinutes"],
+  #   difficulty: ["easy", "medium", "hard"].sample
+  # }
 
-  recipe = Recipe.create!(new_recipe)
+  # recipe = Recipe.create!(new_recipe)
 
-  # # seeding ingredients
-  recipe_info["extendedIngredients"].each do |ingredient|
-    found_ingredient = Ingredient.find_by_name("#{ingredient["nameClean"]}")
-    carbon_array = {
-      "chicken" => 9.87,
-      "beef" => 99.48,
-      "lamb" => 39.72,
-      "prawn" => 26.87,
-      "cheese" => 23.88,
-      "pork" => 12.31,
-      "egg" => 4.67,
-      "rice" => 4.45,
-      "milk" => 3.15,
-      "tomato" => 2.09
-    }
+  # # # seeding ingredients
+  # recipe_info["extendedIngredients"].each do |ingredient|
+  #   found_ingredient = Ingredient.find_by_name("#{ingredient["nameClean"]}")
+  #   carbon_array = {
+  #     "chicken" => 9.87,
+  #     "beef" => 99.48,
+  #     "lamb" => 39.72,
+  #     "prawn" => 26.87,
+  #     "cheese" => 23.88,
+  #     "pork" => 12.31,
+  #     "egg" => 4.67,
+  #     "rice" => 4.45,
+  #     "milk" => 3.15,
+  #     "tomato" => 2.09
+  #   }
 
-    serving = ingredient["measures"]["metric"]["unit"] == "" ? "servings" : ingredient["measures"]["metric"]["unit"]
-    if found_ingredient
-      RecipeIngredient.create(
-        ingredient: ingredient,
-        recipe: recipe,
-        quantity: ingredient["amount"],
-        unit: serving
-        )
-    else
-      carbon_value = carbon_array[ingredient["nameClean"]] || 2.5
-      new_ingredient = Ingredient.create(
-        name: ingredient["nameClean"],
-        category: ingredient["aisle"],
-        carbon_per_gram: carbon_value
-      )
+  #   serving = ingredient["measures"]["metric"]["unit"] == "" ? "servings" : ingredient["measures"]["metric"]["unit"]
+  #   if found_ingredient
+  #     RecipeIngredient.create(
+  #       ingredient: ingredient,
+  #       recipe: recipe,
+  #       quantity: ingredient["amount"],
+  #       unit: serving
+  #       )
+  #   else
+  #     carbon_value = carbon_array[ingredient["nameClean"]] || 2.5
+  #     new_ingredient = Ingredient.create(
+  #       name: ingredient["nameClean"],
+  #       category: ingredient["aisle"],
+  #       carbon_per_gram: carbon_value
+  #     )
 
-      RecipeIngredient.create(
-        ingredient: new_ingredient,
-        recipe: recipe,
-        quantity: ingredient["amount"],
-        unit: serving
-        )
-    end
-  end
+  #     RecipeIngredient.create(
+  #       ingredient: new_ingredient,
+  #       recipe: recipe,
+  #       quantity: ingredient["amount"],
+  #       unit: serving
+  #       )
+  #   end
+  # end

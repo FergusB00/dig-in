@@ -58,7 +58,7 @@ recipes["results"].each do |recipe|
   recipe_filename = "db/files/recipes/#{recipe["id"]}.json"
   if File.exist?(recipe_filename)
     puts "File exists, using that..."
-    recipe = JSON.parse(File.open(recipe_filename, "r").read)
+    recipe_info = JSON.parse(File.open(recipe_filename, "r").read)
   else
     puts "Fetching recipe from API..."
     recipe_ids_serialized = URI.open(
@@ -71,12 +71,6 @@ recipes["results"].each do |recipe|
       f.write(JSON.pretty_generate(recipe_info))
     end
   end
-  recipe_ids_serialized = URI.open(
-        id_url,
-        "x-rapidapi-key" => 'fd2411960bmsh4b56087a6e0b8e1p1a1c6ejsn0af91bca7bfc',
-        "x-rapidapi-host" => 'spoonacular-recipe-food-nutrition-v1.p.rapidapi.com'
-      ).read
-      recipe_info = JSON.parse(recipe_ids_serialized)
 
   # seeding recipes
 
@@ -135,6 +129,33 @@ recipes["results"].each do |recipe|
     end
   end
 end
+
+Recipe.find_by(name: "Red Lentil Soup with Chicken and Turnips")&.update(cuisine: "French", image_url: "https://www.jocooks.com/wp-content/uploads/2020/07/red-lentil-chicken-soup-1-3.jpg")
+
+Recipe.find_by(name: "Asparagus and Pea Soup: Real Convenience Food")&.update(name: "Asparagus and Pea Soup", cuisine: "British", image_url: "https://static01.nyt.com/images/2017/02/28/dining/28COOKING-ROASTASPARAGUS-SOUP1/28COOKING-ROASTASPARAGUS-SOUP1-superJumbo.jpg")
+
+Recipe.find_by(name: "Garlicky Kale")&.update(cuisine: "British", image_url: "https://www.allrecipes.com/thmb/A5OQPKqZ0YzXB5Drz8RCf4Zg-LA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/241074-easy-garlic-kale-DDMFS-4x3-d90afb55e21a4d6bb2da0198b87523da.jpg")
+
+Recipe.find_by(name: "Slow Cooker Beef Stew")&.update(cuisine: "French", image_url: "https://www.cookingclassy.com/wp-content/uploads/2017/10/slow-cooker-beef-stew-13.jpg")
+
+Recipe.find_by(name: "Red Kidney Bean Jambalaya")&.update(cuisine: "American", image_url: "https://www.abbeyskitchen.com/wp-content/uploads/2022/07/Vegan-Jambalay-1.jpg")
+
+Recipe.find_by(name: "Cauliflower, Brown Rice, and Vegetable Fried Rice")&.update(cuisine: "Thai", image_url: "https://www.wellplated.com/wp-content/uploads/2016/06/Pineapple-Healthy-Fried-Rice.jpg")
+
+Recipe.find_by(name: "Quinoa and Chickpea Salad with Sun-Dried Tomatoes and Dried Cherries")&.update(name: "Quinoa and Chickpea Salad", cuisine: "Mediterranean", image_url: "https://www.lastingredient.com/wp-content/uploads/2021/08/quinoa-chickpea-salad5.jpg")
+
+Recipe.find_by(name: "Easy Homemade Rice and Beans")&.update(cuisine: "Latin American", image_url: "https://www.realthekitchenandbeyond.com/wp-content/uploads/2016/10/Rice-and-Beans-Tasty.jpg")
+
+Recipe.find_by(name: "Tuscan White Bean Soup with Olive Oil and Rosemary")&.update(cuisine: "Mediterranean", image_url: "https://www.feastingathome.com/wp-content/uploads/2015/10/ribollita-111.jpg")
+
+Recipe.find_by(name: "Crunchy Brussels Sprouts Side Dish")&.update(cuisine: "American", image_url: "https://www.paleorunningmomma.com/wp-content/uploads/2022/04/smashed-brussels-sprouts-8.jpg")
+
+Recipe.find_by(name: "Slow Cooker: Pork and Garbanzo Beans")&.update(cuisine: "Mediterranean", image_url: "https://food-images.files.bbci.co.uk/food/recipes/pork_and_chickpea_stew_81433_16x9.jpg")
+
+Recipe.find_by(name: "Powerhouse Almond Matcha Superfood Smoothie")&.update(cuisine: "Japanese", image_url: "https://www.totalbodynourishment.com/wp-content/uploads/2016/01/rsz_dollarphotoclub_77758629.jpg")
+
+Recipe.find_by(name: "Broccolini Quinoa Pilaf")&.update(cuisine: "Mediterranean", image_url: "https://www.happyheartedkitchen.com/wp-content/uploads/2015/02/IMG_6176_.jpg")
+
 
 puts "Created #{Recipe.count} recipes, #{Ingredient.count} ingredients and #{RecipeIngredient.count} recipe ingredients."
 

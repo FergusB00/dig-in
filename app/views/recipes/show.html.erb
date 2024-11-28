@@ -7,3 +7,6 @@
 <p><strong>Difficulty: </strong><%= @recipe.difficulty %></p>
 
 <h2><strong>Instructions: </strong><%= @recipe.instructions%></h2>
+
+
+<%= button_to "✅", recipe_meals_path(@recipe), data: {turbo_method: :post} %>

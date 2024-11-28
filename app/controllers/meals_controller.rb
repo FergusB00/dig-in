@@ -1,24 +1,29 @@
 class MealsController < ApplicationController
-  before_action :set_meal, only: [:show]
+  # before_action :set_meal, only: [:show]
 
   def index
     @meals = current_user.meals
   end
 
   def create
-    recipe = Recipe.find(params[:recipe_id])
-    carbon_saving = calculate_carbon_savings(recipe)
-    cost_saving = calculate_cost_savings(recipe)
+    @recipe = Recipe.find(params[:recipe_id])
+    carbon_saving = calculate_carbon_savings(@recipe)
+    cost_saving = calculate_cost_savings(@recipe)
 
-    @meal = Meal.create(
-      recipe_id: recipe,
-      user_id: current_user,
+    @meal = Meal.new(
+      recipe: @recipe,
+      user: current_user,
       cooked: true,
       carbon_saving: carbon_saving,
       cost_saving: cost_saving
     )
 
-    redirect_to profile_path
+    if @meal.save
+      redirect_to profile_path, notice: "#{@meal.recipe.name} Added!"
+    else
+      p @meal.errors.messages
+      render "recipes/show", status: :unprocessable_entity
+    end
   end
 
   private

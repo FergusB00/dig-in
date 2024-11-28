@@ -29,5 +29,7 @@
   <div class="recipe-show-method">
     <h2>Method:</h2>
     <%= simple_format(@recipe.instructions)%>
+    <%= button_to "✅", recipe_meals_path(@recipe), data: {turbo_method: :post} %>
   </div>
 </div>
+

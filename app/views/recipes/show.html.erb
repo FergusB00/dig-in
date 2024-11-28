@@ -13,7 +13,9 @@
       <p class="recipe-show-info"><strong>Difficulty:</strong> <%= @recipe.difficulty %></p>
     </div>
     <div class="recipe-show-add">
-      <i class="fa-regular fa-circle-check fa-2xl"></i>
+      <%= button_to recipe_meals_path(@recipe), data: {turbo_method: :post}, class: "btn" do %>
+        <i class="fa-regular fa-circle-check fa-2xl recipe-show-add"></i>
+      <% end %>
     </div>
   </div>
 
@@ -29,7 +31,5 @@
   <div class="recipe-show-method">
     <h2>Method:</h2>
     <%= simple_format(@recipe.instructions)%>
-    <%= button_to "✅", recipe_meals_path(@recipe), data: {turbo_method: :post} %>
   </div>
 </div>
-

@@ -1,0 +1,54 @@
+<div class="container profile-page">
+  <div class="mt-4">
+    <h1 class="profile-title">PROFILE</h1>
+  </div>
+
+  <div class="profile-card mt-3">
+    <div class="profile-pic-wrapper">
+      <img src="https://yaktribe.games/community/media/placeholder-jpg.84782/full" alt="Profile Picture" class="profile-picture">
+      <div class="profile-page-stats">
+        <div class="per-stat mb-1">
+          <p>Carbon footprint:</p>
+          <h2>30</h2>  <!-- Here will be there @user.carbon_footprint -->
+        </div>
+        <div class="per-stat">
+          <p>Cost savings:</p>
+          <h2>£30.86</h2>  <!-- Here will be there @user.savings -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="divider" >
+
+  <%= render "user_ingredients/modal_profile", user_ingredient: @user_ingredient %>
+
+  <!-- this section should be done with the for each ingredient added -->
+  <div class="profile-page-ingredients-list mt-4">
+    <div class="pp-ingredient-card">
+      <div class="">
+        <i class="fa-solid fa-egg fa-xl"></i>
+      </div>
+      <div class="pp-ingredient-details">
+        <p class="pp-ingredient-name">Eggs</p>
+        <p class="pp-ingredient-quantity">425g</p>
+      </div>
+      <div class="pp-ingredient-price">
+        £3.75
+      </div>
+    </div>
+
+    <div class="pp-ingredient-card">
+      <div class="">
+        <i class="fa-solid fa-cheese fa-xl"></i>
+      </div>
+      <div class="pp-ingredient-details">
+        <p class="pp-ingredient-name">Cheese</p>
+        <p class="pp-ingredient-quantity">50g</p>
+      </div>
+      <div class="pp-ingredient-price">
+        £6.50
+      </div>
+    </div>
+  </div>
+</div>

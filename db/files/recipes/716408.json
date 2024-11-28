@@ -1,0 +1,565 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": true,
+  "dairyFree": false,
+  "veryHealthy": false,
+  "cheap": false,
+  "veryPopular": true,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 8,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 396,
+  "healthScore": 42,
+  "creditsText": "Full Belly Sisters",
+  "license": "CC BY-SA 3.0",
+  "sourceName": "Full Belly Sisters",
+  "pricePerServing": 303.59,
+  "extendedIngredients": [
+    {
+      "id": 10211821,
+      "aisle": "Produce",
+      "image": "bell-pepper-orange.png",
+      "consistency": "SOLID",
+      "name": "bell pepper",
+      "nameClean": "bell pepper",
+      "original": "1 bell pepper",
+      "originalName": "bell pepper",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 10220445,
+      "aisle": "Pasta and Rice",
+      "image": "uncooked-white-rice.png",
+      "consistency": "SOLID",
+      "name": "rice",
+      "nameClean": "cooked rice",
+      "original": "Cooked rice, for serving",
+      "originalName": "Cooked rice, for serving",
+      "amount": 4.0,
+      "unit": "servings",
+      "meta": [
+        "cooked",
+        "for serving"
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 2003,
+      "aisle": "Spices and Seasonings",
+      "image": "basil.jpg",
+      "consistency": "SOLID",
+      "name": "basil",
+      "nameClean": "dried basil",
+      "original": "1 tsp Dried basil",
+      "originalName": "Dried basil",
+      "amount": 1.0,
+      "unit": "tsp",
+      "meta": [
+        "dried"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        }
+      }
+    },
+    {
+      "id": 1019,
+      "aisle": "Cheese",
+      "image": "feta.png",
+      "consistency": "SOLID",
+      "name": "feta cheese",
+      "nameClean": "feta cheese",
+      "original": "2 – 3 oz. of crumbled feta cheese per pound of fish",
+      "originalName": "– 3 oz. of crumbled feta cheese per pound of fish",
+      "amount": 2.0,
+      "unit": "oz",
+      "meta": [
+        "crumbled",
+        "per pound of fish"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "oz",
+          "unitLong": "ounces"
+        },
+        "metric": {
+          "amount": 56.699,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 10115261,
+      "aisle": "Seafood",
+      "image": "fish-fillet.jpg",
+      "consistency": "SOLID",
+      "name": "fish fillets",
+      "nameClean": "fish",
+      "original": "1 lb fish fillets",
+      "originalName": "fish fillets",
+      "amount": 1.0,
+      "unit": "lb",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "lb",
+          "unitLong": "pound"
+        },
+        "metric": {
+          "amount": 453.592,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 4053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "olive oil",
+      "nameClean": "olive oil",
+      "original": "2 Tablespoons olive oil per pound of fish",
+      "originalName": "olive oil per pound of fish",
+      "amount": 2.0,
+      "unit": "Tablespoons",
+      "meta": [
+        "per pound of fish"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 2027,
+      "aisle": "Produce",
+      "image": "oregano.jpg",
+      "consistency": "SOLID",
+      "name": "oregano",
+      "nameClean": "oregano",
+      "original": "1 tsp dried oregano",
+      "originalName": "dried oregano",
+      "amount": 1.0,
+      "unit": "tsp",
+      "meta": [
+        "dried"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        }
+      }
+    },
+    {
+      "id": 1002030,
+      "aisle": "Spices and Seasonings",
+      "image": "pepper.jpg",
+      "consistency": "SOLID",
+      "name": "pepper",
+      "nameClean": "black pepper",
+      "original": "Freshly ground pepper",
+      "originalName": "Freshly ground pepper",
+      "amount": 4.0,
+      "unit": "servings",
+      "meta": [
+        "freshly ground"
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 10011282,
+      "aisle": "Produce",
+      "image": "red-onion.png",
+      "consistency": "SOLID",
+      "name": "onion",
+      "nameClean": "red onion",
+      "original": "1/2 Red onion",
+      "originalName": "Red onion",
+      "amount": 0.5,
+      "unit": "",
+      "meta": [
+        "red"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 1102047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt-and-pepper.jpg",
+      "consistency": "SOLID",
+      "name": "salt & pepper",
+      "nameClean": "salt and pepper",
+      "original": "Salt & pepper",
+      "originalName": "Salt & pepper",
+      "amount": 4.0,
+      "unit": "servings",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 11529,
+      "aisle": "Produce",
+      "image": "tomato.png",
+      "consistency": "SOLID",
+      "name": "tomato",
+      "nameClean": "tomato",
+      "original": "1 tomato",
+      "originalName": "tomato",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 14106,
+      "aisle": "Alcoholic Beverages",
+      "image": "white-wine.jpg",
+      "consistency": "LIQUID",
+      "name": "white wine",
+      "nameClean": "dry white wine",
+      "original": "¼ cup white wine",
+      "originalName": "white wine",
+      "amount": 0.25,
+      "unit": "cup",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 60.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    }
+  ],
+  "id": 716408,
+  "title": "Greek-Style Baked Fish: Fresh, Simple, and Delicious",
+  "readyInMinutes": 30,
+  "servings": 4,
+  "sourceUrl": "https://fullbellysisters.blogspot.com/2012/04/greek-style-baked-fish-fresh-simple-and.html",
+  "image": "https://img.spoonacular.com/recipes/716408-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Greek-Style Baked Fish: Fresh, Simple, and Delicious might be just the <b>Mediterranean</b> recipe you are searching for. For <b>$3.04 per serving</b>, this recipe <b>covers 21%</b> of your daily requirements of vitamins and minerals. One portion of this dish contains roughly <b>28g of protein</b>, <b>12g of fat</b>, and a total of <b>343 calories</b>. This recipe serves 4. Plenty of people made this recipe, and 396 would say it hit the spot. It works well as a main course. Head to the store and pick up pepper, white wine, basil, and a few other things to make it today. From preparation to the plate, this recipe takes roughly <b>30 minutes</b>. It is a good option if you're following a <b>gluten free and pescatarian</b> diet. It is brought to you by fullbellysisters.blogspot.com. Overall, this recipe earns a <b>tremendous spoonacular score of 98%</b>. Similar recipes are <a href=\"https://spoonacular.com/recipes/simple-greek-style-baked-fish-557560\">Simple Greek Style Baked Fish</a>, <a href=\"https://spoonacular.com/recipes/greek-style-baked-fish-526858\">Greek Style Baked Fish</a>, and <a href=\"https://spoonacular.com/recipes/delicious-greek-pastitsio-casserole-style-569500\">Delicious Greek Pastitsio {Casserole-Style}</a>.",
+  "cuisines": [
+    "Mediterranean",
+    "European",
+    "Greek"
+  ],
+  "dishTypes": [
+    "lunch",
+    "main course",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+    "gluten free",
+    "pescatarian"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "<p><span class=\"Apple-style-span\">Preheat the oven to 450 degrees F. Choose an oven-proof baking dish that your fish will fit in without overlapping and spray it with cooking spray.</span></p><p><span class=\"Apple-style-span\">Lay the fish fillets in the baking pan in a single layer, season with salt and pepper, then top the fish with red onion and bell pepper.</span></p><p><span class=\"Apple-style-span\">Sprinkle with dried basil and oregano, the tomato, and the feta cheese, then drizzle the white wine and olive oil over top. Grind some fresh pepper over the top.<br></span></p><p><span class=\"Apple-style-span\">Bake uncovered for about 12 – 15 minutes or until the fish flakes easily with a fork. Squeeze the lemon wedges over the cooked fish, garnish with the fresh basil and/or oregano and serve with hot cooked rice.</span></p>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Preheat the oven to 450 degrees F. Choose an oven-proof baking dish that your fish will fit in without overlapping and spray it with cooking spray.",
+          "ingredients": [
+            {
+              "id": 4679,
+              "name": "cooking spray",
+              "localizedName": "cooking spray",
+              "image": "cooking-spray.png"
+            },
+            {
+              "id": 10115261,
+              "name": "fish",
+              "localizedName": "fish",
+              "image": "fish-fillet.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404646,
+              "name": "baking pan",
+              "localizedName": "baking pan",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/roasting-pan.jpg"
+            },
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg",
+              "temperature": {
+                "number": 450.0,
+                "unit": "Fahrenheit"
+              }
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Lay the fish fillets in the baking pan in a single layer, season with salt and pepper, then top the fish with red onion and bell pepper.",
+          "ingredients": [
+            {
+              "id": 1102047,
+              "name": "salt and pepper",
+              "localizedName": "salt and pepper",
+              "image": "salt-and-pepper.jpg"
+            },
+            {
+              "id": 10115261,
+              "name": "fish fillets",
+              "localizedName": "fish fillets",
+              "image": "fish-fillet.jpg"
+            },
+            {
+              "id": 10211821,
+              "name": "bell pepper",
+              "localizedName": "bell pepper",
+              "image": "bell-pepper-orange.png"
+            },
+            {
+              "id": 10011282,
+              "name": "red onion",
+              "localizedName": "red onion",
+              "image": "red-onion.png"
+            },
+            {
+              "id": 10115261,
+              "name": "fish",
+              "localizedName": "fish",
+              "image": "fish-fillet.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404646,
+              "name": "baking pan",
+              "localizedName": "baking pan",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/roasting-pan.jpg"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Sprinkle with dried basil and oregano, the tomato, and the feta cheese, then drizzle the white wine and olive oil over top. Grind some fresh pepper over the top.",
+          "ingredients": [
+            {
+              "id": 2003,
+              "name": "dried basil",
+              "localizedName": "dried basil",
+              "image": "basil.jpg"
+            },
+            {
+              "id": 1019,
+              "name": "feta cheese",
+              "localizedName": "feta cheese",
+              "image": "feta.png"
+            },
+            {
+              "id": 14106,
+              "name": "white wine",
+              "localizedName": "white wine",
+              "image": "white-wine.jpg"
+            },
+            {
+              "id": 4053,
+              "name": "olive oil",
+              "localizedName": "olive oil",
+              "image": "olive-oil.jpg"
+            },
+            {
+              "id": 2027,
+              "name": "oregano",
+              "localizedName": "oregano",
+              "image": "oregano.jpg"
+            },
+            {
+              "id": 1002030,
+              "name": "pepper",
+              "localizedName": "pepper",
+              "image": "pepper.jpg"
+            },
+            {
+              "id": 11529,
+              "name": "tomato",
+              "localizedName": "tomato",
+              "image": "tomato.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 4,
+          "step": "Bake uncovered for about 12 – 15 minutes or until the fish flakes easily with a fork. Squeeze the lemon wedges over the cooked fish, garnish with the fresh basil and/or oregano and serve with hot cooked rice.",
+          "ingredients": [
+            {
+              "id": 1029150,
+              "name": "lemon wedge",
+              "localizedName": "lemon wedge",
+              "image": "lemon-wedge.png"
+            },
+            {
+              "id": 10220445,
+              "name": "cooked rice",
+              "localizedName": "cooked rice",
+              "image": "uncooked-white-rice.png"
+            },
+            {
+              "id": 2044,
+              "name": "fresh basil",
+              "localizedName": "fresh basil",
+              "image": "fresh-basil.jpg"
+            },
+            {
+              "id": 2027,
+              "name": "oregano",
+              "localizedName": "oregano",
+              "image": "oregano.jpg"
+            },
+            {
+              "id": 10115261,
+              "name": "fish",
+              "localizedName": "fish",
+              "image": "fish-fillet.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            }
+          ],
+          "length": {
+            "number": 15,
+            "unit": "minutes"
+          }
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 96.65253448486328,
+  "spoonacularSourceUrl": "https://spoonacular.com/greek-style-baked-fish-fresh-simple-and-delicious-716408"
+}

@@ -1,0 +1,219 @@
+{
+  "vegetarian": true,
+  "vegan": false,
+  "glutenFree": true,
+  "dairyFree": false,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 4,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 1,
+  "healthScore": 100,
+  "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+  "license": "CC BY 3.0",
+  "sourceName": "Foodista",
+  "pricePerServing": 183.58,
+  "extendedIngredients": [
+    {
+      "id": 11463,
+      "aisle": "Frozen",
+      "image": "spinach-frozen.jpg",
+      "consistency": "SOLID",
+      "name": "spinach",
+      "nameClean": "frozen spinach",
+      "original": "1 package frozen chopped spinach, thawed & drained (10 oz)",
+      "originalName": "package frozen chopped spinach, thawed & drained",
+      "amount": 10.0,
+      "unit": "oz",
+      "meta": [
+        "frozen",
+        "thawed",
+        "drained",
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 10.0,
+          "unitShort": "oz",
+          "unitLong": "ounces"
+        },
+        "metric": {
+          "amount": 283.495,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 11282,
+      "aisle": "Produce",
+      "image": "brown-onion.png",
+      "consistency": "SOLID",
+      "name": "onion",
+      "nameClean": "onion",
+      "original": "cup fresh onion, minced",
+      "originalName": "fresh onion, minced",
+      "amount": 1.0,
+      "unit": "cup",
+      "meta": [
+        "fresh",
+        "minced"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "cup",
+          "unitLong": "cup"
+        },
+        "metric": {
+          "amount": 160.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 1117,
+      "aisle": "Milk, Eggs, Other Dairy",
+      "image": "plain-yogurt.jpg",
+      "consistency": "LIQUID",
+      "name": "lowfat yogurt",
+      "nameClean": "low fat plain yogurt",
+      "original": "2 cups plain lowfat yogurt",
+      "originalName": "plain lowfat yogurt",
+      "amount": 2.0,
+      "unit": "cups",
+      "meta": [
+        "plain"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 490.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 11583,
+      "aisle": "Frozen",
+      "image": "mixed-vegetables.png",
+      "consistency": "SOLID",
+      "name": "vegetables",
+      "nameClean": "mixed vegetables",
+      "original": "Assorted raw vegetables for dipping",
+      "originalName": "Assorted raw vegetables for dipping",
+      "amount": 3.0,
+      "unit": "servings",
+      "meta": [
+        "raw",
+        "assorted",
+        "for dipping"
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 3.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    }
+  ],
+  "id": 664547,
+  "title": "Vegetable Dip",
+  "readyInMinutes": 45,
+  "servings": 3,
+  "sourceUrl": "https://www.foodista.com/recipe/WMHFXKKF/vegetable-dip",
+  "image": "https://img.spoonacular.com/recipes/664547-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Vegetable Dip might be just the hor d'oeuvre you are searching for. This recipe serves 3. Watching your figure? This gluten free, lacto ovo vegetarian, and primal recipe has <b>210 calories</b>, <b>16g of protein</b>, and <b>4g of fat</b> per serving. For <b>$1.84 per serving</b>, this recipe <b>covers 29%</b> of your daily requirements of vitamins and minerals. Only a few people made this recipe, and 1 would say it hit the spot. It is brought to you by Foodista. From preparation to the plate, this recipe takes around <b>45 minutes</b>. It will be a hit at your <b>The Super Bowl</b> event. If you have vegetables, onion, lowfat yogurt, and a few other ingredients on hand, you can make it. Overall, this recipe earns a <b>spectacular spoonacular score of 96%</b>. <a href=\"https://spoonacular.com/recipes/vegetable-dip-407029\">Vegetable Dip</a>, <a href=\"https://spoonacular.com/recipes/italian-vegetable-dip-268772\">Italian Vegetable Dip</a>, and <a href=\"https://spoonacular.com/recipes/roasted-vegetable-dip-444123\">Roasted Vegetable Dip</a> are very similar to this recipe.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "antipasti",
+    "condiment",
+    "starter",
+    "snack",
+    "appetizer",
+    "dip",
+    "antipasto",
+    "hor d'oeuvre",
+    "spread"
+  ],
+  "diets": [
+    "gluten free",
+    "lacto ovo vegetarian",
+    "primal"
+  ],
+  "occasions": [
+    "super bowl"
+  ],
+  "instructions": "<ol><li>In a medium bowl combine all ingredients (except raw vegetables for dipping). Cover and refrigerate until ready to serve. Serve as a dip for raw vegetables. Makes approximately 3 cups.</li></ol>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "In a medium bowl combine all ingredients (except raw vegetables for dipping). Cover and refrigerate until ready to serve.",
+          "ingredients": [
+            {
+              "id": 11583,
+              "name": "vegetable",
+              "localizedName": "vegetable",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/mixed-vegetables.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Serve as a dip for raw vegetables. Makes approximately 3 cups.",
+          "ingredients": [
+            {
+              "id": 11583,
+              "name": "vegetable",
+              "localizedName": "vegetable",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/mixed-vegetables.png"
+            },
+            {
+              "id": 0,
+              "name": "dip",
+              "localizedName": "dip",
+              "image": ""
+            }
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 96.43067932128906,
+  "spoonacularSourceUrl": "https://spoonacular.com/vegetable-dip-664547"
+}

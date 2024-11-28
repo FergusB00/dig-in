@@ -1,1 +1,42 @@
-<h1>All Recipes</h1>
+<div class="recipes-container">
+
+  <!-- Search bar -->
+  <div class="row justify-content-center">
+    <div class="col-sm-8 my-3">
+      <%= form_with url: recipes_path, method: :get, class: "search-form" do %>
+            <div class="search-bar">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <%= text_field_tag :query,
+                    params[:query],
+                    class: "search-input",
+                    placeholder: "Search"
+              %>
+              <%= button_tag(type: 'submit', class: "search-button") do %>
+                <i class="fa-solid fa-list"></i>
+              <% end %>
+            </div>
+          <% end %>
+      </div>
+    </div>
+
+
+  <% @recipes.each do |recipe| %>
+    <div class="recipe-card" data-controller="recipedropdown">
+      <div class="recipe-image">
+        <%= link_to recipe_path(recipe) do %>
+          <%= image_tag recipe.image_url, alt: "Recipe Image" %>
+        <% end %>
+        <button class="recipe-dropdown-button" data-action="click->recipedropdown#toggle">
+          <i class="fa-solid fa-chevron-down fa-2xl"></i>
+        </button>
+      </div>
+
+      <div class="recipe-info" data-recipedropdown-target="content">
+        <h3><%= recipe.name %></h3>
+        <p class="each-recipe-info"><strong>Cuisine:</strong> <%= recipe.cuisine %></p>
+        <p class="each-recipe-info"><strong>Total time:</strong> <%= recipe.cook_time %></p>
+        <p class="each-recipe-info"><strong>Difficulty:</strong> <%= recipe.difficulty.capitalize %></p>
+      </div>
+    </div>
+  <% end %>
+</div>

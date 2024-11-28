@@ -1,0 +1,356 @@
+{
+  "vegetarian": true,
+  "vegan": true,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 7,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 44,
+  "healthScore": 71,
+  "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+  "license": "CC BY 3.0",
+  "sourceName": "Foodista",
+  "pricePerServing": 130.73,
+  "extendedIngredients": [
+    {
+      "id": 9037,
+      "aisle": "Produce",
+      "image": "avocado.jpg",
+      "consistency": "SOLID",
+      "name": "avocado",
+      "nameClean": "avocado",
+      "original": "1 Avocado",
+      "originalName": "Avocado",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 2069,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "balsamic-vinegar.jpg",
+      "consistency": "LIQUID",
+      "name": "balsamic vinegar",
+      "nameClean": "balsamic vinegar",
+      "original": "1 teaspoon Balsamic vinegar",
+      "originalName": "Balsamic vinegar",
+      "amount": 1.0,
+      "unit": "teaspoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        }
+      }
+    },
+    {
+      "id": 1002014,
+      "aisle": "Spices and Seasonings",
+      "image": "ground-cumin.jpg",
+      "consistency": "SOLID",
+      "name": "cumin",
+      "nameClean": "cumin",
+      "original": "1 teaspoon Cumin",
+      "originalName": "Cumin",
+      "amount": 1.0,
+      "unit": "teaspoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        }
+      }
+    },
+    {
+      "id": 11913,
+      "aisle": "Frozen",
+      "image": "corn.png",
+      "consistency": "SOLID",
+      "name": "corn",
+      "nameClean": "frozen corn",
+      "original": "3/4 cup Corn, freshly hulled (You can also use frozen corn, thawed)",
+      "originalName": "Corn, freshly hulled (You can also use frozen corn, thawed)",
+      "amount": 0.75,
+      "unit": "cup",
+      "meta": [
+        "frozen",
+        "hulled",
+        "thawed",
+        "canned",
+        "(You can also use corn, )"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.75,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 123.75,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 11215,
+      "aisle": "Produce",
+      "image": "garlic.png",
+      "consistency": "SOLID",
+      "name": "garlic",
+      "nameClean": "garlic",
+      "original": "1 clove garlic",
+      "originalName": "garlic",
+      "amount": 1.0,
+      "unit": "clove",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "clove",
+          "unitLong": "clove"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "clove",
+          "unitLong": "clove"
+        }
+      }
+    },
+    {
+      "id": 11821,
+      "aisle": "Produce",
+      "image": "red-pepper.jpg",
+      "consistency": "SOLID",
+      "name": "bell pepper",
+      "nameClean": "red pepper",
+      "original": "1/2 medium Red Pepper",
+      "originalName": "Red Pepper",
+      "amount": 0.5,
+      "unit": "medium",
+      "meta": [
+        "red"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "medium",
+          "unitLong": "mediums"
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "medium",
+          "unitLong": "mediums"
+        }
+      }
+    }
+  ],
+  "id": 640062,
+  "title": "Corn Avocado Salsa",
+  "readyInMinutes": 25,
+  "servings": 2,
+  "sourceUrl": "https://www.foodista.com/recipe/BDRS2JZG/corn-avocado-salsa",
+  "image": "https://img.spoonacular.com/recipes/640062-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Corn Avocado Salsa might be just the hor d'oeuvre you are searching for. For <b>$1.31 per serving</b>, this recipe <b>covers 15%</b> of your daily requirements of vitamins and minerals. One portion of this dish contains roughly <b>5g of protein</b>, <b>16g of fat</b>, and a total of <b>237 calories</b>. This recipe serves 2. 44 people have made this recipe and would make it again. This recipe from Foodista requires avocado, balsamic vinegar, cumin, and garlic. A few people really liked this Mexican dish. It is a good option if you're following a <b>gluten free, dairy free, lacto ovo vegetarian, and vegan</b> diet. From preparation to the plate, this recipe takes around <b>25 minutes</b>. With a spoonacular <b>score of 97%</b>, this dish is spectacular. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/avocado-corn-salsa-1329607\">Avocado Corn Salsa</a>, <a href=\"https://spoonacular.com/recipes/avocado-corn-salsa-173978\">Avocado-Corn Salsa</a>, and <a href=\"https://spoonacular.com/recipes/avocado-corn-salsa-1305913\">Avocado-Corn Salsa</a>.",
+  "cuisines": [
+    "Mexican"
+  ],
+  "dishTypes": [
+    "antipasti",
+    "condiment",
+    "starter",
+    "snack",
+    "appetizer",
+    "dip",
+    "antipasto",
+    "hor d'oeuvre",
+    "spread"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free",
+    "lacto ovo vegetarian",
+    "vegan"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "<ol><li>Preheat oven to 375 degrees.</li><li>Spread corn flat on a baking sheet.</li><li>Spray lightly with olive oil spray.</li><li>Roast corn in the oven for about 8-10 minutes. (Be careful not to brown too much or burn.)</li><li>Remove from heat and allow to cool.</li><li>Finely chop red pepper and garlic and mix in a bowl.</li><li>Peel and coarsely chop avocado and add to bowl.</li><li>Add cooled corn.</li><li>Mix in cumin and vinegar and blend well.</li></ol>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Preheat oven to 375 degrees.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Spread corn flat on a baking sheet.Spray lightly with olive oil spray.Roast corn in the oven for about 8-10 minutes. (Be careful not to brown too much or burn.)",
+          "ingredients": [
+            {
+              "id": 1004679,
+              "name": "olive oil spray",
+              "localizedName": "olive oil spray",
+              "image": "cooking-spray.png"
+            },
+            {
+              "id": 0,
+              "name": "spread",
+              "localizedName": "spread",
+              "image": ""
+            },
+            {
+              "id": 11168,
+              "name": "corn",
+              "localizedName": "corn",
+              "image": "corn.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404727,
+              "name": "baking sheet",
+              "localizedName": "baking sheet",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/baking-sheet.jpg"
+            },
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            }
+          ],
+          "length": {
+            "number": 10,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 3,
+          "step": "Remove from heat and allow to cool.Finely chop red pepper and garlic and mix in a bowl.Peel and coarsely chop avocado and add to bowl.",
+          "ingredients": [
+            {
+              "id": 11821,
+              "name": "red pepper",
+              "localizedName": "red pepper",
+              "image": "red-pepper.jpg"
+            },
+            {
+              "id": 9037,
+              "name": "avocado",
+              "localizedName": "avocado",
+              "image": "avocado.jpg"
+            },
+            {
+              "id": 11215,
+              "name": "garlic",
+              "localizedName": "garlic",
+              "image": "garlic.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "step": "Add cooled corn.",
+          "ingredients": [
+            {
+              "id": 11168,
+              "name": "corn",
+              "localizedName": "corn",
+              "image": "corn.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 5,
+          "step": "Mix in cumin and vinegar and blend well.",
+          "ingredients": [
+            {
+              "id": 2053,
+              "name": "vinegar",
+              "localizedName": "vinegar",
+              "image": "vinegar-(white).jpg"
+            },
+            {
+              "id": 1002014,
+              "name": "cumin",
+              "localizedName": "cumin",
+              "image": "ground-cumin.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 97.74263000488281,
+  "spoonacularSourceUrl": "https://spoonacular.com/corn-avocado-salsa-640062"
+}

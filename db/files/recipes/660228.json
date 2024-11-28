@@ -1,0 +1,392 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": true,
+  "dairyFree": false,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 2,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 10,
+  "healthScore": 81,
+  "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+  "license": "CC BY 3.0",
+  "sourceName": "Foodista",
+  "pricePerServing": 105.92,
+  "extendedIngredients": [
+    {
+      "id": 11233,
+      "aisle": "Produce",
+      "image": "kale.jpg",
+      "consistency": "SOLID",
+      "name": "kale leaves",
+      "nameClean": "kale",
+      "original": "2 cups packed kale leaves",
+      "originalName": "packed kale leaves",
+      "amount": 2.0,
+      "unit": "cups",
+      "meta": [
+        "packed"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 42.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 2044,
+      "aisle": "Produce",
+      "image": "fresh-basil.jpg",
+      "consistency": "SOLID",
+      "name": "basil leaves",
+      "nameClean": "fresh basil",
+      "original": "1.5 cups packed basil leaves",
+      "originalName": "packed basil leaves",
+      "amount": 1.5,
+      "unit": "cups",
+      "meta": [
+        "packed"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.5,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 36.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 9152,
+      "aisle": "Produce",
+      "image": "lemon-juice.jpg",
+      "consistency": "LIQUID",
+      "name": "juice of lemon",
+      "nameClean": "lemon juice",
+      "original": "1/2 small lemon, juiced",
+      "originalName": "lemon, juiced",
+      "amount": 0.5,
+      "unit": "",
+      "meta": [
+        "juiced"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 10211215,
+      "aisle": "Produce",
+      "image": "garlic.jpg",
+      "consistency": "SOLID",
+      "name": "garlic cloves",
+      "nameClean": "whole garlic cloves",
+      "original": "3 garlic cloves",
+      "originalName": "garlic cloves",
+      "amount": 3.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 3.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 16112,
+      "aisle": "Ethnic Foods",
+      "image": "miso.jpg",
+      "consistency": "SOLID",
+      "name": "miso paste",
+      "nameClean": "miso",
+      "original": "1 Tbs miso paste",
+      "originalName": "miso paste",
+      "amount": 1.0,
+      "unit": "Tbs",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "Tbs",
+          "unitLong": "Tb"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "Tbs",
+          "unitLong": "Tb"
+        }
+      }
+    },
+    {
+      "id": 1032,
+      "aisle": "Cheese",
+      "image": "parmesan.jpg",
+      "consistency": "SOLID",
+      "name": "parmesan cheese",
+      "nameClean": "grated parmesan cheese",
+      "original": "2 Tbs freshly grated parmesan cheese",
+      "originalName": "freshly grated parmesan cheese",
+      "amount": 2.0,
+      "unit": "Tbs",
+      "meta": [
+        "freshly grated"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "Tbs",
+          "unitLong": "Tbs"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "Tbs",
+          "unitLong": "Tbs"
+        }
+      }
+    },
+    {
+      "id": 10112155,
+      "aisle": "Baking",
+      "image": "walnuts.jpg",
+      "consistency": "SOLID",
+      "name": "walnuts",
+      "nameClean": "walnut pieces",
+      "original": "1/2 Tbs chopped walnuts",
+      "originalName": "chopped walnuts",
+      "amount": 0.5,
+      "unit": "Tbs",
+      "meta": [
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "Tbs",
+          "unitLong": "Tbs"
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "Tbs",
+          "unitLong": "Tbs"
+        }
+      }
+    },
+    {
+      "id": 14412,
+      "aisle": "Beverages",
+      "image": "water.png",
+      "consistency": "LIQUID",
+      "name": "water",
+      "nameClean": "water",
+      "original": "1 Tbs water",
+      "originalName": "water",
+      "amount": 1.0,
+      "unit": "Tbs",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "Tbs",
+          "unitLong": "Tb"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "Tbs",
+          "unitLong": "Tb"
+        }
+      }
+    },
+    {
+      "id": 4053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "olive oil",
+      "nameClean": "olive oil",
+      "original": "1/2 Tbs olive oil",
+      "originalName": "olive oil",
+      "amount": 0.5,
+      "unit": "Tbs",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "Tbs",
+          "unitLong": "Tbs"
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "Tbs",
+          "unitLong": "Tbs"
+        }
+      }
+    }
+  ],
+  "id": 660228,
+  "title": "Skinny Kale Basil Pesto",
+  "readyInMinutes": 45,
+  "servings": 3,
+  "sourceUrl": "https://www.foodista.com/recipe/6K5LNQ7F/skinny-kale-basil-pesto",
+  "image": "https://img.spoonacular.com/recipes/660228-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Skinny Kale Basil Pesto requires about <b>45 minutes</b> from start to finish. For <b>$1.06 per serving</b>, you get a condiment that serves 3. Watching your figure? This gluten free recipe has <b>81 calories</b>, <b>4g of protein</b>, and <b>5g of fat</b> per serving. A few people made this recipe, and 10 would say it hit the spot. It is brought to you by Foodista. A mixture of parmesan cheese, olive oil, walnuts, and a handful of other ingredients are all it takes to make this recipe so delicious. With a spoonacular <b>score of 97%</b>, this dish is great. <a href=\"https://spoonacular.com/recipes/kale-basil-mint-parsley-pesto-1018918\">Kale Basil Mint Parsley Pesto</a>, <a href=\"https://spoonacular.com/recipes/kale-basil-mint-parsley-pesto-1353273\">Kale Basil Mint Parsley Pesto</a>, and <a href=\"https://spoonacular.com/recipes/kale-spinach-and-basil-pesto-baked-pasta-1099896\">Kale, Spinach and Basil Pesto Baked Pasta</a> are very similar to this recipe.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "condiment",
+    "dip",
+    "sauce",
+    "spread"
+  ],
+  "diets": [
+    "gluten free"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "Remove the kale and basil leaves from the stem and rinse.\nRoughly chop the kale leaves so that they fit inside a food processor.\nPlace the kale and basil leaves into a food processor and chop until the leaves turn into small pieces.\nAdd the rest of the ingredients into the food processor and mix until everything is well blended.\nPour out all the ingredients into a dish and enjoy with your favorite dishes!",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Remove the kale and basil leaves from the stem and rinse.",
+          "ingredients": [
+            {
+              "id": 2044,
+              "name": "fresh basil",
+              "localizedName": "fresh basil",
+              "image": "fresh-basil.jpg"
+            },
+            {
+              "id": 11233,
+              "name": "kale",
+              "localizedName": "kale",
+              "image": "kale.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Roughly chop the kale leaves so that they fit inside a food processor.",
+          "ingredients": [
+            {
+              "id": 11233,
+              "name": "kale",
+              "localizedName": "kale",
+              "image": "kale.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404771,
+              "name": "food processor",
+              "localizedName": "food processor",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/food-processor.png"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Place the kale and basil leaves into a food processor and chop until the leaves turn into small pieces.",
+          "ingredients": [
+            {
+              "id": 2044,
+              "name": "fresh basil",
+              "localizedName": "fresh basil",
+              "image": "fresh-basil.jpg"
+            },
+            {
+              "id": 11233,
+              "name": "kale",
+              "localizedName": "kale",
+              "image": "kale.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404771,
+              "name": "food processor",
+              "localizedName": "food processor",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/food-processor.png"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "step": "Add the rest of the ingredients into the food processor and mix until everything is well blended.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+            {
+              "id": 404771,
+              "name": "food processor",
+              "localizedName": "food processor",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/food-processor.png"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "step": "Pour out all the ingredients into a dish and enjoy with your favorite dishes!",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 96.65922546386719,
+  "spoonacularSourceUrl": "https://spoonacular.com/skinny-kale-basil-pesto-660228"
+}

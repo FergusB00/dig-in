@@ -1,0 +1,598 @@
+{
+  "vegetarian": true,
+  "vegan": true,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": false,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 3,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 161,
+  "healthScore": 40,
+  "creditsText": "foodandspice.com",
+  "sourceName": "foodandspice.com",
+  "pricePerServing": 43.68,
+  "extendedIngredients": [
+    {
+      "id": 1032035,
+      "aisle": "Spices and Seasonings",
+      "image": "curry-powder.jpg",
+      "consistency": "SOLID",
+      "name": "asafetida",
+      "nameClean": "asafoetida",
+      "original": "pinch of asafetida",
+      "originalName": "pinch of asafetida",
+      "amount": 1.0,
+      "unit": "pinch",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "pinch",
+          "unitLong": "pinch"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "pinch",
+          "unitLong": "pinch"
+        }
+      }
+    },
+    {
+      "id": 2031,
+      "aisle": "Spices and Seasonings",
+      "image": "chili-powder.jpg",
+      "consistency": "SOLID",
+      "name": "cayenne",
+      "nameClean": "ground cayenne pepper",
+      "original": "1/4 teaspoon cayenne",
+      "originalName": "cayenne",
+      "amount": 0.25,
+      "unit": "teaspoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.25,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 16056,
+      "aisle": "Canned and Jarred",
+      "image": "chickpeas.png",
+      "consistency": "SOLID",
+      "name": "chickpeas",
+      "nameClean": "dried chickpeas",
+      "original": "1 1/4 cups dried chickpeas",
+      "originalName": "dried chickpeas",
+      "amount": 1.25,
+      "unit": "cups",
+      "meta": [
+        "dried"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 250.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 11156,
+      "aisle": "Produce",
+      "image": "fresh-chives.jpg",
+      "consistency": "SOLID",
+      "name": "chives",
+      "nameClean": "chives",
+      "original": "1/4 cup fresh chives, chopped",
+      "originalName": "fresh chives, chopped",
+      "amount": 0.25,
+      "unit": "cup",
+      "meta": [
+        "fresh",
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 10.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 10211216,
+      "aisle": "Produce",
+      "image": "ginger.png",
+      "consistency": "SOLID",
+      "name": "ginger",
+      "nameClean": "fresh ginger",
+      "original": "1-inch piece fresh ginger, chopped",
+      "originalName": "fresh ginger, chopped",
+      "amount": 1.0,
+      "unit": "inch",
+      "meta": [
+        "fresh",
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "inch",
+          "unitLong": "inch"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "inch",
+          "unitLong": "inch"
+        }
+      }
+    },
+    {
+      "id": 10511297,
+      "aisle": "Produce",
+      "image": "parsley.jpg",
+      "consistency": "SOLID",
+      "name": "parsley",
+      "nameClean": "fresh parsley",
+      "original": "1/2 cup fresh parsley or cilantro, chopped",
+      "originalName": "fresh parsley or cilantro, chopped",
+      "amount": 0.5,
+      "unit": "cup",
+      "meta": [
+        "fresh",
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 30.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 11215,
+      "aisle": "Produce",
+      "image": "garlic.png",
+      "consistency": "SOLID",
+      "name": "garlic",
+      "nameClean": "garlic",
+      "original": "2 cloves garlic, chopped",
+      "originalName": "garlic, chopped",
+      "amount": 2.0,
+      "unit": "cloves",
+      "meta": [
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "cloves",
+          "unitLong": "cloves"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "cloves",
+          "unitLong": "cloves"
+        }
+      }
+    },
+    {
+      "id": 1002013,
+      "aisle": "Spices and Seasonings",
+      "image": "ground-coriander.jpg",
+      "consistency": "SOLID",
+      "name": "ground coriander",
+      "nameClean": "ground coriander",
+      "original": "1/2 teaspoon ground coriander",
+      "originalName": "ground coriander",
+      "amount": 0.5,
+      "unit": "teaspoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 1012014,
+      "aisle": "Spices and Seasonings",
+      "image": "ground-cumin.jpg",
+      "consistency": "SOLID",
+      "name": "ground cumin",
+      "nameClean": "ground cumin",
+      "original": "1/2 teaspoon ground cumin",
+      "originalName": "ground cumin",
+      "amount": 0.5,
+      "unit": "teaspoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 1002030,
+      "aisle": "Spices and Seasonings",
+      "image": "pepper.jpg",
+      "consistency": "SOLID",
+      "name": "ground pepper",
+      "nameClean": "black pepper",
+      "original": "fresh ground black pepper to taste",
+      "originalName": "fresh ground black pepper to taste",
+      "amount": 12.0,
+      "unit": "servings",
+      "meta": [
+        "fresh",
+        "black",
+        "to taste"
+      ],
+      "measures": {
+        "us": {
+          "amount": 12.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 12.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 9152,
+      "aisle": "Produce",
+      "image": "lemon-juice.jpg",
+      "consistency": "LIQUID",
+      "name": "juice of lemon",
+      "nameClean": "lemon juice",
+      "original": "juice from 1 lemon",
+      "originalName": "juice from lemon",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 4053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "olive oil",
+      "nameClean": "olive oil",
+      "original": "2 - 3 tablespoons olive oil (or more to achieve your desired consistency",
+      "originalName": "olive oil (or more to achieve your desired consistency",
+      "amount": 2.0,
+      "unit": "tablespoons",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 11819,
+      "aisle": "Produce",
+      "image": "red-chili.jpg",
+      "consistency": "SOLID",
+      "name": "chilies",
+      "nameClean": "chili pepper",
+      "original": "2 fresh green or red chilies, seeded and chopped",
+      "originalName": "fresh green or red chilies, seeded and chopped",
+      "amount": 2.0,
+      "unit": "",
+      "meta": [
+        "fresh",
+        "green",
+        "red",
+        "seeded",
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 1012047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt.jpg",
+      "consistency": "SOLID",
+      "name": "sea salt",
+      "nameClean": "coarse sea salt",
+      "original": "1 teaspoon sea salt, or to taste",
+      "originalName": "sea salt, or to taste",
+      "amount": 1.0,
+      "unit": "teaspoon",
+      "meta": [
+        "to taste"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        }
+      }
+    },
+    {
+      "id": 12698,
+      "aisle": "Health Foods",
+      "image": "tahini-paste.png",
+      "consistency": "SOLID",
+      "name": "tahini",
+      "nameClean": "tahini",
+      "original": "1/4 cup tahini",
+      "originalName": "tahini",
+      "amount": 0.25,
+      "unit": "cup",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 60.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 2043,
+      "aisle": "Spices and Seasonings",
+      "image": "turmeric.jpg",
+      "consistency": "SOLID",
+      "name": "turmeric",
+      "nameClean": "turmeric",
+      "original": "1 teaspoon turmeric",
+      "originalName": "turmeric",
+      "amount": 1.0,
+      "unit": "teaspoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        }
+      }
+    }
+  ],
+  "id": 716195,
+  "title": "Spicy Indian-Style Hummus",
+  "readyInMinutes": 45,
+  "servings": 12,
+  "sourceUrl": "https://www.foodandspice.com/2012/07/spicy-hummus-indian-style.html",
+  "image": "https://img.spoonacular.com/recipes/716195-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "You can never have too many middl eastern recipes, so give Spicy Indian-Style Hummus a try. For <b>44 cents per serving</b>, you get a hor d'oeuvre that serves 12. Watching your figure? This gluten free, dairy free, lacto ovo vegetarian, and vegan recipe has <b>134 calories</b>, <b>5g of protein</b>, and <b>6g of fat</b> per serving. This recipe from foodandspice.blogspot.com has 161 fans. From preparation to the plate, this recipe takes about <b>45 minutes</b>. Head to the store and pick up turmeric, chilies, sea salt, and a few other things to make it today. With a spoonacular <b>score of 96%</b>, this dish is outstanding. Users who liked this recipe also liked <a href=\"https://spoonacular.com/recipes/indian-style-spicy-couscous-647863\">Indian Style Spicy Couscous</a>, <a href=\"https://spoonacular.com/recipes/red-onion-indian-spiced-hummus-217684\">Red onion & Indian-spiced hummus</a>, and <a href=\"https://spoonacular.com/recipes/indian-style-coleslaw-603940\">Indian-Style Coleslaw</a>.",
+  "cuisines": [
+    "Middle Eastern"
+  ],
+  "dishTypes": [
+    "antipasti",
+    "condiment",
+    "starter",
+    "snack",
+    "appetizer",
+    "dip",
+    "antipasto",
+    "hor d'oeuvre",
+    "spread"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free",
+    "lacto ovo vegetarian",
+    "vegan"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "<p>Rinse the chickpeas and soak for 8 hours or overnight covered in several inches of water with a little yogurt whey or lemon juice added.  Drain and rinse, then transfer to a large saucepan.  Cover with several inches of fresh water, bring to a boil, reduce the heat to medium-low and cover.  Simmer for 1 to 1 1/2 hours or until the beans are buttery soft. Drain.In a food processor, combine all of the ingredients and process until you have a thick, smooth paste. You may need to add extra olive oil or a bit of water if you want a thinner paste. Makes 3 cups, nutrition information is based on 1/4 cup serving.</p>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Rinse the chickpeas and soak for 8 hours or overnight covered in several inches of water with a little yogurt whey or lemon juice added.",
+          "ingredients": [
+            {
+              "id": 9152,
+              "name": "lemon juice",
+              "localizedName": "lemon juice",
+              "image": "lemon-juice.jpg"
+            },
+            {
+              "id": 16057,
+              "name": "chickpeas",
+              "localizedName": "chickpeas",
+              "image": "chickpeas.png"
+            },
+            {
+              "id": 1116,
+              "name": "yogurt",
+              "localizedName": "yogurt",
+              "image": "plain-yogurt.jpg"
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            }
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 480,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 2,
+          "step": "Drain and rinse, then transfer to a large saucepan.  Cover with several inches of fresh water, bring to a boil, reduce the heat to medium-low and cover.  Simmer for 1 to 1 1/2 hours or until the beans are buttery soft.",
+          "ingredients": [
+            {
+              "id": 0,
+              "name": "beans",
+              "localizedName": "beans",
+              "image": "kidney-beans.jpg"
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404669,
+              "name": "sauce pan",
+              "localizedName": "sauce pan",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/sauce-pan.jpg"
+            }
+          ],
+          "length": {
+            "number": 120,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 3,
+          "step": "Drain.In a food processor, combine all of the ingredients and process until you have a thick, smooth paste. You may need to add extra olive oil or a bit of water if you want a thinner paste. Makes 3 cups, nutrition information is based on 1/4 cup serving.",
+          "ingredients": [
+            {
+              "id": 4053,
+              "name": "olive oil",
+              "localizedName": "olive oil",
+              "image": "olive-oil.jpg"
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404771,
+              "name": "food processor",
+              "localizedName": "food processor",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/food-processor.png"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 96.7882308959961,
+  "spoonacularSourceUrl": "https://spoonacular.com/spicy-indian-style-hummus-716195"
+}

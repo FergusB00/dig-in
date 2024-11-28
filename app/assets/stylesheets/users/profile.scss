@@ -1,0 +1,126 @@
+.profile-page {
+  margin: 0 auto;
+  padding: 10px;
+  font-family: Aboreto, sans-serif
+}
+
+.profile-title {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  font-family: Aboreto, sans-serif
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+  background-color: #f8ede3;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch
+}
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #ffc6a0;
+  border-radius: 10%;
+  object-fit: cover;
+}
+
+.profile-page-stats {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  width: 100%;
+  gap: 10px;
+}
+
+.per-stat {
+  text-align: center;
+  padding: 10px;
+  background-color: #FDC39F;
+  border-radius: 10px;
+}
+
+.per-stat p {
+  font-size: 14px;
+  margin: 0;
+  color: #4a4a4a;
+}
+
+.per-stat h2 {
+  font-size: 24px;
+  margin: 5px 0 0;
+  font-weight: bold;
+}
+
+.divider {
+  margin: 20px 0;
+  border-top: 3px solid #D1BFAD;
+}
+
+.add-items-button {
+  background-color: #f7f7f7;
+  border: 2px solid #B3EDDB;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.profile-page-ingredients-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.pp-ingredient-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FAE9AD;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pp-ingredient-details {
+  flex-grow: 1;
+  margin-left: 15px;
+}
+
+.pp-ingredient-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.pp-ingredient-quantity {
+  font-size: 14px;
+  margin: 0;
+  color: #555;
+}
+
+.pp-ingredient-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}

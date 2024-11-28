@@ -1,0 +1,448 @@
+{
+  "vegetarian": true,
+  "vegan": true,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 10,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 5,
+  "healthScore": 100,
+  "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+  "license": "CC BY 3.0",
+  "sourceName": "Foodista",
+  "pricePerServing": 246.69,
+  "extendedIngredients": [
+    {
+      "id": 20001,
+      "aisle": "Pasta and Rice",
+      "image": "amaranth.jpg",
+      "consistency": "SOLID",
+      "name": "amaranth",
+      "nameClean": "amaranth",
+      "original": "1/2 cup amaranth",
+      "originalName": "amaranth",
+      "amount": 0.5,
+      "unit": "cup",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 96.5,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 1044053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "basil-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "basil-infused olive oil",
+      "nameClean": "basil oil",
+      "original": "basil-infused olive oil",
+      "originalName": "basil-infused olive oil",
+      "amount": 2.0,
+      "unit": "servings",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 10211821,
+      "aisle": "Produce",
+      "image": "bell-pepper-orange.png",
+      "consistency": "SOLID",
+      "name": "bell pepper",
+      "nameClean": "bell pepper",
+      "original": "pepper",
+      "originalName": "pepper",
+      "amount": 2.0,
+      "unit": "servings",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 11422,
+      "aisle": "Produce",
+      "image": "pumpkin.png",
+      "consistency": "SOLID",
+      "name": "pumpkin",
+      "nameClean": "sugar pumpkin",
+      "original": "1/2 packet diced pumpkin",
+      "originalName": "diced pumpkin",
+      "amount": 0.5,
+      "unit": "packet",
+      "meta": [
+        "diced"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "pkt",
+          "unitLong": "packets"
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "pkt",
+          "unitLong": "packets"
+        }
+      }
+    },
+    {
+      "id": 10011282,
+      "aisle": "Produce",
+      "image": "red-onion.png",
+      "consistency": "SOLID",
+      "name": "onion",
+      "nameClean": "red onion",
+      "original": "1 red onion",
+      "originalName": "red onion",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+        "red"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 11959,
+      "aisle": "Produce",
+      "image": "arugula-or-rocket-salad.jpg",
+      "consistency": "SOLID",
+      "name": "rocket leaves",
+      "nameClean": "arugula",
+      "original": "few rocket leaves",
+      "originalName": "few rocket leaves",
+      "amount": 9.0,
+      "unit": "servings",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 9.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 9.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 2047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt.jpg",
+      "consistency": "SOLID",
+      "name": "herbal salt",
+      "nameClean": "table salt",
+      "original": "herbal salt",
+      "originalName": "herbal salt",
+      "amount": 2.0,
+      "unit": "servings",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 11529,
+      "aisle": "Produce",
+      "image": "tomato.png",
+      "consistency": "SOLID",
+      "name": "punnet baby tomatoes",
+      "nameClean": "tomato",
+      "original": "1/2 punnet (basket) baby tomatoes",
+      "originalName": "punnet (basket) baby tomatoes",
+      "amount": 0.5,
+      "unit": "",
+      "meta": [
+        "(basket)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    }
+  ],
+  "id": 632269,
+  "title": "Amaranth and Roast Veggie Salad",
+  "readyInMinutes": 45,
+  "servings": 2,
+  "sourceUrl": "https://www.foodista.com/recipe/BPXZ2RCY/amaranth-and-roast-veggie-salad",
+  "image": "https://img.spoonacular.com/recipes/632269-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Amaranth and Roast Veggie Salad could be just the <b>gluten free, dairy free, lacto ovo vegetarian, and vegan</b> recipe you've been looking for. This recipe serves 2 and costs $2.47 per serving. This hor d'oeuvre has <b>361 calories</b>, <b>9g of protein</b>, and <b>18g of fat</b> per serving. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. This recipe from Foodista requires amaranth, punnet baby tomatoes, bell pepper, and pumpkin. 5 people have tried and liked this recipe. Overall, this recipe earns an <b>outstanding spoonacular score of 95%</b>. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/mums-roast-veggie-salad-12573\">Mum’s Roast Veggie Salad</a>, <a href=\"https://spoonacular.com/recipes/amaranth-yogurt-parfait-popped-amaranth-parfait-with-fruits-1235383\">amaranth yogurt parfait – popped amaranth parfait with fruits</a>, and <a href=\"https://spoonacular.com/recipes/amaranth-yogurt-parfait-popped-amaranth-parfait-with-fruits-1238997\">amaranth yogurt parfait – popped amaranth parfait with fruits</a>.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "side dish",
+    "antipasti",
+    "salad",
+    "starter",
+    "snack",
+    "appetizer",
+    "antipasto",
+    "hor d'oeuvre"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free",
+    "lacto ovo vegetarian",
+    "vegan"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "<ol><li>Cook the amaranth with about a cup of water until it reaches a sticky consistency</li><li>Cut the onion roughly into chunks</li><li>Add the onion and diced pumpkin to a tinfoil lined baking tray</li><li>Drizzled over the olive oil and sprinkle with the herbal salt and pepper</li><li>Put into a hot oven and roast until the edges of the pumpkin go crispy</li><li>Just before the veggies are done, throw in the baby tomatoes</li><li>Coat the veggies in the cooked amaranth</li><li>Tear a few rocket leaves</li><li>Toss together and there you have it, an unusual roast veggie salad!</li><li>Serve warm</li></ol>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Cook the amaranth with about a cup of water until it reaches a sticky consistency",
+          "ingredients": [
+            {
+              "id": 20001,
+              "name": "amaranth",
+              "localizedName": "amaranth",
+              "image": "amaranth.jpg"
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Cut the onion roughly into chunks",
+          "ingredients": [
+            {
+              "id": 11282,
+              "name": "onion",
+              "localizedName": "onion",
+              "image": "brown-onion.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Add the onion and diced pumpkin to a tinfoil lined baking tray",
+          "ingredients": [
+            {
+              "id": 11422,
+              "name": "pumpkin",
+              "localizedName": "pumpkin",
+              "image": "pumpkin.png"
+            },
+            {
+              "id": 11282,
+              "name": "onion",
+              "localizedName": "onion",
+              "image": "brown-onion.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404646,
+              "name": "baking pan",
+              "localizedName": "baking pan",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/roasting-pan.jpg"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "step": "Drizzled over the olive oil and sprinkle with the herbal salt and pepper",
+          "ingredients": [
+            {
+              "id": 1102047,
+              "name": "salt and pepper",
+              "localizedName": "salt and pepper",
+              "image": "salt-and-pepper.jpg"
+            },
+            {
+              "id": 4053,
+              "name": "olive oil",
+              "localizedName": "olive oil",
+              "image": "olive-oil.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 5,
+          "step": "Put into a hot oven and roast until the edges of the pumpkin go crispy",
+          "ingredients": [
+            {
+              "id": 11422,
+              "name": "pumpkin",
+              "localizedName": "pumpkin",
+              "image": "pumpkin.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "step": "Just before the veggies are done, throw in the baby tomatoes",
+          "ingredients": [
+            {
+              "id": 11529,
+              "name": "tomato",
+              "localizedName": "tomato",
+              "image": "tomato.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 7,
+          "step": "Coat the veggies in the cooked amaranth",
+          "ingredients": [
+            {
+              "id": 20002,
+              "name": "cooked amaranth",
+              "localizedName": "cooked amaranth",
+              "image": "amaranth.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 8,
+          "step": "Tear a few rocket leaves",
+          "ingredients": [
+            {
+              "id": 11959,
+              "name": "arugula",
+              "localizedName": "arugula",
+              "image": "arugula-or-rocket-salad.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 9,
+          "step": "Toss together and there you have it, an unusual roast veggie salad!",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 10,
+          "step": "Serve warm",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 96.29629516601562,
+  "spoonacularSourceUrl": "https://spoonacular.com/amaranth-and-roast-veggie-salad-632269"
+}

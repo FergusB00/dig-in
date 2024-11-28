@@ -1,0 +1,660 @@
+{
+  "vegetarian": true,
+  "vegan": false,
+  "glutenFree": true,
+  "dairyFree": false,
+  "veryHealthy": false,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 7,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 127,
+  "healthScore": 49,
+  "creditsText": "Jen West",
+  "sourceName": "Pink When",
+  "pricePerServing": 221.91,
+  "extendedIngredients": [
+    {
+      "id": 12061,
+      "aisle": "Nuts",
+      "image": "almonds.jpg",
+      "consistency": "SOLID",
+      "name": "roasted almonds",
+      "nameClean": "almonds",
+      "original": "1 cup roasted almonds",
+      "originalName": "roasted almonds",
+      "amount": 1.0,
+      "unit": "cup",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "cup",
+          "unitLong": "cup"
+        },
+        "metric": {
+          "amount": 143.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 12061,
+      "aisle": "Nuts",
+      "image": "almonds.jpg",
+      "consistency": "SOLID",
+      "name": "almonds",
+      "nameClean": "almonds",
+      "original": "1 tablespoon slice almonds",
+      "originalName": "almonds",
+      "amount": 1.0,
+      "unit": "tablespoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        }
+      }
+    },
+    {
+      "id": 10011959,
+      "aisle": "Produce",
+      "image": "arugula-or-rocket-salad.jpg",
+      "consistency": "SOLID",
+      "name": "baby arugula",
+      "nameClean": "baby arugula",
+      "original": "2 cups baby arugula",
+      "originalName": "baby arugula",
+      "amount": 2.0,
+      "unit": "cups",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 40.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 2044,
+      "aisle": "Produce",
+      "image": "fresh-basil.jpg",
+      "consistency": "SOLID",
+      "name": "basil leaves",
+      "nameClean": "fresh basil",
+      "original": "4 basil leaves",
+      "originalName": "basil leaves",
+      "amount": 4.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 11165,
+      "aisle": "Produce",
+      "image": "cilantro.png",
+      "consistency": "SOLID",
+      "name": "cilantro",
+      "nameClean": "cilantro",
+      "original": "½ cup cilantro",
+      "originalName": "cilantro",
+      "amount": 0.5,
+      "unit": "cup",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 8.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 1034053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "extra virgin olive oil",
+      "nameClean": "extra virgin olive oil",
+      "original": "½ cup extra virgin olive oil (more as needed)",
+      "originalName": "extra virgin olive oil (more as needed)",
+      "amount": 0.5,
+      "unit": "cup",
+      "meta": [
+        "as needed",
+        "(more )"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 108.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 11215,
+      "aisle": "Produce",
+      "image": "garlic.png",
+      "consistency": "SOLID",
+      "name": "garlic",
+      "nameClean": "garlic",
+      "original": "3 cloves of garlic",
+      "originalName": "garlic",
+      "amount": 3.0,
+      "unit": "cloves",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "cloves",
+          "unitLong": "cloves"
+        },
+        "metric": {
+          "amount": 3.0,
+          "unitShort": "cloves",
+          "unitLong": "cloves"
+        }
+      }
+    },
+    {
+      "id": 21052,
+      "aisle": "Produce",
+      "image": "mixed-greens-or-mesclun.jpg",
+      "consistency": "SOLID",
+      "name": "micro greens",
+      "nameClean": "mesclun",
+      "original": "1 cup micro greens or sprouts",
+      "originalName": "micro greens or sprouts",
+      "amount": 1.0,
+      "unit": "cup",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "cup",
+          "unitLong": "cup"
+        },
+        "metric": {
+          "amount": 40.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 9156,
+      "aisle": "Produce",
+      "image": "zest-lemon.jpg",
+      "consistency": "SOLID",
+      "name": "lemon zest",
+      "nameClean": "lemon peel",
+      "original": "zest from 1 lemon",
+      "originalName": "zest from lemon",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 12151,
+      "aisle": "Nuts",
+      "image": "pistachios.jpg",
+      "consistency": "SOLID",
+      "name": "pistachios",
+      "nameClean": "pistachio nuts",
+      "original": "½ cup shelled pistachios",
+      "originalName": "shelled pistachios",
+      "amount": 0.5,
+      "unit": "cup",
+      "meta": [
+        "shelled"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 61.5,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 1102047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt-and-pepper.jpg",
+      "consistency": "SOLID",
+      "name": "salt and pepper",
+      "nameClean": "salt and pepper",
+      "original": "salt and black pepper",
+      "originalName": "salt and black pepper",
+      "amount": 6.0,
+      "unit": "servings",
+      "meta": [
+        "black"
+      ],
+      "measures": {
+        "us": {
+          "amount": 6.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 6.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 10011300,
+      "aisle": "Produce",
+      "image": "sugar-snap-peas.jpg",
+      "consistency": "SOLID",
+      "name": "snap peas",
+      "nameClean": "sugar snap peas",
+      "original": "1 pound snap peas",
+      "originalName": "snap peas",
+      "amount": 1.0,
+      "unit": "pound",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "lb",
+          "unitLong": "pound"
+        },
+        "metric": {
+          "amount": 453.592,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 93711,
+      "aisle": "Produce",
+      "image": "yellow-wax-beans.png",
+      "consistency": "SOLID",
+      "name": "wax beans",
+      "nameClean": "wax beans",
+      "original": "1 pound green or wax beans",
+      "originalName": "green or wax beans",
+      "amount": 1.0,
+      "unit": "pound",
+      "meta": [
+        "green"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "lb",
+          "unitLong": "pound"
+        },
+        "metric": {
+          "amount": 453.592,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 1001116,
+      "aisle": "Milk, Eggs, Other Dairy",
+      "image": "plain-yogurt.jpg",
+      "consistency": "LIQUID",
+      "name": "yogurt",
+      "nameClean": "plain yogurt",
+      "original": "½ cup plain yogurt or sour cream",
+      "originalName": "plain yogurt or sour cream",
+      "amount": 0.5,
+      "unit": "cup",
+      "meta": [
+        "plain",
+        "sour"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 122.5,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    }
+  ],
+  "id": 765011,
+  "title": "Snap Pea and Green Bean Salad with Arugula Pesto",
+  "readyInMinutes": 45,
+  "servings": 6,
+  "sourceUrl": "https://www.pinkwhen.com/snap-pea-green-bean-salad-arugula-pesto/",
+  "image": "https://img.spoonacular.com/recipes/765011-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "If you want to add more <b>gluten free, lacto ovo vegetarian, and primal</b> recipes to your recipe box, Snap Pean and Green Bean Salad with Arugula Pesto might be a recipe you should try. This side dish has <b>314 calories</b>, <b>12g of protein</b>, and <b>22g of fat</b> per serving. This recipe serves 6. For <b>$2.22 per serving</b>, this recipe <b>covers 23%</b> of your daily requirements of vitamins and minerals. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. This recipe is liked by 127 foodies and cooks. Head to the store and pick up wax beans, basil leaves, cilantro, and a few other things to make it today. It is brought to you by Pink When. Taking all factors into account, this recipe <b>earns a spoonacular score of 96%</b>, which is amazing. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/snap-peas-and-green-beans-with-arugula-mint-pesto-875123\">Snap Peas and Green Beans with Arugula-Mint Pesto</a>, <a href=\"https://spoonacular.com/recipes/snap-peas-and-green-beans-with-arugula-mint-pesto-1229543\">Snap Peas and Green Beans with Arugula-Mint Pesto</a>, and <a href=\"https://spoonacular.com/recipes/snap-peas-and-green-beans-with-arugula-mint-pesto-1295733\">Snap Peas and Green Beans with Arugula-Mint Pesto</a>.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "side dish"
+  ],
+  "diets": [
+    "gluten free",
+    "lacto ovo vegetarian",
+    "primal"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "Bring a large pot of salted water to a boil.While your water is coming to a boil, prepare your arugula pesto and cilantro cream drizzle.In the bowl of your food processor, add the almonds, pistachios, garlic, lemon zest, baby arugula and basil leaves. Pulse 8-9 times until completely broken up. With the food processor running, slowly pour in the olive oil until the pesto just comes together. Season to taste with salt and black pepper and transfer to a large bowl.In the same food processor bowl (wipe clean if you wish), combine the yogurt and cilantro. Pulse until the two ingredients come together. Season to taste with salt and black pepper and set aside.Have an ice bath ready. Add the snap peas and beans to the boiling water and blanch for about 1 minute and 30 seconds. Drain and transfer immediately to the ice bath to cool down. Drain again once the veggies are cool, and pat them dry. Add the veggies to the bowl with the pesto and toss to coat.Pour the veggies onto a large platter and drizzle with the cilantro cream. Top with micro greens and sliced almonds. Enjoy immediately or place in the refrigerator to chill.",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Bring a large pot of salted water to a boil.While your water is coming to a boil, prepare your arugula pesto and cilantro cream drizzle.In the bowl of your food processor, add the almonds, pistachios, garlic, lemon zest, baby arugula and basil leaves. Pulse 8-9 times until completely broken up. With the food processor running, slowly pour in the olive oil until the pesto just comes together. Season to taste with salt and black pepper and transfer to a large bowl.In the same food processor bowl (wipe clean if you wish), combine the yogurt and cilantro. Pulse until the two ingredients come together. Season to taste with salt and black pepper and set aside.Have an ice bath ready.",
+          "ingredients": [
+            {
+              "id": 1102047,
+              "name": "salt and pepper",
+              "localizedName": "salt and pepper",
+              "image": "salt-and-pepper.jpg"
+            },
+            {
+              "id": 10011959,
+              "name": "baby arugula",
+              "localizedName": "baby arugula",
+              "image": "arugula-or-rocket-salad.jpg"
+            },
+            {
+              "id": 2044,
+              "name": "fresh basil",
+              "localizedName": "fresh basil",
+              "image": "fresh-basil.jpg"
+            },
+            {
+              "id": 9156,
+              "name": "lemon zest",
+              "localizedName": "lemon zest",
+              "image": "zest-lemon.jpg"
+            },
+            {
+              "id": 12151,
+              "name": "pistachio nuts",
+              "localizedName": "pistachio nuts",
+              "image": "pistachios.jpg"
+            },
+            {
+              "id": 4053,
+              "name": "olive oil",
+              "localizedName": "olive oil",
+              "image": "olive-oil.jpg"
+            },
+            {
+              "id": 11165,
+              "name": "cilantro",
+              "localizedName": "cilantro",
+              "image": "cilantro.png"
+            },
+            {
+              "id": 12061,
+              "name": "almonds",
+              "localizedName": "almonds",
+              "image": "almonds.jpg"
+            },
+            {
+              "id": 11959,
+              "name": "arugula",
+              "localizedName": "arugula",
+              "image": "arugula-or-rocket-salad.jpg"
+            },
+            {
+              "id": 11215,
+              "name": "garlic",
+              "localizedName": "garlic",
+              "image": "garlic.png"
+            },
+            {
+              "id": 1116,
+              "name": "yogurt",
+              "localizedName": "yogurt",
+              "image": "plain-yogurt.jpg"
+            },
+            {
+              "id": 1053,
+              "name": "cream",
+              "localizedName": "cream",
+              "image": "fluid-cream.jpg"
+            },
+            {
+              "id": 93698,
+              "name": "pesto",
+              "localizedName": "pesto",
+              "image": "basil-pesto.png"
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            },
+            {
+              "id": 10014412,
+              "name": "ice",
+              "localizedName": "ice",
+              "image": "ice-cubes.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404771,
+              "name": "food processor",
+              "localizedName": "food processor",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/food-processor.png"
+            },
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            },
+            {
+              "id": 404752,
+              "name": "pot",
+              "localizedName": "pot",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/stock-pot.jpg"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Add the snap peas and beans to the boiling water and blanch for about 1 minute and 30 seconds.",
+          "ingredients": [
+            {
+              "id": 10011300,
+              "name": "sugar snap peas",
+              "localizedName": "sugar snap peas",
+              "image": "sugar-snap-peas.jpg"
+            },
+            {
+              "id": 0,
+              "name": "beans",
+              "localizedName": "beans",
+              "image": "kidney-beans.jpg"
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            }
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 1,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 3,
+          "step": "Drain and transfer immediately to the ice bath to cool down.",
+          "ingredients": [
+            {
+              "id": 10014412,
+              "name": "ice",
+              "localizedName": "ice",
+              "image": "ice-cubes.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 4,
+          "step": "Drain again once the veggies are cool, and pat them dry.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 5,
+          "step": "Add the veggies to the bowl with the pesto and toss to coat.",
+          "ingredients": [
+            {
+              "id": 93698,
+              "name": "pesto",
+              "localizedName": "pesto",
+              "image": "basil-pesto.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "step": "Pour the veggies onto a large platter and drizzle with the cilantro cream. Top with micro greens and sliced almonds. Enjoy immediately or place in the refrigerator to chill.",
+          "ingredients": [
+            {
+              "id": 10112061,
+              "name": "sliced almonds",
+              "localizedName": "sliced almonds",
+              "image": "almonds.jpg"
+            },
+            {
+              "id": 11165,
+              "name": "cilantro",
+              "localizedName": "cilantro",
+              "image": "cilantro.png"
+            },
+            {
+              "id": 21052,
+              "name": "greens",
+              "localizedName": "greens",
+              "image": "mixed-greens-or-mesclun.jpg"
+            },
+            {
+              "id": 1053,
+              "name": "cream",
+              "localizedName": "cream",
+              "image": "fluid-cream.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 96.72663116455078,
+  "spoonacularSourceUrl": "https://spoonacular.com/snap-pea-and-green-bean-salad-with-arugula-pesto-765011"
+}

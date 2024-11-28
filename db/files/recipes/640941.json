@@ -1,0 +1,402 @@
+{
+  "vegetarian": true,
+  "vegan": false,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 4,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 26,
+  "healthScore": 100,
+  "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+  "license": "CC BY 3.0",
+  "sourceName": "Foodista",
+  "pricePerServing": 169.38,
+  "extendedIngredients": [
+    {
+      "id": 1002030,
+      "aisle": "Spices and Seasonings",
+      "image": "pepper.jpg",
+      "consistency": "SOLID",
+      "name": "pepper",
+      "nameClean": "black pepper",
+      "original": "¼ tsp black pepper",
+      "originalName": "black pepper",
+      "amount": 0.25,
+      "unit": "tsp",
+      "meta": [
+        "black"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.25,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 11098,
+      "aisle": "Produce",
+      "image": "brussels-sprouts.jpg",
+      "consistency": "SOLID",
+      "name": "brussels sprouts",
+      "nameClean": "brussels sprouts",
+      "original": "800 g Brussels sprouts, trimmed (or 1 kg untrimmed)",
+      "originalName": "Brussels sprouts, trimmed (or 1 kg untrimmed)",
+      "amount": 800.0,
+      "unit": "g",
+      "meta": [
+        "trimmed",
+        "(or 1 kg untrimmed)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.764,
+          "unitShort": "lb",
+          "unitLong": "pounds"
+        },
+        "metric": {
+          "amount": 800.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 1032046,
+      "aisle": "Condiments",
+      "image": "dijon-mustard.jpg",
+      "consistency": "LIQUID",
+      "name": "dijon mustard",
+      "nameClean": "dijon mustard",
+      "original": "1 tsp Dijon mustard",
+      "originalName": "Dijon mustard",
+      "amount": 1.0,
+      "unit": "tsp",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        }
+      }
+    },
+    {
+      "id": 19296,
+      "aisle": "Nut butters, Jams, and Honey",
+      "image": "honey.png",
+      "consistency": "LIQUID",
+      "name": "honey",
+      "nameClean": "honey",
+      "original": "½ tsp of honey",
+      "originalName": "honey",
+      "amount": 0.5,
+      "unit": "tsp",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 4053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "olive oil",
+      "nameClean": "olive oil",
+      "original": "3 Tbs olive oil",
+      "originalName": "olive oil",
+      "amount": 3.0,
+      "unit": "Tbs",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "Tbs",
+          "unitLong": "Tbs"
+        },
+        "metric": {
+          "amount": 3.0,
+          "unitShort": "Tbs",
+          "unitLong": "Tbs"
+        }
+      }
+    },
+    {
+      "id": 1022068,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "red-wine-vinegar.jpg",
+      "consistency": "LIQUID",
+      "name": "red wine vinegar",
+      "nameClean": "red wine vinegar",
+      "original": "2 Tbs red wine vinegar",
+      "originalName": "red wine vinegar",
+      "amount": 2.0,
+      "unit": "Tbs",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "Tbs",
+          "unitLong": "Tbs"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "Tbs",
+          "unitLong": "Tbs"
+        }
+      }
+    },
+    {
+      "id": 12155,
+      "aisle": "Baking",
+      "image": "walnuts.jpg",
+      "consistency": "SOLID",
+      "name": "walnuts",
+      "nameClean": "walnuts",
+      "original": "¼ cup walnuts, toasted, coarsely chopped",
+      "originalName": "walnuts, toasted, coarsely chopped",
+      "amount": 0.25,
+      "unit": "cup",
+      "meta": [
+        "toasted",
+        "coarsely chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 29.25,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    }
+  ],
+  "id": 640941,
+  "title": "Crunchy Brussels Sprouts Side Dish",
+  "readyInMinutes": 30,
+  "servings": 4,
+  "sourceUrl": "https://www.foodista.com/recipe/LKJMG5RP/crunchy-brussels-sprouts",
+  "image": "https://img.spoonacular.com/recipes/640941-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "The recipe Crunchy Brussels Sprouts Side Dish can be made <b>in about 30 minutes</b>. For <b>$1.69 per serving</b>, you get a side dish that serves 4. One serving contains <b>232 calories</b>, <b>8g of protein</b>, and <b>16g of fat</b>. This recipe is liked by 26 foodies and cooks. It is brought to you by Foodista. A mixture of red wine vinegar, walnuts, dijon mustard, and a handful of other ingredients are all it takes to make this recipe so yummy. It is a good option if you're following a <b>gluten free, dairy free, paleolithic, and lacto ovo vegetarian</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 98%</b>. This score is spectacular. Similar recipes include <a href=\"https://spoonacular.com/recipes/side-dish-sundays-cacio-e-pepe-brussels-sprouts-1146819\">Side Dish Sundays: Cacio e Pepe Brussels Sprouts</a>, <a href=\"https://spoonacular.com/recipes/easy-side-dish-roasted-brussels-sprouts-and-grapes-474168\">Easy Side Dish – Roasted Brussels Sprouts and Grapes</a>, and <a href=\"https://spoonacular.com/recipes/side-dish-sundays-cacio-e-pepe-brussels-sprouts-1385177\">Side Dish Sundays: Cacio e Pepe Brussels Sprouts</a>.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "side dish"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free",
+    "paleolithic",
+    "lacto ovo vegetarian",
+    "primal"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "<ol><li>Blanch the Brussels sprouts in boiling water for 6-8 minutes or in a microwave oven in a little water for about 4 minutes. Drain.</li><li>Saute the Brussels sprouts, stirring constantly, until they become golden-brown in color.</li><li>Meanwhile mix the vinegar, mustard, honey and olive oil.</li><li>Add walnuts to the sprouts, stir and combine.  Pour the vinegar dressing over the sprouts, season with pepper. Mix and combine so that each sprout is covered with the dressing.</li><li>Serve warm or cold as a side dish.</li></ol>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Blanch the Brussels sprouts in boiling water for 6-8 minutes or in a microwave oven in a little water for about 4 minutes.",
+          "ingredients": [
+            {
+              "id": 11098,
+              "name": "brussels sprouts",
+              "localizedName": "brussels sprouts",
+              "image": "brussels-sprouts.jpg"
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404762,
+              "name": "microwave",
+              "localizedName": "microwave",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/microwave.jpg"
+            },
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            }
+          ],
+          "length": {
+            "number": 12,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 2,
+          "step": "Drain.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Saute the Brussels sprouts, stirring constantly, until they become golden-brown in color.Meanwhile mix the vinegar, mustard, honey and olive oil.",
+          "ingredients": [
+            {
+              "id": 11098,
+              "name": "brussels sprouts",
+              "localizedName": "brussels sprouts",
+              "image": "brussels-sprouts.jpg"
+            },
+            {
+              "id": 4053,
+              "name": "olive oil",
+              "localizedName": "olive oil",
+              "image": "olive-oil.jpg"
+            },
+            {
+              "id": 2046,
+              "name": "mustard",
+              "localizedName": "mustard",
+              "image": "regular-mustard.jpg"
+            },
+            {
+              "id": 2053,
+              "name": "vinegar",
+              "localizedName": "vinegar",
+              "image": "vinegar-(white).jpg"
+            },
+            {
+              "id": 19296,
+              "name": "honey",
+              "localizedName": "honey",
+              "image": "honey.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 4,
+          "step": "Add walnuts to the sprouts, stir and combine.",
+          "ingredients": [
+            {
+              "id": 11001,
+              "name": "sprouts",
+              "localizedName": "sprouts",
+              "image": "alfalfa-sprouts.png"
+            },
+            {
+              "id": 12155,
+              "name": "walnuts",
+              "localizedName": "walnuts",
+              "image": "walnuts.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 5,
+          "step": "Pour the vinegar dressing over the sprouts, season with pepper.",
+          "ingredients": [
+            {
+              "id": 11001,
+              "name": "sprouts",
+              "localizedName": "sprouts",
+              "image": "alfalfa-sprouts.png"
+            },
+            {
+              "id": 2053,
+              "name": "vinegar",
+              "localizedName": "vinegar",
+              "image": "vinegar-(white).jpg"
+            },
+            {
+              "id": 1002030,
+              "name": "pepper",
+              "localizedName": "pepper",
+              "image": "pepper.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 6,
+          "step": "Mix and combine so that each sprout is covered with the dressing.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 7,
+          "step": "Serve warm or cold as a side dish.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 98.45112609863281,
+  "spoonacularSourceUrl": "https://spoonacular.com/crunchy-brussels-sprouts-side-dish-640941"
+}

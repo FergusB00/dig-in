@@ -12,6 +12,8 @@ Rails.application.routes.draw do
 
   get "/profile", to: "users#profile"
 
-  resources :recipes, only: [ :index, :show ]
+  resources :recipes, only: [ :index, :show ] do
+    resources :meals, only: [:create]
+  end
   resources :user_ingredients, only: [:create]
 end

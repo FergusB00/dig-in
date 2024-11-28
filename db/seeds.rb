@@ -73,10 +73,16 @@ recipes["results"].each do |recipe|
   end
 
   # seeding recipes
+  instruction_steps = []
+  recipe_info["analyzedInstructions"].each do |step|
+    step["steps"].each do |instruction_step|
+    instruction_steps << "#{instruction_step["number"]}. #{instruction_step["step"]}\n\n"
+    end
+  end
 
   new_recipe = {
     name: recipe_info["title"],
-    instructions: recipe_info["instructions"],
+    instructions: instruction_steps.join,
     image_url: recipe_info["image"],
     cook_time: recipe_info["cookingMinutes"],
     difficulty: ["easy", "medium", "hard"].sample

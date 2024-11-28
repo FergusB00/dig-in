@@ -2,7 +2,9 @@
   <% @recipes.each do |recipe| %>
     <div class="recipe-card" data-controller="recipedropdown">
       <div class="recipe-image">
-        <img src="<%= recipe.image_url %>" alt="<%= recipe.name %>" class="img-fluid">
+        <%= link_to recipe_path(recipe) do %>
+          <%= image_tag recipe.image_url, alt: "Recipe Image" %>
+        <% end %>
         <button class="recipe-dropdown-button" data-action="click->recipedropdown#toggle">
           <i class="fa-solid fa-chevron-down fa-2xl"></i>
         </button>

@@ -136,7 +136,7 @@ Recipe.find_by(name: "Asparagus and Pea Soup: Real Convenience Food")&.update(na
 
 Recipe.find_by(name: "Garlicky Kale")&.update(cuisine: "British", image_url: "https://www.allrecipes.com/thmb/A5OQPKqZ0YzXB5Drz8RCf4Zg-LA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/241074-easy-garlic-kale-DDMFS-4x3-d90afb55e21a4d6bb2da0198b87523da.jpg")
 
-Recipe.find_by(name: "Slow Cooker Beef Stew")&.update(cuisine: "French", image_url: "https://www.cookingclassy.com/wp-content/uploads/2017/10/slow-cooker-beef-stew-13.jpg")
+Recipe.find_by(name: "Slow Cooker Beef Stew")&.update(cuisine: "French", image_url: "https://www.southernliving.com/thmb/JkRFMLTdgwNq7nSwygu-mKL-5_Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Slow-Cooker-Beef-Stew-3x4-213-27e9373ecbc443b3a46337a83600fa49.jpg")
 
 Recipe.find_by(name: "Red Kidney Bean Jambalaya")&.update(cuisine: "American", image_url: "https://www.abbeyskitchen.com/wp-content/uploads/2022/07/Vegan-Jambalay-1.jpg")
 

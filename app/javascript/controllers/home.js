@@ -22,9 +22,6 @@ document.addEventListener("DOMContentLoaded", function() {
     slideshowImage.classList.add("fade"); // Add fade effect
   }
 
-
-
-
   // Set the interval to switch images
   setInterval(switchImage, interval);
 

@@ -11,9 +11,17 @@ class RecipesController < ApplicationController
     else
       @recipes = Recipe.all
     end
+
+    # if params[:query].present?
+    #   @recipes.search_by_filter(params[:query])
+    # end
+
     if params[:query].present?
-      @recipes.search_by_filter(params[:query])
+      @recipes = Recipe.search_by_name_and_cuisine(params[:query])
+    else
+      @recipes = Recipe.all
     end
+
   end
 
   def show

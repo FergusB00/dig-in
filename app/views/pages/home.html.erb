@@ -1,2 +1,37 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="home-background">
+
+  <div class="Menu">
+    <%= link_to 'Menu', "" , class: "btn btn-primary" %>
+  </div>
+
+  <!-- title -->
+  <div class="home-title">DIG IN</div>
+
+  <!-- sub-title -->
+  <p class="home-subtitle">
+    <span class="co2">CO<span class="subscript">2</span></span>ok a Meal. Save the Planet
+  </p>
+
+
+
+
+  <!-- SLIDESHOW EXPERIMENT -->
+  <div id="slideshow-container">
+  <img id="slideshow-image" src="<%= asset_path('meals/food1.jpg', class: "small-image") %>" alt="Lovely meals" />
+  </div>
+
+
+    <div class="intro-text">
+          Welcome to Dig In! <br><br>
+      </div>
+      <div class="intro-text">
+          A place for those who love to cook, and care about Mother Earth. <br><br>
+      </div>
+      <div class="intro-text">
+          Wondering what to do with bits in your fridge so they don't go to waste, and enjoy a delicious meal at the same time? <br><br>
+      </div>
+      <div class="intro-text">
+          Dig In has you covered! Log your ingredients, browse recipes tailored for you, select the dish that's caught your eye, and cook! <br><br>
+      </div>
+  </div>
+</div>

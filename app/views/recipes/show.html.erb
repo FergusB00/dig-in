@@ -6,4 +6,4 @@
 <p><strong>Cooking time: </strong><%= @recipe.cook_time %></p>
 <p><strong>Difficulty: </strong><%= @recipe.difficulty %></p>
 
-<h2><strong>Instructions: </strong><%= @recipe.instructions%></h2>
+<h2><strong>Instructions: </strong><%= simple_format(@recipe.instructions)%></h2>

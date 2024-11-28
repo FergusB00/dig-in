@@ -178,9 +178,29 @@ Recipe.find_by(name: "Jade Buddha Salmon Tartare")&.update(cuisine: "Japanese", 
 
 Recipe.find_by(name: "Finger Foods: Frittata Muffins #incredibleEGG")&.update(name: "Frittata Muffins", cuisine: "Spanish", image_url: "https://www.thereciperebel.com/wp-content/uploads/2019/05/mini-frittata-muffins-www.thereciperebel.com-600-13-of-20.jpg")
 
-Recipe.find_by(name: "Spicy Black-Eyed Pea Curry with Swiss Chard and Roasted Eggplant")&.update( cuisine: "Indian", image_url: "https://strengthandsunshine.com/wp-content/uploads/2015/12/Black-Eyed-Pea-Curry-with-Swiss-Chard-Roasted-Eggplant-4.jpg")
+Recipe.find_by(name: "Spicy Black-Eyed Pea Curry with Swiss Chard and Roasted Eggplant")&.update(cuisine: "Indian", image_url: "https://strengthandsunshine.com/wp-content/uploads/2015/12/Black-Eyed-Pea-Curry-with-Swiss-Chard-Roasted-Eggplant-4.jpg")
 
-Recipe.find_by(name: "Moroccan chickpea and lentil stew")&.update( cuisine: "Moroccan", image_url: "https://www.crowdedkitchen.com/wp-content/uploads/2020/08/moroccan-chickpea-lentil-stew.jpg")
+Recipe.find_by(name: "Moroccan chickpea and lentil stew")&.update(cuisine: "Moroccan", image_url: "https://www.crowdedkitchen.com/wp-content/uploads/2020/08/moroccan-chickpea-lentil-stew.jpg")
+
+Recipe.find_by(name: "Strawberry-Mango Quinoa Salad")&.update(cuisine: "Mediterranean", image_url: "https://www.jocooks.com/wp-content/uploads/2014/08/quinoa-salad-1-5.jpg")
+
+Recipe.find_by(name: "Caldo Verde - Portuguese Kale Soup")&.update(cuisine: "Portuguese", image_url: "https://www.oliviascuisine.com/wp-content/uploads/2023/01/caldo-verde.jpg")
+
+Recipe.find_by(name: "Moroccan Couscous and Chickpea Salad")&.update(cuisine: "Moroccan", image_url: "https://www.erinliveswhole.com/wp-content/uploads/2021/07/morrocan-couscous-salad-6.jpg")
+
+Recipe.find_by(name: "Easy Vegetable Beef Soup")&.update(cuisine: "American", image_url: "https://getonmyplate.com/wp-content/uploads/2021/10/vegetable-beef-soup-8.jpg")
+
+Recipe.find_by(name: "Mango Fried Rice")&.update(cuisine: "Thai", image_url: "https://makeitdairyfree.com/wp-content/uploads/2020/06/vegan-mango-fried-rice-2.jpg")
+
+Recipe.find_by(name: "Homemade Guacamole")&.update(cuisine: "Mexican", image_url: "https://www.maricruzavalos.com/wp-content/uploads/2010/09/mexican-authentic-guacamole-recipe.jpg")
+
+Recipe.find_by(name: "Spicy Salad with Kidney Beans, Cheddar, and Nuts")&.update(cuisine: "Mexican", image_url: "https://feelgoodfoodie.net/wp-content/uploads/2023/06/Chopped-Protein-Salad-06.jpg")
+
+Recipe.find_by(name: "Spicy Indian-Style Hummus")&.update(cuisine: "Indian", image_url: "https://cupfulofkale.com/wp-content/uploads/2019/04/Spicy-Piri-Piri-Hummus-2.jpeg")
+
+Recipe.find_by(name: "Roasted Broccoli with Lemon and Garlic")&.update(cuisine: "Mediterranean", image_url: "https://www.bowlofdelicious.com/wp-content/uploads/2019/09/Roasted-Broccoli-with-Garlic-and-Lemon-2.jpg")
+
+Recipe.find_by(name: "Stir Fried Quinoa, Brown Rice and Chicken Breast")&.update(cuisine: "Chinese", image_url: "https://media.self.com/photos/5a1c57547942e16e09b0575b/master/pass/Quinoa-Stir-Fry-Chicken.jpg")
 
 puts "Created #{Recipe.count} recipes, #{Ingredient.count} ingredients and #{RecipeIngredient.count} recipe ingredients."
 

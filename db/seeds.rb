@@ -156,6 +156,31 @@ Recipe.find_by(name: "Powerhouse Almond Matcha Superfood Smoothie")&.update(cuis
 
 Recipe.find_by(name: "Broccolini Quinoa Pilaf")&.update(cuisine: "Mediterranean", image_url: "https://www.happyheartedkitchen.com/wp-content/uploads/2015/02/IMG_6176_.jpg")
 
+Recipe.find_by(name: "Easy To Make Spring Rolls")&.update(cuisine: "Vietnamese", image_url: "https://www.allrecipes.com/thmb/QARzwdQYJx8YWlM0efKAfvPEdTE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/3647841-a4a8dec2b679405783c48c26b6c41db8.jpg")
+
+Recipe.find_by(name: "Farro With Mushrooms and Asparagus")&.update(cuisine: "Italian", image_url: "https://www.twopeasandtheirpod.com/wp-content/uploads/2021/05/Spring-Farro-4.jpg")
+
+Recipe.find_by(name: "Butternut Squash Frittata")&.update(cuisine: "Spanish", image_url: "https://www.onceuponapumpkinrd.com/wp-content/uploads/2019/11/butternut-squash-frittata.jpg")
+
+Recipe.find_by(name: "Herbivoracious' White Bean and Kale Soup")&.update(cuisine: "Italian", image_url: "https://rainbowplantlife.com/wp-content/uploads/2020/01/white-bean-soup-recipe-card-1-of-1.jpg")
+
+Recipe.find_by(name: "Tomato and lentil soup")&.update(cuisine: "Middle Eastern", image_url: "https://feelgoodfoodie.net/wp-content/uploads/2022/04/Tomato-Lentil-Soup-8.jpg")
+
+Recipe.find_by(name: "Swiss Chard Wraps")&.update(cuisine: "Swiss", image_url: "https://images.food52.com/A3oZ0v9HCFh8GlRwOoTNzhA0Vdw=/2016x1344/filters:format(webp)/86eceac4-9780-42b8-be88-25f172234dd6--Asian_Style_Rainbow_Chard_Wraps-05.jpg")
+
+Recipe.find_by(name: "Corn Avocado Salsa")&.update(cuisine: "Mexican", image_url: "https://carlsbadcravings.com/wp-content/uploads/2019/07/avocado-corn-salsa-2d.jpg")
+
+Recipe.find_by(name: "Cheesy Chicken Enchilada Quinoa Casserole")&.update(cuisine: "Mexican", image_url: "https://www.averiecooks.com/wp-content/uploads/2016/01/chickenenchiladaquinoa-10.jpg")
+
+Recipe.find_by(name: "Zesty Green Pea and Jalapeño Pesto Pasta")&.update(cuisine: "Italian", image_url: "https://saltsugarspice.com/wp-content/uploads/2020/03/20200220_155928.jpg")
+
+Recipe.find_by(name: "Jade Buddha Salmon Tartare")&.update(cuisine: "Japanese", image_url: "https://media-cdn2.greatbritishchefs.com/media/hmojt5hm/img11436.jpg")
+
+Recipe.find_by(name: "Finger Foods: Frittata Muffins #incredibleEGG")&.update(name: "Frittata Muffins", cuisine: "Spanish", image_url: "https://www.thereciperebel.com/wp-content/uploads/2019/05/mini-frittata-muffins-www.thereciperebel.com-600-13-of-20.jpg")
+
+Recipe.find_by(name: "Spicy Black-Eyed Pea Curry with Swiss Chard and Roasted Eggplant")&.update( cuisine: "Indian", image_url: "https://strengthandsunshine.com/wp-content/uploads/2015/12/Black-Eyed-Pea-Curry-with-Swiss-Chard-Roasted-Eggplant-4.jpg")
+
+Recipe.find_by(name: "Moroccan chickpea and lentil stew")&.update( cuisine: "Moroccan", image_url: "https://www.crowdedkitchen.com/wp-content/uploads/2020/08/moroccan-chickpea-lentil-stew.jpg")
 
 puts "Created #{Recipe.count} recipes, #{Ingredient.count} ingredients and #{RecipeIngredient.count} recipe ingredients."
 

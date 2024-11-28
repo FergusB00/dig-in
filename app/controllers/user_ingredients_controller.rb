@@ -13,7 +13,6 @@ class UserIngredientsController < ApplicationController
   private
 
   def user_ingredient_params
-    #check if need to add name to user_ingredients schema
     params.require(:user_ingredient).permit(:ingredient_id, :quantity, :unit, :price_in_pence, :expiry_date)
   end
 end

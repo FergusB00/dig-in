@@ -3,7 +3,6 @@ class RecipesController < ApplicationController
 
   def index
     if params[:available_ingredients_only].present?
-      @recipes = Recipe.all
       user_ingredients = current_user.ingredients #change current_user.ingredients to filter user_ingredients by expiry here if needed
       available_recipe_ids = RecipeIngredient.where(ingredient: user_ingredients).pluck(:recipe_id)
 
@@ -17,9 +16,7 @@ class RecipesController < ApplicationController
     # end
 
     if params[:query].present?
-      @recipes = Recipe.search_by_name_and_cuisine(params[:query])
-    else
-      @recipes = Recipe.all
+      @recipes.search_by_name_and_cuisine(params[:query])
     end
 
   end

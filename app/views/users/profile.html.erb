@@ -25,30 +25,19 @@
 
   <!-- this section should be done with the for each ingredient added -->
   <div class="profile-page-ingredients-list mt-4">
-    <div class="pp-ingredient-card">
-      <div class="">
-        <i class="fa-solid fa-egg fa-xl"></i>
+    <% @user.user_ingredients.each do |user_ingredient| %>
+      <div class="pp-ingredient-card">
+        <div class="">
+          <i class="fa-solid fa-egg fa-xl"></i>
+        </div>
+        <div class="pp-ingredient-details">
+          <p class="pp-ingredient-name"><%= user_ingredient.ingredient.name %></p>
+          <p class="pp-ingredient-quantity"><%= user_ingredient.weight_in_grams %>g</p>
+        </div>
+        <div class="pp-ingredient-price">
+          £ <%= (user_ingredient.price_in_pence / 100.to_f).to_d  %>
+        </div>
       </div>
-      <div class="pp-ingredient-details">
-        <p class="pp-ingredient-name">Eggs</p>
-        <p class="pp-ingredient-quantity">425g</p>
-      </div>
-      <div class="pp-ingredient-price">
-        £3.75
-      </div>
-    </div>
-
-    <div class="pp-ingredient-card">
-      <div class="">
-        <i class="fa-solid fa-cheese fa-xl"></i>
-      </div>
-      <div class="pp-ingredient-details">
-        <p class="pp-ingredient-name">Cheese</p>
-        <p class="pp-ingredient-quantity">50g</p>
-      </div>
-      <div class="pp-ingredient-price">
-        £6.50
-      </div>
-    </div>
+    <% end %>
   </div>
 </div>

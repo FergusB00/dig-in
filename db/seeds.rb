@@ -58,7 +58,7 @@ recipes["results"].each do |recipe|
   recipe_filename = "db/files/recipes/#{recipe["id"]}.json"
   if File.exist?(recipe_filename)
     puts "File exists, using that..."
-    recipe = JSON.parse(File.open(recipe_filename, "r").read)
+    recipe_info = JSON.parse(File.open(recipe_filename, "r").read)
   else
     puts "Fetching recipe from API..."
     recipe_ids_serialized = URI.open(
@@ -71,12 +71,6 @@ recipes["results"].each do |recipe|
       f.write(JSON.pretty_generate(recipe_info))
     end
   end
-  recipe_ids_serialized = URI.open(
-        id_url,
-        "x-rapidapi-key" => 'fd2411960bmsh4b56087a6e0b8e1p1a1c6ejsn0af91bca7bfc',
-        "x-rapidapi-host" => 'spoonacular-recipe-food-nutrition-v1.p.rapidapi.com'
-      ).read
-      recipe_info = JSON.parse(recipe_ids_serialized)
 
   # seeding recipes
 
@@ -135,6 +129,78 @@ recipes["results"].each do |recipe|
     end
   end
 end
+
+Recipe.find_by(name: "Red Lentil Soup with Chicken and Turnips")&.update(cuisine: "French", image_url: "https://www.jocooks.com/wp-content/uploads/2020/07/red-lentil-chicken-soup-1-3.jpg")
+
+Recipe.find_by(name: "Asparagus and Pea Soup: Real Convenience Food")&.update(name: "Asparagus and Pea Soup", cuisine: "British", image_url: "https://static01.nyt.com/images/2017/02/28/dining/28COOKING-ROASTASPARAGUS-SOUP1/28COOKING-ROASTASPARAGUS-SOUP1-superJumbo.jpg")
+
+Recipe.find_by(name: "Garlicky Kale")&.update(cuisine: "British", image_url: "https://www.allrecipes.com/thmb/A5OQPKqZ0YzXB5Drz8RCf4Zg-LA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/241074-easy-garlic-kale-DDMFS-4x3-d90afb55e21a4d6bb2da0198b87523da.jpg")
+
+Recipe.find_by(name: "Slow Cooker Beef Stew")&.update(cuisine: "French", image_url: "https://www.southernliving.com/thmb/JkRFMLTdgwNq7nSwygu-mKL-5_Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Slow-Cooker-Beef-Stew-3x4-213-27e9373ecbc443b3a46337a83600fa49.jpg")
+
+Recipe.find_by(name: "Red Kidney Bean Jambalaya")&.update(cuisine: "American", image_url: "https://www.abbeyskitchen.com/wp-content/uploads/2022/07/Vegan-Jambalay-1.jpg")
+
+Recipe.find_by(name: "Cauliflower, Brown Rice, and Vegetable Fried Rice")&.update(cuisine: "Thai", image_url: "https://www.wellplated.com/wp-content/uploads/2016/06/Pineapple-Healthy-Fried-Rice.jpg")
+
+Recipe.find_by(name: "Quinoa and Chickpea Salad with Sun-Dried Tomatoes and Dried Cherries")&.update(name: "Quinoa and Chickpea Salad", cuisine: "Mediterranean", image_url: "https://www.lastingredient.com/wp-content/uploads/2021/08/quinoa-chickpea-salad5.jpg")
+
+Recipe.find_by(name: "Easy Homemade Rice and Beans")&.update(cuisine: "Latin American", image_url: "https://www.realthekitchenandbeyond.com/wp-content/uploads/2016/10/Rice-and-Beans-Tasty.jpg")
+
+Recipe.find_by(name: "Tuscan White Bean Soup with Olive Oil and Rosemary")&.update(cuisine: "Mediterranean", image_url: "https://www.feastingathome.com/wp-content/uploads/2015/10/ribollita-111.jpg")
+
+Recipe.find_by(name: "Crunchy Brussels Sprouts Side Dish")&.update(cuisine: "American", image_url: "https://www.paleorunningmomma.com/wp-content/uploads/2022/04/smashed-brussels-sprouts-8.jpg")
+
+Recipe.find_by(name: "Slow Cooker: Pork and Garbanzo Beans")&.update(cuisine: "Mediterranean", image_url: "https://food-images.files.bbci.co.uk/food/recipes/pork_and_chickpea_stew_81433_16x9.jpg")
+
+Recipe.find_by(name: "Powerhouse Almond Matcha Superfood Smoothie")&.update(cuisine: "Japanese", image_url: "https://www.totalbodynourishment.com/wp-content/uploads/2016/01/rsz_dollarphotoclub_77758629.jpg")
+
+Recipe.find_by(name: "Broccolini Quinoa Pilaf")&.update(cuisine: "Mediterranean", image_url: "https://www.happyheartedkitchen.com/wp-content/uploads/2015/02/IMG_6176_.jpg")
+
+Recipe.find_by(name: "Easy To Make Spring Rolls")&.update(cuisine: "Vietnamese", image_url: "https://www.allrecipes.com/thmb/QARzwdQYJx8YWlM0efKAfvPEdTE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/3647841-a4a8dec2b679405783c48c26b6c41db8.jpg")
+
+Recipe.find_by(name: "Farro With Mushrooms and Asparagus")&.update(cuisine: "Italian", image_url: "https://www.twopeasandtheirpod.com/wp-content/uploads/2021/05/Spring-Farro-4.jpg")
+
+Recipe.find_by(name: "Butternut Squash Frittata")&.update(cuisine: "Spanish", image_url: "https://www.onceuponapumpkinrd.com/wp-content/uploads/2019/11/butternut-squash-frittata.jpg")
+
+Recipe.find_by(name: "Herbivoracious' White Bean and Kale Soup")&.update(cuisine: "Italian", image_url: "https://rainbowplantlife.com/wp-content/uploads/2020/01/white-bean-soup-recipe-card-1-of-1.jpg")
+
+Recipe.find_by(name: "Tomato and lentil soup")&.update(cuisine: "Middle Eastern", image_url: "https://feelgoodfoodie.net/wp-content/uploads/2022/04/Tomato-Lentil-Soup-8.jpg")
+
+Recipe.find_by(name: "Swiss Chard Wraps")&.update(cuisine: "Swiss", image_url: "https://images.food52.com/A3oZ0v9HCFh8GlRwOoTNzhA0Vdw=/2016x1344/filters:format(webp)/86eceac4-9780-42b8-be88-25f172234dd6--Asian_Style_Rainbow_Chard_Wraps-05.jpg")
+
+Recipe.find_by(name: "Corn Avocado Salsa")&.update(cuisine: "Mexican", image_url: "https://carlsbadcravings.com/wp-content/uploads/2019/07/avocado-corn-salsa-2d.jpg")
+
+Recipe.find_by(name: "Cheesy Chicken Enchilada Quinoa Casserole")&.update(cuisine: "Mexican", image_url: "https://www.averiecooks.com/wp-content/uploads/2016/01/chickenenchiladaquinoa-10.jpg")
+
+Recipe.find_by(name: "Zesty Green Pea and Jalapeño Pesto Pasta")&.update(cuisine: "Italian", image_url: "https://saltsugarspice.com/wp-content/uploads/2020/03/20200220_155928.jpg")
+
+Recipe.find_by(name: "Jade Buddha Salmon Tartare")&.update(cuisine: "Japanese", image_url: "https://media-cdn2.greatbritishchefs.com/media/hmojt5hm/img11436.jpg")
+
+Recipe.find_by(name: "Finger Foods: Frittata Muffins #incredibleEGG")&.update(name: "Frittata Muffins", cuisine: "Spanish", image_url: "https://www.thereciperebel.com/wp-content/uploads/2019/05/mini-frittata-muffins-www.thereciperebel.com-600-13-of-20.jpg")
+
+Recipe.find_by(name: "Spicy Black-Eyed Pea Curry with Swiss Chard and Roasted Eggplant")&.update(cuisine: "Indian", image_url: "https://strengthandsunshine.com/wp-content/uploads/2015/12/Black-Eyed-Pea-Curry-with-Swiss-Chard-Roasted-Eggplant-4.jpg")
+
+Recipe.find_by(name: "Moroccan chickpea and lentil stew")&.update(cuisine: "Moroccan", image_url: "https://www.crowdedkitchen.com/wp-content/uploads/2020/08/moroccan-chickpea-lentil-stew.jpg")
+
+Recipe.find_by(name: "Strawberry-Mango Quinoa Salad")&.update(cuisine: "Mediterranean", image_url: "https://www.jocooks.com/wp-content/uploads/2014/08/quinoa-salad-1-5.jpg")
+
+Recipe.find_by(name: "Caldo Verde - Portuguese Kale Soup")&.update(cuisine: "Portuguese", image_url: "https://www.oliviascuisine.com/wp-content/uploads/2023/01/caldo-verde.jpg")
+
+Recipe.find_by(name: "Moroccan Couscous and Chickpea Salad")&.update(cuisine: "Moroccan", image_url: "https://www.erinliveswhole.com/wp-content/uploads/2021/07/morrocan-couscous-salad-6.jpg")
+
+Recipe.find_by(name: "Easy Vegetable Beef Soup")&.update(cuisine: "American", image_url: "https://getonmyplate.com/wp-content/uploads/2021/10/vegetable-beef-soup-8.jpg")
+
+Recipe.find_by(name: "Mango Fried Rice")&.update(cuisine: "Thai", image_url: "https://makeitdairyfree.com/wp-content/uploads/2020/06/vegan-mango-fried-rice-2.jpg")
+
+Recipe.find_by(name: "Homemade Guacamole")&.update(cuisine: "Mexican", image_url: "https://www.maricruzavalos.com/wp-content/uploads/2010/09/mexican-authentic-guacamole-recipe.jpg")
+
+Recipe.find_by(name: "Spicy Salad with Kidney Beans, Cheddar, and Nuts")&.update(cuisine: "Mexican", image_url: "https://feelgoodfoodie.net/wp-content/uploads/2023/06/Chopped-Protein-Salad-06.jpg")
+
+Recipe.find_by(name: "Spicy Indian-Style Hummus")&.update(cuisine: "Indian", image_url: "https://cupfulofkale.com/wp-content/uploads/2019/04/Spicy-Piri-Piri-Hummus-2.jpeg")
+
+Recipe.find_by(name: "Roasted Broccoli with Lemon and Garlic")&.update(cuisine: "Mediterranean", image_url: "https://www.bowlofdelicious.com/wp-content/uploads/2019/09/Roasted-Broccoli-with-Garlic-and-Lemon-2.jpg")
+
+Recipe.find_by(name: "Stir Fried Quinoa, Brown Rice and Chicken Breast")&.update(cuisine: "Chinese", image_url: "https://media.self.com/photos/5a1c57547942e16e09b0575b/master/pass/Quinoa-Stir-Fry-Chicken.jpg")
 
 puts "Created #{Recipe.count} recipes, #{Ingredient.count} ingredients and #{RecipeIngredient.count} recipe ingredients."
 

@@ -4,9 +4,9 @@
   text-align: center;
   background-color: #ffffff;
   border-radius: 10px;
-  padding: 10px;
-  margin: 20px auto;
-  margin-bottom: 0% !important;
+  
+  padding: 0px;
+  margin: 20px auto; /* Centers the content horizontally */
 }
 
 .home-title {
@@ -14,8 +14,8 @@
   font-size: 44px;
   color: #78C5AD;
   font-weight: bold;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-  margin-bottom: 10px;
+  text-shadow: 4px 6px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 0px;
 }
 
 #slideshow-image {
@@ -26,14 +26,24 @@
 }
 
 .intro-text {
-  font-size: 16px;
+  font-size: 18px;
   color: #333;
-  margin: 15px 5px;
+  width: 303;
+  margin: 8px 20px;
+  text-align: left;
+}
+
+.divider-icon-leaf {
+  position: relative;
   text-align: center;
+  width: 24px;
+  height: auto;
+  top: -1px; /* Adjust this value to fine-tune the position */
 }
 
 .home-subtitle {
   font-size: 20px;
+  // color: #D9D9D9
   color: #d2b1b1;
   font-weight: 300;
   text-align: center;

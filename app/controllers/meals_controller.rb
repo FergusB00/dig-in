@@ -19,6 +19,7 @@ class MealsController < ApplicationController
     )
 
     if @meal.save
+      update_user_ingredients_qty(@recipe)
       redirect_to profile_path, notice: "#{@meal.recipe.name} Added!"
     else
       p @meal.errors.messages
@@ -32,10 +33,20 @@ class MealsController < ApplicationController
     @meal = Meal.find(params[:id])
   end
 
+  #carbon for all ingredients in meal, not just user ingredients used in meal
   def calculate_carbon_savings(recipe)
     recipe.recipe_ingredients.sum do |recipeingredient|
-      ingredient = recipeingredient.ingredient
-      ingredient.carbon_per_gram * recipeingredient.weight_in_grams
+      p recipeingredient
+      user_ingredient = current_user.user_ingredients
+                                    .where(ingredient: recipeingredient.ingredient)
+                                    .where('weight_in_grams >= ?', recipeingredient.weight_in_grams)
+                                    .where('expiry_date >= ?', Date.today).order(expiry_date: :desc).first
+      if user_ingredient.nil?
+        0
+      else
+        ingredient = recipeingredient.ingredient
+        p ingredient.carbon_per_gram * user_ingredient.weight_in_grams
+      end
     end
   end
 
@@ -45,6 +56,7 @@ class MealsController < ApplicationController
                                     .where(ingredient: recipeingredient.ingredient)
                                     .where('weight_in_grams >= ?', recipeingredient.weight_in_grams)
                                     .where('expiry_date >= ?', Date.today).order(expiry_date: :desc).first
+      #add if statement so if attribute is nil then will assign random
       if user_ingredient.nil?
         0
       else
@@ -54,12 +66,13 @@ class MealsController < ApplicationController
   end
 
   def update_user_ingredients_qty(recipe)
+    p "updating user recipes"
     recipe.recipe_ingredients.each do |recipeingredient|
       user_ingredient = current_user.user_ingredients
                                     .where(ingredient: recipeingredient.ingredient)
                                     .where('weight_in_grams >= ?', recipeingredient.weight_in_grams)
                                     .where('expiry_date >= ?', Date.today).order(expiry_date: :desc).first
-      user_ingredient.update(weight_in_grams: user_ingredient.weight_in_grams - recipeingredient.weight_in_grams)
+      user_ingredient&.update(weight_in_grams: user_ingredient.weight_in_grams - recipeingredient.weight_in_grams)
     end
   end
 end

@@ -8,12 +8,12 @@
       <img src="https://yaktribe.games/community/media/placeholder-jpg.84782/full" alt="Profile Picture" class="profile-picture">
       <div class="profile-page-stats">
         <div class="per-stat mb-1">
-          <p>Carbon footprint:</p>
-          <h2>30</h2>  <!-- Here will be there @user.carbon_footprint -->
+          <p>Carbon Savings:</p>
+          <h2><%=@total_carbon%> kg</h2>  <!-- Here will be there @user.carbon_footprint -->
         </div>
         <div class="per-stat">
-          <p>Cost savings:</p>
-          <h2>£30.86</h2>  <!-- Here will be there @user.savings -->
+          <p>Cost Savings:</p>
+          <h2>£ <%=@total_saving%></h2>  <!-- Here will be there @user.savings -->
         </div>
       </div>
     </div>
@@ -25,6 +25,7 @@
 
   <!-- this section should be done with the for each ingredient added -->
   <div class="profile-page-ingredients-list mt-4">
+
     <% @user.user_ingredients.each do |user_ingredient| %>
       <div class="pp-ingredient-card">
         <div class="">
@@ -33,6 +34,7 @@
         <div class="pp-ingredient-details">
           <p class="pp-ingredient-name"><%= user_ingredient.ingredient.name %></p>
           <p class="pp-ingredient-quantity"><%= user_ingredient.weight_in_grams %>g</p>
+          <p><%= user_ingredient.expiry_date %></p>
         </div>
         <div class="pp-ingredient-price">
           £ <%= (user_ingredient.price_in_pence / 100.to_f).to_d  %>

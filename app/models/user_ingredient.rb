@@ -5,6 +5,7 @@ class UserIngredient < ApplicationRecord
   validates :quantity, presence: true
   validates :unit, presence: true, inclusion: { in: %w[g kg ml l] }
   validates :price_in_pence, presence: true
+  validates :expiry_date, presence: true
 
   after_create :convert_weight_to_grams
 
@@ -21,6 +22,7 @@ class UserIngredient < ApplicationRecord
                            when "stalks" then quantity * 40
                            else quantity * 20
                            end
+    self.price_per_gram = (price_in_pence / weight_in_grams.to_f).round(0).to_i
     self.save!
   end
 end

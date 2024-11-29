@@ -1,48 +1,39 @@
 <div class="home-background text-center">
-    <!-- Title -->
-    <div class="home-title">DIG IN</div>
-
-    <!-- Subtitle -->
-    <p class="home-subtitle">
-        <span class="co2">Co<span class="subscript"><sub>2</sub></span></span>ok a Meal. Save the Planet
-
-    </p>
+  <!-- Title -->
+  <div class="home-title">DIG IN</div>
+  <!-- Subtitle -->
+  <p class="home-subtitle">
+    <span class="co2">Co<span class="subscript"><sub>2</sub></span></span>ok a Meal. Save the Planet
+  </p>
 </div>
-
 <!-- Food image / Slideshow experiement -->
 <div class="main-pic my-3">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div id="slideshow-container">
-                <img id="slideshow-image" src="<%= asset_path('front_veg_pic.jpg', class: 'small-image') %>" alt="Lovely meals" />
-            </div><br>
-        </div>
+  <div class="row justify-content-center">
+    <div class="col-md-0">
+      <div id="slideshow-container">
+        <img id="slideshow-image" src="<%= asset_path('front_veg_pic_2.jpg', class: 'small-image') %>" alt="Lovely meals" />
+      </div>
     </div>
+  </div>
 </div>
-
-<!-- Page Divider -->
-<div class="d-flex align-items-center justify-content-center my-2">
-    <hr class="flex-grow-1 border-secondary">
-      <%= image_tag "divider_icon_leaf.jpg", alt: "Leaf Icon", class: "mx-3", style: "width: 24px; height; auto;" %>
-    <hr class="flex-grow-1 border-secondary">
-</div>
+<%= render "shared/page_divider" %>
 
 <!-- Intro Text -->
 <div class="intro-text">
-    <div class="row">
-        <div class="col-md-8 mx-auto">
-            <div class="intro-text">
-                Welcome to <strong>Dig In!</strong> <br>
-            </div>
-            <div class="intro-text">
-                A place for those who love to cook, and care about Mother Earth. <br>
-            </div>
-            <div class="intro-text">
-                Wondering what to do with bits in your fridge so they don't go to waste, and enjoy a delicious meal at the same time? <br>
-            </div>
-            <div class="intro-text">
-                Dig In has you covered! Log your ingredients, browse recipes tailored for you, select the dish that's caught your eye, and cook! <br>
-            </div>
-        </div>
+  <div class="row">
+    <div class="col-md-8 mx-auto">
+      <div class="intro-text">
+        Hello, welcome to <strong>Dig In!</strong>
+      </div>
+      <div class="intro-text">
+        Your place if you love to cook, and care about Mother Earth.
+      </div>
+      <div class="intro-text">
+        Wondering what to do with bits in your fridge so they don't go to waste, and enjoy a delicious meal at the same time?
+      </div>
+      <div class="intro-text">
+        Dig In has you covered! Log your ingredients, browse recipes tailored for you, select the dish that's caught your eye, and cook!
+      </div>
     </div>
+  </div>
 </div>

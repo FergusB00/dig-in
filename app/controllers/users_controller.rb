@@ -4,5 +4,8 @@ class UsersController < ApplicationController
     @recipes = current_user.recipes
     @ingredients = current_user.user_ingredients.includes(:ingredient)
     @user_ingredient = UserIngredient.new
+    @meals = current_user.meals
+    @total_carbon = @meals.map { |meal| meal.carbon_saving }.sum / 1000
+    @total_saving = @meals.map { |meal| meal.cost_saving }.sum / 100
   end
 end

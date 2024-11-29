@@ -40,7 +40,7 @@ else
   puts "Fetching recipes from API..."
   recipes_serialized = URI.open(
     url,
-    "x-rapidapi-key" => 'fd2411960bmsh4b56087a6e0b8e1p1a1c6ejsn0af91bca7bfc',
+    "x-rapidapi-key" => ENV['SPOONACULAR_API_KEY'],
     "x-rapidapi-host" => 'spoonacular-recipe-food-nutrition-v1.p.rapidapi.com'
   ).read
   recipes = JSON.parse(recipes_serialized)
@@ -64,7 +64,7 @@ recipes["results"].each do |recipe|
     puts "Fetching recipe from API..."
     recipe_ids_serialized = URI.open(
       id_url,
-      "x-rapidapi-key" => 'fd2411960bmsh4b56087a6e0b8e1p1a1c6ejsn0af91bca7bfc',
+      "x-rapidapi-key" => ENV['SPOONACULAR_API_KEY'],
       "x-rapidapi-host" => 'spoonacular-recipe-food-nutrition-v1.p.rapidapi.com'
     ).read
     recipe_info = JSON.parse(recipe_ids_serialized)

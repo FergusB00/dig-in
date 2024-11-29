@@ -1,0 +1,31 @@
+.footer {
+  background-color: transparent;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-line {
+  width: 90%;
+  height: 1px;
+  background-color: #d9cdc3;
+  margin: 0 auto 15px auto;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-icon {
+  font-size: 24px;
+  color: #D1BFAD;
+  text-decoration: none;
+}
+
+.footer-icon-mid {
+  font-size: 24px;
+  color: #D1BFAD;
+  text-decoration: none;
+  margin-bottom: 3%;
+}

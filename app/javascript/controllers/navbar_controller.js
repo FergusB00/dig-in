@@ -12,6 +12,7 @@ export default class extends Controller {
     if (this.iconTarget.classList.contains("fa-bars")) {
       this.iconTarget.classList.remove("fa-bars");
       this.iconTarget.classList.add("fa-times");
+      console.dir(this.iconTarget.style)
     } else {
       this.iconTarget.classList.remove("fa-times");
       this.iconTarget.classList.add("fa-bars");

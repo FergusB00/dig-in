@@ -9,11 +9,11 @@
       <div class="profile-page-stats">
         <div class="per-stat mb-1">
           <p>Carbon footprint:</p>
-          <h2>30</h2>  <!-- Here will be there @user.carbon_footprint -->
+          <h2><%=@total_carbon%></h2>  <!-- Here will be there @user.carbon_footprint -->
         </div>
         <div class="per-stat">
           <p>Cost savings:</p>
-          <h2>£30.86</h2>  <!-- Here will be there @user.savings -->
+          <h2><%=@total_saving%></h2>  <!-- Here will be there @user.savings -->
         </div>
       </div>
     </div>
@@ -30,11 +30,11 @@
         <i class="fa-solid fa-egg fa-xl"></i>
       </div>
       <div class="pp-ingredient-details">
-        <p class="pp-ingredient-name">Eggs</p>
-        <p class="pp-ingredient-quantity">425g</p>
+        <p class="pp-ingredient-name"><%=@user_ingredient%></p>
+        <p class="pp-ingredient-quantity"><%=@user_ingredient.weight_in_grams%></p>
       </div>
       <div class="pp-ingredient-price">
-        £3.75
+        <%=@user_ingredient.price_in_pence%>
       </div>
     </div>
 

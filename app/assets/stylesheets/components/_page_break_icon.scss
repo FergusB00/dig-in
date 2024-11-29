@@ -1,20 +1,18 @@
-/* Page divider from Figma, with leader */
-
 .page-divider {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px; /* Space between lines and icon */
-  margin: 20px 0; /* Space above and below the divider */
+  gap: 10px;
+  margin: 20px 0;
 }
 
 .page-divider hr {
   flex: 1;
   border: none;
-  border-top: 1px solid #D1BFAD; /* Adjust to match your line color */
+  border-top: 1px solid #D1BFAD;
 }
 
 .page-divider .icon {
-  font-size: 20px; /* Size of the butterfly or replace it with an image */
+  font-size: 20px;
   color: #D1BFAD;
 }

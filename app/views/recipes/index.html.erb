@@ -1,16 +1,17 @@
 <div class="recipes-container">
-
   <!-- Search bar -->
   <div class="row justify-content-center">
-    <div class="col-sm-8 my-3">
-      <%= form_with url: (params[:available_ingredients_only].present? ? recipes_path(available_ingredients_only: true) : recipes_path), method: :get do |form|%>
-        <%= form.search_field :query, data: { controller: "filter"} %>
-        <%= form.submit "🔍" %>
+    <div class="col-sm-8 my-3 search-bar">
+      <%= form_with url: (params[:available_ingredients_only].present? ? recipes_path(available_ingredients_only: true) : recipes_path), method: :get, class: "search-input" do |form|%>
+        <%= form.search_field :query, data: { controller: "filter"}, class: "search-input" %>
+        <%= button_tag class: "search-button", type: "submit" do %>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        <% end %>
       <% end %>
 
       <!-- Dropdown for recipe options -->
       <div class="dropdown">
-        <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown">
+        <button class="dropdown-toggle filter-button" type="button" data-bs-toggle="dropdown">
           <i class="fa-solid fa-list"></i>
         </button>
         <ul class="dropdown-menu">
@@ -22,7 +23,6 @@
           <% end %>
         </ul>
       </div>
-
     </div>
   </div>
 

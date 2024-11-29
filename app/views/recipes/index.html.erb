@@ -1,7 +1,7 @@
 <div class="recipes-container">
   <!-- Search bar -->
   <div class="row justify-content-center">
-    <div class="col-sm-8 my-3 search-bar">
+    <div class="col-sm-8 mt-3 mb-0 search-bar">
       <%= form_with url: (params[:available_ingredients_only].present? ? recipes_path(available_ingredients_only: true) : recipes_path), method: :get, class: "search-input" do |form|%>
         <%= form.search_field :query, data: { controller: "filter"}, class: "search-input" %>
         <%= button_tag class: "search-button", type: "submit" do %>
@@ -25,8 +25,7 @@
       </div>
     </div>
   </div>
-
-
+  <%= render "shared/page_divider"%>
   <% @recipes.each do |recipe| %>
     <div class="recipe-card" data-controller="recipedropdown">
       <div class="recipe-image">
@@ -34,7 +33,7 @@
           <%= image_tag recipe.image_url, alt: "Recipe Image" %>
         <% end %>
         <button class="recipe-dropdown-button" data-action="click->recipedropdown#toggle">
-          <i class="fa-solid fa-chevron-down fa-2xl"></i>
+          <i class="fa-solid fa-chevron-down fa-xl"></i>
         </button>
       </div>
 

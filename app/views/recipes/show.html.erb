@@ -1,8 +1,13 @@
+<%= render "shared/page_divider"%>
 <div class="recipe-show">
   <div class="recipe-show-header">
     <img src="<%= @recipe.image_url %>" alt="<%= @recipe.name %>" class="recipe-image">
+    <div class="back-link-button">
+      <%= link_to recipes_path, class: "back-link" do %>
+        <i class="fa-solid fa-backward fa-md back-icon"></i>
+      <% end %>
+    </div>
   </div>
-
   <div class="recipe-show-name">
     <h2 class="mb-2"><%= @recipe.name %></h2>
   </div>
@@ -10,10 +15,11 @@
     <div>
       <p class="recipe-show-info"><strong>Cuisine:</strong> <%= @recipe.cuisine %></p>
       <p class="recipe-show-info"><strong>Total time:</strong> <%= @recipe.cook_time %></p>
-      <p class="recipe-show-info"><strong>Difficulty:</strong> <%= @recipe.difficulty %></p>
+      <p class="recipe-show-info"><strong>Difficulty:</strong> <%= @recipe.difficulty.capitalize %></p>
     </div>
     <div class="recipe-show-add">
       <%= button_to recipe_meals_path(@recipe), data: {turbo_method: :post}, class: "btn" do %>
+        <p>Click when cooked</p>
         <i class="fa-regular fa-circle-check fa-2xl recipe-show-add"></i>
       <% end %>
     </div>
@@ -23,13 +29,13 @@
     <h2>Ingredients:</h2>
     <ul>
       <% @recipe.ingredients.each do |ingredient| %>
-        <li><%= ingredient.name %></li>
+        <li><%= ingredient.name.capitalize %></li>
       <% end %>
     </ul>
   </div>
 
   <div class="recipe-show-method">
-    <h2>Method:</h2>
+    <h2>Instructions:</h2>
     <%= simple_format(@recipe.instructions)%>
   </div>
 </div>

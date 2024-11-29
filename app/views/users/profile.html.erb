@@ -9,11 +9,11 @@
       <div class="profile-page-stats">
         <div class="per-stat mb-1">
           <p>Carbon footprint:</p>
-          <h2>30</h2>  <!-- Here will be there @user.carbon_footprint -->
+          <h2><%=@total_carbon%></h2>  <!-- Here will be there @user.carbon_footprint -->
         </div>
         <div class="per-stat">
           <p>Cost savings:</p>
-          <h2>£30.86</h2>  <!-- Here will be there @user.savings -->
+          <h2><%=@total_saving%></h2>  <!-- Here will be there @user.savings -->
         </div>
       </div>
     </div>
@@ -25,6 +25,7 @@
 
   <!-- this section should be done with the for each ingredient added -->
   <div class="profile-page-ingredients-list mt-4">
+
     <% @user.user_ingredients.each do |user_ingredient| %>
       <div class="pp-ingredient-card">
         <div class="">

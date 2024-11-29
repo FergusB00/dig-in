@@ -12,36 +12,64 @@
 <!-- Food image / Slideshow experiement -->
 <div class="main-pic my-3">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-0">
             <div id="slideshow-container">
-                <img id="slideshow-image" src="<%= asset_path('front_veg_pic.jpg', class: 'small-image') %>" alt="Lovely meals" />
-            </div><br>
+                <img id="slideshow-image" src="<%= asset_path('front_veg_pic_2.jpg', class: 'small-image') %>" alt="Lovely meals" />
+            </div>
         </div>
     </div>
 </div>
 
+
+
+
+
 <!-- Page Divider -->
-<div class="d-flex align-items-center justify-content-center my-2">
+
+
+<div class="d-flex flex-column align-items-center my-0">
+    <img src="assets/divider_icon_leaf.jpg" alt="Leaf Icon" class="divider-icon-leaf" style="width: 24px; height: auto; display: block;">
+    <hr class="w-100 border-secondary" style="height: 3px; margin: 0;">
+</div>
+
+
+<%# <div class="d-flex flex-column align-items-center my-0">
+    <img src="assets/divider_icon_leaf.jpg" alt="Leaf Icon" class="divider-icon-leaf" style="width: 24px; height: auto;">
+    <hr class="w-100 border-secondary mt-0">
+</div> %>
+
+
+<%# <div class="d-flex align-items-center justify-content-center my-2">
     <hr class="flex-grow-1 border-secondary">
       <%= image_tag "divider_icon_leaf", alt: "Leaf Icon", class: "mx-3", style: "width: 24px; height; auto;" %>
     <hr class="flex-grow-1 border-secondary">
-</div>
+</div> %>
+
+<%# <div class="d-flex align-items-center justify-content-center my-2 position-relative">
+    <hr class="flex-grow-1 border-secondary">
+      <img src="assets/divider_icon_leaf.jpg" alt="Leaf Icon" class="center divider-icon-leaf">
+    <hr class="flex-grow-2 border-secondary align-">
+</div> %>
+
+
+
+
 
 <!-- Intro Text -->
 <div class="intro-text">
     <div class="row">
         <div class="col-md-8 mx-auto">
             <div class="intro-text">
-                Welcome to <strong>Dig In!</strong> <br>
+                Hello, welcome to <strong>Dig In!</strong>
             </div>
             <div class="intro-text">
-                A place for those who love to cook, and care about Mother Earth. <br>
+                Your place if you love to cook, and care about Mother Earth.
             </div>
             <div class="intro-text">
-                Wondering what to do with bits in your fridge so they don't go to waste, and enjoy a delicious meal at the same time? <br>
+                Wondering what to do with bits in your fridge so they don't go to waste, and enjoy a delicious meal at the same time?
             </div>
             <div class="intro-text">
-                Dig In has you covered! Log your ingredients, browse recipes tailored for you, select the dish that's caught your eye, and cook! <br>
+                Dig In has you covered! Log your ingredients, browse recipes tailored for you, select the dish that's caught your eye, and cook!
             </div>
         </div>
     </div>

@@ -24,6 +24,6 @@ class RecipeIngredient < ApplicationRecord
                            when "stalks" then quantity * 40
                            else quantity * 20
                            end
-    self.save!
+    save!
   end
 end

@@ -35,8 +35,12 @@ class MealsController < ApplicationController
   #carbon for all ingredients in meal, not just user ingredients used in meal
   def calculate_carbon_savings(recipe)
     recipe.recipe_ingredients.sum do |recipeingredient|
+      user_ingredient = current_user.user_ingredients
+                                    .where(ingredient: recipeingredient.ingredient)
+                                    .where('weight_in_grams >= ?', recipeingredient.weight_in_grams)
+                                    .where('expiry_date >= ?', Date.today).order(expiry_date: :desc).first
       ingredient = recipeingredient.ingredient
-      ingredient.carbon_per_gram * recipeingredient.weight_in_grams
+      ingredient.carbon_per_gram * user_ingredient.weight_in_grams
     end
   end
 

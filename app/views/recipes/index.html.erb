@@ -2,11 +2,13 @@
 
   <!-- Search bar -->
   <div class="row justify-content-center">
-    <div class="col-sm-8 my-3">
-      <%= form_with url: (params[:available_ingredients_only].present? ? recipes_path(available_ingredients_only: true) : recipes_path), method: :get do |form|%>
-        <%= form.search_field :query, data: { controller: "filter"} %>
-        <%= form.submit "🔍" %>
-      <% end %>
+    <div class="col-sm-8 my-3 d-flex">
+      <div class="search-bar">
+        <%= form_with url: (params[:available_ingredients_only].present? ? recipes_path(available_ingredients_only: true) : recipes_path), method: :get do |form|%>
+          <%= form.search_field :query, data: { controller: "filter"}, class: "search-input" %>
+          <%= form.submit "🔍", class: "search-button" %>
+        <% end %>
+      </div>
 
       <!-- Dropdown for recipe options -->
       <div class="dropdown">

@@ -16,12 +16,14 @@ class RecipeIngredient < ApplicationRecord
                            when "servings" then quantity * 75
                            when "g", "ml" then quantity
                            when "cloves" then quantity * 10
-                           when "tbsps" then quantity * 15
-                           when "tsps" then quantity * 5
+                           when "tbsps", "tbsp" then quantity * 15
+                           when "tsps", "tsp" then quantity * 5
                            when "l", "kg" then quantity * 1000
                            when "dashes" then quantity * 0
+                           when "pkt" then quantity * 500
+                           when "stalks" then quantity * 40
                            else quantity * 20
                            end
-    self.save!
+    save!
   end
 end

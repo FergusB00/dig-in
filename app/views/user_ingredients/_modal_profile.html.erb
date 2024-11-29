@@ -17,7 +17,7 @@
         <%= simple_form_for(user_ingredient) do |f| %>
           <%= f.association :ingredient %>
           <%= f.input :quantity %>
-          <%= f.input :unit %>
+          <%= f.input :unit, collection: %w[g kg ml l] %>
           <%= f.input :price_in_pence %>
           <%= f.input :expiry_date, html5: true %>
           <div class="modal-footer">

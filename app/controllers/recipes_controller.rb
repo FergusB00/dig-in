@@ -4,7 +4,7 @@ class RecipesController < ApplicationController
   def index
     if params[:query].present?
       p "Query is present"
-      @recipes = Recipe.search_by_name_and_cuisine(params[:query])
+      @recipes = Recipe.search_by_name_and_cuisine_and_difficulty(params[:query])
       p @recipes.count
     else
       @recipes = Recipe.all

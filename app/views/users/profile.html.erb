@@ -5,11 +5,10 @@
 
   <div class="profile-card mt-3">
     <div class="profile-pic-wrapper">
-      <img src="https://yaktribe.games/community/media/placeholder-jpg.84782/full" alt="Profile Picture" class="profile-picture">
       <div class="profile-page-stats">
         <div class="per-stat mb-1">
           <p>Carbon Savings:</p>
-          <h2><%=@total_carbon.to_f%> kg CO<span class="subscript"><sub>2</sub></span></h2>
+          <h2><%= number_with_precision(@total_carbon.to_f, precision: 2) %> kg CO<span class="subscript"><sub>2</sub></span></h2>
         </div>
         <div class="per-stat">
           <p>Cost Savings:</p>

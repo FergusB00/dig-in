@@ -9,11 +9,11 @@
       <div class="profile-page-stats">
         <div class="per-stat mb-1">
           <p>Carbon Savings:</p>
-          <h2><%=@total_carbon%> kg</h2>  <!-- Here will be there @user.carbon_footprint -->
+          <h2><%=@total_carbon.to_f%> kg CO<span class="subscript"><sub>2</sub></span></h2>
         </div>
         <div class="per-stat">
           <p>Cost Savings:</p>
-          <h2>£ <%=@total_saving%></h2>  <!-- Here will be there @user.savings -->
+          <h2><%= number_to_currency(@total_saving, unit: "£", precision: 2) %></h2>
         </div>
       </div>
     </div>
@@ -34,10 +34,10 @@
         <div class="pp-ingredient-details">
           <p class="pp-ingredient-name"><%= user_ingredient.ingredient.name %></p>
           <p class="pp-ingredient-quantity"><%= user_ingredient.weight_in_grams %>g</p>
-          <p><%= user_ingredient.expiry_date %></p>
+          <p><%= user_ingredient.expiry_date.strftime("%d/%m/%Y") %></p>
         </div>
         <div class="pp-ingredient-price">
-          £ <%= (user_ingredient.price_in_pence / 100.to_f).to_d  %>
+          <%= number_to_currency(user_ingredient.price_in_pence / 100.to_f, unit: "£", precision: 2) %>
         </div>
       </div>
     <% end %>

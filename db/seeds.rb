@@ -86,7 +86,8 @@ recipes["results"].each do |recipe|
     instructions: instruction_steps.join,
     image_url: recipe_info["image"],
     cook_time: "#{recipe_info["readyInMinutes"]} minutes",
-    difficulty: ["easy", "medium", "hard"].sample
+    difficulty: ["easy", "medium", "hard"].sample,
+    servings: recipe_info["servings"]
   }
 
   recipe = Recipe.create!(new_recipe)

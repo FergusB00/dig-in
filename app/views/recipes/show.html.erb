@@ -26,10 +26,15 @@
   </div>
 
   <div class="recipe-show-ingredients">
-    <h2>Ingredients:</h2>
+    <h2><strong>Ingredients:</strong></h2>
     <ul>
       <% @recipe.ingredients.each do |ingredient| %>
-        <li><%= ingredient.name.capitalize %></li>
+        <div class="individual-ingredient">
+          <li><%= ingredient.name.capitalize %></li>
+          <% if @user_ingredients.include?(ingredient.id) %>
+            <i class="fa-solid fa-check"></i>
+          <% end %>
+        </div>
       <% end %>
     </ul>
   </div>

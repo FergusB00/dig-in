@@ -17,16 +17,10 @@ class RecipesController < ApplicationController
 
       @recipes = @recipes.where(id: available_recipe_ids)
     end
-
-    # if params[:query].present?
-    #   @recipes.search_by_filter(params[:query])
-    # end
-
-
   end
 
   def show
-    @recipe = Recipe.find(params[:id])
+    @user_ingredients = current_user.user_ingredients.pluck(:ingredient_id)
   end
 
   private

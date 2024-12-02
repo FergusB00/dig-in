@@ -54,3 +54,17 @@
 .each-recipe-info {
   margin: 1%;
 }
+
+//EL ADDED FOR RECIPE NAME ON IMAGE CENTRE
+.recipe-name-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: Aboreto, sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: 50px 50px 60px rgba(0,0,0,0.2);
+}

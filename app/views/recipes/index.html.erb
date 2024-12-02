@@ -21,6 +21,11 @@
           <% else %>
             <li><%= link_to "Recipes I can make", recipes_path(available_ingredients_only: true), class: "dropdown-item" %></li>
           <% end %>
+          <% if params[:query] %>
+            <li><%= link_to "Expiry date", recipes_path(order: 'expiry_date', query: params[:query]), class: "dropdown-item" %></li>
+          <% else %>
+            <li><%= link_to "Expiry date", recipes_path(order: 'expiry_date'), class: "dropdown-item" %></li>
+          <% end %>
         </ul>
       </div>
     </div>

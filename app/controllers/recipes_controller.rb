@@ -17,6 +17,10 @@ class RecipesController < ApplicationController
 
       @recipes = @recipes.where(id: available_recipe_ids)
     end
+
+    if params[:order] == 'expiry_date'
+      @recipes = @recipes.order_by_user_expiry_date(current_user.id)
+    end
   end
 
   def show

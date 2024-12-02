@@ -1,35 +1,5 @@
 <div class="recipes-container">
-  <!-- Search bar -->
-  <div class="row justify-content-center">
-    <div class="col-sm-8 mt-3 mb-0 search-bar">
-      <%= form_with url: (params[:available_ingredients_only].present? ? recipes_path(available_ingredients_only: true) : recipes_path), method: :get, class: "search-input" do |form|%>
-        <%= form.search_field :query, data: { controller: "filter"}, class: "search-input" %>
-        <%= button_tag class: "search-button", type: "submit" do %>
-          <i class="fa-solid fa-magnifying-glass"></i>
-        <% end %>
-      <% end %>
-
-      <!-- Dropdown for recipe options -->
-      <div class="dropdown">
-        <button class="dropdown-toggle filter-button" type="button" data-bs-toggle="dropdown">
-          <i class="fa-solid fa-list"></i>
-        </button>
-        <ul class="dropdown-menu">
-          <li><%= link_to "All Recipes", recipes_path, class: "dropdown-item" %></li>
-          <% if params[:query] %>
-            <li><%= link_to "Recipes I can make", recipes_path(available_ingredients_only: true, query: params[:query]), class: "dropdown-item" %></li>
-          <% else %>
-            <li><%= link_to "Recipes I can make", recipes_path(available_ingredients_only: true), class: "dropdown-item" %></li>
-          <% end %>
-          <% if params[:query] %>
-            <li><%= link_to "Expiry date", recipes_path(order: 'expiry_date', query: params[:query]), class: "dropdown-item" %></li>
-          <% else %>
-            <li><%= link_to "Expiry date", recipes_path(order: 'expiry_date'), class: "dropdown-item" %></li>
-          <% end %>
-        </ul>
-      </div>
-    </div>
-  </div>
+  <%= render "shared/search_bar"%>
   <%= render "shared/page_divider"%>
   <% @recipes.each do |recipe| %>
     <div class="recipe-card" data-controller="recipedropdown">

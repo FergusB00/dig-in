@@ -7,7 +7,13 @@ class UserIngredient < ApplicationRecord
   validates :price_in_pence, presence: true
   validates :expiry_date, presence: true
 
+  before_validation :convert_price_to_float
   after_create :convert_weight_to_grams
+
+  def convert_price_to_float
+    self.price_in_pence = (price_in_pounds * 100).to_i
+  end
+
 
   def convert_weight_to_grams
     self.weight_in_grams = case unit.downcase

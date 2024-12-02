@@ -28,7 +28,7 @@ puts "Created #{User.count} users."
 
 # API URL for recipes
 
-url = "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/complexSearch\?offset\=0\&number\=20"
+url = "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/complexSearch\?offset\=0\&number\=80"
 
 # Creating a recipes file
 
@@ -86,7 +86,8 @@ recipes["results"].each do |recipe|
     instructions: instruction_steps.join,
     image_url: recipe_info["image"],
     cook_time: "#{recipe_info["readyInMinutes"]} minutes",
-    difficulty: ["easy", "medium", "hard"].sample
+    difficulty: ["easy", "medium", "hard"].sample,
+    servings: recipe_info["servings"]
   }
 
   recipe = Recipe.create!(new_recipe)
@@ -104,7 +105,52 @@ recipes["results"].each do |recipe|
       "egg" => 4.67,
       "rice" => 4.45,
       "milk" => 3.15,
-      "tomato" => 2.09
+      "tomato" => 2.09,
+      "italian tomato" => 2.09,
+      "avocado" => 0.28,
+      "red pepper" => 0.11,
+      "garlic" => 0.5,
+      "carrot" => 0.38,
+      "onion" => 0.11,
+      "celery" => 0.27,
+      "vegetable stock" => 3.01,
+      "spring onions" => 0.32,
+      "cooked brown rice" => 4.03,
+      "petite peas" => 0.58,
+      "canned tomatoes" => 0.75,
+      "cumin" => 1.04,
+      "black pepper" => 9.1,
+      "olive oil" => 3.06,
+      "table salt" => 0.23,
+      "honey" => 0.34,
+      "dried chickpeas" => 0.4,
+      "kale" => 0.61,
+      "quinoa" => 50.23,
+      "asparagus" => 1.1,
+      "dried porcini mushrooms" => 3.31,
+      "dried white beans" => 1.29,
+      "sun dried tomatoes" => 0.63,
+      "broccoli" => 0.62,
+      "eggplant" => 0.07,
+      "mango" => 1.91,
+      "chicken stock" => 5.04,
+      "cinnamon" => 2.08,
+      "couscous" => 1.32,
+      "parsley" => 0.61,
+      "water" => 0.31,
+      "potato" => 0.29,
+      "habanero chili" => 2.85,
+      "cilantro" => 0.68,
+      "red onion" => 0.11,
+      "almonds" => 1.92,
+      "plain yoghurt" => 3.09,
+      "lemon juice" => 1.55,
+      "lime juice" => 1.55,
+      "shallot" => 0.61,
+      "strawberries" => 0.28,
+      "cauliflower" => 0.61,
+      "salmon fillets" => 7.51,
+      "butternut squash" => 0.27
     }
 
     serving = ingredient["measures"]["metric"]["unitShort"] == "" ? "servings" : ingredient["measures"]["metric"]["unitShort"]
@@ -120,7 +166,7 @@ recipes["results"].each do |recipe|
         )
     else
       puts "Creating new ingredient"
-      carbon_value = carbon_array[ingredient["nameClean"]] || 2.5
+      carbon_value = carbon_array[ingredient["nameClean"]] || 0.95
       new_ingredient = Ingredient.create(
         name: ingredient["nameClean"],
         category: ingredient["aisle"],
@@ -211,7 +257,7 @@ Recipe.find_by(name: "Stir Fried Quinoa, Brown Rice and Chicken Breast")&.update
 
 Recipe.find_by(name: "Amaranth and Roast Veggie Salad")&.update(cuisine: "Mediterranean", image_url: "https://www.deliciousmagazine.co.uk/wp-content/uploads/2018/07/786827-1-eng-GB_squash-and-barley-salad.jpg", difficulty: "medium")
 
-Recipe.find_by(name: "Snap Pea and Green Bean Salad with Arugula Pesto")&.update(cuisine: "Italian", image_url: "https://www.deliciousmagazine.co.uk/wp-content/uploads/2018/07/786827-1-eng-GB_squash-and-barley-salad.jpg", difficulty: "medium")
+Recipe.find_by(name: "Snap Pea and Green Bean Salad with Arugula Pesto")&.update(cuisine: "Italian", difficulty: "medium")
 
 Recipe.find_by(name: "Skinny Kale Basil Pesto")&.update(cuisine: "Italian", image_url: "https://cdn.loveandlemons.com/wp-content/uploads/2021/01/kale-pesto.jpg", difficulty: "easy")
 
@@ -230,40 +276,3 @@ Recipe.find_by(name: "Balsamic & Honey Glazed Salmon with Lemony Asparagus")&.up
 Recipe.find_by(name: "Curried Butternut Squash and Apple Soup")&.update(cuisine: "Indian", image_url: "https://www.aheadofthyme.com/wp-content/uploads/2020/10/butternut-squash-apple-soup.jpg", difficulty: "medium")
 
 puts "Created #{Recipe.count} recipes, #{Ingredient.count} ingredients and #{RecipeIngredient.count} recipe ingredients."
-
-
-# puts "Creating recipes..."
-
-# guacamole = Recipe.create(name: "Guacamole", instructions: "Mash the flesh of ripe avocados with a fork until smooth, then mix in lime juice, diced tomatoes, chopped onions, and fresh cilantro.", cuisine: "Mexican", image_url: "https://www.simplyrecipes.com/thmb/J4kA2m6jKMgkQwZhG-RYpjZBeFQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Guacamole-LEAD-6-2-64cfcca253c8421dad4e3fad830219f6.jpg", cook_time: "30 minutes", difficulty: "easy")
-
-# ratatouille = Recipe.create(name: "Ratatouille", instructions: "Slice zucchini, eggplant, and tomatoes into thin rounds, then layer them in a baking dish with a tomato-based sauce. Drizzle with olive oil, season with herbs like thyme, and bake until tender and golden", cuisine: "French", image_url: "https://www.howtocook.recipes/wp-content/uploads/2021/05/Ratatouille-recipe.jpg", cook_time: "1hr 30 minutes", difficulty: "hard")
-
-# puts "Created #{Recipe.count} recipes."
-
-# puts "Creating ingredients..."
-
-# avocado = Ingredient.create(name: "Avocado", category: "Fruit", carbon_per_gram: 2.5)
-# RecipeIngredient.create(recipe: guacamole, ingredient: avocado, weight_in_grams: 200, quantity: 200, unit: "g")
-
-# tomato = Ingredient.create(name: "Tomato", category: "Vegetable", carbon_per_gram: 0.2)
-# RecipeIngredient.create(recipe: guacamole, ingredient: tomato, weight_in_grams: 50, quantity: 50, unit: "g")
-
-# onion = Ingredient.create(name: "Onion", category: "Vegetable", carbon_per_gram: 0.1)
-# RecipeIngredient.create(recipe: guacamole, ingredient: onion, weight_in_grams: 30, quantity: 30, unit: "g")
-
-# lime = Ingredient.create(name: "Lime", category: "Fruit", carbon_per_gram: 0.3)
-# RecipeIngredient.create(recipe: guacamole, ingredient: lime, weight_in_grams: 20, quantity: 20, unit: "g")
-
-# RecipeIngredient.create(recipe: ratatouille, ingredient: tomato, weight_in_grams: 200, quantity: 200, unit: "g")
-
-# courgette = Ingredient.create(name: "Courgette", category: "Vegetable", carbon_per_gram: 0.15)
-# RecipeIngredient.create(recipe: ratatouille, ingredient: courgette, weight_in_grams: 150, quantity: 150, unit: "g")
-
-# aubergine = Ingredient.create(name: "Aubergine", category: "Vegetable", carbon_per_gram: 0.25)
-# RecipeIngredient.create(recipe: ratatouille, ingredient: aubergine, weight_in_grams: 180, quantity: 180, unit: "g")
-
-# bell_pepper = Ingredient.create(name: "Bell Pepper", category: "Vegetable", carbon_per_gram: 0.3)
-# RecipeIngredient.create(recipe: ratatouille, ingredient: bell_pepper, weight_in_grams: 120, quantity: 120, unit: "g")
-
-# garlic = Ingredient.create(name: "Garlic", category: "Vegetable", carbon_per_gram: 0.1)
-# RecipeIngredient.create(recipe: ratatouille, ingredient: garlic, weight_in_grams: 10, quantity: 10, unit: "g")

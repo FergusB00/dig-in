@@ -16,6 +16,7 @@
       <p class="recipe-show-info"><strong>Cuisine:</strong> <%= @recipe.cuisine %></p>
       <p class="recipe-show-info"><strong>Total time:</strong> <%= @recipe.cook_time %></p>
       <p class="recipe-show-info"><strong>Difficulty:</strong> <%= @recipe.difficulty.capitalize %></p>
+      <p class="recipe-show-info"><strong>Servings:</strong> <%= @recipe.servings %></p>
     </div>
     <div class="recipe-show-add">
       <%= button_to recipe_meals_path(@recipe), data: {turbo_method: :post}, class: "btn" do %>
@@ -25,15 +26,22 @@
     </div>
   </div>
 
+  <!-- Recipe Ingredients -->
   <div class="recipe-show-ingredients">
-    <h2>Ingredients:</h2>
+    <h2><strong>Ingredients:</strong></h2>
     <ul>
       <% @recipe.ingredients.each do |ingredient| %>
-        <li><%= ingredient.name.capitalize %></li>
+        <div class="individual-ingredient">
+          <li><%= ingredient.name.capitalize %></li>
+          <% if @user_ingredients.include?(ingredient.id) %>
+            <i class="fa-solid fa-check"></i>
+          <% end %>
+        </div>
       <% end %>
     </ul>
   </div>
 
+  <!-- Recipe Ingstructions -->
   <div class="recipe-show-method">
     <h2>Instructions:</h2>
     <%= simple_format(@recipe.instructions)%>

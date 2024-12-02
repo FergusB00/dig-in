@@ -8,12 +8,18 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="ingredient">Ingredient</h5>
+        <h4 class="modal-title" id="ingredient">Ingredient</h4>
         <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
+      <h5 class="manual-upload-title">Scan an item</h4>
+      <div data-controller="barcode">
+        <div id="reader" data-barcode-target="reader">
+        </div>
+      </div>
       <div class="modal-body">
+        <h5 class="manual-upload-title">Manual upload</h4>
         <%= simple_form_for(user_ingredient) do |f| %>
           <%= f.association :ingredient %>
           <%= f.input :quantity %>

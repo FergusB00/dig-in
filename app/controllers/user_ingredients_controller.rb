@@ -13,6 +13,6 @@ class UserIngredientsController < ApplicationController
   private
 
   def user_ingredient_params
-    params.require(:user_ingredient).permit(:ingredient_id, :quantity, :unit, :price_in_pence, :expiry_date)
+    params.require(:user_ingredient).permit(:ingredient_id, :quantity, :unit, :price_in_pounds, :expiry_date)
   end
 end

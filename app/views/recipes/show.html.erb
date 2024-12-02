@@ -1,12 +1,10 @@
+<%= link_to recipes_path, class: "back-link" do %>
+  <i class="fa-solid fa-angles-left fa-lg back-icon"></i>
+<% end %>
 <%= render "shared/page_divider"%>
 <div class="recipe-show">
   <div class="recipe-show-header">
     <img src="<%= @recipe.image_url %>" alt="<%= @recipe.name %>" class="recipe-image">
-    <div class="back-link-button">
-      <%= link_to recipes_path, class: "back-link" do %>
-        <i class="fa-solid fa-backward fa-md back-icon"></i>
-      <% end %>
-    </div>
   </div>
   <div class="recipe-show-name">
     <h2 class="mb-2"><%= @recipe.name %></h2>

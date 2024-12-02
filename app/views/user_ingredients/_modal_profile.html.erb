@@ -15,7 +15,8 @@
         <%= simple_form_for(user_ingredient, html: { class: "user-ingredient-form" }) do |f| %>
           <div class="form-group" >
             <label for="ingredient-name">Ingredient:</label>
-            <%= f.association :ingredient, collection: Ingredient.all, label: false, placeholder: "Enter your ingredient", class: "user-ingredient-form-control", input_html: {data: {controller: "tom-select"}} %>
+            <%= f.association :ingredient, collection: Ingredient.all, label: false, placeholder: "Enter your ingredient", class: "user-ingredient-form-control",
+            input_html: {data: {controller: "tom-select"}} %>
           </div>
           <div class="form-group">
             <label for="weight">Weight:</label>

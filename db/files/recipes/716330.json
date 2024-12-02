@@ -1,0 +1,334 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 4,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 19,
+  "healthScore": 68,
+  "creditsText": "Afrolems",
+  "license": "CC BY 4.0",
+  "sourceName": "Afrolems",
+  "pricePerServing": 450.95,
+  "extendedIngredients": [
+    {
+      "id": 5062,
+      "aisle": "Meat",
+      "image": "chicken-breasts.png",
+      "consistency": "SOLID",
+      "name": "chicken breast",
+      "nameClean": "chicken breast",
+      "original": "1/4 pound of Skinless Chicken Breast",
+      "originalName": "Skinless Chicken Breast",
+      "amount": 0.25,
+      "unit": "pound",
+      "meta": [
+        "skinless"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "lb",
+          "unitLong": "pounds"
+        },
+        "metric": {
+          "amount": 113.398,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 6080,
+      "aisle": "Canned and Jarred",
+      "image": "stock-cube.jpg",
+      "consistency": "SOLID",
+      "name": "chicken stock cube",
+      "nameClean": "chicken base",
+      "original": "1 chicken stock cube",
+      "originalName": "chicken stock cube",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 9176,
+      "aisle": "Produce",
+      "image": "mango.jpg",
+      "consistency": "SOLID",
+      "name": "mangos",
+      "nameClean": "mango",
+      "original": "2 medium Mangos (Or canned mango slices)",
+      "originalName": "Mangos (Or canned mango slices)",
+      "amount": 2.0,
+      "unit": "medium",
+      "meta": [
+        "canned",
+        "(Or mango slices)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "medium",
+          "unitLong": "mediums"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "medium",
+          "unitLong": "mediums"
+        }
+      }
+    },
+    {
+      "id": 1032009,
+      "aisle": "Spices and Seasonings",
+      "image": "red-pepper-flakes.jpg",
+      "consistency": "SOLID",
+      "name": "pepper",
+      "nameClean": "red pepper flakes",
+      "original": "1 tablespoon Dry pepper (Chili flakes)",
+      "originalName": "Dry pepper (Chili flakes)",
+      "amount": 1.0,
+      "unit": "tablespoon",
+      "meta": [
+        "dry",
+        "(Chili flakes)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        }
+      }
+    },
+    {
+      "id": 1032027,
+      "aisle": "Spices and Seasonings",
+      "image": "seasoning.png",
+      "consistency": "SOLID",
+      "name": "suya seasoning mix",
+      "nameClean": "seasoning mix",
+      "original": "1.5 Tablespoon Suya seasoning mix",
+      "originalName": "Suya seasoning mix",
+      "amount": 1.5,
+      "unit": "Tablespoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.5,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 1.5,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 4669,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "vegetable-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "cooking spoon of vegetable oil",
+      "nameClean": "vegetable oil",
+      "original": "1 cooking spoon of vegetable oil",
+      "originalName": "cooking spoon of vegetable oil",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    }
+  ],
+  "id": 716330,
+  "title": "Chicken and Mango Skewer",
+  "readyInMinutes": 45,
+  "servings": 1,
+  "sourceUrl": "https://www.afrolems.com/2013/03/29/easter-special-chicken-and-mango-skewer/",
+  "image": "https://img.spoonacular.com/recipes/716330-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Chicken and Mango Skewer takes roughly <b>45 minutes</b> from beginning to end. This recipe serves 1 and costs $4.51 per serving. One portion of this dish contains about <b>31g of protein</b>, <b>8g of fat</b>, and a total of <b>479 calories</b>. It is brought to you by Afrolems. A few people made this recipe, and 19 would say it hit the spot. A mixture of pepper, suya seasoning mix, mangos, and a handful of other ingredients are all it takes to make this recipe so scrumptious. It works well as a pretty expensive main course. It is a good option if you're following a <b>gluten free, dairy free, and whole 30</b> diet. Overall, this recipe earns a <b>spectacular spoonacular score of 95%</b>. Users who liked this recipe also liked <a href=\"https://spoonacular.com/recipes/grilled-chicken-caesar-on-a-skewer-338979\">Grilled Chicken Caesar on a Skewer</a>, <a href=\"https://spoonacular.com/recipes/thai-chicken-skewer-appetizers-with-sweet-and-spicy-chili-sauce-621582\">Thai Chicken Skewer Appetizers with Sweet and Spicy Chili Sauce</a>, and <a href=\"https://spoonacular.com/recipes/smore-skewer-bites-568008\">S’more Skewer Bites</a>.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "lunch",
+    "main course",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free",
+    "whole 30"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "<p>Chop chicken breast into cubes and place on sticks. Set fire to your grill or oven.</p><p>Place the chicken breast on the grill to heat up a little</p><p>Mix all your seasoning in a bowl with your vegetable oil.</p><p>With a brush, smear the mix on the chicken breast on both sides.</p><p>Flip occasionally as it browns till its cooked. </p><p>Stack your mangoes after the chicken is done but if your mangoes are firm, you can grill them as well. </p><p>Serve on its own as an appetizer or with rice.</p>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Chop chicken breast into cubes and place on sticks. Set fire to your grill or oven.",
+          "ingredients": [
+            {
+              "id": 5062,
+              "name": "chicken breast",
+              "localizedName": "chicken breast",
+              "image": "chicken-breasts.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404706,
+              "name": "grill",
+              "localizedName": "grill",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/grill.jpg"
+            },
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Place the chicken breast on the grill to heat up a little",
+          "ingredients": [
+            {
+              "id": 5062,
+              "name": "chicken breast",
+              "localizedName": "chicken breast",
+              "image": "chicken-breasts.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404706,
+              "name": "grill",
+              "localizedName": "grill",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/grill.jpg"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Mix all your seasoning in a bowl with your vegetable oil.With a brush, smear the mix on the chicken breast on both sides.Flip occasionally as it browns till its cooked. Stack your mangoes after the chicken is done but if your mangoes are firm, you can grill them as well.",
+          "ingredients": [
+            {
+              "id": 5062,
+              "name": "chicken breast",
+              "localizedName": "chicken breast",
+              "image": "chicken-breasts.png"
+            },
+            {
+              "id": 4669,
+              "name": "vegetable oil",
+              "localizedName": "vegetable oil",
+              "image": "vegetable-oil.jpg"
+            },
+            {
+              "id": 1042027,
+              "name": "seasoning",
+              "localizedName": "seasoning",
+              "image": "seasoning.png"
+            },
+            {
+              "id": 0,
+              "name": "chicken",
+              "localizedName": "chicken",
+              "image": "whole-chicken.jpg"
+            },
+            {
+              "id": 9176,
+              "name": "mango",
+              "localizedName": "mango",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/mango.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404706,
+              "name": "grill",
+              "localizedName": "grill",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/grill.jpg"
+            },
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "step": "Serve on its own as an appetizer or with rice.",
+          "ingredients": [
+            {
+              "id": 20444,
+              "name": "rice",
+              "localizedName": "rice",
+              "image": "uncooked-white-rice.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 95.86788177490234,
+  "spoonacularSourceUrl": "https://spoonacular.com/chicken-and-mango-skewer-716330"
+}

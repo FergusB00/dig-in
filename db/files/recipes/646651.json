@@ -1,0 +1,427 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": true,
+  "dairyFree": false,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 11,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 9,
+  "healthScore": 81,
+  "creditsText": "foodista.com",
+  "sourceName": "foodista.com",
+  "pricePerServing": 312.55,
+  "extendedIngredients": [
+    {
+      "id": 11090,
+      "aisle": "Produce",
+      "image": "broccoli.jpg",
+      "consistency": "SOLID",
+      "name": "broccoli",
+      "nameClean": "broccoli",
+      "original": "1 medium head of broccoli, cut into florets",
+      "originalName": "broccoli, cut into florets",
+      "amount": 1.0,
+      "unit": "medium head",
+      "meta": [
+        "cut into florets"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "medium head",
+          "unitLong": "medium head"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "medium head",
+          "unitLong": "medium head"
+        }
+      }
+    },
+    {
+      "id": 1002044,
+      "aisle": "Produce",
+      "image": "lemon-basil.jpg",
+      "consistency": "SOLID",
+      "name": "pack maggi so herbs",
+      "nameClean": "lemon basil",
+      "original": "1 x pack Maggi So Juicy Mixed Herbs",
+      "originalName": "1 x pack Maggi So Juicy Mixed Herbs",
+      "amount": 4.0,
+      "unit": "servings",
+      "meta": [
+        "mixed",
+        "juicy"
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 4053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "olive oil",
+      "nameClean": "olive oil",
+      "original": "1/4 cup olive oil (60 mL)",
+      "originalName": "1/4 cup olive oil",
+      "amount": 60.0,
+      "unit": "mL",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 54.779,
+          "unitShort": "mL",
+          "unitLong": "mLs"
+        },
+        "metric": {
+          "amount": 60.0,
+          "unitShort": "mL",
+          "unitLong": "mLs"
+        }
+      }
+    },
+    {
+      "id": 11353,
+      "aisle": "Produce",
+      "image": "russet-or-idaho-potatoes.png",
+      "consistency": "SOLID",
+      "name": "russet potato",
+      "nameClean": "russet potato",
+      "original": "1 large Russet potato, peeled and diced",
+      "originalName": "Russet potato, peeled and diced",
+      "amount": 1.0,
+      "unit": "large",
+      "meta": [
+        "diced",
+        "peeled"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "large",
+          "unitLong": "large"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "large",
+          "unitLong": "large"
+        }
+      }
+    },
+    {
+      "id": 1002030,
+      "aisle": "Spices and Seasonings",
+      "image": "pepper.jpg",
+      "consistency": "SOLID",
+      "name": "pepper and salt",
+      "nameClean": "black pepper",
+      "original": "Freshly ground black pepper and salt",
+      "originalName": "Freshly ground black pepper and salt",
+      "amount": 4.0,
+      "unit": "servings",
+      "meta": [
+        "black",
+        "freshly ground"
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 1055062,
+      "aisle": "Meat",
+      "image": "chicken-breasts.png",
+      "consistency": "SOLID",
+      "name": "chicken breasts",
+      "nameClean": "boneless skinless chicken breast",
+      "original": "1 1/2 pounds of boneless, skinless chicken breasts",
+      "originalName": "boneless, skinless chicken breasts",
+      "amount": 1.5,
+      "unit": "pounds",
+      "meta": [
+        "boneless",
+        "skinless"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.5,
+          "unitShort": "lb",
+          "unitLong": "pounds"
+        },
+        "metric": {
+          "amount": 680.389,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 11507,
+      "aisle": "Produce",
+      "image": "sweet-potato.png",
+      "consistency": "SOLID",
+      "name": "sweet potatoes",
+      "nameClean": "sweet potato",
+      "original": "3 large sweet potatoes, peeled and diced",
+      "originalName": "sweet potatoes, peeled and diced",
+      "amount": 3.0,
+      "unit": "large",
+      "meta": [
+        "diced",
+        "peeled"
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "large",
+          "unitLong": "larges"
+        },
+        "metric": {
+          "amount": 3.0,
+          "unitShort": "large",
+          "unitLong": "larges"
+        }
+      }
+    },
+    {
+      "id": 1145,
+      "aisle": "Milk, Eggs, Other Dairy",
+      "image": "butter-sliced.jpg",
+      "consistency": "SOLID",
+      "name": "butter",
+      "nameClean": "unsalted butter",
+      "original": "2 tablespoons Chilled unsalted butter",
+      "originalName": "Chilled unsalted butter",
+      "amount": 2.0,
+      "unit": "tablespoons",
+      "meta": [
+        "unsalted",
+        "chilled"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    }
+  ],
+  "id": 646651,
+  "title": "Herb chicken with sweet potato mash and sautéed broccoli",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "sourceUrl": "https://www.foodista.com/recipe/NHZKT2K8/serve-a-sensationally-seasoned-chicken-dish",
+  "image": "https://img.spoonacular.com/recipes/646651-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Herb chicken with sweet potato mash and sautéed broccoli might be a good recipe to expand your main course recipe box. One portion of this dish contains roughly <b>47g of protein</b>, <b>25g of fat</b>, and a total of <b>710 calories</b>. For <b>$3.13 per serving</b>, this recipe <b>covers 50%</b> of your daily requirements of vitamins and minerals. This recipe serves 4. 9 people have made this recipe and would make it again. Head to the store and pick up broccoli, butter, pepper and salt, and a few other things to make it today. It is a good option if you're following a <b>gluten free</b> diet. It is brought to you by Foodista. From preparation to the plate, this recipe takes around <b>45 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 95%</b>, which is awesome. Try <a href=\"https://spoonacular.com/recipes/herb-chicken-with-sweet-potato-mash-and-sauted-broccoli-1263701\">Herb chicken with sweet potato mash and sautéed broccoli</a>, <a href=\"https://spoonacular.com/recipes/herb-chicken-with-sweet-potato-mash-and-sauted-broccoli-1516743\">Herb chicken with sweet potato mash and sautéed broccoli</a>, and <a href=\"https://spoonacular.com/recipes/herb-chicken-with-sweet-potato-mash-and-sauted-broccoli-1337501\">Herb chicken with sweet potato mash and sautéed broccoli</a> for similar recipes.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "lunch",
+    "main course",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+    "gluten free"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "<ol><li> Preheat the oven to 350F (180C) or 320F (160C) for convection oven and cook the chicken according to the pack instructions.</li><li> About 15 minutes before the end of the chicken cooking time, place the diced potato into boiling water for 5 minutes, then add the sweet potato and cook until the potatoes are tender. Roughly mash, adding butter, salt, and pepper to taste, then mash thoroughly.</li><li> Heat the oil in a pan and quickly saut the broccoli until tender. Cover to keep warm.</li><li> Remove the chicken from the oven, leave to cool for a minute then cut the bag open and gently tip the contents into a dish.</li><li> Slice the chicken breasts into chunky pieces on a board, keeping the chicken breast shape together.</li><li> Serve the mash potato topped with the chicken and remaining sauce with a side of broccoli.</li></ol>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Preheat the oven to 350F (180C) or 320F (160C) for convection oven and cook the chicken according to the pack instructions. About 15 minutes before the end of the chicken cooking time, place the diced potato into boiling water for 5 minutes, then add the sweet potato and cook until the potatoes are tender. Roughly mash, adding butter, salt, and pepper to taste, then mash thoroughly.",
+          "ingredients": [
+            {
+              "id": 11507,
+              "name": "sweet potato",
+              "localizedName": "sweet potato",
+              "image": "sweet-potato.png"
+            },
+            {
+              "id": 11352,
+              "name": "potato",
+              "localizedName": "potato",
+              "image": "potatoes-yukon-gold.png"
+            },
+            {
+              "id": 0,
+              "name": "chicken",
+              "localizedName": "chicken",
+              "image": "whole-chicken.jpg"
+            },
+            {
+              "id": 1001,
+              "name": "butter",
+              "localizedName": "butter",
+              "image": "butter-sliced.jpg"
+            },
+            {
+              "id": 1002030,
+              "name": "pepper",
+              "localizedName": "pepper",
+              "image": "pepper.jpg"
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            },
+            {
+              "id": 2047,
+              "name": "salt",
+              "localizedName": "salt",
+              "image": "salt.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg",
+              "temperature": {
+                "number": 350.0,
+                "unit": "Fahrenheit"
+              }
+            }
+          ],
+          "length": {
+            "number": 20,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 2,
+          "step": "Heat the oil in a pan and quickly saut the broccoli until tender. Cover to keep warm.",
+          "ingredients": [
+            {
+              "id": 11090,
+              "name": "broccoli",
+              "localizedName": "broccoli",
+              "image": "broccoli.jpg"
+            },
+            {
+              "id": 4582,
+              "name": "cooking oil",
+              "localizedName": "cooking oil",
+              "image": "vegetable-oil.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404645,
+              "name": "frying pan",
+              "localizedName": "frying pan",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Remove the chicken from the oven, leave to cool for a minute then cut the bag open and gently tip the contents into a dish. Slice the chicken breasts into chunky pieces on a board, keeping the chicken breast shape together.",
+          "ingredients": [
+            {
+              "id": 5062,
+              "name": "chicken breast",
+              "localizedName": "chicken breast",
+              "image": "chicken-breasts.png"
+            },
+            {
+              "id": 0,
+              "name": "chicken",
+              "localizedName": "chicken",
+              "image": "whole-chicken.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "step": "Serve the mash potato topped with the chicken and remaining sauce with a side of broccoli.",
+          "ingredients": [
+            {
+              "id": 11090,
+              "name": "broccoli",
+              "localizedName": "broccoli",
+              "image": "broccoli.jpg"
+            },
+            {
+              "id": 0,
+              "name": "chicken",
+              "localizedName": "chicken",
+              "image": "whole-chicken.jpg"
+            },
+            {
+              "id": 11352,
+              "name": "potato",
+              "localizedName": "potato",
+              "image": "potatoes-yukon-gold.png"
+            },
+            {
+              "id": 0,
+              "name": "sauce",
+              "localizedName": "sauce",
+              "image": ""
+            }
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 95.87831115722656,
+  "spoonacularSourceUrl": "https://spoonacular.com/herb-chicken-with-sweet-potato-mash-and-sauted-broccoli-646651"
+}

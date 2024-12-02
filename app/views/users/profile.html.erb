@@ -27,13 +27,13 @@
 
     <% @user.user_ingredients.each do |user_ingredient| %>
       <div class="pp-ingredient-card">
-        <div class="">
+        <%# <div class="">
           <i class="fa-solid fa-egg fa-xl"></i>
-        </div>
+        </div> %>
         <div class="pp-ingredient-details">
           <p class="pp-ingredient-name"><%= user_ingredient.ingredient.name %></p>
           <p class="pp-ingredient-quantity"><%= user_ingredient.weight_in_grams %>g</p>
-          <p><%= user_ingredient.expiry_date.strftime("%d/%m/%Y") %></p>
+          <p><i class="fa-regular fa-calendar"></i><%= user_ingredient.expiry_date.strftime("%d/%m/%Y") %></p>
         </div>
         <div class="pp-ingredient-price">
           <%= number_to_currency(user_ingredient.price_in_pence / 100.to_f, unit: "£", precision: 2) %>

@@ -275,9 +275,93 @@
       "title": "Amaranth and Roast Veggie Salad",
       "image": "https://img.spoonacular.com/recipes/632269-312x231.jpg",
       "imageType": "jpg"
+    },
+    {
+      "id": 637162,
+      "title": "Carrot and Cabbage Salad With Coriander+cumin Dry Rub",
+      "image": "https://img.spoonacular.com/recipes/637162-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 982371,
+      "title": "Instant Pot Quinoa Grain Bowl",
+      "image": "https://img.spoonacular.com/recipes/982371-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 1095753,
+      "title": "Roasted Cauliflower Detox Bowl with Tahini Sauce",
+      "image": "https://img.spoonacular.com/recipes/1095753-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 660405,
+      "title": "Smoky Black Bean Soup With Sweet Potato & Kale",
+      "image": "https://img.spoonacular.com/recipes/660405-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 715523,
+      "title": "Chorizo and Beef Quinoa Stuffed Pepper",
+      "image": "https://img.spoonacular.com/recipes/715523-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 632252,
+      "title": "Alouette® Stuffed Mushroom Caps",
+      "image": "https://img.spoonacular.com/recipes/632252-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 639891,
+      "title": "Coffee-braised Short Ribs",
+      "image": "https://img.spoonacular.com/recipes/639891-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 646651,
+      "title": "Herb chicken with sweet potato mash and sautéed broccoli",
+      "image": "https://img.spoonacular.com/recipes/646651-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 716330,
+      "title": "Chicken and Mango Skewer",
+      "image": "https://img.spoonacular.com/recipes/716330-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 640318,
+      "title": "Crab Salad Stuffed Pita Pockets",
+      "image": "https://img.spoonacular.com/recipes/640318-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 642085,
+      "title": "Easy Roasted Vegetables",
+      "image": "https://img.spoonacular.com/recipes/642085-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 716437,
+      "title": "Chilled Cucumber Avocado Soup with Yogurt and Kefir",
+      "image": "https://img.spoonacular.com/recipes/716437-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 664090,
+      "title": "Turkish Chicken Salad with Home-made Cacik Yogurt Sauce",
+      "image": "https://img.spoonacular.com/recipes/664090-312x231.jpg",
+      "imageType": "jpg"
+    },
+    {
+      "id": 636602,
+      "title": "Butternut Squash Soup (In Half An Hour!)",
+      "image": "https://img.spoonacular.com/recipes/636602-312x231.jpg",
+      "imageType": "jpg"
     }
   ],
   "offset": 0,
-  "number": 46,
+  "number": 60,
   "totalResults": 5230
 }

@@ -1,0 +1,351 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": false,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 8,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 8,
+  "healthScore": 88,
+  "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+  "license": "CC BY 3.0",
+  "sourceName": "Foodista",
+  "pricePerServing": 590.1,
+  "extendedIngredients": [
+    {
+      "id": 9003,
+      "aisle": "Produce",
+      "image": "apple.jpg",
+      "consistency": "SOLID",
+      "name": "apple",
+      "nameClean": "apple",
+      "original": "1/2 small apple, finely chopped",
+      "originalName": "apple, finely chopped",
+      "amount": 0.5,
+      "unit": "small",
+      "meta": [
+        "finely chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "small",
+          "unitLong": "smalls"
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "small",
+          "unitLong": "smalls"
+        }
+      }
+    },
+    {
+      "id": 15141,
+      "aisle": "Canned and Jarred",
+      "image": "lump-crabmeat.png",
+      "consistency": "SOLID",
+      "name": "crabmeat",
+      "nameClean": "cooked crabmeat",
+      "original": "2 150g cans white crabmeat",
+      "originalName": "white crabmeat",
+      "amount": 300.0,
+      "unit": "g",
+      "meta": [
+        "white",
+        "canned"
+      ],
+      "measures": {
+        "us": {
+          "amount": 10.582,
+          "unitShort": "oz",
+          "unitLong": "ounces"
+        },
+        "metric": {
+          "amount": 300.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 2012,
+      "aisle": "Spices and Seasonings",
+      "image": "ground-coriander.jpg",
+      "consistency": "SOLID",
+      "name": "coriander leaves",
+      "nameClean": "dried cilantro",
+      "original": "1/4 cup finely chopped coriander leaves",
+      "originalName": "finely chopped coriander leaves",
+      "amount": 0.25,
+      "unit": "cup",
+      "meta": [
+        "finely chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 59.147,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 4641,
+      "aisle": "Condiments",
+      "image": "mayonnaise.png",
+      "consistency": "LIQUID",
+      "name": "mayonnaise",
+      "nameClean": "light mayonnaise",
+      "original": "2 tablespoons light mayonnaise",
+      "originalName": "light mayonnaise",
+      "amount": 2.0,
+      "unit": "tablespoons",
+      "meta": [
+        "light"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 18413,
+      "aisle": "Bakery/Bread",
+      "image": "pita-bread.jpg",
+      "consistency": "SOLID",
+      "name": "wholewheat pita breads",
+      "nameClean": "pita",
+      "original": "2 wholewheat pita breads",
+      "originalName": "wholewheat pita breads",
+      "amount": 2.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 1102047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt-and-pepper.jpg",
+      "consistency": "SOLID",
+      "name": "salt & pepper",
+      "nameClean": "salt and pepper",
+      "original": "salt & pepper to taste",
+      "originalName": "salt & pepper to taste",
+      "amount": 2.0,
+      "unit": "servings",
+      "meta": [
+        "to taste"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 11591,
+      "aisle": "Produce",
+      "image": "watercress.jpg",
+      "consistency": "SOLID",
+      "name": "watercress",
+      "nameClean": "watercress",
+      "original": "2 handfuls watercress",
+      "originalName": "watercress",
+      "amount": 2.0,
+      "unit": "handfuls",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "handfuls",
+          "unitLong": "handfuls"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "handfuls",
+          "unitLong": "handfuls"
+        }
+      }
+    },
+    {
+      "id": 11951,
+      "aisle": "Produce",
+      "image": "yellow-bell-pepper.jpg",
+      "consistency": "SOLID",
+      "name": "bell pepper",
+      "nameClean": "yellow pepper",
+      "original": "1/4 medium yellow bell pepper, finely chopped",
+      "originalName": "yellow bell pepper, finely chopped",
+      "amount": 0.25,
+      "unit": "medium",
+      "meta": [
+        "yellow",
+        "finely chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "medium",
+          "unitLong": "mediums"
+        },
+        "metric": {
+          "amount": 0.25,
+          "unitShort": "medium",
+          "unitLong": "mediums"
+        }
+      }
+    }
+  ],
+  "id": 640318,
+  "title": "Crab Salad Stuffed Pita Pockets",
+  "readyInMinutes": 25,
+  "servings": 2,
+  "sourceUrl": "https://www.foodista.com/recipe/4NJDB7X2/crab-salad-stuffed-pita-pockets",
+  "image": "https://img.spoonacular.com/recipes/640318-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Crab Salad Stuffed Pita Pockets takes roughly <b>25 minutes</b> from beginning to end. One serving contains <b>418 calories</b>, <b>39g of protein</b>, and <b>6g of fat</b>. For <b>$5.9 per serving</b>, this recipe <b>covers 52%</b> of your daily requirements of vitamins and minerals. This recipe serves 2. 8 people found this recipe to be yummy and satisfying. If you have wholewheat pita breads, crabmeat, coriander leaves, and a few other ingredients on hand, you can make it. It is brought to you by Foodista. It is a good option if you're following a <b>dairy free and pescatarian</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 80%</b>. This score is good. Try <a href=\"https://spoonacular.com/recipes/crab-salad-in-pita-pockets-698353\">Crab Salad in Pita Pockets</a>, <a href=\"https://spoonacular.com/recipes/stuff-it-cobb-salad-stuffed-pita-pockets-510066\">Stuff It {: Cobb Salad Stuffed Pita Pockets}</a>, and <a href=\"https://spoonacular.com/recipes/zucchini-salad-pita-pockets-1095849\">Zucchini Salad Pita Pockets</a> for similar recipes.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+
+  ],
+  "diets": [
+    "dairy free",
+    "pescatarian"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "<ol><li>Mix crabmeat, apple and bell pepper together in a bowl.</li><li>Season to taste, add coriander and fold mayonnaise through.</li><li>Toast pita breads until puffed up, then cut open on one side.</li><li>Stuff with some watercress, then the crab mixture.</li><li>Serve immediately.</li></ol>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Mix crabmeat, apple and bell pepper together in a bowl.Season to taste, add coriander and fold mayonnaise through.Toast pita breads until puffed up, then cut open on one side.Stuff with some watercress, then the crab mixture.",
+          "ingredients": [
+            {
+              "id": 10211821,
+              "name": "bell pepper",
+              "localizedName": "bell pepper",
+              "image": "bell-pepper-orange.png"
+            },
+            {
+              "id": 18413,
+              "name": "pita",
+              "localizedName": "pita",
+              "image": "pita-bread.jpg"
+            },
+            {
+              "id": 4025,
+              "name": "mayonnaise",
+              "localizedName": "mayonnaise",
+              "image": "mayonnaise.png"
+            },
+            {
+              "id": 11591,
+              "name": "watercress",
+              "localizedName": "watercress",
+              "image": "watercress.jpg"
+            },
+            {
+              "id": 1012013,
+              "name": "coriander",
+              "localizedName": "coriander",
+              "image": "ground-coriander.jpg"
+            },
+            {
+              "id": 10015136,
+              "name": "crabmeat",
+              "localizedName": "crabmeat",
+              "image": "crabmeat.jpg"
+            },
+            {
+              "id": 9003,
+              "name": "apple",
+              "localizedName": "apple",
+              "image": "apple.jpg"
+            },
+            {
+              "id": 0,
+              "name": "sandwich bread",
+              "localizedName": "sandwich bread",
+              "image": "white-bread.jpg"
+            },
+            {
+              "id": 15136,
+              "name": "crab",
+              "localizedName": "crab",
+              "image": "crabmeat.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Serve immediately.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 95.8604507446289,
+  "spoonacularSourceUrl": "https://spoonacular.com/crab-salad-stuffed-pita-pockets-640318"
+}

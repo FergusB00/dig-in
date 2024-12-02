@@ -1,0 +1,516 @@
+{
+  "vegetarian": true,
+  "vegan": true,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 6,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 5,
+  "healthScore": 86,
+  "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+  "license": "CC BY 3.0",
+  "sourceName": "Foodista",
+  "pricePerServing": 124.5,
+  "extendedIngredients": [
+    {
+      "id": 11485,
+      "aisle": "Produce",
+      "image": "butternut-squash.jpg",
+      "consistency": "SOLID",
+      "name": "butternut squash",
+      "nameClean": "butternut squash",
+      "original": "1 butternut squash, peeled, seeded and cut into small cubes",
+      "originalName": "butternut squash, peeled, seeded and cut into small cubes",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+        "peeled",
+        "seeded",
+        "cut into small cubes"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 10016063,
+      "aisle": "Canned and Jarred",
+      "image": "black-eyed-peas.jpg",
+      "consistency": "SOLID",
+      "name": "black-eyed peas",
+      "nameClean": "canned blackeyed peas",
+      "original": "1 can black-eyed peas",
+      "originalName": "black-eyed peas",
+      "amount": 1.0,
+      "unit": "can",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "can",
+          "unitLong": "can"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "can",
+          "unitLong": "can"
+        }
+      }
+    },
+    {
+      "id": 11161,
+      "aisle": "Produce",
+      "image": "collard-greens.jpg",
+      "consistency": "SOLID",
+      "name": "collard greens",
+      "nameClean": "collard greens",
+      "original": "Collard greens (my choice), kale, spinach, beet greens, etc. cut into small pieces",
+      "originalName": "Collard greens (my choice), kale, spinach, beet greens, etc. cut into small pieces",
+      "amount": 8.0,
+      "unit": "servings",
+      "meta": [
+        "cut into small pieces",
+        "(my choice)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 8.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 8.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 20137,
+      "aisle": "Health Foods",
+      "image": "cooked-quinoa.png",
+      "consistency": "SOLID",
+      "name": "quinoa",
+      "nameClean": "cooked quinoa",
+      "original": "Leftover cooked quinoa",
+      "originalName": "Leftover cooked quinoa",
+      "amount": 8.0,
+      "unit": "servings",
+      "meta": [
+        "leftover",
+        "cooked"
+      ],
+      "measures": {
+        "us": {
+          "amount": 8.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 8.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 11445,
+      "aisle": "Ethnic Foods",
+      "image": "kombu.jpg",
+      "consistency": "SOLID",
+      "name": "kombu",
+      "nameClean": "kelp",
+      "original": "1 piece of kombu",
+      "originalName": "kombu",
+      "amount": 1.0,
+      "unit": "piece",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 2025,
+      "aisle": "Spices and Seasonings",
+      "image": "ground-nutmeg.jpg",
+      "consistency": "SOLID",
+      "name": "nutmeg",
+      "nameClean": "nutmeg",
+      "original": "Nutmeg",
+      "originalName": "Nutmeg",
+      "amount": 8.0,
+      "unit": "servings",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 8.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 8.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 4053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "olive oil",
+      "nameClean": "olive oil",
+      "original": "2 T butter, ghee, or olive oil",
+      "originalName": "butter, ghee, or olive oil",
+      "amount": 2.0,
+      "unit": "T",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 1102047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt-and-pepper.jpg",
+      "consistency": "SOLID",
+      "name": "salt and pepper",
+      "nameClean": "salt and pepper",
+      "original": "salt and pepper",
+      "originalName": "salt and pepper",
+      "amount": 8.0,
+      "unit": "servings",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 8.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 8.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 6615,
+      "aisle": "Canned and Jarred",
+      "image": "chicken-broth.png",
+      "consistency": "LIQUID",
+      "name": "vegetable broth",
+      "nameClean": "vegetable stock",
+      "original": "1 32 oz. organic vegetable broth (I like the Pacifica brand for its lack of unnecessary ingredients)",
+      "originalName": "organic vegetable broth (I like the Pacifica brand for its lack of unnecessary ingredients)",
+      "amount": 32.0,
+      "unit": "oz",
+      "meta": [
+        "organic",
+        "for its lack of unnecessary ingredients",
+        "(I like the Pacifica brand )"
+      ],
+      "measures": {
+        "us": {
+          "amount": 32.0,
+          "unitShort": "oz",
+          "unitLong": "ounces"
+        },
+        "metric": {
+          "amount": 907.185,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 10511282,
+      "aisle": "Produce",
+      "image": "brown-onion.png",
+      "consistency": "SOLID",
+      "name": "onions",
+      "nameClean": "yellow onion",
+      "original": "1-2 small yellow onions, cut up",
+      "originalName": "yellow onions, cut up",
+      "amount": 1.0,
+      "unit": "small",
+      "meta": [
+        "yellow"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "small",
+          "unitLong": "small"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "small",
+          "unitLong": "small"
+        }
+      }
+    }
+  ],
+  "id": 636602,
+  "title": "Butternut Squash Soup (In Half An Hour!)",
+  "readyInMinutes": 30,
+  "servings": 8,
+  "sourceUrl": "https://www.foodista.com/recipe/24DYGNYL/butternut-squash-soup-in-half-an-hour",
+  "image": "https://img.spoonacular.com/recipes/636602-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Butternut Squash Soup (In Half An Hour!) requires about <b>30 minutes</b> from start to finish. For <b>$1.25 per serving</b>, you get a hor d'oeuvre that serves 8. Watching your figure? This gluten free, dairy free, lacto ovo vegetarian, and vegan recipe has <b>252 calories</b>, <b>9g of protein</b>, and <b>6g of fat</b> per serving. It will be a hit at your <b>Autumn</b> event. 5 people have made this recipe and would make it again. It is brought to you by Foodista. Head to the store and pick up salt and pepper, black-eyed peas, collard greens, and a few other things to make it today. With a spoonacular <b>score of 95%</b>, this dish is great. Try <a href=\"https://spoonacular.com/recipes/half-hour-chili-1336421\">Half-Hour Chili</a>, <a href=\"https://spoonacular.com/recipes/half-hour-chili-1268407\">Half-Hour Chili</a>, and <a href=\"https://spoonacular.com/recipes/half-hour-chili-695480\">Half-Hour Chili</a> for similar recipes.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "antipasti",
+    "soup",
+    "starter",
+    "snack",
+    "appetizer",
+    "antipasto",
+    "hor d'oeuvre"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free",
+    "lacto ovo vegetarian",
+    "vegan"
+  ],
+  "occasions": [
+    "fall",
+    "winter"
+  ],
+  "instructions": "<ol><li>In large pot, saute onion in butter, ghee or olive oil until soft</li><li>Add cubed squash and saute for a couple of minutes</li><li>Add vegetable stock and 1 3 inch piece of kombu and bring to a boil</li><li>Reduce heat and simmer until squash is soft (about 15 minutes)</li><li>Using a slotted spoon, remove squash and puree in blender</li><li>Return squash to pot and stir in black-eyed peas and cooked quinoa.</li><li>Add greens for about five minutes until soft</li><li>Add nutmeg, sea salt and pepper to taste</li></ol>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "In large pot, saute onion in butter, ghee or olive oil until soft",
+          "ingredients": [
+            {
+              "id": 4053,
+              "name": "olive oil",
+              "localizedName": "olive oil",
+              "image": "olive-oil.jpg"
+            },
+            {
+              "id": 1001,
+              "name": "butter",
+              "localizedName": "butter",
+              "image": "butter-sliced.jpg"
+            },
+            {
+              "id": 11282,
+              "name": "onion",
+              "localizedName": "onion",
+              "image": "brown-onion.png"
+            },
+            {
+              "id": 93632,
+              "name": "ghee",
+              "localizedName": "ghee",
+              "image": "ghee.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404752,
+              "name": "pot",
+              "localizedName": "pot",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/stock-pot.jpg"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Add cubed squash and saute for a couple of minutes",
+          "ingredients": [
+            {
+              "id": 10011485,
+              "name": "squash",
+              "localizedName": "squash",
+              "image": "butternut-squash.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Add vegetable stock and 1 3 inch piece of kombu and bring to a boil",
+          "ingredients": [
+            {
+              "id": 6615,
+              "name": "vegetable stock",
+              "localizedName": "vegetable stock",
+              "image": "chicken-broth.png"
+            },
+            {
+              "id": 11445,
+              "name": "kombu",
+              "localizedName": "kombu",
+              "image": "kombu.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 4,
+          "step": "Reduce heat and simmer until squash is soft (about 15 minutes)Using a slotted spoon, remove squash and puree in blender",
+          "ingredients": [
+            {
+              "id": 10011485,
+              "name": "squash",
+              "localizedName": "squash",
+              "image": "butternut-squash.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404636,
+              "name": "slotted spoon",
+              "localizedName": "slotted spoon",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/slotted-spoon.jpg"
+            },
+            {
+              "id": 404726,
+              "name": "blender",
+              "localizedName": "blender",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/blender.png"
+            }
+          ],
+          "length": {
+            "number": 15,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 5,
+          "step": "Return squash to pot and stir in black-eyed peas and cooked quinoa.",
+          "ingredients": [
+            {
+              "id": 20137,
+              "name": "cooked quinoa",
+              "localizedName": "cooked quinoa",
+              "image": "cooked-quinoa.png"
+            },
+            {
+              "id": 10011485,
+              "name": "squash",
+              "localizedName": "squash",
+              "image": "butternut-squash.jpg"
+            },
+            {
+              "id": 11304,
+              "name": "peas",
+              "localizedName": "peas",
+              "image": "peas.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404752,
+              "name": "pot",
+              "localizedName": "pot",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/stock-pot.jpg"
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "step": "Add greens for about five minutes until soft",
+          "ingredients": [
+            {
+              "id": 21052,
+              "name": "greens",
+              "localizedName": "greens",
+              "image": "mixed-greens-or-mesclun.jpg"
+            }
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 5,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 7,
+          "step": "Add nutmeg, sea salt and pepper to taste",
+          "ingredients": [
+            {
+              "id": 1102047,
+              "name": "salt and pepper",
+              "localizedName": "salt and pepper",
+              "image": "salt-and-pepper.jpg"
+            },
+            {
+              "id": 2025,
+              "name": "nutmeg",
+              "localizedName": "nutmeg",
+              "image": "ground-nutmeg.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 95.76790618896484,
+  "spoonacularSourceUrl": "https://spoonacular.com/butternut-squash-soup-in-half-an-hour-636602"
+}

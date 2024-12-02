@@ -1,0 +1,491 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": true,
+  "dairyFree": false,
+  "veryHealthy": false,
+  "cheap": false,
+  "veryPopular": true,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 19,
+  "gaps": "no",
+  "preparationMinutes": 20,
+  "cookingMinutes": 10,
+  "aggregateLikes": 1254,
+  "healthScore": 34,
+  "creditsText": "pinkwhen.com",
+  "sourceName": "pinkwhen.com",
+  "pricePerServing": 369.37,
+  "extendedIngredients": [
+    {
+      "id": 10211821,
+      "aisle": "Produce",
+      "image": "bell-pepper-orange.png",
+      "consistency": "SOLID",
+      "name": "bell peppers",
+      "nameClean": "bell pepper",
+      "original": "bell peppers",
+      "originalName": "bell peppers",
+      "amount": 4.0,
+      "unit": "servings",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 2031,
+      "aisle": "Spices and Seasonings",
+      "image": "chili-powder.jpg",
+      "consistency": "SOLID",
+      "name": "cayenne",
+      "nameClean": "ground cayenne pepper",
+      "original": "½ tsp cayenne",
+      "originalName": "cayenne",
+      "amount": 0.5,
+      "unit": "tsp",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 2009,
+      "aisle": "Spices and Seasonings",
+      "image": "chili-powder.jpg",
+      "consistency": "SOLID",
+      "name": "chili powder",
+      "nameClean": "chili powder",
+      "original": "¼ tsp chili powder",
+      "originalName": "chili powder",
+      "amount": 0.25,
+      "unit": "tsp",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.25,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 99233,
+      "aisle": "Meat",
+      "image": "chorizo.jpg",
+      "consistency": "SOLID",
+      "name": "chorizo",
+      "nameClean": "spanish chorizo",
+      "original": "1 pound chorizo",
+      "originalName": "chorizo",
+      "amount": 1.0,
+      "unit": "pound",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "lb",
+          "unitLong": "pound"
+        },
+        "metric": {
+          "amount": 453.592,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 1002014,
+      "aisle": "Spices and Seasonings",
+      "image": "ground-cumin.jpg",
+      "consistency": "SOLID",
+      "name": "cumin",
+      "nameClean": "cumin",
+      "original": "¼ tsp cumin",
+      "originalName": "cumin",
+      "amount": 0.25,
+      "unit": "tsp",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.25,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 11291,
+      "aisle": "Produce",
+      "image": "spring-onions.jpg",
+      "consistency": "SOLID",
+      "name": "green onion tops",
+      "nameClean": "spring onions",
+      "original": "green onion tops",
+      "originalName": "green onion tops",
+      "amount": 4.0,
+      "unit": "servings",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 1001025,
+      "aisle": "Cheese",
+      "image": "shredded-cheese-white.jpg",
+      "consistency": "SOLID",
+      "name": "monterrey jack and cheddar cheese",
+      "nameClean": "monterey jack cheese",
+      "original": "¼ cup mixed monterrey jack and cheddar cheese",
+      "originalName": "mixed monterrey jack and cheddar cheese",
+      "amount": 0.25,
+      "unit": "cup",
+      "meta": [
+        "mixed"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 28.25,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 23557,
+      "aisle": "Meat",
+      "image": "fresh-ground-beef.jpg",
+      "consistency": "SOLID",
+      "name": "ground beef",
+      "nameClean": "95 percent lean ground beef",
+      "original": "1 pound lean ground beef",
+      "originalName": "lean ground beef",
+      "amount": 1.0,
+      "unit": "pound",
+      "meta": [
+        "lean"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "lb",
+          "unitLong": "pound"
+        },
+        "metric": {
+          "amount": 453.592,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 20035,
+      "aisle": "Pasta and Rice",
+      "image": "uncooked-quinoa.png",
+      "consistency": "SOLID",
+      "name": "quinoa",
+      "nameClean": "quinoa",
+      "original": "1 cup quinoa",
+      "originalName": "quinoa",
+      "amount": 1.0,
+      "unit": "cup",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "cup",
+          "unitLong": "cup"
+        },
+        "metric": {
+          "amount": 170.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    }
+  ],
+  "id": 715523,
+  "title": "Chorizo and Beef Quinoa Stuffed Pepper",
+  "readyInMinutes": 30,
+  "servings": 4,
+  "sourceUrl": "https://www.pinkwhen.com/chorizo-and-beef-quinoa-stuffed-pepper-recipe/",
+  "image": "https://img.spoonacular.com/recipes/715523-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Chorizo and Beef Quinoa Stuffed Pepper is a <b>gluten free</b> main course. One portion of this dish contains approximately <b>51g of protein</b>, <b>37g of fat</b>, and a total of <b>685 calories</b>. This recipe serves 4 and costs $3.69 per serving. Plenty of people made this recipe, and 1254 would say it hit the spot. It is brought to you by Pink When. If you have bell peppers, chorizo, chili powder, and a few other ingredients on hand, you can make it. From preparation to the plate, this recipe takes approximately <b>30 minutes</b>. With a spoonacular <b>score of 93%</b>, this dish is super. Similar recipes include <a href=\"https://spoonacular.com/recipes/pepper-stuffed-peppers-with-chorizo-498937\">Pepper-Stuffed Peppers with Chorizo</a>, <a href=\"https://spoonacular.com/recipes/chorizo-red-pepper-stuffed-potatoes-with-roasted-garlic-aioli-22379\">Chorizo & Red Pepper Stuffed Potatoes With Roasted Garlic Aioli</a>, and <a href=\"https://spoonacular.com/recipes/quinoa-and-ground-turkey-stuffed-pepper-1318051\">QUINOAn AND GROUND TURKEY STUFFED PEPPER</a>.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "lunch",
+    "main course",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+    "gluten free"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "The first thing you will want to do is heat the oven to 350, boil the water for the quinoa, and in a separate skillet brown the beef and chorizo together. Drain the meat mixture well, and then place into a medium mixing bowl.Once your quinoa is fully cooked, add it to the mixing bowl. Add the green onion tops, cumin, cayenne, chili powder, and monterrey jack and cheddar cheese. Mix well.Cut the tops from your bell peppers and scoop out any remaining seeds.Then take your meat mixture and start stuffing the bell peppers until they are full. Sprinkle with a little cheese and then bake in the oven for about 10 minutes until the bell pepper has softened. Serve immediately.",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "The first thing you will want to do is heat the oven to 350, boil the water for the quinoa, and in a separate skillet brown the beef and chorizo together.",
+          "ingredients": [
+            {
+              "id": 99233,
+              "name": "chorizo",
+              "localizedName": "chorizo",
+              "image": "chorizo.jpg"
+            },
+            {
+              "id": 20035,
+              "name": "quinoa",
+              "localizedName": "quinoa",
+              "image": "uncooked-quinoa.png"
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            },
+            {
+              "id": 23572,
+              "name": "beef",
+              "localizedName": "beef",
+              "image": "beef-cubes-raw.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404645,
+              "name": "frying pan",
+              "localizedName": "frying pan",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+            },
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Drain the meat mixture well, and then place into a medium mixing bowl.Once your quinoa is fully cooked, add it to the mixing bowl.",
+          "ingredients": [
+            {
+              "id": 20035,
+              "name": "quinoa",
+              "localizedName": "quinoa",
+              "image": "uncooked-quinoa.png"
+            },
+            {
+              "id": 1065062,
+              "name": "meat",
+              "localizedName": "meat",
+              "image": "whole-chicken.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 405907,
+              "name": "mixing bowl",
+              "localizedName": "mixing bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/mixing-bowl.jpg"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Add the green onion tops, cumin, cayenne, chili powder, and monterrey jack and cheddar cheese.",
+          "ingredients": [
+            {
+              "id": 11291,
+              "name": "green onions",
+              "localizedName": "green onions",
+              "image": "spring-onions.jpg"
+            },
+            {
+              "id": 1009,
+              "name": "cheddar cheese",
+              "localizedName": "cheddar cheese",
+              "image": "cheddar-cheese.png"
+            },
+            {
+              "id": 2009,
+              "name": "chili powder",
+              "localizedName": "chili powder",
+              "image": "chili-powder.jpg"
+            },
+            {
+              "id": 2031,
+              "name": "ground cayenne pepper",
+              "localizedName": "ground cayenne pepper",
+              "image": "chili-powder.jpg"
+            },
+            {
+              "id": 1002014,
+              "name": "cumin",
+              "localizedName": "cumin",
+              "image": "ground-cumin.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 4,
+          "step": "Mix well.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 5,
+          "step": "Cut the tops from your bell peppers and scoop out any remaining seeds.Then take your meat mixture and start stuffing the bell peppers until they are full.",
+          "ingredients": [
+            {
+              "id": 10211821,
+              "name": "bell pepper",
+              "localizedName": "bell pepper",
+              "image": "bell-pepper-orange.png"
+            },
+            {
+              "id": 18082,
+              "name": "stuffing",
+              "localizedName": "stuffing",
+              "image": "stuffing-mix.png"
+            },
+            {
+              "id": 93818,
+              "name": "seeds",
+              "localizedName": "seeds",
+              "image": "sunflower-seeds.jpg"
+            },
+            {
+              "id": 1065062,
+              "name": "meat",
+              "localizedName": "meat",
+              "image": "whole-chicken.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 6,
+          "step": "Sprinkle with a little cheese and then bake in the oven for about 10 minutes until the bell pepper has softened.",
+          "ingredients": [
+            {
+              "id": 10211821,
+              "name": "bell pepper",
+              "localizedName": "bell pepper",
+              "image": "bell-pepper-orange.png"
+            },
+            {
+              "id": 1041009,
+              "name": "cheese",
+              "localizedName": "cheese",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/cheddar-cheese.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            }
+          ],
+          "length": {
+            "number": 10,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 7,
+          "step": "Serve immediately.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 96.08444213867188,
+  "spoonacularSourceUrl": "https://spoonacular.com/chorizo-and-beef-quinoa-stuffed-pepper-715523"
+}

@@ -1,0 +1,698 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 19,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 6,
+  "healthScore": 100,
+  "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+  "license": "CC BY 3.0",
+  "sourceName": "Foodista",
+  "pricePerServing": 704.87,
+  "extendedIngredients": [
+    {
+      "id": 1022009,
+      "aisle": "Ethnic Foods",
+      "image": "chili-powder.jpg",
+      "consistency": "SOLID",
+      "name": "ancho chile powder",
+      "nameClean": "ancho chili powder",
+      "original": "1 1/2 tablespoons ancho chile powder",
+      "originalName": "ancho chile powder",
+      "amount": 1.5,
+      "unit": "tablespoons",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.5,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 1.5,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 11531,
+      "aisle": "Canned and Jarred",
+      "image": "tomatoes-canned.png",
+      "consistency": "SOLID",
+      "name": "canned tomatoes",
+      "nameClean": "canned diced tomatoes",
+      "original": "14 -s 1/2 ounce can diced tomatoes in juice",
+      "originalName": "s 1/2 ounce can diced tomatoes in juice",
+      "amount": 14.0,
+      "unit": "",
+      "meta": [
+        "diced",
+        "canned"
+      ],
+      "measures": {
+        "us": {
+          "amount": 14.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 14.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 10019334,
+      "aisle": "Baking",
+      "image": "dark-brown-sugar.png",
+      "consistency": "SOLID",
+      "name": "brown sugar",
+      "nameClean": "dark brown sugar",
+      "original": "2 tablespoons dark brown sugar",
+      "originalName": "dark brown sugar",
+      "amount": 2.0,
+      "unit": "tablespoons",
+      "meta": [
+        "dark"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 11165,
+      "aisle": "Produce",
+      "image": "cilantro.png",
+      "consistency": "SOLID",
+      "name": "cilantro",
+      "nameClean": "cilantro",
+      "original": "Chopped fresh cilantro",
+      "originalName": "Chopped fresh cilantro",
+      "amount": 5.0,
+      "unit": "servings",
+      "meta": [
+        "fresh",
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 5.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 5.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 10211215,
+      "aisle": "Produce",
+      "image": "garlic.jpg",
+      "consistency": "SOLID",
+      "name": "garlic cloves",
+      "nameClean": "whole garlic cloves",
+      "original": "6 garlic cloves, chopped",
+      "originalName": "garlic cloves, chopped",
+      "amount": 6.0,
+      "unit": "",
+      "meta": [
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 6.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 6.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 1012014,
+      "aisle": "Spices and Seasonings",
+      "image": "ground-cumin.jpg",
+      "consistency": "SOLID",
+      "name": "ground cumin",
+      "nameClean": "ground cumin",
+      "original": "1 1/4 teaspoons ground cumin",
+      "originalName": "ground cumin",
+      "amount": 1.25,
+      "unit": "teaspoons",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.25,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 1.25,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 11979,
+      "aisle": "Canned and Jarred",
+      "image": "jalapeno-pepper.png",
+      "consistency": "SOLID",
+      "name": "jalapeño",
+      "nameClean": "jalapeno pepper",
+      "original": "1 large jalapeño, seeded and finely chopped",
+      "originalName": "jalapeño, seeded and finely chopped",
+      "amount": 1.0,
+      "unit": "large",
+      "meta": [
+        "seeded",
+        "finely chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "large",
+          "unitLong": "large"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "large",
+          "unitLong": "large"
+        }
+      }
+    },
+    {
+      "id": 4053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "olive oil",
+      "nameClean": "olive oil",
+      "original": "2 tablespoons olive oil",
+      "originalName": "olive oil",
+      "amount": 2.0,
+      "unit": "tablespoons",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 2027,
+      "aisle": "Produce",
+      "image": "oregano.jpg",
+      "consistency": "SOLID",
+      "name": "oregano",
+      "nameClean": "oregano",
+      "original": "2 teaspoons dried oregano",
+      "originalName": "dried oregano",
+      "amount": 2.0,
+      "unit": "teaspoons",
+      "meta": [
+        "dried"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 11821,
+      "aisle": "Produce",
+      "image": "red-pepper.jpg",
+      "consistency": "SOLID",
+      "name": "bell pepper",
+      "nameClean": "red pepper",
+      "original": "1 large red bell pepper, chopped",
+      "originalName": "red bell pepper, chopped",
+      "amount": 1.0,
+      "unit": "large",
+      "meta": [
+        "red",
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "large",
+          "unitLong": "large"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "large",
+          "unitLong": "large"
+        }
+      }
+    },
+    {
+      "id": 10013149,
+      "aisle": "Meat",
+      "image": "beef-short-ribs.jpg",
+      "consistency": "SOLID",
+      "name": "short",
+      "nameClean": "bone in beef short ribs",
+      "original": "5 pounds short ribs",
+      "originalName": "short ribs",
+      "amount": 5.0,
+      "unit": "pounds",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 5.0,
+          "unitShort": "lb",
+          "unitLong": "pounds"
+        },
+        "metric": {
+          "amount": 1.656,
+          "unitShort": "kgs",
+          "unitLong": "kgs"
+        }
+      }
+    },
+    {
+      "id": 14209,
+      "aisle": "Tea and Coffee",
+      "image": "brewed-coffee.jpg",
+      "consistency": "SOLID",
+      "name": "strong freshly coffee",
+      "nameClean": "coffee",
+      "original": "2 cups strong freshly brewed coffee",
+      "originalName": "strong freshly brewed coffee",
+      "amount": 2.0,
+      "unit": "cups",
+      "meta": [
+        "brewed"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 474.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 11887,
+      "aisle": "Pasta and Rice",
+      "image": "tomato-paste.jpg",
+      "consistency": "SOLID",
+      "name": "tomato paste",
+      "nameClean": "tomato paste",
+      "original": "1 tablespoon tomato paste",
+      "originalName": "tomato paste",
+      "amount": 1.0,
+      "unit": "tablespoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        }
+      }
+    },
+    {
+      "id": 10511282,
+      "aisle": "Produce",
+      "image": "brown-onion.png",
+      "consistency": "SOLID",
+      "name": "onion",
+      "nameClean": "yellow onion",
+      "original": "1 large yellow onion, chopped",
+      "originalName": "yellow onion, chopped",
+      "amount": 1.0,
+      "unit": "large",
+      "meta": [
+        "yellow",
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "large",
+          "unitLong": "large"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "large",
+          "unitLong": "large"
+        }
+      }
+    }
+  ],
+  "id": 639891,
+  "title": "Coffee-braised Short Ribs",
+  "readyInMinutes": 45,
+  "servings": 5,
+  "sourceUrl": "https://www.foodista.com/recipe/8ZDDXLKG/coffee-braised-short-ribs",
+  "image": "https://img.spoonacular.com/recipes/639891-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Need a <b>gluten free and dairy free main course</b>? Coffee-braised Short Ribs could be a great recipe to try. One portion of this dish contains approximately <b>74g of protein</b>, <b>42g of fat</b>, and a total of <b>877 calories</b>. For <b>$7.05 per serving</b>, this recipe <b>covers 64%</b> of your daily requirements of vitamins and minerals. This recipe serves 5. 6 people have made this recipe and would make it again. A mixture of strong freshly coffee, short, brown sugar, and a handful of other ingredients are all it takes to make this recipe so delicious. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. It is brought to you by Foodista. Taking all factors into account, this recipe <b>earns a spoonacular score of 90%</b>, which is spectacular. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/coffee-braised-short-ribs-492600\">Coffee-Braised Short Ribs</a>, <a href=\"https://spoonacular.com/recipes/coffee-braised-short-ribs-1547523\">Coffee-braised Short Ribs</a>, and <a href=\"https://spoonacular.com/recipes/coffee-braised-short-ribs-386092\">Coffee-Braised Short Ribs</a>.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "lunch",
+    "main course",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "<ol><li>Food</li><li>Preheat oven to 300F. Heat oil in a large heavy stockpot over medium-high heat. Sprinkle short ribs with salt and pepper. Working in batches, add ribs to pot and cook until browned, about 4 minutes per side. Transfer to platter.</li><li>Add onion, red bell pepper, and jalapeo to drippings in stockpot. Reduce heat to medium, cover, and cook until onion is tender, stirring occasionally, about 6 minutes.</li><li>Stir in garlic and saut uncovered 1 minute.</li><li>Add brown sugar, ancho chile powder, oregano, and cumin; stir 15 seconds. Stir in coffee, tomatoes with juice, and tomato paste. Bring to boil, scraping up browned bits. Return ribs and any juices to pot; bring to boil.</li><li>Cover and bake until meat is very tender, about 1 hour 45 minutes. Spoon fat from surface of sauce. Season sauce to taste with salt and pepper.</li><li>Transfer ribs to a platter and spoon sauce over top.</li><li>Sprinkle with chopped cilantro.</li></ol>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Food",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Preheat oven to 300F.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg",
+              "temperature": {
+                "number": 300.0,
+                "unit": "Fahrenheit"
+              }
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Heat oil in a large heavy stockpot over medium-high heat.",
+          "ingredients": [
+            {
+              "id": 4582,
+              "name": "cooking oil",
+              "localizedName": "cooking oil",
+              "image": "vegetable-oil.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404752,
+              "name": "pot",
+              "localizedName": "pot",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/stock-pot.jpg"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "step": "Sprinkle short ribs with salt and pepper. Working in batches, add ribs to pot and cook until browned, about 4 minutes per side.",
+          "ingredients": [
+            {
+              "id": 1102047,
+              "name": "salt and pepper",
+              "localizedName": "salt and pepper",
+              "image": "salt-and-pepper.jpg"
+            },
+            {
+              "id": 10013149,
+              "name": "beef short ribs",
+              "localizedName": "beef short ribs",
+              "image": "beef-short-ribs.jpg"
+            },
+            {
+              "id": 23236,
+              "name": "ribs",
+              "localizedName": "ribs",
+              "image": "ribs.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404752,
+              "name": "pot",
+              "localizedName": "pot",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/stock-pot.jpg"
+            }
+          ],
+          "length": {
+            "number": 4,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 5,
+          "step": "Transfer to platter.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 6,
+          "step": "Add onion, red bell pepper, and jalapeo to drippings in stockpot. Reduce heat to medium, cover, and cook until onion is tender, stirring occasionally, about 6 minutes.Stir in garlic and saut uncovered 1 minute.",
+          "ingredients": [
+            {
+              "id": 11821,
+              "name": "red pepper",
+              "localizedName": "red pepper",
+              "image": "red-pepper.jpg"
+            },
+            {
+              "id": 11215,
+              "name": "garlic",
+              "localizedName": "garlic",
+              "image": "garlic.png"
+            },
+            {
+              "id": 11282,
+              "name": "onion",
+              "localizedName": "onion",
+              "image": "brown-onion.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404752,
+              "name": "pot",
+              "localizedName": "pot",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/stock-pot.jpg"
+            }
+          ],
+          "length": {
+            "number": 7,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 7,
+          "step": "Add brown sugar, ancho chile powder, oregano, and cumin; stir 15 seconds. Stir in coffee, tomatoes with juice, and tomato paste. Bring to boil, scraping up browned bits. Return ribs and any juices to pot; bring to boil.Cover and bake until meat is very tender, about 1 hour 45 minutes. Spoon fat from surface of sauce. Season sauce to taste with salt and pepper.",
+          "ingredients": [
+            {
+              "id": 10111693,
+              "name": "tomatoes in juice",
+              "localizedName": "tomatoes in juice",
+              "image": "tomatoes-canned.png"
+            },
+            {
+              "id": 1022009,
+              "name": "ancho chili powder",
+              "localizedName": "ancho chili powder",
+              "image": "chili-powder.jpg"
+            },
+            {
+              "id": 1102047,
+              "name": "salt and pepper",
+              "localizedName": "salt and pepper",
+              "image": "salt-and-pepper.jpg"
+            },
+            {
+              "id": 11887,
+              "name": "tomato paste",
+              "localizedName": "tomato paste",
+              "image": "tomato-paste.jpg"
+            },
+            {
+              "id": 19334,
+              "name": "brown sugar",
+              "localizedName": "brown sugar",
+              "image": "dark-brown-sugar.png"
+            },
+            {
+              "id": 2027,
+              "name": "oregano",
+              "localizedName": "oregano",
+              "image": "oregano.jpg"
+            },
+            {
+              "id": 14209,
+              "name": "coffee",
+              "localizedName": "coffee",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/brewed-coffee.jpg"
+            },
+            {
+              "id": 1002014,
+              "name": "cumin",
+              "localizedName": "cumin",
+              "image": "ground-cumin.jpg"
+            },
+            {
+              "id": 0,
+              "name": "sauce",
+              "localizedName": "sauce",
+              "image": ""
+            },
+            {
+              "id": 1065062,
+              "name": "meat",
+              "localizedName": "meat",
+              "image": "whole-chicken.jpg"
+            },
+            {
+              "id": 23236,
+              "name": "ribs",
+              "localizedName": "ribs",
+              "image": "ribs.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            },
+            {
+              "id": 404752,
+              "name": "pot",
+              "localizedName": "pot",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/stock-pot.jpg"
+            }
+          ],
+          "length": {
+            "number": 105,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 8,
+          "step": "Transfer ribs to a platter and spoon sauce over top.",
+          "ingredients": [
+            {
+              "id": 0,
+              "name": "sauce",
+              "localizedName": "sauce",
+              "image": ""
+            },
+            {
+              "id": 23236,
+              "name": "ribs",
+              "localizedName": "ribs",
+              "image": "ribs.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 9,
+          "step": "Sprinkle with chopped cilantro.",
+          "ingredients": [
+            {
+              "id": 11165,
+              "name": "cilantro",
+              "localizedName": "cilantro",
+              "image": "cilantro.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 96.04753875732422,
+  "spoonacularSourceUrl": "https://spoonacular.com/coffee-braised-short-ribs-639891"
+}

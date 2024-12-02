@@ -31,6 +31,10 @@
       <div class="recipe-image">
         <%= link_to recipe_path(recipe) do %>
           <%= image_tag recipe.image_url, alt: "Recipe Image" %>
+          <!--EL ADDED CLASS "RECIPE-NAME-OVERLAY" FOR RECIPE NAME ON IMAGE CENTRE-->
+          <div class="recipe-name-overlay">
+            <%=recipe.name%>
+          </div>
         <% end %>
         <button class="recipe-dropdown-button" data-action="click->recipedropdown#toggle">
           <i class="fa-solid fa-chevron-down fa-xl"></i>

@@ -1,0 +1,633 @@
+{
+  "vegetarian": true,
+  "vegan": true,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 13,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 1,
+  "healthScore": 100,
+  "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+  "license": "CC BY 3.0",
+  "sourceName": "Foodista",
+  "pricePerServing": 305.89,
+  "extendedIngredients": [
+    {
+      "id": 11233,
+      "aisle": "Produce",
+      "image": "kale.jpg",
+      "consistency": "SOLID",
+      "name": "kale leaves",
+      "nameClean": "kale",
+      "original": "3 Large Kale Leaves",
+      "originalName": "Large Kale Leaves",
+      "amount": 3.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 3.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 11215,
+      "aisle": "Produce",
+      "image": "garlic.png",
+      "consistency": "SOLID",
+      "name": "garlic",
+      "nameClean": "garlic",
+      "original": "1 clove garlic",
+      "originalName": "garlic",
+      "amount": 1.0,
+      "unit": "clove",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "clove",
+          "unitLong": "clove"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "clove",
+          "unitLong": "clove"
+        }
+      }
+    },
+    {
+      "id": 20035,
+      "aisle": "Pasta and Rice",
+      "image": "uncooked-quinoa.png",
+      "consistency": "SOLID",
+      "name": "quinoa",
+      "nameClean": "quinoa",
+      "original": "1/2 cup Quinoa",
+      "originalName": "Quinoa",
+      "amount": 0.5,
+      "unit": "cup",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 85.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 11112,
+      "aisle": "Produce",
+      "image": "red-cabbage.png",
+      "consistency": "SOLID",
+      "name": "cabbage",
+      "nameClean": "red cabbage",
+      "original": "1/4 Red Cabbage",
+      "originalName": "Red Cabbage",
+      "amount": 0.25,
+      "unit": "",
+      "meta": [
+        "red"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 0.25,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 9037,
+      "aisle": "Produce",
+      "image": "avocado.jpg",
+      "consistency": "SOLID",
+      "name": "avocado",
+      "nameClean": "avocado",
+      "original": "1 Avocado",
+      "originalName": "Avocado",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 11135,
+      "aisle": "Produce",
+      "image": "cauliflower.jpg",
+      "consistency": "SOLID",
+      "name": "a cauliflower",
+      "nameClean": "cauliflower",
+      "original": "1/2 a Large Cauliflower",
+      "originalName": "a Large Cauliflower",
+      "amount": 0.5,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 4053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "olive oil",
+      "nameClean": "olive oil",
+      "original": "1 tsp olive oil",
+      "originalName": "olive oil",
+      "amount": 1.0,
+      "unit": "tsp",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        }
+      }
+    },
+    {
+      "id": 1012014,
+      "aisle": "Spices and Seasonings",
+      "image": "ground-cumin.jpg",
+      "consistency": "SOLID",
+      "name": "ground cumin",
+      "nameClean": "ground cumin",
+      "original": "1/4 tsp Ground Cumin",
+      "originalName": "Ground Cumin",
+      "amount": 0.25,
+      "unit": "tsp",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.25,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 11203,
+      "aisle": "Produce",
+      "image": "watercress.jpg",
+      "consistency": "SOLID",
+      "name": "garden cress",
+      "nameClean": "garden cress",
+      "original": "garden cress",
+      "originalName": "garden cress",
+      "amount": 2.0,
+      "unit": "servings",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 10311215,
+      "aisle": "Produce",
+      "image": "garlic-roasted.jpg",
+      "consistency": "SOLID",
+      "name": "garlic roasted",
+      "nameClean": "roasted garlic",
+      "original": "1 head garlic roasted",
+      "originalName": "garlic roasted",
+      "amount": 1.0,
+      "unit": "head",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "head",
+          "unitLong": "head"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "head",
+          "unitLong": "head"
+        }
+      }
+    },
+    {
+      "id": 14412,
+      "aisle": "Beverages",
+      "image": "water.png",
+      "consistency": "LIQUID",
+      "name": "cashews soaked overnight in water",
+      "nameClean": "water",
+      "original": "1/2 cup Raw Cashews soaked overnight in water",
+      "originalName": "Raw Cashews soaked overnight in water",
+      "amount": 0.5,
+      "unit": "cup",
+      "meta": [
+        "raw"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 118.294,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 12698,
+      "aisle": "Health Foods",
+      "image": "tahini-paste.png",
+      "consistency": "SOLID",
+      "name": "tahini",
+      "nameClean": "tahini",
+      "original": "2 tbsp Tahini",
+      "originalName": "Tahini",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 14412,
+      "aisle": "Beverages",
+      "image": "water.png",
+      "consistency": "LIQUID",
+      "name": "water",
+      "nameClean": "water",
+      "original": "4-6 tbsp Water or more, as needed",
+      "originalName": "Water or more, as needed",
+      "amount": 4.0,
+      "unit": "tbsp",
+      "meta": [
+        "as needed"
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 1082047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt.jpg",
+      "consistency": "SOLID",
+      "name": "kosher salt",
+      "nameClean": "kosher salt",
+      "original": "1/4-1/2 tsp Kosher Salt",
+      "originalName": "Kosher Salt",
+      "amount": 0.25,
+      "unit": "tsp",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.25,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    }
+  ],
+  "id": 1095753,
+  "title": "Roasted Cauliflower Detox Bowl with Tahini Sauce",
+  "readyInMinutes": 50,
+  "servings": 2,
+  "sourceUrl": "https://www.foodista.com/recipe/6J6KLYH6/roasted-cauliflower-detox-bowl-with-tahini-sauce",
+  "image": "https://img.spoonacular.com/recipes/1095753-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Roasted Cauliflower Detox Bowl with Tahini Sauce might be just the main course you are searching for. One serving contains <b>549 calories</b>, <b>18g of protein</b>, and <b>30g of fat</b>. This recipe serves 2 and costs $3.06 per serving. 1 person were glad they tried this recipe. A mixture of kale leaves, garlic, ground cumin, and a handful of other ingredients are all it takes to make this recipe so yummy. It is a good option if you're following a <b>gluten free, dairy free, lacto ovo vegetarian, and vegan</b> diet. From preparation to the plate, this recipe takes around <b>50 minutes</b>. It is brought to you by Foodista. All things considered, we decided this recipe <b>deserves a spoonacular score of 95%</b>. This score is awesome. <a href=\"https://spoonacular.com/recipes/quinoa-bowl-with-roasted-cauliflower-and-tahini-dressing-862308\">Quinoa Bowl with Roasted Cauliflower and Tahini Dressing</a>, <a href=\"https://spoonacular.com/recipes/quinoa-bowl-with-roasted-cauliflower-and-tahini-dressing-1667949\">Quinoa Bowl with Roasted Cauliflower and Tahini Dressing</a>, and <a href=\"https://spoonacular.com/recipes/roasted-cauliflower-with-tahini-sauce-658541\">Roasted Cauliflower with Tahini Sauce</a> are very similar to this recipe.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "lunch",
+    "main course",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free",
+    "lacto ovo vegetarian",
+    "vegan"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "<ol><li>Soak the cashews overnight in water.</li><li>Preheat the oven to 200C/~395 F. </li><li>Chop the cauliflower into florets and toss with the olive oil and ground cumin. Roast for 20-25 minutes until golden.</li><li>To make the sauce, add all ingredients except the water and salt to a food processor. </li><li>While blending, drizzle in the water a little at a time until the sauce starts to become smooth. </li><li>Continue processing, scraping down the sides or adding additional water as needed, until the sauce is as smooth as your food processor can make it. Add salt to taste.</li><li>Boil the quinoa in a saucepan for 10 minutes then drain and set aside. </li><li>Meanwhile, chop the kale and red cabbage into thin strips and saute in a frying pan with the minced garlic clove over a medium heat until wilted. </li><li>Add in the quinoa and toss so everything is mixed together.</li><li>Place some of the kale mixture in the bottom of a bowl and top with sliced avocado, some of the roasted cauliflower, a drizzle of the tahini sauce and if desired, sprinkle some cress on the top.</li></ol>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Soak the cashews overnight in water.Preheat the oven to 200C/~395 F. Chop the cauliflower into florets and toss with the olive oil and ground cumin. Roast for 20-25 minutes until golden.To make the sauce, add all ingredients except the water and salt to a food processor. While blending, drizzle in the water a little at a time until the sauce starts to become smooth. Continue processing, scraping down the sides or adding additional water as needed, until the sauce is as smooth as your food processor can make it.",
+          "ingredients": [
+            {
+              "id": 1012014,
+              "name": "ground cumin",
+              "localizedName": "ground cumin",
+              "image": "ground-cumin.jpg"
+            },
+            {
+              "id": 11135,
+              "name": "cauliflower",
+              "localizedName": "cauliflower",
+              "image": "cauliflower.jpg"
+            },
+            {
+              "id": 4053,
+              "name": "olive oil",
+              "localizedName": "olive oil",
+              "image": "olive-oil.jpg"
+            },
+            {
+              "id": 12087,
+              "name": "cashews",
+              "localizedName": "cashews",
+              "image": "cashews.jpg"
+            },
+            {
+              "id": 0,
+              "name": "sauce",
+              "localizedName": "sauce",
+              "image": ""
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            },
+            {
+              "id": 2047,
+              "name": "salt",
+              "localizedName": "salt",
+              "image": "salt.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404771,
+              "name": "food processor",
+              "localizedName": "food processor",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/food-processor.png"
+            },
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg",
+              "temperature": {
+                "number": 200.0,
+                "unit": "Celsius"
+              }
+            }
+          ],
+          "length": {
+            "number": 25,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 2,
+          "step": "Add salt to taste.Boil the quinoa in a saucepan for 10 minutes then drain and set aside. Meanwhile, chop the kale and red cabbage into thin strips and saute in a frying pan with the minced garlic clove over a medium heat until wilted.",
+          "ingredients": [
+            {
+              "id": 0,
+              "name": "minced garlic",
+              "localizedName": "minced garlic",
+              "image": "garlic.png"
+            },
+            {
+              "id": 11112,
+              "name": "red cabbage",
+              "localizedName": "red cabbage",
+              "image": "red-cabbage.png"
+            },
+            {
+              "id": 20035,
+              "name": "quinoa",
+              "localizedName": "quinoa",
+              "image": "uncooked-quinoa.png"
+            },
+            {
+              "id": 1002011,
+              "name": "clove",
+              "localizedName": "clove",
+              "image": "cloves.jpg"
+            },
+            {
+              "id": 11233,
+              "name": "kale",
+              "localizedName": "kale",
+              "image": "kale.jpg"
+            },
+            {
+              "id": 2047,
+              "name": "salt",
+              "localizedName": "salt",
+              "image": "salt.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404645,
+              "name": "frying pan",
+              "localizedName": "frying pan",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+            },
+            {
+              "id": 404669,
+              "name": "sauce pan",
+              "localizedName": "sauce pan",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/sauce-pan.jpg"
+            }
+          ],
+          "length": {
+            "number": 10,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 3,
+          "step": "Add in the quinoa and toss so everything is mixed together.",
+          "ingredients": [
+            {
+              "id": 20035,
+              "name": "quinoa",
+              "localizedName": "quinoa",
+              "image": "uncooked-quinoa.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 4,
+          "step": "Place some of the kale mixture in the bottom of a bowl and top with sliced avocado, some of the roasted cauliflower, a drizzle of the tahini sauce and if desired, sprinkle some cress on the top.",
+          "ingredients": [
+            {
+              "id": 11135,
+              "name": "cauliflower",
+              "localizedName": "cauliflower",
+              "image": "cauliflower.jpg"
+            },
+            {
+              "id": 9037,
+              "name": "avocado",
+              "localizedName": "avocado",
+              "image": "avocado.jpg"
+            },
+            {
+              "id": 12698,
+              "name": "tahini",
+              "localizedName": "tahini",
+              "image": "tahini-paste.png"
+            },
+            {
+              "id": 11203,
+              "name": "garden cress",
+              "localizedName": "garden cress",
+              "image": "watercress.jpg"
+            },
+            {
+              "id": 0,
+              "name": "sauce",
+              "localizedName": "sauce",
+              "image": ""
+            },
+            {
+              "id": 11233,
+              "name": "kale",
+              "localizedName": "kale",
+              "image": "kale.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 96.14891052246094,
+  "spoonacularSourceUrl": "https://spoonacular.com/roasted-cauliflower-detox-bowl-with-tahini-sauce-1095753"
+}

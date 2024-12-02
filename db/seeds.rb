@@ -28,7 +28,7 @@ puts "Created #{User.count} users."
 
 # API URL for recipes
 
-url = "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/complexSearch\?offset\=0\&number\=80"
+url = "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/complexSearch\?offset\=0\&number\=60"
 
 # Creating a recipes file
 

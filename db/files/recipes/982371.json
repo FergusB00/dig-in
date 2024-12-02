@@ -1,0 +1,450 @@
+{
+  "vegetarian": true,
+  "vegan": true,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 10,
+  "gaps": "no",
+  "preparationMinutes": 2,
+  "cookingMinutes": 11,
+  "aggregateLikes": 1,
+  "healthScore": 100,
+  "creditsText": "pinkwhen.com",
+  "sourceName": "pinkwhen.com",
+  "pricePerServing": 301.67,
+  "extendedIngredients": [
+    {
+      "id": 9037,
+      "aisle": "Produce",
+      "image": "avocado.jpg",
+      "consistency": "SOLID",
+      "name": "avocado",
+      "nameClean": "avocado",
+      "original": "½ ripe avocado sliced",
+      "originalName": "ripe avocado sliced",
+      "amount": 0.5,
+      "unit": "",
+      "meta": [
+        "ripe",
+        "sliced"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 11090,
+      "aisle": "Produce",
+      "image": "broccoli.jpg",
+      "consistency": "SOLID",
+      "name": "broccoli",
+      "nameClean": "broccoli",
+      "original": "1 cup chopped broccoli",
+      "originalName": "chopped broccoli",
+      "amount": 1.0,
+      "unit": "cup",
+      "meta": [
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "cup",
+          "unitLong": "cup"
+        },
+        "metric": {
+          "amount": 88.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 10311529,
+      "aisle": "Produce",
+      "image": "cherry-tomatoes.png",
+      "consistency": "SOLID",
+      "name": "rainbow cherry tomatoes",
+      "nameClean": "cherry tomato",
+      "original": "fresh rainbow cherry tomatoes sliced",
+      "originalName": "fresh rainbow cherry tomatoes sliced",
+      "amount": 4.0,
+      "unit": "servings",
+      "meta": [
+        "fresh",
+        "sliced"
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 9433,
+      "aisle": "Produce",
+      "image": "mandarin-or-tangerines-or-clementines.jpg",
+      "consistency": "SOLID",
+      "name": "clementine",
+      "nameClean": "clementine",
+      "original": "1 clementine peeled",
+      "originalName": "clementine peeled",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+        "peeled"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 11233,
+      "aisle": "Produce",
+      "image": "kale.jpg",
+      "consistency": "SOLID",
+      "name": "kale",
+      "nameClean": "kale",
+      "original": "2 cups of chopped kale",
+      "originalName": "chopped kale",
+      "amount": 2.0,
+      "unit": "cups",
+      "meta": [
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 42.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 20035,
+      "aisle": "Pasta and Rice",
+      "image": "uncooked-quinoa.png",
+      "consistency": "SOLID",
+      "name": "quinoa",
+      "nameClean": "quinoa",
+      "original": "2 cups quinoa",
+      "originalName": "quinoa",
+      "amount": 2.0,
+      "unit": "cups",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 340.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 1102047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt-and-pepper.jpg",
+      "consistency": "SOLID",
+      "name": "salt and pepper",
+      "nameClean": "salt and pepper",
+      "original": "salt and pepper to taste",
+      "originalName": "salt and pepper to taste",
+      "amount": 4.0,
+      "unit": "servings",
+      "meta": [
+        "to taste"
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 11001,
+      "aisle": "Produce",
+      "image": "alfalfa-sprouts.png",
+      "consistency": "SOLID",
+      "name": "baby brussell sprouts",
+      "nameClean": "sprouts",
+      "original": "1 cup baby brussell sprouts",
+      "originalName": "baby brussell sprouts",
+      "amount": 1.0,
+      "unit": "cup",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "cup",
+          "unitLong": "cup"
+        },
+        "metric": {
+          "amount": 33.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 1006615,
+      "aisle": "Canned and Jarred",
+      "image": "chicken-broth.png",
+      "consistency": "LIQUID",
+      "name": "stock",
+      "nameClean": "stock",
+      "original": "2 cups stock or broth",
+      "originalName": "stock or broth",
+      "amount": 2.0,
+      "unit": "cups",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 470.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    }
+  ],
+  "id": 982371,
+  "title": "Instant Pot Quinoa Grain Bowl",
+  "readyInMinutes": 13,
+  "servings": 4,
+  "sourceUrl": "https://www.pinkwhen.com/instant-pot-quinoa-grain-bowl/",
+  "image": "https://img.spoonacular.com/recipes/982371-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Instant Pot Quinoa Grain Bowl might be a good recipe to expand your main course recipe box. Watching your figure? This gluten free, dairy free, lacto ovo vegetarian, and vegan recipe has <b>416 calories</b>, <b>16g of protein</b>, and <b>10g of fat</b> per serving. This recipe serves 4 and costs $3.02 per serving. From preparation to the plate, this recipe takes roughly <b>13 minutes</b>. A mixture of baby brussell sprouts, broccoli, salt and pepper, and a handful of other ingredients are all it takes to make this recipe so tasty. 1 person has made this recipe and would make it again. It is brought to you by Pink When. With a spoonacular <b>score of 96%</b>, this dish is super. Users who liked this recipe also liked <a href=\"https://spoonacular.com/recipes/instant-pot-quinoa-grain-bowl-1693765\">Instant Pot Quinoa Grain Bowl</a>, <a href=\"https://spoonacular.com/recipes/instant-pot-sausage-cabbage-bowl-with-quinoa-or-stovetop-901463\">Instant Pot Sausage Cabbage Bowl with Quinoa (or Stovetop)</a>, and <a href=\"https://spoonacular.com/recipes/crock-pot-chicken-fajita-bowl-grain-free-paleo-1224627\">Crock Pot Chicken Fajita Bowl (Grain-Free, Paleo)</a>.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "lunch",
+    "main course",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free",
+    "lacto ovo vegetarian",
+    "vegan"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "Rinse and drain the quinoa to remove the bitter and sometimes mildly soapy taste that can linger if not rinsed.\nCombine the quinoa, stock and seasonings in the Instant Pot together and then twist to lock the lid shut. Set the pot to Manual for 1 minute.\nAt the end of the cook time, let the pot to natural pressure release for 10 minutes before carefully releasing the remaining pressure.\nFluff the cooked quinoa with a fork. Now you have Instant Pot Quinoa!\nAdd fruits and vegetables over a scoop of cooked quinoa and make an amazing quinoa grain bowl.",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Rinse and drain the quinoa to remove the bitter and sometimes mildly soapy taste that can linger if not rinsed.",
+          "ingredients": [
+            {
+              "id": 20035,
+              "name": "quinoa",
+              "localizedName": "quinoa",
+              "image": "uncooked-quinoa.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Combine the quinoa, stock and seasonings in the Instant Pot together and then twist to lock the lid shut. Set the pot to Manual for 1 minute.",
+          "ingredients": [
+            {
+              "id": 1042027,
+              "name": "seasoning",
+              "localizedName": "seasoning",
+              "image": "seasoning.png"
+            },
+            {
+              "id": 20035,
+              "name": "quinoa",
+              "localizedName": "quinoa",
+              "image": "uncooked-quinoa.png"
+            },
+            {
+              "id": 1006615,
+              "name": "stock",
+              "localizedName": "stock",
+              "image": "chicken-broth.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 414093,
+              "name": "instant pot",
+              "localizedName": "instant pot",
+              "image": ""
+            },
+            {
+              "id": 404752,
+              "name": "pot",
+              "localizedName": "pot",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/stock-pot.jpg"
+            }
+          ],
+          "length": {
+            "number": 1,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 3,
+          "step": "At the end of the cook time, let the pot to natural pressure release for 10 minutes before carefully releasing the remaining pressure.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+            {
+              "id": 404752,
+              "name": "pot",
+              "localizedName": "pot",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/stock-pot.jpg"
+            }
+          ],
+          "length": {
+            "number": 10,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 4,
+          "step": "Fluff the cooked quinoa with a fork. Now you have Instant Pot Quinoa!",
+          "ingredients": [
+            {
+              "id": 20137,
+              "name": "cooked quinoa",
+              "localizedName": "cooked quinoa",
+              "image": "cooked-quinoa.png"
+            },
+            {
+              "id": 20035,
+              "name": "quinoa",
+              "localizedName": "quinoa",
+              "image": "uncooked-quinoa.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 414093,
+              "name": "instant pot",
+              "localizedName": "instant pot",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "step": "Add fruits and vegetables over a scoop of cooked quinoa and make an amazing quinoa grain bowl.",
+          "ingredients": [
+            {
+              "id": 20137,
+              "name": "cooked quinoa",
+              "localizedName": "cooked quinoa",
+              "image": "cooked-quinoa.png"
+            },
+            {
+              "id": 11583,
+              "name": "vegetable",
+              "localizedName": "vegetable",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/mixed-vegetables.png"
+            },
+            {
+              "id": 9431,
+              "name": "fruit",
+              "localizedName": "fruit",
+              "image": "mixed-fresh-fruit.jpg"
+            },
+            {
+              "id": 20035,
+              "name": "quinoa",
+              "localizedName": "quinoa",
+              "image": "uncooked-quinoa.png"
+            },
+            {
+              "id": 0,
+              "name": "grains",
+              "localizedName": "grains",
+              "image": ""
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 96.15728759765625,
+  "spoonacularSourceUrl": "https://spoonacular.com/instant-pot-quinoa-grain-bowl-982371"
+}

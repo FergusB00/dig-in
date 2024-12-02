@@ -1,0 +1,243 @@
+{
+  "vegetarian": true,
+  "vegan": true,
+  "glutenFree": false,
+  "dairyFree": true,
+  "veryHealthy": false,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 0,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 11,
+  "healthScore": 52,
+  "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+  "license": "CC BY 3.0",
+  "sourceName": "Foodista",
+  "pricePerServing": 150.29,
+  "extendedIngredients": [
+    {
+      "id": 18376,
+      "aisle": "Baking",
+      "image": "breadcrumbs.jpg",
+      "consistency": "SOLID",
+      "name": "seasoned bread crumbs",
+      "nameClean": "seasoned breadcrumbs",
+      "original": "3 tablespoons seasoned bread crumbs",
+      "originalName": "seasoned bread crumbs",
+      "amount": 3.0,
+      "unit": "tablespoons",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 3.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 11238,
+      "aisle": "Produce",
+      "image": "shiitake-mushrooms.png",
+      "consistency": "SOLID",
+      "name": "mushroom caps",
+      "nameClean": "shiitake mushrooms",
+      "original": "18 mushroom caps",
+      "originalName": "mushroom caps",
+      "amount": 18.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 18.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 18.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 10011457,
+      "aisle": "Produce",
+      "image": "spinach.jpg",
+      "consistency": "SOLID",
+      "name": "alouette spinach & artichoke spread",
+      "nameClean": "spinach",
+      "original": "1 package (6.5 oz.) Alouette Garlic & Herbs or Alouette Spinach & Artichoke Spread",
+      "originalName": "package Alouette Garlic & Herbs or Alouette Spinach & Artichoke Spread",
+      "amount": 6.5,
+      "unit": "oz",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 6.5,
+          "unitShort": "oz",
+          "unitLong": "ounces"
+        },
+        "metric": {
+          "amount": 184.272,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    }
+  ],
+  "id": 632252,
+  "title": "Alouette® Stuffed Mushroom Caps",
+  "readyInMinutes": 45,
+  "servings": 8,
+  "sourceUrl": "https://www.foodista.com/recipe/8LZ2BYQT/alouette-stuffed-mushroom-caps",
+  "image": "https://img.spoonacular.com/recipes/632252-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "You can never have too many hor d'oeuvre recipes, so give Alouette® Stuffed Mushroom Caps a try. Watching your figure? This dairy free, lacto ovo vegetarian, and vegan recipe has <b>30 calories</b>, <b>2g of protein</b>, and <b>0g of fat</b> per serving. This recipe serves 8. For <b>$1.5 per serving</b>, this recipe <b>covers 11%</b> of your daily requirements of vitamins and minerals. From preparation to the plate, this recipe takes about <b>45 minutes</b>. A couple people made this recipe, and 11 would say it hit the spot. Head to the store and pick up seasoned bread crumbs, mushroom caps, alouette spinach & artichoke spread, and a few other things to make it today. It is brought to you by Foodista. Taking all factors into account, this recipe <b>earns a spoonacular score of 96%</b>, which is great. Try <a href=\"https://spoonacular.com/recipes/stuffed-mushroom-caps-118382\">Stuffed Mushroom Caps</a>, <a href=\"https://spoonacular.com/recipes/stuffed-mushroom-caps-558817\">Stuffed Mushroom Caps</a>, and <a href=\"https://spoonacular.com/recipes/stuffed-white-mushroom-caps-313457\">Stuffed White Mushroom Caps</a> for similar recipes.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "antipasti",
+    "starter",
+    "snack",
+    "appetizer",
+    "antipasto",
+    "hor d'oeuvre"
+  ],
+  "diets": [
+    "dairy free",
+    "lacto ovo vegetarian",
+    "vegan"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "<ol><li>Preheat oven to 375 F.</li><li>Place mushroom caps hollow side up on baking sheet. Fill each cap with 1 tsp. Alouette Garlic & Herbs Spreadable Cheese and sprinkle with seasoned bread crumbs.</li><li>Bake 12-15 minutes. Garnish and serve.</li></ol>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Preheat oven to 375 F.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg",
+              "temperature": {
+                "number": 375.0,
+                "unit": "Fahrenheit"
+              }
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Place mushroom caps hollow side up on baking sheet. Fill each cap with 1 tsp. Alouette Garlic & Herbs",
+          "ingredients": [
+            {
+              "id": 11260,
+              "name": "mushrooms",
+              "localizedName": "mushrooms",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/mushrooms.png"
+            },
+            {
+              "id": 11215,
+              "name": "garlic",
+              "localizedName": "garlic",
+              "image": "garlic.png"
+            },
+            {
+              "id": 1002044,
+              "name": "herbs",
+              "localizedName": "herbs",
+              "image": "mixed-fresh-herbs.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404727,
+              "name": "baking sheet",
+              "localizedName": "baking sheet",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/baking-sheet.jpg"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Spreadable Cheese and sprinkle with seasoned bread crumbs.",
+          "ingredients": [
+            {
+              "id": 18376,
+              "name": "seasoned breadcrumbs",
+              "localizedName": "seasoned breadcrumbs",
+              "image": "breadcrumbs.jpg"
+            },
+            {
+              "id": 0,
+              "name": "spreadable cheese",
+              "localizedName": "spreadable cheese",
+              "image": ""
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 4,
+          "step": "Bake 12-15 minutes.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            }
+          ],
+          "length": {
+            "number": 15,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 5,
+          "step": "Garnish and serve.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 96.05790710449219,
+  "spoonacularSourceUrl": "https://spoonacular.com/alouette-stuffed-mushroom-caps-632252"
+}

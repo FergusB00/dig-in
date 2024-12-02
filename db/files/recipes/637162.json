@@ -1,0 +1,392 @@
+{
+  "vegetarian": true,
+  "vegan": true,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": true,
+  "weightWatcherSmartPoints": 3,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 4,
+  "healthScore": 100,
+  "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+  "license": "CC BY 3.0",
+  "sourceName": "Foodista",
+  "pricePerServing": 139.83,
+  "extendedIngredients": [
+    {
+      "id": 11124,
+      "aisle": "Produce",
+      "image": "sliced-carrot.png",
+      "consistency": "SOLID",
+      "name": "carrots",
+      "nameClean": "carrot",
+      "original": "1 1/2 cups of carrots",
+      "originalName": "carrots",
+      "amount": 1.5,
+      "unit": "cups",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.5,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 192.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 2014,
+      "aisle": "Spices and Seasonings",
+      "image": "ground-cumin.jpg",
+      "consistency": "SOLID",
+      "name": "cumin seed powder",
+      "nameClean": "cumin seeds",
+      "original": "1/2 tsp cumin seed powder",
+      "originalName": "cumin seed powder",
+      "amount": 0.5,
+      "unit": "tsp",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 11165,
+      "aisle": "Produce",
+      "image": "cilantro.png",
+      "consistency": "SOLID",
+      "name": "coriander",
+      "nameClean": "cilantro",
+      "original": "1 bunch of fresh coriander",
+      "originalName": "fresh coriander",
+      "amount": 1.0,
+      "unit": "bunch",
+      "meta": [
+        "fresh"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "bunch",
+          "unitLong": "bunch"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "bunch",
+          "unitLong": "bunch"
+        }
+      }
+    },
+    {
+      "id": 11109,
+      "aisle": "Produce",
+      "image": "cabbage.jpg",
+      "consistency": "SOLID",
+      "name": "cabbage",
+      "nameClean": "cabbage",
+      "original": "3/4 cup green cabbage",
+      "originalName": "green cabbage",
+      "amount": 0.75,
+      "unit": "cup",
+      "meta": [
+        "green"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.75,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 52.5,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 1002013,
+      "aisle": "Spices and Seasonings",
+      "image": "ground-coriander.jpg",
+      "consistency": "SOLID",
+      "name": "ground coriander",
+      "nameClean": "ground coriander",
+      "original": "1/2 tsp ground coriander",
+      "originalName": "ground coriander",
+      "amount": 0.5,
+      "unit": "tsp",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 9160,
+      "aisle": "Produce",
+      "image": "lime-juice.png",
+      "consistency": "LIQUID",
+      "name": "juice of lime",
+      "nameClean": "lime juice",
+      "original": "1 Juice of lime",
+      "originalName": "Juice of lime",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 4053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "olive oil",
+      "nameClean": "olive oil",
+      "original": "1 teaspoon of olive oil",
+      "originalName": "olive oil",
+      "amount": 1.0,
+      "unit": "teaspoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        }
+      }
+    },
+    {
+      "id": 11112,
+      "aisle": "Produce",
+      "image": "red-cabbage.png",
+      "consistency": "SOLID",
+      "name": "cabbage",
+      "nameClean": "red cabbage",
+      "original": "3/4 cup red cabbage",
+      "originalName": "red cabbage",
+      "amount": 0.75,
+      "unit": "cup",
+      "meta": [
+        "red"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.75,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 66.75,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 12036,
+      "aisle": "Savory Snacks",
+      "image": "sunflower-seeds.jpg",
+      "consistency": "SOLID",
+      "name": "sunflower seeds",
+      "nameClean": "sunflower seeds",
+      "original": "2 teaspoons of sunflower seeds",
+      "originalName": "sunflower seeds",
+      "amount": 2.0,
+      "unit": "teaspoons",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    }
+  ],
+  "id": 637162,
+  "title": "Carrot and Cabbage Salad With Coriander+cumin Dry Rub",
+  "readyInMinutes": 25,
+  "servings": 1,
+  "sourceUrl": "https://www.foodista.com/recipe/MB7NYM87/carrot-and-cabbage-salad-with-coriandercumin-dry-rub",
+  "image": "https://img.spoonacular.com/recipes/637162-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "If you want to add more <b>gluten free, dairy free, paleolithic, and lacto ovo vegetarian</b> recipes to your repertoire, Carrot and Cabbage Salad With Coriander+cumin Dry Rub might be a recipe you should try. This recipe serves 1. One portion of this dish contains about <b>6g of protein</b>, <b>10g of fat</b>, and a total of <b>222 calories</b>. For <b>$1.4 per serving</b>, this recipe <b>covers 27%</b> of your daily requirements of vitamins and minerals. 4 people have made this recipe and would make it again. Head to the store and pick up sunflower seeds, cumin seed powder, juice of lime, and a few other things to make it today. It works well as an affordable hor d'oeuvre. From preparation to the plate, this recipe takes roughly <b>25 minutes</b>. It is brought to you by Foodista. Overall, this recipe earns a <b>super spoonacular score of 96%</b>. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/carrot-and-cabbage-salad-with-coriandercumin-dry-rub-1230725\">Carrot and Cabbage Salad With Coriander+cumin Dry Rub</a>, <a href=\"https://spoonacular.com/recipes/carrot-and-cabbage-salad-with-coriandercumin-dry-rub-1350633\">Carrot and Cabbage Salad With Coriander+cumin Dry Rub</a>, and <a href=\"https://spoonacular.com/recipes/carrot-and-cabbage-salad-with-coriandercumin-dry-rub-1253443\">Carrot and Cabbage Salad With Coriander+cumin Dry Rub</a>.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "side dish",
+    "antipasti",
+    "salad",
+    "starter",
+    "snack",
+    "appetizer",
+    "antipasto",
+    "hor d'oeuvre"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free",
+    "paleolithic",
+    "lacto ovo vegetarian",
+    "primal",
+    "fodmap friendly",
+    "whole 30",
+    "vegan"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "<ol><li>Chop up the carrots and the cabbage into slivers of roughly the same size.</li><li>Add the ground coriander, cumin seed, lime juice, and olive oil and massage it into the veggies.</li><li>Add the fresh coriander and sunflower seeds on top.</li><li>Leave aside for a couple of hours for the spices to seep into the veggies for added flavor.</li></ol>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Chop up the carrots and the cabbage into slivers of roughly the same size.",
+          "ingredients": [
+            {
+              "id": 11109,
+              "name": "cabbage",
+              "localizedName": "cabbage",
+              "image": "cabbage.jpg"
+            },
+            {
+              "id": 11124,
+              "name": "carrot",
+              "localizedName": "carrot",
+              "image": "sliced-carrot.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Add the ground coriander, cumin seed, lime juice, and olive oil and massage it into the veggies.",
+          "ingredients": [
+            {
+              "id": 1002013,
+              "name": "ground coriander",
+              "localizedName": "ground coriander",
+              "image": "ground-coriander.jpg"
+            },
+            {
+              "id": 2014,
+              "name": "cumin seeds",
+              "localizedName": "cumin seeds",
+              "image": "ground-cumin.jpg"
+            },
+            {
+              "id": 9160,
+              "name": "lime juice",
+              "localizedName": "lime juice",
+              "image": "lime-juice.png"
+            },
+            {
+              "id": 4053,
+              "name": "olive oil",
+              "localizedName": "olive oil",
+              "image": "olive-oil.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Add the fresh coriander and sunflower seeds on top.Leave aside for a couple of hours for the spices to seep into the veggies for added flavor.",
+          "ingredients": [
+            {
+              "id": 11165,
+              "name": "fresh cilantro",
+              "localizedName": "fresh cilantro",
+              "image": "cilantro.png"
+            },
+            {
+              "id": 12036,
+              "name": "sunflower seeds",
+              "localizedName": "sunflower seeds",
+              "image": "sunflower-seeds.jpg"
+            },
+            {
+              "id": 2035,
+              "name": "spices",
+              "localizedName": "spices",
+              "image": "spices.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 96.25968933105469,
+  "spoonacularSourceUrl": "https://spoonacular.com/carrot-and-cabbage-salad-with-coriandercumin-dry-rub-637162"
+}

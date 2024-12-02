@@ -1,0 +1,849 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": true,
+  "dairyFree": false,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 13,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 9,
+  "healthScore": 82,
+  "creditsText": "foodista.com",
+  "sourceName": "foodista.com",
+  "pricePerServing": 447.82,
+  "extendedIngredients": [
+    {
+      "id": 11124,
+      "aisle": "Produce",
+      "image": "sliced-carrot.png",
+      "consistency": "SOLID",
+      "name": "carrot",
+      "nameClean": "carrot",
+      "original": "1 carrot, grated",
+      "originalName": "carrot, grated",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+        "grated"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 11206,
+      "aisle": "Produce",
+      "image": "cucumber.jpg",
+      "consistency": "SOLID",
+      "name": "cucumber",
+      "nameClean": "cucumber",
+      "original": "1 cucumber",
+      "originalName": "cucumber",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 11215,
+      "aisle": "Produce",
+      "image": "garlic.png",
+      "consistency": "SOLID",
+      "name": "garlic",
+      "nameClean": "garlic",
+      "original": "3 small pieces garlic",
+      "originalName": "garlic",
+      "amount": 3.0,
+      "unit": "small pieces",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "small pieces",
+          "unitLong": "small pieces"
+        },
+        "metric": {
+          "amount": 3.0,
+          "unitShort": "small pieces",
+          "unitLong": "small pieces"
+        }
+      }
+    },
+    {
+      "id": 11941,
+      "aisle": "Canned and Jarred",
+      "image": "dill-pickles.jpg",
+      "consistency": "SOLID",
+      "name": "pickled cucumbers / gherkins",
+      "nameClean": "gherkins",
+      "original": "2 large pickled cucumbers / gherkins, sliced",
+      "originalName": "pickled cucumbers / gherkins, sliced",
+      "amount": 2.0,
+      "unit": "large",
+      "meta": [
+        "sliced"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "large",
+          "unitLong": "larges"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "large",
+          "unitLong": "larges"
+        }
+      }
+    },
+    {
+      "id": 11979,
+      "aisle": "Canned and Jarred",
+      "image": "jalapeno-pepper.png",
+      "consistency": "SOLID",
+      "name": "jalapeno peppers",
+      "nameClean": "jalapeno pepper",
+      "original": "2 – 2 large Jalapeno peppers",
+      "originalName": "– 2 large Jalapeno peppers",
+      "amount": 2.0,
+      "unit": "large",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "large",
+          "unitLong": "larges"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "large",
+          "unitLong": "larges"
+        }
+      }
+    },
+    {
+      "id": 9152,
+      "aisle": "Produce",
+      "image": "lemon-juice.jpg",
+      "consistency": "LIQUID",
+      "name": "juice of lemon",
+      "nameClean": "lemon juice",
+      "original": "Juice of 1 lemon",
+      "originalName": "Juice of lemon",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 10211205,
+      "aisle": "Produce",
+      "image": "cucumber-Lebanese.jpg",
+      "consistency": "SOLID",
+      "name": "lebanese cucumber",
+      "nameClean": "lebanese cucumber",
+      "original": "1 small lebanese cucumber (or 1/3 of a large one)",
+      "originalName": "lebanese cucumber (or 1/3 of a large one)",
+      "amount": 1.0,
+      "unit": "small",
+      "meta": [
+        "(or)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "small",
+          "unitLong": "small"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "small",
+          "unitLong": "small"
+        }
+      }
+    },
+    {
+      "id": 9152,
+      "aisle": "Produce",
+      "image": "lemon-juice.jpg",
+      "consistency": "LIQUID",
+      "name": "lemon juice",
+      "nameClean": "lemon juice",
+      "original": "Lemon juice",
+      "originalName": "Lemon juice",
+      "amount": 4.0,
+      "unit": "servings",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 11252,
+      "aisle": "Produce",
+      "image": "iceberg-lettuce.jpg",
+      "consistency": "SOLID",
+      "name": "i gem lettuce",
+      "nameClean": "lettuce",
+      "original": "I large head green gem lettuce",
+      "originalName": "I green gem lettuce",
+      "amount": 1.0,
+      "unit": "large head",
+      "meta": [
+        "green"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "large head",
+          "unitLong": "large head"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "large head",
+          "unitLong": "large head"
+        }
+      }
+    },
+    {
+      "id": 4053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "olive oil",
+      "nameClean": "olive oil",
+      "original": "1 cup olive oil",
+      "originalName": "olive oil",
+      "amount": 1.0,
+      "unit": "cup",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "cup",
+          "unitLong": "cup"
+        },
+        "metric": {
+          "amount": 216.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 11297,
+      "aisle": "Produce",
+      "image": "parsley.jpg",
+      "consistency": "SOLID",
+      "name": "parsley",
+      "nameClean": "parsley",
+      "original": "Handful chopped parsley",
+      "originalName": "chopped parsley",
+      "amount": 1.0,
+      "unit": "Handful",
+      "meta": [
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "Handful",
+          "unitLong": "Handful"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "Handful",
+          "unitLong": "Handful"
+        }
+      }
+    },
+    {
+      "id": 11112,
+      "aisle": "Produce",
+      "image": "red-cabbage.png",
+      "consistency": "SOLID",
+      "name": "cabbage",
+      "nameClean": "red cabbage",
+      "original": "1/4 red cabbage, thinly sliced",
+      "originalName": "red cabbage, thinly sliced",
+      "amount": 0.25,
+      "unit": "",
+      "meta": [
+        "red",
+        "thinly sliced"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 0.25,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 10011282,
+      "aisle": "Produce",
+      "image": "red-onion.png",
+      "consistency": "SOLID",
+      "name": "onion",
+      "nameClean": "red onion",
+      "original": "1 small red onion",
+      "originalName": "red onion",
+      "amount": 1.0,
+      "unit": "small",
+      "meta": [
+        "red"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "small",
+          "unitLong": "small"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "small",
+          "unitLong": "small"
+        }
+      }
+    },
+    {
+      "id": 5114,
+      "aisle": "Meat",
+      "image": "rotisserie-chicken.png",
+      "consistency": "SOLID",
+      "name": "roast chicken",
+      "nameClean": "cooked chicken",
+      "original": "1 whole roast chicken",
+      "originalName": "whole roast chicken",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+        "whole"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 1102047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt-and-pepper.jpg",
+      "consistency": "SOLID",
+      "name": "salt & pepper",
+      "nameClean": "salt and pepper",
+      "original": "Salt & pepper",
+      "originalName": "Salt & pepper",
+      "amount": 4.0,
+      "unit": "servings",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 11529,
+      "aisle": "Produce",
+      "image": "tomato.png",
+      "consistency": "SOLID",
+      "name": "tomatoes",
+      "nameClean": "tomato",
+      "original": "2 tomatoes",
+      "originalName": "tomatoes",
+      "amount": 2.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 1116,
+      "aisle": "Milk, Eggs, Other Dairy",
+      "image": "plain-yogurt.jpg",
+      "consistency": "SOLID",
+      "name": "yoghurt",
+      "nameClean": "yogurt",
+      "original": "250ml plain Turkish or Greek-style yoghurt",
+      "originalName": "plain Turkish or Greek-style yoghurt",
+      "amount": 250.0,
+      "unit": "ml",
+      "meta": [
+        "plain",
+        "turkish or greek-style"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.057,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 250.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    }
+  ],
+  "id": 664090,
+  "title": "Turkish Chicken Salad with Home-made Cacik Yogurt Sauce",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "sourceUrl": "https://www.foodista.com/recipe/XYFWSH25/a-turkish-inspired-chicken-salad-with-tomato-cucumber-red-onion-salsa-charred-green-peppers-and-home-made-cacik-delicious-and-healthy",
+  "image": "https://img.spoonacular.com/recipes/664090-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "You can never have too many main course recipes, so give Turkish Chicken Salad with Home-made Cacik Yogurt Sauce a try. This recipe serves 4 and costs $4.48 per serving. Watching your figure? This gluten free recipe has <b>643 calories</b>, <b>67g of protein</b>, and <b>30g of fat</b> per serving. 9 people found this recipe to be tasty and satisfying. Head to the store and pick up lebanese cucumber, roast chicken, garlic, and a few other things to make it today. From preparation to the plate, this recipe takes around <b>45 minutes</b>. It is brought to you by Foodista. All things considered, we decided this recipe <b>deserves a spoonacular score of 95%</b>. This score is outstanding. Similar recipes include <a href=\"https://spoonacular.com/recipes/spicy-lamb-kabobs-with-turkish-cacik-97380\">Spicy Lamb Kabobs With Turkish Cacik</a>, <a href=\"https://spoonacular.com/recipes/jerk-rubbed-chicken-thighs-with-home-made-mango-habanero-hot-sauce-313780\">Jerk Rubbed Chicken Thighs with Home-Made Mango-Habanero Hot Sauce</a>, and <a href=\"https://spoonacular.com/recipes/yogurt-and-cucumber-dip-cacik-891875\">Yogurt and Cucumber Dip Cacik</a>.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "lunch",
+    "main course",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+    "gluten free"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "<ol><li>METHOD:</li><li>1. First prepare the Cacik: For the Cacik: Chop the cucumber into tiny pieces, as small as you can, and place in a bowl. Cover the cucumber with salt and set aside for 30 minutes. The cucumbers will start to exude their juices which will flavour the yogurt nicely.</li><li>2. Put a griddle pan on medium  high heat, cover the peppers with olive oil and start to char.</li><li>3. Cut the tomato and cucumber into medium pieces. Slice the red onion as thin as you can. Chop the parsley fine. Place all ingredients in a bowl and cover with a the juice of 1 lemon. Season with salt and pepper. Let it sit in the fridge for 30 minutes  1 hour, stirring a couple times, so it starts to exude juice.</li><li>4. Tear the lettuce into mouth-siazed peices. Cut the red cabbage into thin slices. Grate the carrot. Mix together in a bowl.</li><li>5. Tear the chicken into large pieces and add to the salad.</li><li>6. Remove the tomato salsa from the fridge. Drain the juice and keep for later. Now add the tomato, cucumber, parsley onion mix to the chicken salad, as well as the sliced gherkin.</li><li>7. Lay out the salad on a large plate or chopping board. Serve with the charred peppers, cacik, salsa vinaigrette and some chilli sauce.</li></ol>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "First prepare the Cacik: For the Cacik: Chop the cucumber into tiny pieces, as small as you can, and place in a bowl. Cover the cucumber with salt and set aside for 30 minutes. The cucumbers will start to exude their juices which will flavour the yogurt nicely.",
+          "ingredients": [
+            {
+              "id": 11206,
+              "name": "cucumber",
+              "localizedName": "cucumber",
+              "image": "cucumber.jpg"
+            },
+            {
+              "id": 1116,
+              "name": "yogurt",
+              "localizedName": "yogurt",
+              "image": "plain-yogurt.jpg"
+            },
+            {
+              "id": 2047,
+              "name": "salt",
+              "localizedName": "salt",
+              "image": "salt.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ],
+          "length": {
+            "number": 30,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 2,
+          "step": "Put a griddle pan on medium  high heat, cover the peppers with olive oil and start to char.",
+          "ingredients": [
+            {
+              "id": 4053,
+              "name": "olive oil",
+              "localizedName": "olive oil",
+              "image": "olive-oil.jpg"
+            },
+            {
+              "id": 10111333,
+              "name": "peppers",
+              "localizedName": "peppers",
+              "image": "green-pepper.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404645,
+              "name": "frying pan",
+              "localizedName": "frying pan",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Cut the tomato and cucumber into medium pieces. Slice the red onion as thin as you can. Chop the parsley fine.",
+          "ingredients": [
+            {
+              "id": 10011282,
+              "name": "red onion",
+              "localizedName": "red onion",
+              "image": "red-onion.png"
+            },
+            {
+              "id": 11206,
+              "name": "cucumber",
+              "localizedName": "cucumber",
+              "image": "cucumber.jpg"
+            },
+            {
+              "id": 11297,
+              "name": "parsley",
+              "localizedName": "parsley",
+              "image": "parsley.jpg"
+            },
+            {
+              "id": 11529,
+              "name": "tomato",
+              "localizedName": "tomato",
+              "image": "tomato.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 4,
+          "step": "Place all ingredients in a bowl and cover with a the juice of 1 lemon. Season with salt and pepper.",
+          "ingredients": [
+            {
+              "id": 1102047,
+              "name": "salt and pepper",
+              "localizedName": "salt and pepper",
+              "image": "salt-and-pepper.jpg"
+            },
+            {
+              "id": 1019016,
+              "name": "juice",
+              "localizedName": "juice",
+              "image": "apple-juice.jpg"
+            },
+            {
+              "id": 9150,
+              "name": "lemon",
+              "localizedName": "lemon",
+              "image": "lemon.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "step": "Let it sit in the fridge for 30 minutes  1 hour, stirring a couple times, so it starts to exude juice.",
+          "ingredients": [
+            {
+              "id": 1019016,
+              "name": "juice",
+              "localizedName": "juice",
+              "image": "apple-juice.jpg"
+            }
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 90,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 6,
+          "step": "Tear the lettuce into mouth-siazed peices.",
+          "ingredients": [
+            {
+              "id": 11252,
+              "name": "lettuce",
+              "localizedName": "lettuce",
+              "image": "iceberg-lettuce.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 7,
+          "step": "Cut the red cabbage into thin slices. Grate the carrot.",
+          "ingredients": [
+            {
+              "id": 11112,
+              "name": "red cabbage",
+              "localizedName": "red cabbage",
+              "image": "red-cabbage.png"
+            },
+            {
+              "id": 11124,
+              "name": "carrot",
+              "localizedName": "carrot",
+              "image": "sliced-carrot.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 8,
+          "step": "Mix together in a bowl.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "step": "Tear the chicken into large pieces and add to the salad.",
+          "ingredients": [
+            {
+              "id": 0,
+              "name": "chicken",
+              "localizedName": "chicken",
+              "image": "whole-chicken.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 10,
+          "step": "Remove the tomato salsa from the fridge.",
+          "ingredients": [
+            {
+              "id": 11529,
+              "name": "tomato",
+              "localizedName": "tomato",
+              "image": "tomato.png"
+            },
+            {
+              "id": 6164,
+              "name": "salsa",
+              "localizedName": "salsa",
+              "image": "salsa.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 11,
+          "step": "Drain the juice and keep for later. Now add the tomato, cucumber, parsley onion mix to the chicken salad, as well as the sliced gherkin.",
+          "ingredients": [
+            {
+              "id": 11206,
+              "name": "cucumber",
+              "localizedName": "cucumber",
+              "image": "cucumber.jpg"
+            },
+            {
+              "id": 0,
+              "name": "chicken",
+              "localizedName": "chicken",
+              "image": "whole-chicken.jpg"
+            },
+            {
+              "id": 11297,
+              "name": "parsley",
+              "localizedName": "parsley",
+              "image": "parsley.jpg"
+            },
+            {
+              "id": 11529,
+              "name": "tomato",
+              "localizedName": "tomato",
+              "image": "tomato.png"
+            },
+            {
+              "id": 1019016,
+              "name": "juice",
+              "localizedName": "juice",
+              "image": "apple-juice.jpg"
+            },
+            {
+              "id": 11282,
+              "name": "onion",
+              "localizedName": "onion",
+              "image": "brown-onion.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 12,
+          "step": "Lay out the salad on a large plate or chopping board.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+            {
+              "id": 404716,
+              "name": "cutting board",
+              "localizedName": "cutting board",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/cutting-board.jpg"
+            }
+          ]
+        },
+        {
+          "number": 13,
+          "step": "Serve with the charred peppers, cacik, salsa vinaigrette and some chilli sauce.",
+          "ingredients": [
+            {
+              "id": 4135,
+              "name": "vinaigrette",
+              "localizedName": "vinaigrette",
+              "image": "vinaigrette.jpg"
+            },
+            {
+              "id": 10111333,
+              "name": "peppers",
+              "localizedName": "peppers",
+              "image": "green-pepper.jpg"
+            },
+            {
+              "id": 11819,
+              "name": "chili pepper",
+              "localizedName": "chili pepper",
+              "image": "red-chili.jpg"
+            },
+            {
+              "id": 6164,
+              "name": "salsa",
+              "localizedName": "salsa",
+              "image": "salsa.png"
+            },
+            {
+              "id": 0,
+              "name": "sauce",
+              "localizedName": "sauce",
+              "image": ""
+            }
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 95.7713623046875,
+  "spoonacularSourceUrl": "https://spoonacular.com/turkish-chicken-salad-with-home-made-cacik-yogurt-sauce-664090"
+}

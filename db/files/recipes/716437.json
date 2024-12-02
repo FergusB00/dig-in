@@ -1,0 +1,304 @@
+{
+  "vegetarian": true,
+  "vegan": false,
+  "glutenFree": true,
+  "dairyFree": false,
+  "veryHealthy": false,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 3,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 171,
+  "healthScore": 40,
+  "creditsText": "Full Belly Sisters",
+  "license": "CC BY-SA 3.0",
+  "sourceName": "Full Belly Sisters",
+  "pricePerServing": 209.51,
+  "extendedIngredients": [
+    {
+      "id": 9037,
+      "aisle": "Produce",
+      "image": "avocado.jpg",
+      "consistency": "SOLID",
+      "name": "avocado",
+      "nameClean": "avocado",
+      "original": "1/2 avocado",
+      "originalName": "avocado",
+      "amount": 0.5,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 11206,
+      "aisle": "Produce",
+      "image": "cucumber.jpg",
+      "consistency": "SOLID",
+      "name": "persian cucumbers",
+      "nameClean": "cucumber",
+      "original": "5-6 persian cucumbers",
+      "originalName": "persian cucumbers",
+      "amount": 5.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 5.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 5.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 9132,
+      "aisle": "Produce",
+      "image": "red-grapes.jpg",
+      "consistency": "SOLID",
+      "name": "grapes",
+      "nameClean": "grapes",
+      "original": "small handful of grapes",
+      "originalName": "grapes",
+      "amount": 1.0,
+      "unit": "small handful",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "small handful",
+          "unitLong": "small handful"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "small handful",
+          "unitLong": "small handful"
+        }
+      }
+    },
+    {
+      "id": 9152,
+      "aisle": "Produce",
+      "image": "lemon-juice.jpg",
+      "consistency": "LIQUID",
+      "name": "juice of lemon",
+      "nameClean": "lemon juice",
+      "original": "juice of 1 lemon",
+      "originalName": "juice of lemon",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 1230,
+      "aisle": "Milk, Eggs, Other Dairy",
+      "image": "buttermilk.jpg",
+      "consistency": "SOLID",
+      "name": "kefir",
+      "nameClean": "buttermilk",
+      "original": "1/2 cup plain kefir (can substitute buttermilk)",
+      "originalName": "plain kefir (can substitute buttermilk)",
+      "amount": 0.5,
+      "unit": "cup",
+      "meta": [
+        "plain",
+        "(can substitute buttermilk)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 120.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 1001256,
+      "aisle": "Milk, Eggs, Other Dairy",
+      "image": "white-cream.png",
+      "consistency": "LIQUID",
+      "name": "greek yogurt",
+      "nameClean": "plain greek yogurt",
+      "original": "1/2 cup plain Greek yogurt",
+      "originalName": "plain Greek yogurt",
+      "amount": 0.5,
+      "unit": "cup",
+      "meta": [
+        "plain"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 100.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 10011282,
+      "aisle": "Produce",
+      "image": "red-onion.png",
+      "consistency": "SOLID",
+      "name": "onion",
+      "nameClean": "red onion",
+      "original": "1/4 cup chopped red onion",
+      "originalName": "chopped red onion",
+      "amount": 0.25,
+      "unit": "cup",
+      "meta": [
+        "red",
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 40.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 1102047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt-and-pepper.jpg",
+      "consistency": "SOLID",
+      "name": "salt and pepper",
+      "nameClean": "salt and pepper",
+      "original": "salt and pepper, to taste",
+      "originalName": "salt and pepper, to taste",
+      "amount": 3.0,
+      "unit": "servings",
+      "meta": [
+        "to taste"
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 3.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 11291,
+      "aisle": "Produce",
+      "image": "spring-onions.jpg",
+      "consistency": "SOLID",
+      "name": "scallions",
+      "nameClean": "spring onions",
+      "original": "4 scallions",
+      "originalName": "scallions",
+      "amount": 4.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    }
+  ],
+  "id": 716437,
+  "title": "Chilled Cucumber Avocado Soup with Yogurt and Kefir",
+  "readyInMinutes": 45,
+  "servings": 3,
+  "sourceUrl": "https://fullbellysisters.blogspot.com/2012/06/chilled-cucumber-avocado-soup-with.html",
+  "image": "https://img.spoonacular.com/recipes/716437-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Chilled Cucumber Avocado Soup with Yogurt and Kefir is a <b>gluten free, lacto ovo vegetarian, and primal</b> hor d'oeuvre. This recipe serves 3 and costs $2.1 per serving. One portion of this dish contains approximately <b>9g of protein</b>, <b>7g of fat</b>, and a total of <b>189 calories</b>. 171 person were impressed by this recipe. A mixture of avocado, kefir, onion, and a handful of other ingredients are all it takes to make this recipe so yummy. <b>Autumn</b> will be even more special with this recipe. From preparation to the plate, this recipe takes around <b>45 minutes</b>. It is brought to you by fullbellysisters.blogspot.com. Overall, this recipe earns an <b>outstanding spoonacular score of 97%</b>. <a href=\"https://spoonacular.com/recipes/chilled-cucumber-avocado-and-yogurt-soup-21553\">Chilled Cucumber, Avocado, and Yogurt Soup</a>, <a href=\"https://spoonacular.com/recipes/chilled-cucumber-yogurt-soup-499125\">Chilled Cucumber-Yogurt Soup</a>, and <a href=\"https://spoonacular.com/recipes/chilled-cucumber-mint-yogurt-soup-608062\">Chilled Cucumber Mint Yogurt Soup</a> are very similar to this recipe.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "antipasti",
+    "soup",
+    "starter",
+    "snack",
+    "appetizer",
+    "antipasto",
+    "hor d'oeuvre"
+  ],
+  "diets": [
+    "gluten free",
+    "lacto ovo vegetarian",
+    "primal"
+  ],
+  "occasions": [
+    "fall",
+    "winter"
+  ],
+  "instructions": "",
+  "analyzedInstructions": [
+
+  ],
+  "originalId": null,
+  "spoonacularScore": 95.8531723022461,
+  "spoonacularSourceUrl": "https://spoonacular.com/chilled-cucumber-avocado-soup-with-yogurt-and-kefir-716437"
+}

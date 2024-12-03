@@ -17,7 +17,7 @@
 
         <!-- Barcode scanner -->
         <h5 class="manual-upload-title">Scan an item</h4>
-        <div data-controller="barcode">
+        <div data-controller="barcode" data-barcode-api-value="<%= ENV['BARCODE_API_KEY'] %>">
             <button data-action='click->barcode#captureCode'>capture</button>
             <button data-action='click->barcode#resetButton'>reset</button>
             <video id="video" style="width: 100dvw; border: 1px solid gray;"></video>

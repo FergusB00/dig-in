@@ -36,7 +36,7 @@
           <p><i class="fa-regular fa-calendar"></i><%= user_ingredient.expiry_date.strftime("%d/%m/%Y") %></p>
         </div>
         <div class="pp-ingredient-price">
-          <%= number_to_currency(user_ingredient.price_in_pence / 100.to_f, unit: "£", precision: 2) %>
+          <%= number_to_currency(user_ingredient.price_in_pounds, unit: "£", precision: 2) %>
         </div>
       </div>
     <% end %>

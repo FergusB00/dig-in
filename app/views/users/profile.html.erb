@@ -2,18 +2,12 @@
   <div class="mt-4">
     <h1 class="profile-title">Your Dashboard</h1>
   </div>
-
-  <div class="profile-card mt-3">
-    <div class="profile-pic-wrapper">
-      <div class="profile-page-stats">
-        <div class="per-stat mb-1">
-          <p>Carbon Savings:</p>
-          <h2><%= number_with_precision(@total_carbon.to_f, precision: 2) %> kg CO<span class="subscript"><sub>2</sub></span></h2>
-        </div>
-        <div class="per-stat">
-          <p>Cost Savings:</p>
-          <h2><%= number_to_currency(@total_saving, unit: "£", precision: 2) %></h2>
-        </div>
+  <div class="profile-info-container">
+    <div class="profile-info-wrapper">
+      <div class="profile-user-info row">
+        <p class="pt-2">You've Saved:</p>
+        <h2><%= number_with_precision(@total_carbon.to_f, precision: 2) %> kg CO<span class="subscript"><sub>2</sub></span></h2>
+        <h2><%= number_to_currency(@total_saving, unit: "£", precision: 2) %></h2>
       </div>
     </div>
   </div>
@@ -32,12 +26,8 @@
 
   <!-- this section should be done with the for each ingredient added -->
   <div class="profile-page-ingredients-list mt-4">
-
     <% @user.user_ingredients.each do |user_ingredient| %>
       <div class="pp-ingredient-card">
-        <%# <div class="">
-          <i class="fa-solid fa-egg fa-xl"></i>
-        </div> %>
         <div class="pp-ingredient-details">
           <p class="pp-ingredient-name"><%= user_ingredient.ingredient.name %></p>
           <p class="pp-ingredient-quantity"><%= user_ingredient.weight_in_grams %>g</p>

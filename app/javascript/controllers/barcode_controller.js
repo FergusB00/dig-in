@@ -18,6 +18,7 @@ export default class extends Controller {
       console.log('Capture recording')
       if (result) {
         console.log(result)
+        this.getBarcodeData
         this.codeReader.reset()
       }
       if (err && !(err instanceof ZXing.NotFoundException)) {
@@ -30,6 +31,14 @@ export default class extends Controller {
   resetButton() {
     this.codeReader.reset();
     console.log("Barcode reader reset");
+  }
+
+  getBarcodeData(result) {
+    const barcode = result.text
+    const apiKey = ENV['BARCODE_API_KEY']
+    const url = `https://api.barcodelookup.com/v3/products?barcode=${barcode}&formatted=y&key=${apiKey}`;
+
+
   }
 
   // .catch((err) => {

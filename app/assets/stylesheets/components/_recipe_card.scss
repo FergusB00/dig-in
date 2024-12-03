@@ -7,10 +7,8 @@
 }
 
 .recipe-card {
-  border: 1px solid #ddd;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .recipe-image {
@@ -27,23 +25,22 @@
 }
 
 .recipe-dropdown-button {
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+  width: 60px;
+  height: 60px;
+  background-color: #B3EDDB;
+  border: none;
+  border-top-left-radius: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  width: 13%;
-  height: 13%;
-  background-color: #ffffff;
-  border-radius: 50%;
-  border: 3px solid #000000;
-  color: #000000;
 }
 
 .recipe-dropdown-button i {
-  color: #000000;
-  font-size: 24px;
+  color: #ffffff;
+  font-size: 20px;
 }
 
 .recipe-info {
@@ -56,7 +53,7 @@
   margin: 1%;
 }
 
-//EL ADDED FOR RECIPE NAME ON IMAGE CENTRE
+//EL ADDED FOR RECIPE NAME ON IMAGE CENTRE.
 .recipe-name-overlay {
   position: absolute;
   top: 50%;

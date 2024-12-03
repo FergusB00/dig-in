@@ -11,7 +11,16 @@
         <h5 class="modal-title" id="ingredient">Add manually</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
+
+      <h5 class="manual-upload-title">Scan an item</h4>
+      <div data-controller="barcode">
+        <div id="reader" data-barcode-target="reader">
+          <video id="video"></video>
+        </div>
+      </div>
+
       <div class="modal-body">
+        <h5 class="manual-upload-title">Manual upload</h4>
         <%= simple_form_for(user_ingredient, html: { class: "user-ingredient-form" }) do |f| %>
           <div class="form-group" >
             <label for="ingredient-name">Ingredient:</label>
@@ -36,6 +45,7 @@
           </div>
           <div class="modal-footer modal-btn-alignment">
             <%= f.button :submit, "Done", class: "btn modal-done-btn" %>
+
           </div>
         <% end %>
       </div>

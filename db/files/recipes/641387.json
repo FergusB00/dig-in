@@ -1,0 +1,426 @@
+{
+  "vegetarian": true,
+  "vegan": true,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 12,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 1,
+  "healthScore": 100,
+  "creditsText": "foodista.com",
+  "sourceName": "foodista.com",
+  "pricePerServing": 80.08,
+  "extendedIngredients": [
+    {
+      "id": 2004,
+      "aisle": "Spices and Seasonings",
+      "image": "bay-leaves.jpg",
+      "consistency": "SOLID",
+      "name": "bay leaf",
+      "nameClean": "bay leaves",
+      "original": "1 bay leaf",
+      "originalName": "bay leaf",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 12098,
+      "aisle": "Produce",
+      "image": "chestnuts.jpg",
+      "consistency": "SOLID",
+      "name": "roasted chestnuts",
+      "nameClean": "chestnuts",
+      "original": "1/4 cup of roasted chestnuts",
+      "originalName": "roasted chestnuts",
+      "amount": 0.25,
+      "unit": "cup",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 35.75,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 11215,
+      "aisle": "Produce",
+      "image": "garlic.png",
+      "consistency": "SOLID",
+      "name": "garlic",
+      "nameClean": "garlic",
+      "original": "1 clove or garlic minced",
+      "originalName": "or garlic minced",
+      "amount": 1.0,
+      "unit": "clove",
+      "meta": [
+        "minced"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "clove",
+          "unitLong": "clove"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "clove",
+          "unitLong": "clove"
+        }
+      }
+    },
+    {
+      "id": 10316069,
+      "aisle": "Pasta and Rice",
+      "image": "lentils-brown.jpg",
+      "consistency": "SOLID",
+      "name": "lentils",
+      "nameClean": "lentils",
+      "original": "1 1/2 cups dry lentils",
+      "originalName": "dry lentils",
+      "amount": 1.5,
+      "unit": "cups",
+      "meta": [
+        "dry"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.5,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 288.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 4053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "olive oil",
+      "nameClean": "olive oil",
+      "original": "Olive oil",
+      "originalName": "Olive oil",
+      "amount": 4.0,
+      "unit": "servings",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 11282,
+      "aisle": "Produce",
+      "image": "brown-onion.png",
+      "consistency": "SOLID",
+      "name": "onion",
+      "nameClean": "onion",
+      "original": "1 onion chopped",
+      "originalName": "onion chopped",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 11352,
+      "aisle": "Produce",
+      "image": "potatoes-yukon-gold.png",
+      "consistency": "SOLID",
+      "name": "potato",
+      "nameClean": "potato",
+      "original": "1 potato",
+      "originalName": "potato",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 10311529,
+      "aisle": "Produce",
+      "image": "cherry-tomatoes.png",
+      "consistency": "SOLID",
+      "name": "roma tomatoes",
+      "nameClean": "cherry tomato",
+      "original": "1/2 cup of sweet cherry tomatoes or Roma tomatoes chopped",
+      "originalName": "sweet cherry tomatoes or Roma tomatoes chopped",
+      "amount": 0.5,
+      "unit": "cup",
+      "meta": [
+        "sweet",
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 74.5,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 1102047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt-and-pepper.jpg",
+      "consistency": "SOLID",
+      "name": "salt and pepper",
+      "nameClean": "salt and pepper",
+      "original": "Salt and pepper",
+      "originalName": "Salt and pepper",
+      "amount": 4.0,
+      "unit": "servings",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    }
+  ],
+  "id": 641387,
+  "title": "Delicious Creamy Lentils and Chestnuts Soup",
+  "readyInMinutes": 30,
+  "servings": 4,
+  "sourceUrl": "https://www.foodista.com/recipe/6NB227RW/delicious-creamy-lentils-and-chestnuts-soup",
+  "image": "https://img.spoonacular.com/recipes/641387-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Delicious Creamy Lentils and Chestnuts Soup takes approximately <b>30 minutes</b> from beginning to end. This recipe serves 4. For <b>80 cents per serving</b>, this recipe <b>covers 26%</b> of your daily requirements of vitamins and minerals. Watching your figure? This gluten free, dairy free, lacto ovo vegetarian, and vegan recipe has <b>452 calories</b>, <b>20g of protein</b>, and <b>15g of fat</b> per serving. Only a few people made this recipe, and 1 would say it hit the spot. If you have olive oil, roasted chestnuts, salt and pepper, and a few other ingredients on hand, you can make it. It works well as a very budget friendly main course for <b>Autumn</b>. It is brought to you by Foodista. Overall, this recipe earns an <b>outstanding spoonacular score of 94%</b>. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/creamy-spinach-dip-with-water-chestnuts-1115011\">Creamy Spinach Dip with Water Chestnuts</a>, <a href=\"https://spoonacular.com/recipes/creamy-vegan-mushroom-tartlets-with-chestnuts-1061297\">Creamy Vegan Mushroom Tartlets with Chestnuts</a>, and <a href=\"https://spoonacular.com/recipes/pumpkin-soup-with-cranberry-compote-and-roasted-chestnuts-24116\">Pumpkin Soup With Cranberry Compote And Roasted Chestnuts</a>.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "lunch",
+    "soup",
+    "main course",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free",
+    "lacto ovo vegetarian",
+    "vegan"
+  ],
+  "occasions": [
+    "fall",
+    "winter"
+  ],
+  "instructions": "<ol><li>Put the lentils in a large pot and cover with water. </li><li>Add the onions, garlic, potato, tomatoes, chestnuts, bay leaf, salt and pepper and a tablespoon of olive oil. </li><li>Cook for about 20 minutes and adjust with salt and pepper if necessary. </li><li> Let it sit and cool down for 15 minutes. </li><li>Remove the bay leaf. </li><li>To obtain a creamy velvety consistency use  an electric immersion blender .</li></ol>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Put the lentils in a large pot and cover with water.",
+          "ingredients": [
+            {
+              "id": 10316069,
+              "name": "lentils",
+              "localizedName": "lentils",
+              "image": "lentils-brown.jpg"
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404752,
+              "name": "pot",
+              "localizedName": "pot",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/stock-pot.jpg"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Add the onions, garlic, potato, tomatoes, chestnuts, bay leaf, salt and pepper and a tablespoon of olive oil. Cook for about 20 minutes and adjust with salt and pepper if necessary.",
+          "ingredients": [
+            {
+              "id": 1102047,
+              "name": "salt and pepper",
+              "localizedName": "salt and pepper",
+              "image": "salt-and-pepper.jpg"
+            },
+            {
+              "id": 12098,
+              "name": "chestnuts",
+              "localizedName": "chestnuts",
+              "image": "chestnuts.jpg"
+            },
+            {
+              "id": 4053,
+              "name": "olive oil",
+              "localizedName": "olive oil",
+              "image": "olive-oil.jpg"
+            },
+            {
+              "id": 2004,
+              "name": "bay leaves",
+              "localizedName": "bay leaves",
+              "image": "bay-leaves.jpg"
+            },
+            {
+              "id": 11529,
+              "name": "tomato",
+              "localizedName": "tomato",
+              "image": "tomato.png"
+            },
+            {
+              "id": 11215,
+              "name": "garlic",
+              "localizedName": "garlic",
+              "image": "garlic.png"
+            },
+            {
+              "id": 11282,
+              "name": "onion",
+              "localizedName": "onion",
+              "image": "brown-onion.png"
+            },
+            {
+              "id": 11352,
+              "name": "potato",
+              "localizedName": "potato",
+              "image": "potatoes-yukon-gold.png"
+            }
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 20,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 3,
+          "step": "Let it sit and cool down for 15 minutes.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 15,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 4,
+          "step": "Remove the bay leaf. To obtain a creamy velvety consistency use  an electric immersion blender .",
+          "ingredients": [
+            {
+              "id": 2004,
+              "name": "bay leaves",
+              "localizedName": "bay leaves",
+              "image": "bay-leaves.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404776,
+              "name": "immersion blender",
+              "localizedName": "immersion blender",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/immersion-blender.png"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 94.63326263427734,
+  "spoonacularSourceUrl": "https://spoonacular.com/delicious-creamy-lentils-and-chestnuts-soup-641387"
+}

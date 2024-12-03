@@ -1,0 +1,649 @@
+{
+  "vegetarian": true,
+  "vegan": false,
+  "glutenFree": false,
+  "dairyFree": false,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 8,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 6,
+  "healthScore": 74,
+  "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+  "license": "CC BY 3.0",
+  "sourceName": "Foodista",
+  "pricePerServing": 82.62,
+  "extendedIngredients": [
+    {
+      "id": 10118375,
+      "aisle": "Baking",
+      "image": "yeast-granules.jpg",
+      "consistency": "SOLID",
+      "name": "yeast",
+      "nameClean": "instant yeast",
+      "original": "1 package instant yeast",
+      "originalName": "instant yeast",
+      "amount": 1.0,
+      "unit": "package",
+      "meta": [
+        "instant"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "pkg",
+          "unitLong": "package"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "pkg",
+          "unitLong": "package"
+        }
+      }
+    },
+    {
+      "id": 20081,
+      "aisle": "Baking",
+      "image": "flour.png",
+      "consistency": "SOLID",
+      "name": "flour",
+      "nameClean": "wheat flour",
+      "original": "2 1/4 cups flour",
+      "originalName": "flour",
+      "amount": 2.25,
+      "unit": "cups",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 281.25,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 20080,
+      "aisle": "Baking",
+      "image": "flour.png",
+      "consistency": "SOLID",
+      "name": "flour",
+      "nameClean": "whole wheat flour",
+      "original": "1 cup whole wheat flour",
+      "originalName": "whole wheat flour",
+      "amount": 1.0,
+      "unit": "cup",
+      "meta": [
+        "whole wheat"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "cup",
+          "unitLong": "cup"
+        },
+        "metric": {
+          "amount": 120.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 98905,
+      "aisle": "Health Foods",
+      "image": "brown-flour.jpg",
+      "consistency": "SOLID",
+      "name": "rye flakes",
+      "nameClean": "rye meal",
+      "original": "cup rye flakes",
+      "originalName": "rye flakes",
+      "amount": 1.0,
+      "unit": "cup",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "cup",
+          "unitLong": "cup"
+        },
+        "metric": {
+          "amount": 236.588,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 12220,
+      "aisle": "Baking",
+      "image": "flax-seeds.png",
+      "consistency": "SOLID",
+      "name": "ground flaxseed",
+      "nameClean": "ground flaxseed",
+      "original": "3 tablespoons ground flaxseed",
+      "originalName": "ground flaxseed",
+      "amount": 3.0,
+      "unit": "tablespoons",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 3.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 20001,
+      "aisle": "Pasta and Rice",
+      "image": "amaranth.jpg",
+      "consistency": "SOLID",
+      "name": "amaranth grain",
+      "nameClean": "amaranth",
+      "original": "3 tablespoons amaranth grain",
+      "originalName": "amaranth grain",
+      "amount": 3.0,
+      "unit": "tablespoons",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 3.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 20035,
+      "aisle": "Pasta and Rice",
+      "image": "uncooked-quinoa.png",
+      "consistency": "SOLID",
+      "name": "quinoa",
+      "nameClean": "quinoa",
+      "original": "cup quinoa",
+      "originalName": "quinoa",
+      "amount": 1.0,
+      "unit": "cup",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "cup",
+          "unitLong": "cup"
+        },
+        "metric": {
+          "amount": 170.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 16115,
+      "aisle": "Health Foods",
+      "image": "chickpea-flour-or-another-gluten-free-flour.jpg",
+      "consistency": "SOLID",
+      "name": "soy flour",
+      "nameClean": "soy flour",
+      "original": "1/4 cup soy flour",
+      "originalName": "soy flour",
+      "amount": 0.25,
+      "unit": "cup",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 28.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 48052,
+      "aisle": "Health Foods",
+      "image": "onion-powder.jpg",
+      "consistency": "SOLID",
+      "name": "vital wheat gluten",
+      "nameClean": "vital wheat gluten",
+      "original": "1 1/2 tablespoons vital wheat gluten",
+      "originalName": "vital wheat gluten",
+      "amount": 1.5,
+      "unit": "tablespoons",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.5,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 1.5,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 1154,
+      "aisle": "Canned and Jarred",
+      "image": "milk-powdered.jpg",
+      "consistency": "SOLID",
+      "name": "skim milk powder",
+      "nameClean": "nonfat dry milk powder",
+      "original": "cup skim milk powder",
+      "originalName": "skim milk powder",
+      "amount": 1.0,
+      "unit": "cup",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "cup",
+          "unitLong": "cup"
+        },
+        "metric": {
+          "amount": 120.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 2047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt.jpg",
+      "consistency": "SOLID",
+      "name": "salt",
+      "nameClean": "table salt",
+      "original": "1/2 teaspoon salt",
+      "originalName": "salt",
+      "amount": 0.5,
+      "unit": "teaspoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 14412,
+      "aisle": "Beverages",
+      "image": "water.png",
+      "consistency": "LIQUID",
+      "name": "warm water",
+      "nameClean": "water",
+      "original": "cups warm water",
+      "originalName": "warm water",
+      "amount": 1.0,
+      "unit": "cups",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "cup",
+          "unitLong": "cup"
+        },
+        "metric": {
+          "amount": 236.588,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 19296,
+      "aisle": "Nut butters, Jams, and Honey",
+      "image": "honey.png",
+      "consistency": "LIQUID",
+      "name": "honey",
+      "nameClean": "honey",
+      "original": "1/4 cup honey",
+      "originalName": "honey",
+      "amount": 0.25,
+      "unit": "cup",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 84.75,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    }
+  ],
+  "id": 632347,
+  "title": "Ancient Grains Bread",
+  "readyInMinutes": 45,
+  "servings": 14,
+  "sourceUrl": "https://www.foodista.com/recipe/Y3ZZC68V/ancient-grains-bread",
+  "image": "https://img.spoonacular.com/recipes/632347-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "The recipe Ancient Grains Bread can be made <b>in roughly 45 minutes</b>. This lacto ovo vegetarian recipe serves 14 and costs <b>83 cents per serving</b>. This bread has <b>287 calories</b>, <b>13g of protein</b>, and <b>3g of fat</b> per serving. This recipe from Foodista requires yeast, honey, vital wheat gluten, and skim milk powder. 6 people have made this recipe and would make it again. Overall, this recipe earns a <b>spectacular spoonacular score of 83%</b>. <a href=\"https://spoonacular.com/recipes/ancient-grains-bread-1351165\">Ancient Grains Bread</a>, <a href=\"https://spoonacular.com/recipes/bread-baking-ancient-grains-141201\">Bread Baking: Ancient Grains</a>, and <a href=\"https://spoonacular.com/recipes/simple-tomato-salad-with-fresh-bread-crumbs-udis-ancient-grains-612489\">Simple Tomato Salad With Fresh Bread Crumbs | Udi’s Ancient Grains</a> are very similar to this recipe.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "bread"
+  ],
+  "diets": [
+    "lacto ovo vegetarian"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "In a large bowl or stand mixer, whisk together yeast, flours, rye flakes, flaxseed, amaranth, quinoa, soy flour, wheat gluten, skim milk powder and salt.\nStir in warm water and honey, mixing thoroughly to form a cohesive, fairly firm (but workable) dough.\nTurn out onto a floured board or knead with the dough hook for 12 minutes, until very elastic and smooth.\nPlace into a bowl, cover and allow to rest 30 minutes.\nRoll rested dough into a log shape and tuck into a greased loaf pan.\nCover with a clean towel and allow to rise 50-60 minutes.\nPreheat oven to 350F.\nSlash the top of the loaf 2-3 times with a sharp knife or lame.\nBake 40 minutes. Turn out of pan immediately and cool on a rack before slicing",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "In a large bowl or stand mixer, whisk together yeast, flours, rye flakes, flaxseed, amaranth, quinoa, soy flour, wheat gluten, skim milk powder and salt.",
+          "ingredients": [
+            {
+              "id": 1154,
+              "name": "nonfat dry milk powder",
+              "localizedName": "nonfat dry milk powder",
+              "image": "milk-powdered.jpg"
+            },
+            {
+              "id": 93654,
+              "name": "seitan",
+              "localizedName": "seitan",
+              "image": "seitan.png"
+            },
+            {
+              "id": 16115,
+              "name": "soy flour",
+              "localizedName": "soy flour",
+              "image": "chickpea-flour-or-another-gluten-free-flour.jpg"
+            },
+            {
+              "id": 20001,
+              "name": "amaranth",
+              "localizedName": "amaranth",
+              "image": "amaranth.jpg"
+            },
+            {
+              "id": 10012220,
+              "name": "flaxseed",
+              "localizedName": "flaxseed",
+              "image": "flax-seeds.png"
+            },
+            {
+              "id": 20035,
+              "name": "quinoa",
+              "localizedName": "quinoa",
+              "image": "uncooked-quinoa.png"
+            },
+            {
+              "id": 18375,
+              "name": "yeast",
+              "localizedName": "yeast",
+              "image": "yeast-granules.jpg"
+            },
+            {
+              "id": 2047,
+              "name": "salt",
+              "localizedName": "salt",
+              "image": "salt.jpg"
+            },
+            {
+              "id": 0,
+              "name": "rye",
+              "localizedName": "rye",
+              "image": ""
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404665,
+              "name": "stand mixer",
+              "localizedName": "stand mixer",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/stand-mixer.jpg"
+            },
+            {
+              "id": 404661,
+              "name": "whisk",
+              "localizedName": "whisk",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/whisk.png"
+            },
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Stir in warm water and honey, mixing thoroughly to form a cohesive, fairly firm (but workable) dough.",
+          "ingredients": [
+            {
+              "id": 0,
+              "name": "dough",
+              "localizedName": "dough",
+              "image": "pizza-dough"
+            },
+            {
+              "id": 19296,
+              "name": "honey",
+              "localizedName": "honey",
+              "image": "honey.png"
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Turn out onto a floured board or knead with the dough hook for 12 minutes, until very elastic and smooth.",
+          "ingredients": [
+            {
+              "id": 0,
+              "name": "dough",
+              "localizedName": "dough",
+              "image": "pizza-dough"
+            }
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 12,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 4,
+          "step": "Place into a bowl, cover and allow to rest 30 minutes.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ],
+          "length": {
+            "number": 30,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 5,
+          "step": "Roll rested dough into a log shape and tuck into a greased loaf pan.",
+          "ingredients": [
+            {
+              "id": 0,
+              "name": "dough",
+              "localizedName": "dough",
+              "image": "pizza-dough"
+            },
+            {
+              "id": 0,
+              "name": "roll",
+              "localizedName": "roll",
+              "image": "dinner-yeast-rolls.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404715,
+              "name": "loaf pan",
+              "localizedName": "loaf pan",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/loaf-pan.png"
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "step": "Cover with a clean towel and allow to rise 50-60 minutes.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 60,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 7,
+          "step": "Preheat oven to 350F.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg",
+              "temperature": {
+                "number": 350.0,
+                "unit": "Fahrenheit"
+              }
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "step": "Slash the top of the loaf 2-3 times with a sharp knife or lame.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+            {
+              "id": 404745,
+              "name": "knife",
+              "localizedName": "knife",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/chefs-knife.jpg"
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "step": "Bake 40 minutes. Turn out of pan immediately and cool on a rack before slicing",
+          "ingredients": [
+
+          ],
+          "equipment": [
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            },
+            {
+              "id": 404645,
+              "name": "frying pan",
+              "localizedName": "frying pan",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+            }
+          ],
+          "length": {
+            "number": 40,
+            "unit": "minutes"
+          }
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 95.38578796386719,
+  "spoonacularSourceUrl": "https://spoonacular.com/ancient-grains-bread-632347"
+}

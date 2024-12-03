@@ -1,0 +1,429 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 2,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 2,
+  "healthScore": 87,
+  "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+  "license": "CC BY 3.0",
+  "sourceName": "Foodista",
+  "pricePerServing": 61.75,
+  "extendedIngredients": [
+    {
+      "id": 11109,
+      "aisle": "Produce",
+      "image": "cabbage.jpg",
+      "consistency": "SOLID",
+      "name": "cabbage",
+      "nameClean": "cabbage",
+      "original": "5 c shredded green cabbage",
+      "originalName": "shredded green cabbage",
+      "amount": 5.0,
+      "unit": "c",
+      "meta": [
+        "shredded",
+        "green"
+      ],
+      "measures": {
+        "us": {
+          "amount": 5.0,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 350.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 11233,
+      "aisle": "Produce",
+      "image": "kale.jpg",
+      "consistency": "SOLID",
+      "name": "kale",
+      "nameClean": "kale",
+      "original": "3 c shredded kale",
+      "originalName": "shredded kale",
+      "amount": 3.0,
+      "unit": "c",
+      "meta": [
+        "shredded"
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 63.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 11143,
+      "aisle": "Produce",
+      "image": "celery.jpg",
+      "consistency": "SOLID",
+      "name": "celery",
+      "nameClean": "celery",
+      "original": "1 c celery, chopped",
+      "originalName": "celery, chopped",
+      "amount": 1.0,
+      "unit": "c",
+      "meta": [
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "cup",
+          "unitLong": "cup"
+        },
+        "metric": {
+          "amount": 101.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 11291,
+      "aisle": "Produce",
+      "image": "spring-onions.jpg",
+      "consistency": "SOLID",
+      "name": "scallion",
+      "nameClean": "spring onions",
+      "original": "3/4 c scallion, chopped",
+      "originalName": "scallion, chopped",
+      "amount": 0.75,
+      "unit": "c",
+      "meta": [
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.75,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 75.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 11124,
+      "aisle": "Produce",
+      "image": "sliced-carrot.png",
+      "consistency": "SOLID",
+      "name": "carrot",
+      "nameClean": "carrot",
+      "original": "2 c carrot, chopped",
+      "originalName": "carrot, chopped",
+      "amount": 2.0,
+      "unit": "c",
+      "meta": [
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 256.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 43016,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "coleslaw-or-caesar-dressing.jpg",
+      "consistency": "SOLID",
+      "name": "dressing",
+      "nameClean": "coleslaw dressing",
+      "original": "Dressing",
+      "originalName": "Dressing",
+      "amount": 6.0,
+      "unit": "servings",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 6.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 6.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 1022068,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "red-wine-vinegar.jpg",
+      "consistency": "LIQUID",
+      "name": "red wine vinegar",
+      "nameClean": "red wine vinegar",
+      "original": "1/4 c red wine vinegar",
+      "originalName": "red wine vinegar",
+      "amount": 0.25,
+      "unit": "c",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 59.75,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 1002024,
+      "aisle": "Spices and Seasonings",
+      "image": "dry-mustard.jpg",
+      "consistency": "SOLID",
+      "name": "mustard",
+      "nameClean": "mustard powder",
+      "original": "1/2 t dry mustard",
+      "originalName": "dry mustard",
+      "amount": 0.5,
+      "unit": "t",
+      "meta": [
+        "dry"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.143,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.143,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 19912,
+      "aisle": "Ethnic Foods",
+      "image": "agave.png",
+      "consistency": "LIQUID",
+      "name": "agave nectar",
+      "nameClean": "agave",
+      "original": "1 t agave nectar",
+      "originalName": "agave nectar",
+      "amount": 1.0,
+      "unit": "t",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.329,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.329,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 2047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt.jpg",
+      "consistency": "SOLID",
+      "name": "salt",
+      "nameClean": "table salt",
+      "original": "1/4 t salt",
+      "originalName": "salt",
+      "amount": 0.25,
+      "unit": "t",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.083,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.083,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 4053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "olive oil",
+      "nameClean": "olive oil",
+      "original": "3 T olive oil",
+      "originalName": "olive oil",
+      "amount": 3.0,
+      "unit": "T",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 3.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    }
+  ],
+  "id": 641422,
+  "title": "Delightful Kale and Cabbage Slaw",
+  "readyInMinutes": 45,
+  "servings": 6,
+  "sourceUrl": "https://www.foodista.com/recipe/RLKY3W3V/delightful-kale-and-cabbage-slaw",
+  "image": "https://img.spoonacular.com/recipes/641422-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Delightful Kale and Cabbage Slaw could be just the <b>gluten free and dairy free</b> recipe you've been looking for. For <b>62 cents per serving</b>, this recipe <b>covers 17%</b> of your daily requirements of vitamins and minerals. This recipe serves 6. One portion of this dish contains roughly <b>3g of protein</b>, <b>8g of fat</b>, and a total of <b>122 calories</b>. A mixture of mustard, salt, celery, and a handful of other ingredients are all it takes to make this recipe so scrumptious. This recipe from Foodista has 2 fans. From preparation to the plate, this recipe takes around <b>45 minutes</b>. It will be a hit at your <b>The Fourth Of July</b> event. It works well as a very affordable side dish. Taking all factors into account, this recipe <b>earns a spoonacular score of 93%</b>, which is great. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/delightful-kale-and-cabbage-slaw-1364363\">Delightful Kale and Cabbage Slaw</a>, <a href=\"https://spoonacular.com/recipes/kale-slaw-with-red-cabbage-and-carrots-11397\">Kale Slaw With Red Cabbage And Carrots</a>, and <a href=\"https://spoonacular.com/recipes/cabbage-and-kale-slaw-with-caraway-ranch-dressing-1152448\">Cabbage and Kale Slaw with Caraway Ranch Dressing</a>.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "side dish"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free"
+  ],
+  "occasions": [
+    "father's day",
+    "4th of july",
+    "summer"
+  ],
+  "instructions": "In a very large bowl, combine cabbage, kale, celery, scallion and carrot. Toss well.\nIn a small bowl, combine dressing ingredients.\nPour dressing over vegetables and toss to coat.",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "In a very large bowl, combine cabbage, kale, celery, scallion and carrot. Toss well.",
+          "ingredients": [
+            {
+              "id": 11291,
+              "name": "green onions",
+              "localizedName": "green onions",
+              "image": "spring-onions.jpg"
+            },
+            {
+              "id": 11109,
+              "name": "cabbage",
+              "localizedName": "cabbage",
+              "image": "cabbage.jpg"
+            },
+            {
+              "id": 11124,
+              "name": "carrot",
+              "localizedName": "carrot",
+              "image": "sliced-carrot.png"
+            },
+            {
+              "id": 11143,
+              "name": "celery",
+              "localizedName": "celery",
+              "image": "celery.jpg"
+            },
+            {
+              "id": 11233,
+              "name": "kale",
+              "localizedName": "kale",
+              "image": "kale.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "In a small bowl, combine dressing ingredients.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Pour dressing over vegetables and toss to coat.",
+          "ingredients": [
+            {
+              "id": 11583,
+              "name": "vegetable",
+              "localizedName": "vegetable",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/mixed-vegetables.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 94.76683044433594,
+  "spoonacularSourceUrl": "https://spoonacular.com/delightful-kale-and-cabbage-slaw-641422"
+}

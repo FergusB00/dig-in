@@ -16,4 +16,5 @@ Rails.application.routes.draw do
     resources :meals, only: [:create]
   end
   resources :user_ingredients, only: [:create, :destroy]
+  get '/barcode_lookup', to: 'barcode_lookup#search'
 end

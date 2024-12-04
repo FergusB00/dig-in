@@ -42,53 +42,41 @@
   margin-top: 10px;
 }
 
-#slideshow-image {
+.home-page-content {
+  font-family: Afacad;
+}
+
+.home-page-background-image {
+  background-image: url('latest_front_still.png');
+  background-size: 100% 100%;
+  background-position: center;
   width: 100%;
-  height: auto;
-  transition: opacity 0.5s ease-in-out;
-  opacity: 1;
-  position: relative;
-}
-
-.home-page-img-container {
-  align-items: center;
-  justify-content: center;
+  height: 600px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
 }
 
-.overlaying-text-big {
-  @include overlay-big;
-  top: 40%;
+.text-overlay {
+  color: white;
+  font-family: Aboreto;
 }
 
-.overlaying-text-small {
-  @include overlay-small;
-  top: 45%;
+.text-overlay h1 {
+  z-index: 2;
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: 900;
+  margin-bottom: 0px !important;
 }
 
-.overlaying-text-big-2 {
-  @include overlay-big;
-  top: 55%;
-}
-
-.overlaying-text-small-2{
-  @include overlay-small;
-  top: 60%;
-}
-
-.overlaying-text-big-3 {
-  @include overlay-big;
-  top: 70%;
-}
-
-.overlaying-text-small-3 {
-  @include overlay-small;
-  top: 75%;
-}
-
-.overlaying-text-small-4 {
-  @include overlay-small;
-  top: 78%;
+.text-overlay p {
+  z-index: 2;
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 30px;
 }
 
 .divider-icon-leaf {

@@ -31,8 +31,6 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
-
-
 // document.addEventListener('DOMContentLoaded', function () {
 //   // List of image filenames in the 'images/meals' folder
 //   const imageFilenames = [

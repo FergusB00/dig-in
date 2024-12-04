@@ -1,24 +1,46 @@
 <div class="home-background text-center">
   <!-- Title -->
-  <title class="home-title">Dig In</title>
+  <div class="home-title">Dig In</div>
   <!-- Subtitle -->
   <p class="home-subtitle">
     <span class="co2">Co<span class="subscript"><sub>2</sub></span></span>ok a Meal. Save the Planet
   </p>
 </div>
+
 <!-- Food image / Slideshow experiement -->
 <div class="main-pic my-3">
   <div class="row justify-content-center">
     <div class="col-md-0">
       <div id="slideshow-container">
-        <img id="slideshow-image" src="<%= asset_path('front_veg_pic_2.jpg', class: 'small-image') %>" alt="Lovely meals" />
+        <img id="slideshow-image" src="<%= asset_path('latest_front_still.png', class: 'small-image') %>" alt="Lovely meals" />
       </div>
     </div>
   </div>
 </div>
 <%= render "shared/page_divider" %>
 
+
+
 <!-- Intro Text -->
+<div class="intro-text">
+  <div class="row">
+    <div class="col-md-8 mx-auto">
+      <div class="intro-text">
+        TRACK food usage
+      </div>
+      <div class="intro-text">
+        SUGGEST recipes
+      </div>
+      <div class="intro-text">
+        REDUCE spend & carbon footprint
+      </div>
+  </div>
+</div>
+
+
+
+
+<%# <!-- Intro Text -->
 <div class="intro-text">
   <div class="row">
     <div class="col-md-8 mx-auto">
@@ -36,4 +58,4 @@
       </div>
     </div>
   </div>
-</div>
+</div> %>

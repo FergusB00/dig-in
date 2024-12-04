@@ -26,7 +26,9 @@
 .profile-pic-wrapper {
   display: flex;
   justify-content: space-between;
-  align-items: stretch
+  align-items: stretch;
+  width: 100%;
+  margin-left: 0;
 }
 
 .profile-picture {
@@ -47,7 +49,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 10px;
   width: 100%;
   gap: 10px;
 }
@@ -57,12 +58,13 @@
   padding: 10px;
   background-color: #FDC39F;
   border-radius: 10px;
+  width: 100%;
 }
 
 .per-stat p {
-  font-size: 14px;
+  font-size: 20px;
   margin: 0;
-  color: #4a4a4a;
+  font-weight: bold;
 }
 
 .per-stat h2 {

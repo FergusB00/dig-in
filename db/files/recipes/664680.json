@@ -1,0 +1,720 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 3,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 11,
+  "healthScore": 66,
+  "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+  "license": "CC BY 3.0",
+  "sourceName": "Foodista",
+  "pricePerServing": 116.49,
+  "extendedIngredients": [
+    {
+      "id": 10011355,
+      "aisle": "Produce",
+      "image": "red-potatoes.jpg",
+      "consistency": "SOLID",
+      "name": "skin potatoes",
+      "nameClean": "red potato",
+      "original": "1 kg red skin potatoes",
+      "originalName": "red skin potatoes",
+      "amount": 1.0,
+      "unit": "kg",
+      "meta": [
+        "red"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.205,
+          "unitShort": "lb",
+          "unitLong": "pounds"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "kg",
+          "unitLong": "kg"
+        }
+      }
+    },
+    {
+      "id": 98965,
+      "aisle": "Health Foods",
+      "image": "soy-lecithin.png",
+      "consistency": "SOLID",
+      "name": "soy granules",
+      "nameClean": "soy lecithin granules",
+      "original": "100g soy granules",
+      "originalName": "soy granules",
+      "amount": 100.0,
+      "unit": "g",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.527,
+          "unitShort": "oz",
+          "unitLong": "ounces"
+        },
+        "metric": {
+          "amount": 100.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 11260,
+      "aisle": "Produce",
+      "image": "mushrooms.png",
+      "consistency": "SOLID",
+      "name": "mushrooms",
+      "nameClean": "fresh mushrooms",
+      "original": "1 kg mushrooms",
+      "originalName": "mushrooms",
+      "amount": 1.0,
+      "unit": "kg",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.205,
+          "unitShort": "lb",
+          "unitLong": "pounds"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "kg",
+          "unitLong": "kg"
+        }
+      }
+    },
+    {
+      "id": 11124,
+      "aisle": "Produce",
+      "image": "sliced-carrot.png",
+      "consistency": "SOLID",
+      "name": "carrot",
+      "nameClean": "carrot",
+      "original": "1 carrot",
+      "originalName": "carrot",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 11821,
+      "aisle": "Produce",
+      "image": "red-pepper.jpg",
+      "consistency": "SOLID",
+      "name": "bell pepper",
+      "nameClean": "red pepper",
+      "original": "1 red bell pepper",
+      "originalName": "red bell pepper",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+        "red"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 11282,
+      "aisle": "Produce",
+      "image": "brown-onion.png",
+      "consistency": "SOLID",
+      "name": "onions",
+      "nameClean": "onion",
+      "original": "2 onions, diced",
+      "originalName": "onions, diced",
+      "amount": 2.0,
+      "unit": "",
+      "meta": [
+        "diced"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 2045,
+      "aisle": "Spices and Seasonings",
+      "image": "dill.jpg",
+      "consistency": "SOLID",
+      "name": "dill",
+      "nameClean": "dill",
+      "original": "1 bunch of dill, chopped",
+      "originalName": "dill, chopped",
+      "amount": 1.0,
+      "unit": "bunch",
+      "meta": [
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "bunch",
+          "unitLong": "bunch"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "bunch",
+          "unitLong": "bunch"
+        }
+      }
+    },
+    {
+      "id": 11297,
+      "aisle": "Produce",
+      "image": "parsley.jpg",
+      "consistency": "SOLID",
+      "name": "parsley",
+      "nameClean": "parsley",
+      "original": "1 bunch of parsley, chopped",
+      "originalName": "parsley, chopped",
+      "amount": 1.0,
+      "unit": "bunch",
+      "meta": [
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "bunch",
+          "unitLong": "bunch"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "bunch",
+          "unitLong": "bunch"
+        }
+      }
+    },
+    {
+      "id": 18375,
+      "aisle": "Baking",
+      "image": "yeast-granules.jpg",
+      "consistency": "SOLID",
+      "name": "eggs",
+      "nameClean": "dry yeast",
+      "original": "2 eggs ( or egg substitutes for vegans, you can also add 3-4 tbsp dry yeast flakes)",
+      "originalName": "eggs ( or egg substitutes for vegans, you can also add 3-4 tbsp dry yeast flakes)",
+      "amount": 2.0,
+      "unit": "",
+      "meta": [
+        "dry",
+        "for vegans, you can also add 3-4 tbsp  yeast flakes",
+        "( or egg substitutes )"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 1012047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt.jpg",
+      "consistency": "SOLID",
+      "name": "sea salt",
+      "nameClean": "coarse sea salt",
+      "original": "sea salt, to taste",
+      "originalName": "sea salt, to taste",
+      "amount": 12.0,
+      "unit": "servings",
+      "meta": [
+        "to taste"
+      ],
+      "measures": {
+        "us": {
+          "amount": 12.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 12.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 1002030,
+      "aisle": "Spices and Seasonings",
+      "image": "pepper.jpg",
+      "consistency": "SOLID",
+      "name": "ground pepper",
+      "nameClean": "black pepper",
+      "original": "1/2 tsp ground pepper",
+      "originalName": "ground pepper",
+      "amount": 0.5,
+      "unit": "tsp",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 1002028,
+      "aisle": "Spices and Seasonings",
+      "image": "paprika.jpg",
+      "consistency": "SOLID",
+      "name": "paprika",
+      "nameClean": "sweet paprika",
+      "original": "1 tsp sweet paprika",
+      "originalName": "sweet paprika",
+      "amount": 1.0,
+      "unit": "tsp",
+      "meta": [
+        "sweet"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        }
+      }
+    },
+    {
+      "id": 2049,
+      "aisle": "Spices and Seasonings",
+      "image": "thyme.jpg",
+      "consistency": "SOLID",
+      "name": "thyme",
+      "nameClean": "thyme",
+      "original": "1 tbsp dry thyme",
+      "originalName": "dry thyme",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "meta": [
+        "dry"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        }
+      }
+    },
+    {
+      "id": 4584,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "vegetable-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "unrefined sunflower oil",
+      "nameClean": "sunflower oil",
+      "original": "2 tbsp unrefined sunflower oil",
+      "originalName": "unrefined sunflower oil",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    }
+  ],
+  "id": 664680,
+  "title": "Vegetarian Mushroom Shepherd's Pie",
+  "readyInMinutes": 45,
+  "servings": 12,
+  "sourceUrl": "https://www.foodista.com/recipe/Q8LZSX4D/vegetarian-mushroom-shepherd-s-pie-with-vegan-version",
+  "image": "https://img.spoonacular.com/recipes/664680-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "The recipe Vegetarian Mushroom Shepherd's Pie is ready <b>in around 45 minutes</b> and is definitely an awesome <b>gluten free and dairy free</b> option for lovers of European food. For <b>$1.16 per serving</b>, you get a hor d'oeuvre that serves 12. One serving contains <b>113 calories</b>, <b>5g of protein</b>, and <b>5g of fat</b>. 11 person were glad they tried this recipe. This recipe from Foodista requires ground pepper, thyme, unrefined sunflower oil, and paprika. All things considered, we decided this recipe <b>deserves a spoonacular score of 83%</b>. This score is spectacular. Similar recipes are <a href=\"https://spoonacular.com/recipes/vegetarian-mushroom-shepherds-pie-1404517\">Vegetarian Mushroom Shepherd's Pie</a>, <a href=\"https://spoonacular.com/recipes/vegetarian-mushroom-shepherds-pie-1374865\">Vegetarian Mushroom Shepherd's Pie</a>, and <a href=\"https://spoonacular.com/recipes/vegetarian-mushroom-shepherds-pie-with-vegan-version-122196\">Vegetarian Mushroom Shepherd's Pie - With Vegan Version</a>.",
+  "cuisines": [
+    "English",
+    "Scottish",
+    "British",
+    "European"
+  ],
+  "dishTypes": [
+    "antipasti",
+    "starter",
+    "snack",
+    "appetizer",
+    "antipasto",
+    "hor d'oeuvre"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "Peel potatoes and put them in a large pot filled with water. Boil them until they're tender. Mash them and let them cool for a while.\nChop the mushrooms, carrot and red bell pepper. Add them into your food processor and pulse until all ingredients are well mixed together.\nHeat oil in a large skillet. Add the mixture above, diced onions, chopped dill and parsley, soy granules, eggs (or egg substitute) and spices. Saut for 10 minutes.\n* I added the soy granules without boiling them because the mushrooms contain a lot of water and these soy granules will absorb all excess water.\nPut some parchment paper on the bottom of a casserole. Divide the mashed potatoes in two. Place the first half in the casserole and spread it with a spatula. Add the filling. Place over the other half of mashed potatoes.\nHeat your oven at 392. Put the casserole in the oven. Cook for 40 minutes.\nDon't serve immediately. Let it cool for at least half an hour.",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Peel potatoes and put them in a large pot filled with water. Boil them until they're tender. Mash them and let them cool for a while.",
+          "ingredients": [
+            {
+              "id": 11352,
+              "name": "potato",
+              "localizedName": "potato",
+              "image": "potatoes-yukon-gold.png"
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404752,
+              "name": "pot",
+              "localizedName": "pot",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/stock-pot.jpg"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Chop the mushrooms, carrot and red bell pepper.",
+          "ingredients": [
+            {
+              "id": 11821,
+              "name": "red pepper",
+              "localizedName": "red pepper",
+              "image": "red-pepper.jpg"
+            },
+            {
+              "id": 11260,
+              "name": "mushrooms",
+              "localizedName": "mushrooms",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/mushrooms.png"
+            },
+            {
+              "id": 11124,
+              "name": "carrot",
+              "localizedName": "carrot",
+              "image": "sliced-carrot.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Add them into your food processor and pulse until all ingredients are well mixed together.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+            {
+              "id": 404771,
+              "name": "food processor",
+              "localizedName": "food processor",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/food-processor.png"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "step": "Heat oil in a large skillet.",
+          "ingredients": [
+            {
+              "id": 4582,
+              "name": "cooking oil",
+              "localizedName": "cooking oil",
+              "image": "vegetable-oil.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404645,
+              "name": "frying pan",
+              "localizedName": "frying pan",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "step": "Add the mixture above, diced onions, chopped dill and parsley, soy granules, eggs (or egg substitute) and spices. Saut for 10 minutes.",
+          "ingredients": [
+            {
+              "id": 1226,
+              "name": "egg substitute",
+              "localizedName": "egg substitute",
+              "image": "liquid-egg-substitute.jpg"
+            },
+            {
+              "id": 11297,
+              "name": "parsley",
+              "localizedName": "parsley",
+              "image": "parsley.jpg"
+            },
+            {
+              "id": 11282,
+              "name": "onion",
+              "localizedName": "onion",
+              "image": "brown-onion.png"
+            },
+            {
+              "id": 2035,
+              "name": "spices",
+              "localizedName": "spices",
+              "image": "spices.png"
+            },
+            {
+              "id": 2045,
+              "name": "dill",
+              "localizedName": "dill",
+              "image": "dill.jpg"
+            },
+            {
+              "id": 1123,
+              "name": "egg",
+              "localizedName": "egg",
+              "image": "egg.png"
+            }
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 10,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 6,
+          "step": "* I added the soy granules without boiling them because the mushrooms contain a lot of water and these soy granules will absorb all excess water.",
+          "ingredients": [
+            {
+              "id": 11260,
+              "name": "mushrooms",
+              "localizedName": "mushrooms",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/mushrooms.png"
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 7,
+          "step": "Put some parchment paper on the bottom of a casserole. Divide the mashed potatoes in two.",
+          "ingredients": [
+            {
+              "id": 11352,
+              "name": "potato",
+              "localizedName": "potato",
+              "image": "potatoes-yukon-gold.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404770,
+              "name": "baking paper",
+              "localizedName": "baking paper",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/baking-paper.jpg"
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "step": "Place the first half in the casserole and spread it with a spatula.",
+          "ingredients": [
+            {
+              "id": 0,
+              "name": "spread",
+              "localizedName": "spread",
+              "image": ""
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404642,
+              "name": "spatula",
+              "localizedName": "spatula",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/spatula-or-turner.jpg"
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "step": "Add the filling.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 10,
+          "step": "Place over the other half of mashed potatoes.",
+          "ingredients": [
+            {
+              "id": 11352,
+              "name": "potato",
+              "localizedName": "potato",
+              "image": "potatoes-yukon-gold.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 11,
+          "step": "Heat your oven at 39",
+          "ingredients": [
+
+          ],
+          "equipment": [
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "step": "Put the casserole in the oven. Cook for 40 minutes.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            }
+          ],
+          "length": {
+            "number": 40,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 13,
+          "step": "Don't serve immediately.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 14,
+          "step": "Let it cool for at least half an hour.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 95.52082824707031,
+  "spoonacularSourceUrl": "https://spoonacular.com/vegetarian-mushroom-shepherds-pie-664680"
+}

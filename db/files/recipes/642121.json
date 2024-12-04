@@ -1,0 +1,295 @@
+{
+  "vegetarian": true,
+  "vegan": true,
+  "glutenFree": false,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 20,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 2,
+  "healthScore": 100,
+  "creditsText": "foodista.com",
+  "sourceName": "foodista.com",
+  "pricePerServing": 463.72,
+  "extendedIngredients": [
+    {
+      "id": 20012,
+      "aisle": "Ethnic Foods",
+      "image": "bulgur-wheat.jpg",
+      "consistency": "SOLID",
+      "name": "bulgur",
+      "nameClean": "bulgur",
+      "original": "1/2 cup bulgur",
+      "originalName": "bulgur",
+      "amount": 0.5,
+      "unit": "cup",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 70.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 11206,
+      "aisle": "Produce",
+      "image": "cucumber.jpg",
+      "consistency": "SOLID",
+      "name": "cucumbers",
+      "nameClean": "cucumber",
+      "original": "2 smalls cucumbers",
+      "originalName": "s cucumbers",
+      "amount": 2.0,
+      "unit": "small",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "small",
+          "unitLong": "smalls"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "small",
+          "unitLong": "smalls"
+        }
+      }
+    },
+    {
+      "id": 10311297,
+      "aisle": "Produce",
+      "image": "parsley.jpg",
+      "consistency": "SOLID",
+      "name": "flat leaf parsley",
+      "nameClean": "flat leaf parsley",
+      "original": "1 bunch of flat leaf parsley",
+      "originalName": "flat leaf parsley",
+      "amount": 1.0,
+      "unit": "bunch",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "bunch",
+          "unitLong": "bunch"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "bunch",
+          "unitLong": "bunch"
+        }
+      }
+    },
+    {
+      "id": 9152,
+      "aisle": "Produce",
+      "image": "lemon-juice.jpg",
+      "consistency": "LIQUID",
+      "name": "lemon juice from a lemon",
+      "nameClean": "lemon juice",
+      "original": "1/2 lemon juice from a lemon",
+      "originalName": "lemon juice from a lemon",
+      "amount": 0.5,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 4053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "olive oil",
+      "nameClean": "olive oil",
+      "original": "3 tablespoons of olive oil",
+      "originalName": "olive oil",
+      "amount": 3.0,
+      "unit": "tablespoons",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 3.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 2047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt.jpg",
+      "consistency": "SOLID",
+      "name": "salt",
+      "nameClean": "table salt",
+      "original": "Salt",
+      "originalName": "Salt",
+      "amount": 1.0,
+      "unit": "serving",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "serving",
+          "unitLong": "serving"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "serving",
+          "unitLong": "serving"
+        }
+      }
+    },
+    {
+      "id": 11529,
+      "aisle": "Produce",
+      "image": "tomato.png",
+      "consistency": "SOLID",
+      "name": "tomatoes",
+      "nameClean": "tomato",
+      "original": "2 medium tomatoes",
+      "originalName": "tomatoes",
+      "amount": 2.0,
+      "unit": "medium",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "medium",
+          "unitLong": "mediums"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "medium",
+          "unitLong": "mediums"
+        }
+      }
+    }
+  ],
+  "id": 642121,
+  "title": "Easy Tabouleh",
+  "readyInMinutes": 45,
+  "servings": 1,
+  "sourceUrl": "https://www.foodista.com/recipe/HC6SVFST/easy-tabouleh",
+  "image": "https://img.spoonacular.com/recipes/642121-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "If you want to add more <b>dairy free, lacto ovo vegetarian, and vegan</b> recipes to your recipe box, Easy Tabouleh might be a recipe you should try. This main course has <b>717 calories</b>, <b>14g of protein</b>, and <b>44g of fat</b> per serving. This recipe serves 1 and costs $4.64 per serving. From preparation to the plate, this recipe takes around <b>45 minutes</b>. 2 people were impressed by this recipe. It is a <b>pretty expensive</b> recipe for fans of middl eastern food. This recipe from Foodista requires bulgur, olive oil, flat leaf parsley, and salt. Taking all factors into account, this recipe <b>earns a spoonacular score of 93%</b>, which is spectacular. <a href=\"https://spoonacular.com/recipes/easy-tabouleh-1254441\">Easy Tabouleh</a>, <a href=\"https://spoonacular.com/recipes/tabouleh-1277007\">Tabouleh</a>, and <a href=\"https://spoonacular.com/recipes/tabouleh-1215825\">Tabouleh</a> are very similar to this recipe.",
+  "cuisines": [
+    "Middle Eastern"
+  ],
+  "dishTypes": [
+    "side dish",
+    "lunch",
+    "main course",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+    "dairy free",
+    "lacto ovo vegetarian",
+    "vegan"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "<ol><li>Chop the vegetables and parsley finely. The restaurant version has the veggies diced fairly small and I wanted to stay true to that.</li><li>Rinse the cracked wheat in a fine mesh sieve and let drain.</li><li>Combine all ingredients in a large bowl.</li></ol>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Chop the vegetables and parsley finely. The restaurant version has the veggies diced fairly small and I wanted to stay true to that.Rinse the cracked wheat in a fine mesh sieve and let drain.",
+          "ingredients": [
+            {
+              "id": 93684,
+              "name": "cracked wheat",
+              "localizedName": "cracked wheat",
+              "image": "bulgur-wheat.jpg"
+            },
+            {
+              "id": 11583,
+              "name": "vegetable",
+              "localizedName": "vegetable",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/mixed-vegetables.png"
+            },
+            {
+              "id": 11297,
+              "name": "parsley",
+              "localizedName": "parsley",
+              "image": "parsley.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 405600,
+              "name": "sieve",
+              "localizedName": "sieve",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/strainer.png"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Combine all ingredients in a large bowl.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 94.27328491210938,
+  "spoonacularSourceUrl": "https://spoonacular.com/easy-tabouleh-642121"
+}

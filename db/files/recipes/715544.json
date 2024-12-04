@@ -1,0 +1,654 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": true,
+  "dairyFree": false,
+  "veryHealthy": false,
+  "cheap": false,
+  "veryPopular": true,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 18,
+  "gaps": "no",
+  "preparationMinutes": 20,
+  "cookingMinutes": 75,
+  "aggregateLikes": 8242,
+  "healthScore": 26,
+  "creditsText": "pinkwhen.com",
+  "sourceName": "pinkwhen.com",
+  "pricePerServing": 355.67,
+  "extendedIngredients": [
+    {
+      "id": 9037,
+      "aisle": "Produce",
+      "image": "avocado.jpg",
+      "consistency": "SOLID",
+      "name": "avocados",
+      "nameClean": "avocado",
+      "original": "2 very ripe avocados, pitted and skins removed",
+      "originalName": "very ripe avocados, pitted and skins removed",
+      "amount": 2.0,
+      "unit": "",
+      "meta": [
+        "pitted",
+        "very ripe"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 1230,
+      "aisle": "Milk, Eggs, Other Dairy",
+      "image": "buttermilk.jpg",
+      "consistency": "SOLID",
+      "name": "buttermilk",
+      "nameClean": "buttermilk",
+      "original": "2 tablespoons buttermilk",
+      "originalName": "buttermilk",
+      "amount": 2.0,
+      "unit": "tablespoons",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 10862,
+      "aisle": "Meat",
+      "image": "cooked-bacon.jpg",
+      "consistency": "SOLID",
+      "name": "bacon",
+      "nameClean": "cooked bacon",
+      "original": "4 strips of bacon, cooked until crisp and chopped",
+      "originalName": "bacon, cooked until crisp and chopped",
+      "amount": 4.0,
+      "unit": "strips",
+      "meta": [
+        "crisp",
+        "cooked",
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "strips",
+          "unitLong": "strips"
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "strips",
+          "unitLong": "strips"
+        }
+      }
+    },
+    {
+      "id": 10511297,
+      "aisle": "Produce",
+      "image": "parsley.jpg",
+      "consistency": "SOLID",
+      "name": "parsley",
+      "nameClean": "fresh parsley",
+      "original": "1/4 cup fresh parsley, chopped",
+      "originalName": "fresh parsley, chopped",
+      "amount": 0.25,
+      "unit": "cup",
+      "meta": [
+        "fresh",
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 15.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 1159,
+      "aisle": "Cheese",
+      "image": "goat-cheese.jpg",
+      "consistency": "SOLID",
+      "name": "goat's cheese",
+      "nameClean": "goat cheese",
+      "original": "6 ounces goat's cheese, crumbled",
+      "originalName": "goat's cheese, crumbled",
+      "amount": 6.0,
+      "unit": "ounces",
+      "meta": [
+        "crumbled"
+      ],
+      "measures": {
+        "us": {
+          "amount": 6.0,
+          "unitShort": "oz",
+          "unitLong": "ounces"
+        },
+        "metric": {
+          "amount": 170.097,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 1102047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt-and-pepper.jpg",
+      "consistency": "SOLID",
+      "name": "salt and pepper",
+      "nameClean": "salt and pepper",
+      "original": "salt and black pepper",
+      "originalName": "salt and black pepper",
+      "amount": 4.0,
+      "unit": "servings",
+      "meta": [
+        "black"
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 1001256,
+      "aisle": "Milk, Eggs, Other Dairy",
+      "image": "white-cream.png",
+      "consistency": "LIQUID",
+      "name": "cream",
+      "nameClean": "plain greek yogurt",
+      "original": "1/2 cup sour cream (plain Greek yogurt may be substituted)",
+      "originalName": "sour cream (plain Greek yogurt may be substituted)",
+      "amount": 0.5,
+      "unit": "cup",
+      "meta": [
+        "plain",
+        "sour",
+        "( Greek yogurt may be substituted)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 100.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 11507,
+      "aisle": "Produce",
+      "image": "sweet-potato.png",
+      "consistency": "SOLID",
+      "name": "sweet potatoes",
+      "nameClean": "sweet potato",
+      "original": "4 medium sweet potatoes",
+      "originalName": "sweet potatoes",
+      "amount": 4.0,
+      "unit": "medium",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "medium",
+          "unitLong": "mediums"
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "medium",
+          "unitLong": "mediums"
+        }
+      }
+    },
+    {
+      "id": 1145,
+      "aisle": "Milk, Eggs, Other Dairy",
+      "image": "butter-sliced.jpg",
+      "consistency": "SOLID",
+      "name": "butter",
+      "nameClean": "unsalted butter",
+      "original": "6 tablespoons unsalted butter",
+      "originalName": "unsalted butter",
+      "amount": 6.0,
+      "unit": "tablespoons",
+      "meta": [
+        "unsalted"
+      ],
+      "measures": {
+        "us": {
+          "amount": 6.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 6.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    }
+  ],
+  "id": 715544,
+  "title": "Brown Butter Twice Baked Sweet Potatoes",
+  "readyInMinutes": 95,
+  "servings": 4,
+  "sourceUrl": "https://www.pinkwhen.com/brown-butter-twice-baked-sweet-potatoes/",
+  "image": "https://img.spoonacular.com/recipes/715544-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "The recipe Brown Butter Twice Baked Sweet Potatoes can be made <b>in about 1 hour and 35 minutes</b>. Watching your figure? This gluten free and primal recipe has <b>677 calories</b>, <b>19g of protein</b>, and <b>44g of fat</b> per serving. This recipe serves 4 and costs $3.56 per serving. 8242 people have tried and liked this recipe. This recipe from Pink When requires goat's cheese, sweet potatoes, bacon, and butter. It works well as a main course. All things considered, we decided this recipe <b>deserves a spoonacular score of 94%</b>. This score is super. Similar recipes include <a href=\"https://spoonacular.com/recipes/twice-baked-sweet-potatoes-with-brown-sugar-pecans-489041\">Twice Baked Sweet Potatoes {with Brown Sugar & Pecans}</a>, <a href=\"https://spoonacular.com/recipes/maple-brown-butter-mashed-sweet-potatoes-828414\">Maple Brown Butter Mashed Sweet Potatoes</a>, and <a href=\"https://spoonacular.com/recipes/maple-brown-butter-roasted-sweet-potatoes-1571611\">Maple Brown Butter Roasted Sweet Potatoes</a>.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "lunch",
+    "main course",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+    "gluten free",
+    "primal"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "<p>Preheat your oven to 400 degrees F. Poke your sweet potatoes with a fork and place them directly on the rack of your oven. Place a piece of foil on the rack below to reduce mess. Bake the sweet potatoes for 45-50 minutes or until tender. Times may vary depending on how hot your oven gets.Remove the potatoes from the oven and let stand at room temperature until they are cool enough to handle, about 20-30 minutes. Leave the oven on.While your potatoes are cooling, melt the butter over medium heat. Continue to cook the butter, stirring frequently, until brown bits begin to form on the bottom of the pan, about 5-6 minutes. Pay close attention as the butter can quickly go from brown to burnt in a matter of seconds. Once you see the brown bits forming and a nutty aroma fills the air, pull the butter from the heat immediately. Set aside.Cut the tops off of the sweet potatoes, lengthwise. Scoop the sweet potato flesh into a medium bowl, leaving the skins in tact. To the bowl, add the brown butter, 2 tablespoons of the fresh parsley, 3/4 of the chopped bacon, and 4 ounces of the goats cheese. Sprinkle with salt and black pepper to taste and mash the ingredients together until combined. Scoop the filling back into the sweet potatoes.Place the potatoes on a baking sheet that has been lined with foil or parchment paper. Place them back in the oven to bake for 25 minutes.While your potatoes are baking for a second time, prepare your avocado cream. In the bowl of your food processor or blender, combine the avocados, sour cream and buttermilk. Add a dash of salt and pepper and pulse until completely smooth and creamy.Once your potatoes have baked, remove from oven. Sprinkle on the remaining parsley, bacon and goats cheese. Drizzle with avocado cream and serve immediately.Enjoy!I hope you enjoy this recipe for brown butter twice baked sweet potatoes!</p>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Preheat your oven to 400 degrees F. Poke your sweet potatoes with a fork and place them directly on the rack of your oven.",
+          "ingredients": [
+            {
+              "id": 11507,
+              "name": "sweet potato",
+              "localizedName": "sweet potato",
+              "image": "sweet-potato.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg",
+              "temperature": {
+                "number": 400.0,
+                "unit": "Fahrenheit"
+              }
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Place a piece of foil on the rack below to reduce mess.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+            {
+              "id": 404765,
+              "name": "aluminum foil",
+              "localizedName": "aluminum foil",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/aluminum-foil.png"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Bake the sweet potatoes for 45-50 minutes or until tender. Times may vary depending on how hot your oven gets.",
+          "ingredients": [
+            {
+              "id": 11507,
+              "name": "sweet potato",
+              "localizedName": "sweet potato",
+              "image": "sweet-potato.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            }
+          ],
+          "length": {
+            "number": 50,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 4,
+          "step": "Remove the potatoes from the oven and let stand at room temperature until they are cool enough to handle, about 20-30 minutes. Leave the oven on.While your potatoes are cooling, melt the butter over medium heat. Continue to cook the butter, stirring frequently, until brown bits begin to form on the bottom of the pan, about 5-6 minutes. Pay close attention as the butter can quickly go from brown to burnt in a matter of seconds. Once you see the brown bits forming and a nutty aroma fills the air, pull the butter from the heat immediately. Set aside.",
+          "ingredients": [
+            {
+              "id": 11352,
+              "name": "potato",
+              "localizedName": "potato",
+              "image": "potatoes-yukon-gold.png"
+            },
+            {
+              "id": 1001,
+              "name": "butter",
+              "localizedName": "butter",
+              "image": "butter-sliced.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            },
+            {
+              "id": 404645,
+              "name": "frying pan",
+              "localizedName": "frying pan",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+            }
+          ],
+          "length": {
+            "number": 36,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 5,
+          "step": "Cut the tops off of the sweet potatoes, lengthwise. Scoop the sweet potato flesh into a medium bowl, leaving the skins in tact. To the bowl, add the brown butter, 2 tablespoons of the fresh parsley, 3/4 of the chopped bacon, and 4 ounces of the goats cheese.",
+          "ingredients": [
+            {
+              "id": 11507,
+              "name": "sweet potato",
+              "localizedName": "sweet potato",
+              "image": "sweet-potato.png"
+            },
+            {
+              "id": 10511297,
+              "name": "fresh parsley",
+              "localizedName": "fresh parsley",
+              "image": "parsley.jpg"
+            },
+            {
+              "id": 1159,
+              "name": "goat cheese",
+              "localizedName": "goat cheese",
+              "image": "goat-cheese.jpg"
+            },
+            {
+              "id": 1001,
+              "name": "butter",
+              "localizedName": "butter",
+              "image": "butter-sliced.jpg"
+            },
+            {
+              "id": 10123,
+              "name": "bacon",
+              "localizedName": "bacon",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/raw-bacon.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "step": "Sprinkle with salt and black pepper to taste and mash the ingredients together until combined. Scoop the filling back into the sweet potatoes.",
+          "ingredients": [
+            {
+              "id": 1102047,
+              "name": "salt and pepper",
+              "localizedName": "salt and pepper",
+              "image": "salt-and-pepper.jpg"
+            },
+            {
+              "id": 11507,
+              "name": "sweet potato",
+              "localizedName": "sweet potato",
+              "image": "sweet-potato.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 7,
+          "step": "Place the potatoes on a baking sheet that has been lined with foil or parchment paper.",
+          "ingredients": [
+            {
+              "id": 11352,
+              "name": "potato",
+              "localizedName": "potato",
+              "image": "potatoes-yukon-gold.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404770,
+              "name": "baking paper",
+              "localizedName": "baking paper",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/baking-paper.jpg"
+            },
+            {
+              "id": 404727,
+              "name": "baking sheet",
+              "localizedName": "baking sheet",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/baking-sheet.jpg"
+            },
+            {
+              "id": 404765,
+              "name": "aluminum foil",
+              "localizedName": "aluminum foil",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/aluminum-foil.png"
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "step": "Place them back in the oven to bake for 25 minutes.While your potatoes are baking for a second time, prepare your avocado cream. In the bowl of your food processor or blender, combine the avocados, sour cream and buttermilk.",
+          "ingredients": [
+            {
+              "id": 1230,
+              "name": "buttermilk",
+              "localizedName": "buttermilk",
+              "image": "buttermilk.jpg"
+            },
+            {
+              "id": 1056,
+              "name": "sour cream",
+              "localizedName": "sour cream",
+              "image": "sour-cream.jpg"
+            },
+            {
+              "id": 9037,
+              "name": "avocado",
+              "localizedName": "avocado",
+              "image": "avocado.jpg"
+            },
+            {
+              "id": 11352,
+              "name": "potato",
+              "localizedName": "potato",
+              "image": "potatoes-yukon-gold.png"
+            },
+            {
+              "id": 1053,
+              "name": "cream",
+              "localizedName": "cream",
+              "image": "fluid-cream.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404771,
+              "name": "food processor",
+              "localizedName": "food processor",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/food-processor.png"
+            },
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            },
+            {
+              "id": 404726,
+              "name": "blender",
+              "localizedName": "blender",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/blender.png"
+            },
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ],
+          "length": {
+            "number": 25,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 9,
+          "step": "Add a dash of salt and pepper and pulse until completely smooth and creamy.Once your potatoes have baked, remove from oven.",
+          "ingredients": [
+            {
+              "id": 1102047,
+              "name": "salt and pepper",
+              "localizedName": "salt and pepper",
+              "image": "salt-and-pepper.jpg"
+            },
+            {
+              "id": 11352,
+              "name": "potato",
+              "localizedName": "potato",
+              "image": "potatoes-yukon-gold.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "step": "Sprinkle on the remaining parsley, bacon and goats cheese.",
+          "ingredients": [
+            {
+              "id": 1159,
+              "name": "goat cheese",
+              "localizedName": "goat cheese",
+              "image": "goat-cheese.jpg"
+            },
+            {
+              "id": 11297,
+              "name": "parsley",
+              "localizedName": "parsley",
+              "image": "parsley.jpg"
+            },
+            {
+              "id": 10123,
+              "name": "bacon",
+              "localizedName": "bacon",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/raw-bacon.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 11,
+          "step": "Drizzle with avocado cream and serve immediately.Enjoy!I hope you enjoy this recipe for brown butter twice baked sweet potatoes!",
+          "ingredients": [
+            {
+              "id": 11507,
+              "name": "sweet potato",
+              "localizedName": "sweet potato",
+              "image": "sweet-potato.png"
+            },
+            {
+              "id": 9037,
+              "name": "avocado",
+              "localizedName": "avocado",
+              "image": "avocado.jpg"
+            },
+            {
+              "id": 1001,
+              "name": "butter",
+              "localizedName": "butter",
+              "image": "butter-sliced.jpg"
+            },
+            {
+              "id": 1053,
+              "name": "cream",
+              "localizedName": "cream",
+              "image": "fluid-cream.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 94.869384765625,
+  "spoonacularSourceUrl": "https://spoonacular.com/brown-butter-twice-baked-sweet-potatoes-715544"
+}

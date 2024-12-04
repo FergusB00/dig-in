@@ -1,0 +1,590 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 6,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 3,
+  "healthScore": 98,
+  "creditsText": "foodista.com",
+  "sourceName": "foodista.com",
+  "pricePerServing": 305.98,
+  "extendedIngredients": [
+    {
+      "id": 2048,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "apple-cider-vinegar.jpg",
+      "consistency": "LIQUID",
+      "name": "apple cider vinegar",
+      "nameClean": "apple cider vinegar",
+      "original": "1 tsp. (5ml) of organic apple cider vinegar",
+      "originalName": "tsp. of organic apple cider vinegar",
+      "amount": 5.0,
+      "unit": "ml",
+      "meta": [
+        "organic"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.171,
+          "unitShort": "fl. oz",
+          "unitLong": "fl. ozs"
+        },
+        "metric": {
+          "amount": 5.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 1002030,
+      "aisle": "Spices and Seasonings",
+      "image": "pepper.jpg",
+      "consistency": "SOLID",
+      "name": "pepper",
+      "nameClean": "black pepper",
+      "original": "1 teaspoon crushed black pepper",
+      "originalName": "crushed black pepper",
+      "amount": 1.0,
+      "unit": "teaspoon",
+      "meta": [
+        "black",
+        "crushed"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        }
+      }
+    },
+    {
+      "id": 10012023,
+      "aisle": "Spices and Seasonings",
+      "image": "black-sesame-seeds-or-chia-seeds.png",
+      "consistency": "SOLID",
+      "name": "sesame seeds",
+      "nameClean": "black sesame seeds",
+      "original": "1 1/2 tablespoons black sesame seeds",
+      "originalName": "black sesame seeds",
+      "amount": 1.5,
+      "unit": "tablespoons",
+      "meta": [
+        "black"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.5,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 1.5,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 11124,
+      "aisle": "Produce",
+      "image": "sliced-carrot.png",
+      "consistency": "SOLID",
+      "name": "carrots",
+      "nameClean": "carrot",
+      "original": "3 carrots",
+      "originalName": "carrots",
+      "amount": 3.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 3.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 1034053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "extra virgin olive oil",
+      "nameClean": "extra virgin olive oil",
+      "original": "1/4 C extra virgin olive oil + 7-8 Tbsp for frying",
+      "originalName": "extra virgin olive oil + 7-8 Tbsp for frying",
+      "amount": 0.25,
+      "unit": "C",
+      "meta": [
+        "for frying"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "cups",
+          "unitLong": "Cs"
+        },
+        "metric": {
+          "amount": 0.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        }
+      }
+    },
+    {
+      "id": 11109,
+      "aisle": "Produce",
+      "image": "cabbage.jpg",
+      "consistency": "SOLID",
+      "name": "cabbage",
+      "nameClean": "cabbage",
+      "original": "1/2 green cabbage",
+      "originalName": "green cabbage",
+      "amount": 0.5,
+      "unit": "",
+      "meta": [
+        "green"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 1082047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt.jpg",
+      "consistency": "SOLID",
+      "name": "kosher salt",
+      "nameClean": "kosher salt",
+      "original": "1/2 teaspoon kosher salt",
+      "originalName": "kosher salt",
+      "amount": 0.5,
+      "unit": "teaspoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 9218,
+      "aisle": "Produce",
+      "image": "mandarin-or-tangerines-or-clementines.jpg",
+      "consistency": "SOLID",
+      "name": "satsuma mandarins",
+      "nameClean": "mandarin oranges",
+      "original": "6-8 fresh satsuma mandarins",
+      "originalName": "fresh satsuma mandarins",
+      "amount": 6.0,
+      "unit": "",
+      "meta": [
+        "fresh"
+      ],
+      "measures": {
+        "us": {
+          "amount": 6.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 6.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 11112,
+      "aisle": "Produce",
+      "image": "red-cabbage.png",
+      "consistency": "SOLID",
+      "name": "cabbage",
+      "nameClean": "red cabbage",
+      "original": "1/2 red cabbage",
+      "originalName": "red cabbage",
+      "amount": 0.5,
+      "unit": "",
+      "meta": [
+        "red"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 5064,
+      "aisle": "Meat",
+      "image": "cooked-chicken-breast.png",
+      "consistency": "SOLID",
+      "name": "chicken breasts roasted",
+      "nameClean": "cooked chicken breast",
+      "original": "3 chicken breasts (bone in, preferably organic) roasted and shredded",
+      "originalName": "chicken breasts (bone in, preferably organic) roasted and shredded",
+      "amount": 3.0,
+      "unit": "",
+      "meta": [
+        "shredded",
+        "bone in",
+        "organic",
+        "(, preferably )"
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 3.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 10111251,
+      "aisle": "Produce",
+      "image": "img.spoonacular.",
+      "consistency": "SOLID",
+      "name": "romaine lettuce hearts",
+      "nameClean": "romaine",
+      "original": "2 bunches romaine lettuce hearts",
+      "originalName": "romaine lettuce hearts",
+      "amount": 2.0,
+      "unit": "bunches",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "bunches",
+          "unitLong": "bunches"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "bunches",
+          "unitLong": "bunches"
+        }
+      }
+    },
+    {
+      "id": 11291,
+      "aisle": "Produce",
+      "image": "spring-onions.jpg",
+      "consistency": "SOLID",
+      "name": "scallions",
+      "nameClean": "spring onions",
+      "original": "6 scallions",
+      "originalName": "scallions",
+      "amount": 6.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 6.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 6.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 4058,
+      "aisle": "Ethnic Foods",
+      "image": "sesame-oil.png",
+      "consistency": "LIQUID",
+      "name": "sesame oil",
+      "nameClean": "sesame oil",
+      "original": "3 tablespoons sesame oil",
+      "originalName": "sesame oil",
+      "amount": 3.0,
+      "unit": "tablespoons",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 3.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 93640,
+      "aisle": "Canned and Jarred",
+      "image": "pickle-juice.jpg",
+      "consistency": "SOLID",
+      "name": "juice of 1 mandarin (cut crosswise then tablespoon into jar over a strainer)",
+      "nameClean": "pickle juice",
+      "original": "juice of 1 mandarin (cut crosswise then tablespoon into jar over a strainer)",
+      "originalName": "juice of mandarin (cut crosswise then tablespoon into jar over a strainer)",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+        "(cut crosswise then tablespoon into jar over a strainer)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 12023,
+      "aisle": "Ethnic Foods",
+      "image": "sesame-seeds.png",
+      "consistency": "SOLID",
+      "name": "sesame seeds",
+      "nameClean": "sesame seeds",
+      "original": "3 tablespoons white sesame seeds",
+      "originalName": "white sesame seeds",
+      "amount": 3.0,
+      "unit": "tablespoons",
+      "meta": [
+        "white"
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 3.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 99005,
+      "aisle": "Baking",
+      "image": "sugar-in-bowl.png",
+      "consistency": "SOLID",
+      "name": "xylitol",
+      "nameClean": "xylitol",
+      "original": "1 1/2 tablespoons xylitol (I use Epic Dental brand)",
+      "originalName": "xylitol (I use Epic Dental brand)",
+      "amount": 1.5,
+      "unit": "tablespoons",
+      "meta": [
+        "(I use Epic Dental brand)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.5,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 1.5,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    }
+  ],
+  "id": 644826,
+  "title": "Gluten Free Dairy Free Sugar Free Chinese Chicken Salad",
+  "readyInMinutes": 45,
+  "servings": 6,
+  "sourceUrl": "https://www.foodista.com/recipe/ZSNGMXBF/gluten-free-dairy-free-sugar-free-chinese-chicken-salad",
+  "image": "https://img.spoonacular.com/recipes/644826-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Gluten Free Dairy Free Sugar Free Chinese Chicken Salad is a <b>gluten free and dairy free</b> main course. This recipe serves 6 and costs $3.06 per serving. One serving contains <b>364 calories</b>, <b>31g of protein</b>, and <b>15g of fat</b>. If you have scallions, pepper, kosher salt, and a few other ingredients on hand, you can make it. This recipe from Foodista has 3 fans. Not a lot of people really liked this Chinese dish. From preparation to the plate, this recipe takes about <b>45 minutes</b>. With a spoonacular <b>score of 94%</b>, this dish is great. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/gluten-free-dairy-free-sugar-free-chinese-chicken-salad-1364955\">Gluten Free Dairy Free Sugar Free Chinese Chicken Salad</a>, <a href=\"https://spoonacular.com/recipes/thousand-island-dressing-gluten-free-corn-free-dairy-free-soy-free-nut-free-gum-free-and-refined-sugar-free-512186\">Thousand Island Dressing (Gluten-Free, Corn-Free, Dairy-Free, Soy-Free, Nut-Free, Gum-Free and Refined Sugar-Free)</a>, and <a href=\"https://spoonacular.com/recipes/skinny-double-chocolate-muffins-vegan-gluten-free-dairy-free-egg-free-and-refined-sugar-free-1149614\">Skinny Double Chocolate Muffins-Vegan, Gluten Free, Dairy Free, Egg Free and Refined Sugar Free</a>.",
+  "cuisines": [
+    "Chinese",
+    "Asian"
+  ],
+  "dishTypes": [
+    "side dish",
+    "lunch",
+    "main course",
+    "salad",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "<ol><li>For the salad:</li><li>Finely slice the red, and green cabbage.</li><li>Remove ends and finely slice romaine lettuce.</li><li>Trim ends of scallions (white and green side) and finely slice.</li><li>Peel and grate carrots, or put into a mini food processor to finely chop.</li><li>Peel clementines then remove pith from slices.</li><li>Add all the ingredients into a large serving bowl.</li><li>For the dressing:</li><li>Add all the ingredients into a glass jar and shake until well blended, or whisk all the ingredients in a mixing bowl.</li><li>Pour dressing over salad, toss to combine well.</li><li>If making ahead, dress the salad just before serving.</li></ol>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "For the salad:Finely slice the red, and green cabbage.",
+          "ingredients": [
+            {
+              "id": 11109,
+              "name": "green cabbage",
+              "localizedName": "green cabbage",
+              "image": "cabbage.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Remove ends and finely slice romaine lettuce.Trim ends of scallions (white and green side) and finely slice.Peel and grate carrots, or put into a mini food processor to finely chop.Peel clementines then remove pith from slices.",
+          "ingredients": [
+            {
+              "id": 10111251,
+              "name": "romaine",
+              "localizedName": "romaine",
+              "image": "romaine"
+            },
+            {
+              "id": 9433,
+              "name": "clementine",
+              "localizedName": "clementine",
+              "image": "mandarin-or-tangerines-or-clementines.jpg"
+            },
+            {
+              "id": 11291,
+              "name": "green onions",
+              "localizedName": "green onions",
+              "image": "spring-onions.jpg"
+            },
+            {
+              "id": 11124,
+              "name": "carrot",
+              "localizedName": "carrot",
+              "image": "sliced-carrot.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404771,
+              "name": "food processor",
+              "localizedName": "food processor",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/food-processor.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Add all the ingredients into a large serving bowl.For the dressing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Add all the ingredients into a glass jar and shake until well blended, or whisk all the ingredients in a mixing bowl.",
+          "ingredients": [
+            {
+              "id": 0,
+              "name": "shake",
+              "localizedName": "shake",
+              "image": ""
+            }
+          ],
+          "equipment": [
+            {
+              "id": 405907,
+              "name": "mixing bowl",
+              "localizedName": "mixing bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/mixing-bowl.jpg"
+            },
+            {
+              "id": 404661,
+              "name": "whisk",
+              "localizedName": "whisk",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/whisk.png"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Pour dressing over salad, toss to combine well.If making ahead, dress the salad just before serving.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 95.15967559814453,
+  "spoonacularSourceUrl": "https://spoonacular.com/gluten-free-dairy-free-sugar-free-chinese-chicken-salad-644826"
+}

@@ -1,0 +1,478 @@
+{
+  "vegetarian": true,
+  "vegan": false,
+  "glutenFree": false,
+  "dairyFree": false,
+  "veryHealthy": false,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 3,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 18,
+  "healthScore": 54,
+  "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+  "license": "CC BY 3.0",
+  "sourceName": "Foodista",
+  "pricePerServing": 66.47,
+  "extendedIngredients": [
+    {
+      "id": 10011090,
+      "aisle": "Produce",
+      "image": "broccoli.jpg",
+      "consistency": "SOLID",
+      "name": "broccoli florets",
+      "nameClean": "broccoli florets",
+      "original": "400 g broccoli florets",
+      "originalName": "broccoli florets",
+      "amount": 400.0,
+      "unit": "g",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 14.11,
+          "unitShort": "oz",
+          "unitLong": "ounces"
+        },
+        "metric": {
+          "amount": 400.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 20081,
+      "aisle": "Baking",
+      "image": "flour.png",
+      "consistency": "SOLID",
+      "name": "flour",
+      "nameClean": "wheat flour",
+      "original": "2 Tbs flour",
+      "originalName": "flour",
+      "amount": 2.0,
+      "unit": "Tbs",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "Tbs",
+          "unitLong": "Tbs"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "Tbs",
+          "unitLong": "Tbs"
+        }
+      }
+    },
+    {
+      "id": 1011077,
+      "aisle": "Milk, Eggs, Other Dairy",
+      "image": "milk.png",
+      "consistency": "LIQUID",
+      "name": "milk",
+      "nameClean": "whole milk",
+      "original": "1 cup whole milk",
+      "originalName": "whole milk",
+      "amount": 1.0,
+      "unit": "cup",
+      "meta": [
+        "whole"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "cup",
+          "unitLong": "cup"
+        },
+        "metric": {
+          "amount": 244.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 1022020,
+      "aisle": "Spices and Seasonings",
+      "image": "garlic-powder.png",
+      "consistency": "SOLID",
+      "name": "garlic powder",
+      "nameClean": "garlic powder",
+      "original": "⅛ tsp garlic powder",
+      "originalName": "garlic powder",
+      "amount": 0.125,
+      "unit": "tsp",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.125,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.125,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 2047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt.jpg",
+      "consistency": "SOLID",
+      "name": "salt",
+      "nameClean": "table salt",
+      "original": "¼ tsp salt",
+      "originalName": "salt",
+      "amount": 0.25,
+      "unit": "tsp",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.25,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 1002030,
+      "aisle": "Spices and Seasonings",
+      "image": "pepper.jpg",
+      "consistency": "SOLID",
+      "name": "ground pepper",
+      "nameClean": "black pepper",
+      "original": "¼ tsp ground pepper",
+      "originalName": "ground pepper",
+      "amount": 0.25,
+      "unit": "tsp",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.25,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 1019,
+      "aisle": "Cheese",
+      "image": "feta.png",
+      "consistency": "SOLID",
+      "name": "feta cheese",
+      "nameClean": "feta cheese",
+      "original": "50 g feta cheese, crumbled",
+      "originalName": "feta cheese, crumbled",
+      "amount": 50.0,
+      "unit": "g",
+      "meta": [
+        "crumbled"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.764,
+          "unitShort": "oz",
+          "unitLong": "ounces"
+        },
+        "metric": {
+          "amount": 50.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 11147,
+      "aisle": "Produce",
+      "image": "swiss-chard.jpg",
+      "consistency": "SOLID",
+      "name": "swiss chesee",
+      "nameClean": "swiss chard",
+      "original": "50 g Swiss chesee, coarsely grated",
+      "originalName": "Swiss chesee, coarsely grated",
+      "amount": 50.0,
+      "unit": "g",
+      "meta": [
+        "grated"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.764,
+          "unitShort": "oz",
+          "unitLong": "ounces"
+        },
+        "metric": {
+          "amount": 50.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    }
+  ],
+  "id": 636230,
+  "title": "Broccoli with cheese soup",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "sourceUrl": "https://www.foodista.com/recipe/ZYJG37NG/broccoli-with-cheese-soup",
+  "image": "https://img.spoonacular.com/recipes/636230-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Broccoli with cheese soup could be just the <b>lacto ovo vegetarian</b> recipe you've been looking for. This recipe serves 4 and costs 66 cents per serving. One serving contains <b>120 calories</b>, <b>7g of protein</b>, and <b>5g of fat</b>. It can be enjoyed any time, but it is especially good for <b>Autumn</b>. 18 people found this recipe to be delicious and satisfying. Head to the store and pick up broccoli florets, flour, milk, and a few other things to make it today. It is brought to you by Foodista. A few people really liked this side dish. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 95%</b>, which is great. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/broccoli-cheese-soup-475635\">Broccoli Cheese Soup</a>, <a href=\"https://spoonacular.com/recipes/broccoli-cheese-soup-1056015\">Broccoli Cheese Soup</a>, and <a href=\"https://spoonacular.com/recipes/broccoli-cheese-soup-395199\">Broccoli Cheese Soup</a>.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "side dish"
+  ],
+  "diets": [
+    "lacto ovo vegetarian"
+  ],
+  "occasions": [
+    "fall",
+    "winter"
+  ],
+  "instructions": "Add onions and carrots to the melted butter and saute for 5-6 minutes over medium heat, or until vegetables are tender.\nAdd 1 cup chicken broth and bring to the boil.\nAdd broccoli and cook, covered, 5 to 6 minutes or until the broccoli is tender. Using a spoon, break broccoli florets in small pieces.\nReduce heat to low and add remaining cup of chicken broth.\nMix flour and milk in a small bowl and whisk until smooth. Add mixture to the pot.\nAdd garlic powder, salt, and pepper. Continue cooking for about 5-6 minutes over low heat until soup thickens.\nAdd cheese, handfuls at a time, and stir constantly over low heat for 10 minutes until smooth and creamy. If soup becomes too thick, add additional chicken stock. Do not let soup boil.",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Add onions and carrots to the melted butter and saute for 5-6 minutes over medium heat, or until vegetables are tender.",
+          "ingredients": [
+            {
+              "id": 11583,
+              "name": "vegetable",
+              "localizedName": "vegetable",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/mixed-vegetables.png"
+            },
+            {
+              "id": 11124,
+              "name": "carrot",
+              "localizedName": "carrot",
+              "image": "sliced-carrot.png"
+            },
+            {
+              "id": 1001,
+              "name": "butter",
+              "localizedName": "butter",
+              "image": "butter-sliced.jpg"
+            },
+            {
+              "id": 11282,
+              "name": "onion",
+              "localizedName": "onion",
+              "image": "brown-onion.png"
+            }
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 6,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 2,
+          "step": "Add 1 cup chicken broth and bring to the boil.",
+          "ingredients": [
+            {
+              "id": 6194,
+              "name": "chicken broth",
+              "localizedName": "chicken broth",
+              "image": "chicken-broth.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Add broccoli and cook, covered, 5 to 6 minutes or until the broccoli is tender. Using a spoon, break broccoli florets in small pieces.",
+          "ingredients": [
+            {
+              "id": 10011090,
+              "name": "broccoli florets",
+              "localizedName": "broccoli florets",
+              "image": "broccoli.jpg"
+            },
+            {
+              "id": 11090,
+              "name": "broccoli",
+              "localizedName": "broccoli",
+              "image": "broccoli.jpg"
+            }
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 5,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 4,
+          "step": "Reduce heat to low and add remaining cup of chicken broth.",
+          "ingredients": [
+            {
+              "id": 6194,
+              "name": "chicken broth",
+              "localizedName": "chicken broth",
+              "image": "chicken-broth.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 5,
+          "step": "Mix flour and milk in a small bowl and whisk until smooth.",
+          "ingredients": [
+            {
+              "id": 20081,
+              "name": "all purpose flour",
+              "localizedName": "all purpose flour",
+              "image": "flour.png"
+            },
+            {
+              "id": 1077,
+              "name": "milk",
+              "localizedName": "milk",
+              "image": "milk.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404661,
+              "name": "whisk",
+              "localizedName": "whisk",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/whisk.png"
+            },
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "step": "Add mixture to the pot.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+            {
+              "id": 404752,
+              "name": "pot",
+              "localizedName": "pot",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/stock-pot.jpg"
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "step": "Add garlic powder, salt, and pepper. Continue cooking for about 5-6 minutes over low heat until soup thickens.",
+          "ingredients": [
+            {
+              "id": 1022020,
+              "name": "garlic powder",
+              "localizedName": "garlic powder",
+              "image": "garlic-powder.png"
+            },
+            {
+              "id": 1002030,
+              "name": "pepper",
+              "localizedName": "pepper",
+              "image": "pepper.jpg"
+            },
+            {
+              "id": 2047,
+              "name": "salt",
+              "localizedName": "salt",
+              "image": "salt.jpg"
+            },
+            {
+              "id": 0,
+              "name": "soup",
+              "localizedName": "soup",
+              "image": ""
+            }
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 6,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 8,
+          "step": "Add cheese, handfuls at a time, and stir constantly over low heat for 10 minutes until smooth and creamy. If soup becomes too thick, add additional chicken stock. Do not let soup boil.",
+          "ingredients": [
+            {
+              "id": 6172,
+              "name": "chicken stock",
+              "localizedName": "chicken stock",
+              "image": "chicken-broth.png"
+            },
+            {
+              "id": 1041009,
+              "name": "cheese",
+              "localizedName": "cheese",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/cheddar-cheese.png"
+            },
+            {
+              "id": 0,
+              "name": "soup",
+              "localizedName": "soup",
+              "image": ""
+            }
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 10,
+            "unit": "minutes"
+          }
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 95.4986343383789,
+  "spoonacularSourceUrl": "https://spoonacular.com/broccoli-with-cheese-soup-636230"
+}

@@ -1,0 +1,634 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 11,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 11,
+  "healthScore": 66,
+  "creditsText": "foodista.com",
+  "sourceName": "foodista.com",
+  "pricePerServing": 490.25,
+  "extendedIngredients": [
+    {
+      "id": 10011011,
+      "aisle": "Produce",
+      "image": "asparagus-white.jpg",
+      "consistency": "SOLID",
+      "name": "asparagus",
+      "nameClean": "white asparagus",
+      "original": "1 pound green or white asparagus, woody ends snapped off & discarded",
+      "originalName": "green or white asparagus, woody ends snapped off & discarded",
+      "amount": 1.0,
+      "unit": "pound",
+      "meta": [
+        "white",
+        "green"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "lb",
+          "unitLong": "pound"
+        },
+        "metric": {
+          "amount": 453.592,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 11819,
+      "aisle": "Produce",
+      "image": "red-chili.jpg",
+      "consistency": "SOLID",
+      "name": "chili pepper flakes",
+      "nameClean": "chili pepper",
+      "original": "1/2 teaspoon chili pepper flakes",
+      "originalName": "chili pepper flakes",
+      "amount": 0.5,
+      "unit": "teaspoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 10311297,
+      "aisle": "Produce",
+      "image": "parsley.jpg",
+      "consistency": "SOLID",
+      "name": "flat leaf parsley",
+      "nameClean": "flat leaf parsley",
+      "original": "1 cup flat leaf parsley, lightly packed & rough chopped",
+      "originalName": "flat leaf parsley, lightly packed & rough chopped",
+      "amount": 1.0,
+      "unit": "cup",
+      "meta": [
+        "packed",
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "cup",
+          "unitLong": "cup"
+        },
+        "metric": {
+          "amount": 60.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 2064,
+      "aisle": "Produce",
+      "image": "mint.jpg",
+      "consistency": "SOLID",
+      "name": "mint leaves",
+      "nameClean": "mint",
+      "original": "¼ cup fresh mint leaves",
+      "originalName": "fresh mint leaves",
+      "amount": 0.25,
+      "unit": "cup",
+      "meta": [
+        "fresh"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 11.25,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 10211215,
+      "aisle": "Produce",
+      "image": "garlic.jpg",
+      "consistency": "SOLID",
+      "name": "to 5 garlic cloves",
+      "nameClean": "whole garlic cloves",
+      "original": "3 to 5 garlic cloves, rough chopped",
+      "originalName": "to 5 garlic cloves, rough chopped",
+      "amount": 3.0,
+      "unit": "",
+      "meta": [
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 3.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 10211215,
+      "aisle": "Produce",
+      "image": "garlic.jpg",
+      "consistency": "SOLID",
+      "name": "garlic cloves",
+      "nameClean": "whole garlic cloves",
+      "original": "4 garlic cloves, peeled",
+      "originalName": "garlic cloves, peeled",
+      "amount": 4.0,
+      "unit": "",
+      "meta": [
+        "peeled"
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 1082047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt.jpg",
+      "consistency": "SOLID",
+      "name": "kosher salt",
+      "nameClean": "kosher salt",
+      "original": "Kosher salt",
+      "originalName": "Kosher salt",
+      "amount": 4.0,
+      "unit": "servings",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 9152,
+      "aisle": "Produce",
+      "image": "lemon-juice.jpg",
+      "consistency": "LIQUID",
+      "name": "lemon juice",
+      "nameClean": "lemon juice",
+      "original": "3 tablespoons lemon juice",
+      "originalName": "lemon juice",
+      "amount": 3.0,
+      "unit": "tablespoons",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 3.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 1034053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "olive oil",
+      "nameClean": "extra virgin olive oil",
+      "original": "1/4 cup of extra-virgin olive oil",
+      "originalName": "extra-virgin olive oil",
+      "amount": 0.25,
+      "unit": "cup",
+      "meta": [
+        "extra-virgin"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 54.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 2027,
+      "aisle": "Produce",
+      "image": "oregano.jpg",
+      "consistency": "SOLID",
+      "name": "oregano leaves",
+      "nameClean": "oregano",
+      "original": "¼ cup fresh oregano leaves",
+      "originalName": "fresh oregano leaves",
+      "amount": 0.25,
+      "unit": "cup",
+      "meta": [
+        "fresh"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 12.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 1002030,
+      "aisle": "Spices and Seasonings",
+      "image": "pepper.jpg",
+      "consistency": "SOLID",
+      "name": "pepper",
+      "nameClean": "black pepper",
+      "original": "1 teaspoon freshly ground pepper",
+      "originalName": "freshly ground pepper",
+      "amount": 1.0,
+      "unit": "teaspoon",
+      "meta": [
+        "freshly ground"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        }
+      }
+    },
+    {
+      "id": 1002030,
+      "aisle": "Spices and Seasonings",
+      "image": "pepper.jpg",
+      "consistency": "SOLID",
+      "name": "freshly cracked pepper",
+      "nameClean": "black pepper",
+      "original": "Freshly cracked black pepper",
+      "originalName": "Freshly cracked black pepper",
+      "amount": 4.0,
+      "unit": "servings",
+      "meta": [
+        "black"
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 1022068,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "red-wine-vinegar.jpg",
+      "consistency": "LIQUID",
+      "name": "red wine vinegar",
+      "nameClean": "red wine vinegar",
+      "original": "2 tablespoons Red wine vinegar",
+      "originalName": "Red wine vinegar",
+      "amount": 2.0,
+      "unit": "tablespoons",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 11677,
+      "aisle": "Produce",
+      "image": "shallots.jpg",
+      "consistency": "SOLID",
+      "name": "shallot",
+      "nameClean": "shallot",
+      "original": "2 tablespoons shallot, chopped",
+      "originalName": "shallot, chopped",
+      "amount": 2.0,
+      "unit": "tablespoons",
+      "meta": [
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 23232,
+      "aisle": "Meat",
+      "image": "ribeye-raw.jpg",
+      "consistency": "SOLID",
+      "name": "skirt steaks",
+      "nameClean": "steak",
+      "original": "2 skirt steaks",
+      "originalName": "skirt steaks",
+      "amount": 2.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    }
+  ],
+  "id": 638626,
+  "title": "Chimichurri Skirt Steak with Grilled Asparagus",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "sourceUrl": "https://www.foodista.com/recipe/3VXHGQB6/chimichurri-skirt-steak-with-grilled-asparagus",
+  "image": "https://img.spoonacular.com/recipes/638626-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "If you want to add more <b>gluten free, dairy free, paleolithic, and primal</b> recipes to your collection, Chimichurri Skirt Steak with Grilled Asparagus might be a recipe you should try. For <b>$4.9 per serving</b>, you get a main course that serves 4. One portion of this dish contains around <b>27g of protein</b>, <b>30g of fat</b>, and a total of <b>409 calories</b>. This recipe is liked by 11 foodies and cooks. Head to the store and pick up pepper, chili pepper flakes, to 5 garlic cloves, and a few other things to make it today. From preparation to the plate, this recipe takes around <b>45 minutes</b>. A couple people really liked this Latin American dish. <b>The Fourth Of July</b> will be even more special with this recipe. It is brought to you by Foodista. All things considered, we decided this recipe <b>deserves a spoonacular score of 94%</b>. This score is great. <a href=\"https://spoonacular.com/recipes/chimichurri-skirt-steak-with-grilled-asparagus-1356875\">Chimichurri Skirt Steak with Grilled Asparagus</a>, <a href=\"https://spoonacular.com/recipes/chimichurri-skirt-steak-with-grilled-asparagus-1345089\">Chimichurri Skirt Steak with Grilled Asparagus</a>, and <a href=\"https://spoonacular.com/recipes/chimichurri-skirt-steak-with-grilled-asparagus-1352361\">Chimichurri Skirt Steak with Grilled Asparagus</a> are very similar to this recipe.",
+  "cuisines": [
+    "South American",
+    "Latin American"
+  ],
+  "dishTypes": [
+    "lunch",
+    "main course",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free",
+    "paleolithic",
+    "primal",
+    "whole 30",
+    "ketogenic"
+  ],
+  "occasions": [
+    "valentine's day",
+    "father's day",
+    "4th of july",
+    "summer"
+  ],
+  "instructions": "<ol><li>Place all chimichurri sauce ingredients except for the olive oil in a food processor &amp; pulse until well chopped. While the food processor is going, slowly pour the olive oil into the mixture until blended.  Reserve half of the sauce to serve on the side with the meal.</li><li>Season skirt steaks with salt &amp; pepper on bother sides.  Spoon the remaining chimichurri sauce over the steaks &amp; let marinate for 30 minutes up to overnight.</li><li>Pre-heat the grill to 350 to 400 F.</li><li>In a plastic resealable bag, add asparagus, olive oil, garlic, salt &amp; pepper.  Shake to coat &amp; place in a grill basket.</li><li>Place the steak &amp; grill basket of asparagus directly over a hot grill.  Gently toss the asparagus for even grilling &amp; baste with garlic, olive oil mixture  10 minutes.</li><li>Grill the skirt steak to desired temperature  5 to 8 minutes per side.</li><li>Remove from grill &amp; let steak rest for 10 minutes before slice long strips.  Spoon reserved chimichurri sauce over steak &amp; serve with asparagus on the side.</li></ol>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place all chimichurri sauce ingredients except for the olive oil in a food processor &amp; pulse until well chopped. While the food processor is going, slowly pour the olive oil into the mixture until blended.  Reserve half of the sauce to serve on the side with the meal.Season skirt steaks with salt &amp; pepper on bother sides.  Spoon the remaining chimichurri sauce over the steaks &amp; let marinate for 30 minutes up to overnight.Pre-heat the grill to 350 to 400 F.In a plastic resealable bag, add asparagus, olive oil, garlic, salt &amp; pepper.  Shake to coat &amp; place in a grill basket.",
+          "ingredients": [
+            {
+              "id": 0,
+              "name": "chimichurri",
+              "localizedName": "chimichurri",
+              "image": ""
+            },
+            {
+              "id": 11011,
+              "name": "asparagus",
+              "localizedName": "asparagus",
+              "image": "asparagus.png"
+            },
+            {
+              "id": 4053,
+              "name": "olive oil",
+              "localizedName": "olive oil",
+              "image": "olive-oil.jpg"
+            },
+            {
+              "id": 11215,
+              "name": "garlic",
+              "localizedName": "garlic",
+              "image": "garlic.png"
+            },
+            {
+              "id": 1002030,
+              "name": "pepper",
+              "localizedName": "pepper",
+              "image": "pepper.jpg"
+            },
+            {
+              "id": 23232,
+              "name": "steak",
+              "localizedName": "steak",
+              "image": "ribeye-raw.jpg"
+            },
+            {
+              "id": 0,
+              "name": "sauce",
+              "localizedName": "sauce",
+              "image": ""
+            },
+            {
+              "id": 0,
+              "name": "shake",
+              "localizedName": "shake",
+              "image": ""
+            },
+            {
+              "id": 2047,
+              "name": "salt",
+              "localizedName": "salt",
+              "image": "salt.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404771,
+              "name": "food processor",
+              "localizedName": "food processor",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/food-processor.png"
+            },
+            {
+              "id": 404706,
+              "name": "grill",
+              "localizedName": "grill",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/grill.jpg"
+            }
+          ],
+          "length": {
+            "number": 30,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 2,
+          "step": "Place the steak &amp; grill basket of asparagus directly over a hot grill.  Gently toss the asparagus for even grilling &amp; baste with garlic, olive oil mixture  10 minutes.Grill the skirt steak to desired temperature  5 to 8 minutes per side.",
+          "ingredients": [
+            {
+              "id": 23167,
+              "name": "skirt steak",
+              "localizedName": "skirt steak",
+              "image": "skirt-steak.jpg"
+            },
+            {
+              "id": 11011,
+              "name": "asparagus",
+              "localizedName": "asparagus",
+              "image": "asparagus.png"
+            },
+            {
+              "id": 4053,
+              "name": "olive oil",
+              "localizedName": "olive oil",
+              "image": "olive-oil.jpg"
+            },
+            {
+              "id": 11215,
+              "name": "garlic",
+              "localizedName": "garlic",
+              "image": "garlic.png"
+            },
+            {
+              "id": 23232,
+              "name": "steak",
+              "localizedName": "steak",
+              "image": "ribeye-raw.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404706,
+              "name": "grill",
+              "localizedName": "grill",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/grill.jpg"
+            }
+          ],
+          "length": {
+            "number": 15,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 3,
+          "step": "Remove from grill &amp; let steak rest for 10 minutes before slice long strips.  Spoon reserved chimichurri sauce over steak &amp; serve with asparagus on the side.",
+          "ingredients": [
+            {
+              "id": 0,
+              "name": "chimichurri",
+              "localizedName": "chimichurri",
+              "image": ""
+            },
+            {
+              "id": 11011,
+              "name": "asparagus",
+              "localizedName": "asparagus",
+              "image": "asparagus.png"
+            },
+            {
+              "id": 23232,
+              "name": "steak",
+              "localizedName": "steak",
+              "image": "ribeye-raw.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404706,
+              "name": "grill",
+              "localizedName": "grill",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/grill.jpg"
+            }
+          ],
+          "length": {
+            "number": 10,
+            "unit": "minutes"
+          }
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 94.5177001953125,
+  "spoonacularSourceUrl": "https://spoonacular.com/chimichurri-skirt-steak-with-grilled-asparagus-638626"
+}

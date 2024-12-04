@@ -276,4 +276,9 @@ Recipe.find_by(name: "Balsamic & Honey Glazed Salmon with Lemony Asparagus")&.up
 
 Recipe.find_by(name: "Curried Butternut Squash and Apple Soup")&.update(cuisine: "Indian", image_url: "https://www.aheadofthyme.com/wp-content/uploads/2020/10/butternut-squash-apple-soup.jpg", difficulty: "medium")
 
+Ingredient.create(
+  name: "Wild Rocket",
+  carbon_per_gram: 4.6
+)
+
 puts "Created #{Recipe.count} recipes, #{Ingredient.count} ingredients and #{RecipeIngredient.count} recipe ingredients."

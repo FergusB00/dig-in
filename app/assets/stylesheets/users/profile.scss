@@ -97,7 +97,7 @@
   align-items: center;
   justify-content: space-between;
   background-color: #FAE9AD;
-  padding: 10px;
+  padding: 10px 15px;
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
@@ -105,22 +105,50 @@
 .pp-ingredient-details {
   flex-grow: 1;
   margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .pp-ingredient-name {
-  font-size: 16px;
+  font-size: 1.2em;
   font-weight: bold;
   margin: 0;
 }
 
 .pp-ingredient-quantity {
-  font-size: 14px;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  color: #333;
   margin: 0;
-  color: #555;
+  font-weight: bold;
 }
 
 .pp-ingredient-price {
-  font-size: 16px;
+  font-size: 1.2em;
   font-weight: bold;
   color: #333;
+}
+
+.expiry-date {
+  margin: 0;
+}
+
+.expiry-date i {
+  margin-right: 10px;
+}
+
+.profile-weight i {
+  margin-right: 10px;
+}
+
+.pp-ingredient-price-and-delete {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.delete-profile-icons {
+  color: #555;
 }

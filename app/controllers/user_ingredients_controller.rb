@@ -10,6 +10,12 @@ class UserIngredientsController < ApplicationController
     end
   end
 
+  def destroy
+    @user_ingredient = UserIngredient.find(params[:id])
+    @user_ingredient.destroy
+    redirect_to profile_path, status: :see_other, notice: "#{@user_ingredient.ingredient.name.capitalize} deleted"
+  end
+
   private
 
   def user_ingredient_params

@@ -7,55 +7,30 @@
   </p>
 </div>
 
-<!-- Food image / Slideshow experiement -->
-<div class="main-pic my-3">
-  <div class="row justify-content-center">
-    <div class="col-md-0">
-      <div id="slideshow-container">
-        <img id="slideshow-image" src="<%= asset_path('latest_front_still.png', class: 'small-image') %>" alt="Lovely meals" />
-      </div>
-    </div>
-  </div>
-</div>
 <%= render "shared/page_divider" %>
 
-
-
-<!-- Intro Text -->
-<div class="intro-text">
-  <div class="row">
-    <div class="col-md-8 mx-auto">
-      <div class="intro-text">
-        TRACK food usage
-      </div>
-      <div class="intro-text">
-        SUGGEST recipes
-      </div>
-      <div class="intro-text">
-        REDUCE spend & carbon footprint
-      </div>
+<!-- Food image / Slideshow experiement -->
+<div class="home-page-img-container column mt-3">
+  <img id="slideshow-image" src="<%= asset_path('latest_front_still.png') %>" alt="Lovely meals">
+  <div class="overlaying-text-big">
+    TRACK
+  </div>
+  <div class="overlaying-text-small">
+    food usage
+  </div>
+  <div class="overlaying-text-big-2">
+    SUGGEST
+  </div>
+  <div class="overlaying-text-small-2">
+    recipes
+  </div>
+  <div class="overlaying-text-big-3">
+    REDUCE
+  </div>
+  <div class="overlaying-text-small-3">
+    spend &
+  </div>
+  <div class="overlaying-text-small-4">
+    carbon footprint
   </div>
 </div>
-
-
-
-
-<%# <!-- Intro Text -->
-<div class="intro-text">
-  <div class="row">
-    <div class="col-md-8 mx-auto">
-      <div class="intro-text">
-        Hello, welcome to <strong>Dig In!</strong>
-      </div>
-      <div class="intro-text">
-        Your place if you love to cook, and care about Mother Earth.
-      </div>
-      <div class="intro-text">
-        Wondering what to do with bits in your fridge so they don't go to waste, and enjoy a delicious meal at the same time?
-      </div>
-      <div class="intro-text">
-        Dig In has you covered! Log your ingredients, browse recipes tailored for you, select the dish that's caught your eye, and cook!
-      </div>
-    </div>
-  </div>
-</div> %>

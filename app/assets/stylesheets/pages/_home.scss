@@ -1,12 +1,28 @@
+@mixin overlay-big {
+  position: absolute;
+  z-index: 2;
+  color: #ffffff;
+  font-size: 35px;
+  font-family: Aboreto;
+  font-weight: 900;
+}
+
+@mixin overlay-small {
+  position: absolute;
+  z-index: 2;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: Aboreto;
+}
+
 .home-background {
   width: 90%;
   max-width: 400px;
   text-align: center;
   background-color: #ffffff;
   border-radius: 10px;
-
   padding: 0px;
-  margin: 20px auto; /* Centers the content horizontally */
+  margin: 20px auto;
 }
 
 .home-title {
@@ -14,36 +30,11 @@
   font-size: 44px;
   color: #78C5AD;
   font-weight: bold;
-  // text-shadow: 4px 6px 4px rgba(0, 0, 0, 0.2);
   margin-bottom: 0px;
-}
-
-#slideshow-image {
-  width: 100%;
-  height: auto;
-  transition: opacity 0.5s ease-in-out;
-  opacity: 1;
-}
-
-.intro-text {
-  font-size: 18px;
-  color: #333;
-  width: 303;
-  margin: 8px 20px;
-  text-align: center;
-}
-
-.divider-icon-leaf {
-  position: relative;
-  text-align: center;
-  width: 24px;
-  height: auto;
-  top: -1px; /* Adjust this value to fine-tune the position */
 }
 
 .home-subtitle {
   font-size: 20px;
-  // color: #D9D9D9
   color: #d2b1b1;
   font-weight: 300;
   text-align: center;
@@ -51,24 +42,59 @@
   margin-top: 10px;
 }
 
-#slideshow-container {
-  width: 100%; /* Adjust as needed */
-  height: auto; /* Adjust as needed */
-  overflow: hidden;
-}
-
 #slideshow-image {
   width: 100%;
   height: auto;
   transition: opacity 0.5s ease-in-out;
   opacity: 1;
+  position: relative;
 }
 
-#slideshow-image.fade {
-  opacity: 0;
+.home-page-img-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
-.small-image {
-  width: 90%;
-  height: 90%;
+.overlaying-text-big {
+  @include overlay-big;
+  top: 40%;
+}
+
+.overlaying-text-small {
+  @include overlay-small;
+  top: 45%;
+}
+
+.overlaying-text-big-2 {
+  @include overlay-big;
+  top: 55%;
+}
+
+.overlaying-text-small-2{
+  @include overlay-small;
+  top: 60%;
+}
+
+.overlaying-text-big-3 {
+  @include overlay-big;
+  top: 70%;
+}
+
+.overlaying-text-small-3 {
+  @include overlay-small;
+  top: 75%;
+}
+
+.overlaying-text-small-4 {
+  @include overlay-small;
+  top: 78%;
+}
+
+.divider-icon-leaf {
+  position: relative;
+  text-align: center;
+  width: 24px;
+  height: auto;
+  top: -1px;
 }

@@ -1,6 +1,6 @@
 <div class="container profile-page">
   <div class="mt-4">
-    <h1 class="profile-title">Your Dashboard</h1>
+    <h1 class="profile-title">Your Pantry</h1>
   </div>
 
   <div class="profile-card mt-3">
@@ -8,7 +8,7 @@
       <div class="profile-page-stats">
         <div class="per-stat mb-1">
           <p>Carbon Savings:</p>
-          <h2><%= number_with_precision(@total_carbon.to_f, precision: 2) %> kg CO<span class="subscript"><sub>2</sub></span></h2>
+          <h2><%= number_with_precision(@total_carbon.to_f, precision: 2) %> kg CO<span class="subscript"><sub>2</sub></span>e</h2>
         </div>
         <div class="per-stat">
           <p>Cost Savings:</p>
@@ -36,15 +36,28 @@
     <% @ingredients.each do |user_ingredient| %>
       <div class="pp-ingredient-card">
         <%# <div class="">
-          <i class="fa-solid fa-egg fa-xl"></i>
+          <i class="fa-solid fa-utensils"></i>
         </div> %>
         <div class="pp-ingredient-details">
           <p class="pp-ingredient-name"><%= user_ingredient.ingredient.name %></p>
-          <p class="pp-ingredient-quantity"><%= user_ingredient.weight_in_grams %>g</p>
-          <p><i class="fa-regular fa-calendar"></i><%= user_ingredient.expiry_date.strftime("%d/%m/%Y") %></p>
+          <p class="pp-ingredient-quantity profile-weight">
+            <i class="fa-solid fa-weight-scale"></i> <%= user_ingredient.weight_in_grams %>g
+          </p>
+          <p class="expiry-date">
+            <i class="fa-regular fa-calendar"></i> <%= user_ingredient.expiry_date.strftime("%d/%m/%Y") %>
+          </p>
         </div>
-        <div class="pp-ingredient-price">
-          <%= number_to_currency(user_ingredient.price_in_pounds, unit: "£", precision: 2) %>
+        <div class="pp-ingredient-price-and-delete">
+          <div class="pp-ingredient-price">
+            <%= number_to_currency(user_ingredient.price_in_pounds, unit: "£", precision: 2) %>
+          </div>
+          <div>
+            <%= link_to user_ingredient_path(user_ingredient),
+            class: "btn btn-sm",
+            data: { turbo_method: :delete, turbo_confirm: "Are you sure?" } do %>
+              <i class="fa-solid fa-trash-can fa-xl delete-profile-icons"></i>
+            <% end %>
+          </div>
         </div>
       </div>
     <% end %>

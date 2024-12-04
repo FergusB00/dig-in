@@ -1,15 +1,26 @@
 .styled-modal {
-  border: 2px solid #B3EDDB;
+  border: 5px solid #B3EDDB;
   border-radius: 15px;
   padding: 20px;
+  background-color: white;
 }
 
 .user-ingredient-form .user-ingredient-form-control {
   border: 1px solid #e5e5e5;
   border-radius: 8px;
-  padding: 10px;
+  padding: 0px;
   font-size: 14px;
   color: #333;
+}
+
+.form-control {
+  background-color: white !important;
+  border: 1px solid #d0d0d0;
+}
+
+.form-select {
+  background-color: white !important;
+  border: 1px solid #d0d0d0;
 }
 
 .user-ingredient-form label {

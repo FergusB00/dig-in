@@ -53,7 +53,7 @@ class MealsController < ApplicationController
         0
       else
         ingredient = recipeingredient.ingredient
-        p ingredient.carbon_per_gram * user_ingredient.weight_in_grams
+        ingredient.carbon_per_gram * user_ingredient.weight_in_grams
       end
     end
   end

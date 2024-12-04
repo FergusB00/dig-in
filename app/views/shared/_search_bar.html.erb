@@ -27,9 +27,9 @@
         <li class="dropdown-link"><%= link_to "Expiry date", recipes_path(order: 'expiry_date'), class: "dropdown-text" %></li>
       <% end %>
       <% if params[:query] %>
-        <li class="dropdown-link"><%= link_to "Recipes that use most ingredients", recipes_path(order: 'expiry_date', query: params[:query]), class: "dropdown-text" %></li>
+        <li class="dropdown-link"><%= link_to "Recipes that use most ingredients", recipes_path(order: 'most_user_ingredients', query: params[:query]), class: "dropdown-text" %></li>
       <% else %>
-        <li class="dropdown-link"><%= link_to "Recipes that use most ingredients", recipes_path(order: 'expiry_date'), class: "dropdown-text" %></li>
+        <li class="dropdown-link"><%= link_to "Recipes that use most ingredients", recipes_path(order: 'most_user_ingredients'), class: "dropdown-text" %></li>
       <% end %>
     </ul>
   </details>

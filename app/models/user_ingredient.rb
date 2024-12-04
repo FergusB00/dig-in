@@ -3,7 +3,7 @@ class UserIngredient < ApplicationRecord
   belongs_to :ingredient
 
   validates :quantity, presence: true
-  validates :unit, presence: true, inclusion: { in: %w[g kg ml l] }
+  validates :unit, presence: true, inclusion: { in: %w[g kg ml l servings] }
   validates :price_in_pence, presence: true
   validates :expiry_date, presence: true
 

@@ -13,19 +13,19 @@
 <div class="home-page-img-container column mt-3">
   <img id="slideshow-image" src="<%= asset_path('latest_front_still.png') %>" alt="Lovely meals">
   <div class="overlaying-text-big">
-    TRACK
+    <%= link_to "TRACK", profile_path, class: "overlaying-link-big" %>
   </div>
   <div class="overlaying-text-small">
     food usage
   </div>
   <div class="overlaying-text-big-2">
-    SUGGEST
+    <%= link_to "SUGGEST", recipes_path, class: "overlaying-link-big" %>
   </div>
   <div class="overlaying-text-small-2">
     recipes
   </div>
   <div class="overlaying-text-big-3">
-    REDUCE
+    <%= link_to "REDUCE", profile_path, class: "overlaying-link-big" %>
   </div>
   <div class="overlaying-text-small-3">
     spend &

@@ -16,13 +16,15 @@
       <p class="recipe-show-info"><strong>Difficulty:</strong> <%= @recipe.difficulty.capitalize %></p>
       <p class="recipe-show-info"><strong>Servings:</strong> <%= @recipe.servings %></p>
     </div>
-    <div class="recipe-show-add">
-      <%= button_to recipe_meals_path(@recipe), data: {turbo_method: :post}, class: "btn" do %>
-        <p>Click when cooked</p>
-        <i class="fa-regular fa-circle-check fa-2xl recipe-show-add"></i>
-      <% end %>
+    <div class="circle-check-button">
+      <div class="inner-circle">
+        <%= button_to recipe_meals_path(@recipe), data: {turbo_method: :post}, class: "btn" do %>
+          <i class="fa-solid fa-check"></i>
+        <% end %>
+      </div>
     </div>
   </div>
+
 
   <!-- Recipe Ingredients -->
   <div class="recipe-show-ingredients">

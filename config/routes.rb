@@ -16,6 +16,8 @@ Rails.application.routes.draw do
   resources :recipes, only: [ :index, :show ] do
     resources :meals, only: [:create]
   end
-  resources :user_ingredients, only: [:create]
+
+  resources :user_ingredients, only: [:create, :destroy]
   resources :questions, only: [:index, :create]
+  get '/barcode_lookup', to: 'barcode_lookup#search'
 end

@@ -6,6 +6,7 @@ require 'net/http'
 puts "Cleaning database..."
 Meal.destroy_all
 RecipeIngredient.destroy_all
+UserIngredient.destroy_all
 Recipe.destroy_all
 User.destroy_all
 Ingredient.destroy_all

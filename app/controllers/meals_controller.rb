@@ -42,10 +42,10 @@ class MealsController < ApplicationController
                                     .where('weight_in_grams >= ?', recipeingredient.weight_in_grams)
                                     .where('expiry_date >= ?', Date.today).order(expiry_date: :desc).first
       if user_ingredient.nil?
-        0
+        0.0
       else
         ingredient = recipeingredient.ingredient
-        ingredient.carbon_per_gram * user_ingredient.weight_in_grams
+        ingredient.carbon_per_gram.to_f * user_ingredient.weight_in_grams
       end
     end
   end

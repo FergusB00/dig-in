@@ -1,7 +1,7 @@
 import { Controller } from "@hotwired/stimulus";
 
 export default class extends Controller {
-  static targets = ["ingredient", "weight", "unit"]
+  static targets = ["ingredient", "weight", "unit", "manualForm"]
   static values = {
     api: String
   }
@@ -12,6 +12,7 @@ export default class extends Controller {
     this.codeReader = new ZXing.BrowserMultiFormatReader()
     console.log('ZXing code reader initialized')
     console.log(this.apiValue)
+    console.dir(Object.entries(this.ingredientTarget.options))
   }
 
 
@@ -26,6 +27,7 @@ export default class extends Controller {
         console.log(result)
         this.getBarcodeData(result)
         this.codeReader.reset()
+        this.toggleManualForm()
       }
       if (err && !(err instanceof ZXing.NotFoundException)) {
         console.error(err)
@@ -37,6 +39,10 @@ export default class extends Controller {
   resetButton() {
     this.codeReader.reset();
     console.log("Barcode reader reset");
+  }
+
+  toggleManualForm() {
+    this.manualFormTarget.classList.toggle("d-none");
   }
 
   getBarcodeData(result) {

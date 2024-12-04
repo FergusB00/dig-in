@@ -25,6 +25,14 @@ class MealsController < ApplicationController
       p @meal.errors.messages
       render "recipes/show", status: :unprocessable_entity
     end
+
+    # if @meal.save
+    #   update_user_ingredients_price(@recipe)
+    #   redirect_to profile_path
+    # else
+    #   p @meal.errors.messages
+    #   render "recipes/show", status: :unprocessable_entity
+    # end
   end
 
   private
@@ -75,4 +83,14 @@ class MealsController < ApplicationController
       user_ingredient&.update(weight_in_grams: user_ingredient.weight_in_grams - recipeingredient.weight_in_grams)
     end
   end
+
+  # def update_user_ingredients_price(recipe)
+  #   recipe.recipe_ingredients.each do |recipeingredient|
+  #     user_ingredient = current_user.user_ingredients
+  #                                   .where(ingredient: recipeingredient.ingredient)
+  #                                   .where('weight_in_grams >= ?', recipeingredient.weight_in_grams)
+  #                                   .where('expiry_date >= ?', Date.today).order(expiry_date: :desc).first
+  #     user_ingredient&.update(price_in_pence: user_ingredient.price_in_pence / user_ingredient.weight_in_grams * update_user_ingredients_qty(recipe))
+  #   end
+  # end
 end

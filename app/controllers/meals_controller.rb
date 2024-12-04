@@ -2,7 +2,8 @@ class MealsController < ApplicationController
   # before_action :set_meal, only: [:show]
 
   def index
-    @meals = current_user.meals
+    @meals = current_user.meals.includes(:recipe)
+    @recipes = @meals.map(&:recipe).uniq
   end
 
   def create

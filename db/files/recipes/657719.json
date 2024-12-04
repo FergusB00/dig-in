@@ -1,0 +1,501 @@
+{
+  "vegetarian": true,
+  "vegan": false,
+  "glutenFree": true,
+  "dairyFree": false,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 6,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 2,
+  "healthScore": 100,
+  "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+  "license": "CC BY 3.0",
+  "sourceName": "Foodista",
+  "pricePerServing": 168.23,
+  "extendedIngredients": [
+    {
+      "id": 20035,
+      "aisle": "Pasta and Rice",
+      "image": "uncooked-quinoa.png",
+      "consistency": "SOLID",
+      "name": "quinoa",
+      "nameClean": "quinoa",
+      "original": "1 cup quinoa, rinsed",
+      "originalName": "quinoa, rinsed",
+      "amount": 1.0,
+      "unit": "cup",
+      "meta": [
+        "rinsed"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "cup",
+          "unitLong": "cup"
+        },
+        "metric": {
+          "amount": 170.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 14412,
+      "aisle": "Beverages",
+      "image": "water.png",
+      "consistency": "LIQUID",
+      "name": "water",
+      "nameClean": "water",
+      "original": "2 cups water",
+      "originalName": "water",
+      "amount": 2.0,
+      "unit": "cups",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 473.176,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 10011300,
+      "aisle": "Produce",
+      "image": "sugar-snap-peas.jpg",
+      "consistency": "SOLID",
+      "name": "snap peas",
+      "nameClean": "sugar snap peas",
+      "original": "1 pint snap peas, cut in half (about 2 cups total)",
+      "originalName": "snap peas, cut in half (about 2 cups total)",
+      "amount": 1.0,
+      "unit": "pint",
+      "meta": [
+        "cut in half ( 2 cups total)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "pts",
+          "unitLong": "pint"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "pts",
+          "unitLong": "pint"
+        }
+      }
+    },
+    {
+      "id": 11429,
+      "aisle": "Produce",
+      "image": "radishes.jpg",
+      "consistency": "SOLID",
+      "name": "radishes",
+      "nameClean": "radish",
+      "original": "7 or 8 medium radishes, sliced",
+      "originalName": "or 8 medium radishes, sliced",
+      "amount": 7.0,
+      "unit": "medium",
+      "meta": [
+        "sliced"
+      ],
+      "measures": {
+        "us": {
+          "amount": 7.0,
+          "unitShort": "medium",
+          "unitLong": "mediums"
+        },
+        "metric": {
+          "amount": 7.0,
+          "unitShort": "medium",
+          "unitLong": "mediums"
+        }
+      }
+    },
+    {
+      "id": 10211297,
+      "aisle": "Produce",
+      "image": "parsley.jpg",
+      "consistency": "SOLID",
+      "name": "flat leaf parsley",
+      "nameClean": "fresh flat leaf parsley",
+      "original": "large handful of flat leaf parsley, minced",
+      "originalName": "flat leaf parsley, minced",
+      "amount": 1.0,
+      "unit": "large handful",
+      "meta": [
+        "minced"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "large handful",
+          "unitLong": "large handful"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "large handful",
+          "unitLong": "large handful"
+        }
+      }
+    },
+    {
+      "id": 1001116,
+      "aisle": "Milk, Eggs, Other Dairy",
+      "image": "plain-yogurt.jpg",
+      "consistency": "LIQUID",
+      "name": "yogurt",
+      "nameClean": "plain yogurt",
+      "original": "1/4 cup plain yogurt (cultured coconut milk is my favorite option, but any plain yogurt will work)",
+      "originalName": "plain yogurt (cultured coconut milk is my favorite option, but any plain yogurt will work)",
+      "amount": 0.25,
+      "unit": "cup",
+      "meta": [
+        "plain",
+        "(cultured coconut milk is my favorite option, but any yogurt will work)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 61.25,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 12698,
+      "aisle": "Health Foods",
+      "image": "tahini-paste.png",
+      "consistency": "SOLID",
+      "name": "tahini",
+      "nameClean": "tahini",
+      "original": "2 tbsp tahini",
+      "originalName": "tahini",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 9152,
+      "aisle": "Produce",
+      "image": "lemon-juice.jpg",
+      "consistency": "LIQUID",
+      "name": "juice of lemon",
+      "nameClean": "lemon juice",
+      "original": "juice of 1/2 a lemon",
+      "originalName": "juice a lemon",
+      "amount": 0.5,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 1012047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt.jpg",
+      "consistency": "SOLID",
+      "name": "sea salt",
+      "nameClean": "coarse sea salt",
+      "original": "sea salt to taste",
+      "originalName": "sea salt to taste",
+      "amount": 4.0,
+      "unit": "servings",
+      "meta": [
+        "to taste"
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 14412,
+      "aisle": "Beverages",
+      "image": "water.png",
+      "consistency": "LIQUID",
+      "name": "water",
+      "nameClean": "water",
+      "original": "water as needed",
+      "originalName": "water as needed",
+      "amount": 4.0,
+      "unit": "servings",
+      "meta": [
+        "as needed"
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    }
+  ],
+  "id": 657719,
+  "title": "Radish & Snap Pea Quinoa Salad",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "sourceUrl": "https://www.foodista.com/recipe/684WRQ6L/radish-snap-pea-quinoa-salad",
+  "image": "https://img.spoonacular.com/recipes/657719-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Radish & Snap Pea Quinoa Salad is a <b>gluten free and lacto ovo vegetarian</b> hor d'oeuvre. For <b>$1.68 per serving</b>, this recipe <b>covers 23%</b> of your daily requirements of vitamins and minerals. One serving contains <b>262 calories</b>, <b>11g of protein</b>, and <b>7g of fat</b>. This recipe serves 4. If you have juice of lemon, flat leaf parsley, snap peas, and a few other ingredients on hand, you can make it. 2 people have tried and liked this recipe. It is brought to you by Foodista. From preparation to the plate, this recipe takes around <b>45 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 92%</b>, which is spectacular. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/sugar-snap-pea-and-radish-salad-18285\">Sugar Snap Pean And Radish Salad</a>, <a href=\"https://spoonacular.com/recipes/radish-and-sugar-snap-pea-salad-18551\">Radish And Sugar Snap Pea Salad</a>, and <a href=\"https://spoonacular.com/recipes/snap-pea-salad-with-radish-lime-36681\">Snap Pea Salad With Radish & Lime</a>.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "side dish",
+    "antipasti",
+    "salad",
+    "starter",
+    "snack",
+    "appetizer",
+    "antipasto",
+    "hor d'oeuvre"
+  ],
+  "diets": [
+    "gluten free",
+    "lacto ovo vegetarian"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "Make the quinoa: combine the quinoa and water in a sauce pan and bring to a boil.  Reduce the heat to a simmer (medium-low), stir the quinoa, then cover it and cook for 10 to 15 minutes until all of the water has been absorbed.  Remove it from the heat, let it sit for 5 minutes, then fluff it up with a fork.  Cool the quinoa a bit before making the salad.  The quinoa can be made several days in advance and kept in the fridge if needed before using.\nMake the dressing: Combine the yogurt, tahini, lemon juice, and a pinch of sea salt in a bowl and whisk until smooth.  Thin the dressing out with a bit of water if it is too thick.  Set aside.\nMake the salad:  Combine the quinoa, snap peas, radishes, and parsley in a bowl.  Pour over about half of the dressing, then toss to combine.  Taste the salad and add more dressing or sea salt if desired.  Enjoy at room temperature or chilled.  Makes 3 to 4 main dish servings or 6 to 8 side servings.",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Make the quinoa: combine the quinoa and water in a sauce pan and bring to a boil.  Reduce the heat to a simmer (medium-low), stir the quinoa, then cover it and cook for 10 to 15 minutes until all of the water has been absorbed.",
+          "ingredients": [
+            {
+              "id": 20035,
+              "name": "quinoa",
+              "localizedName": "quinoa",
+              "image": "uncooked-quinoa.png"
+            },
+            {
+              "id": 0,
+              "name": "sauce",
+              "localizedName": "sauce",
+              "image": ""
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404669,
+              "name": "sauce pan",
+              "localizedName": "sauce pan",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/sauce-pan.jpg"
+            }
+          ],
+          "length": {
+            "number": 10,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 2,
+          "step": "Remove it from the heat, let it sit for 5 minutes, then fluff it up with a fork.  Cool the quinoa a bit before making the salad.  The quinoa can be made several days in advance and kept in the fridge if needed before using.",
+          "ingredients": [
+            {
+              "id": 20035,
+              "name": "quinoa",
+              "localizedName": "quinoa",
+              "image": "uncooked-quinoa.png"
+            }
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 5,
+            "unit": "minutes"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Make the dressing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Combine the yogurt, tahini, lemon juice, and a pinch of sea salt in a bowl and whisk until smooth.  Thin the dressing out with a bit of water if it is too thick.  Set aside.",
+          "ingredients": [
+            {
+              "id": 9152,
+              "name": "lemon juice",
+              "localizedName": "lemon juice",
+              "image": "lemon-juice.jpg"
+            },
+            {
+              "id": 1012047,
+              "name": "sea salt",
+              "localizedName": "sea salt",
+              "image": "salt.jpg"
+            },
+            {
+              "id": 12698,
+              "name": "tahini",
+              "localizedName": "tahini",
+              "image": "tahini-paste.png"
+            },
+            {
+              "id": 1116,
+              "name": "yogurt",
+              "localizedName": "yogurt",
+              "image": "plain-yogurt.jpg"
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404661,
+              "name": "whisk",
+              "localizedName": "whisk",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/whisk.png"
+            },
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Make the salad",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Combine the quinoa, snap peas, radishes, and parsley in a bowl.",
+          "ingredients": [
+            {
+              "id": 10011300,
+              "name": "sugar snap peas",
+              "localizedName": "sugar snap peas",
+              "image": "sugar-snap-peas.jpg"
+            },
+            {
+              "id": 11429,
+              "name": "radish",
+              "localizedName": "radish",
+              "image": "radishes.jpg"
+            },
+            {
+              "id": 11297,
+              "name": "parsley",
+              "localizedName": "parsley",
+              "image": "parsley.jpg"
+            },
+            {
+              "id": 20035,
+              "name": "quinoa",
+              "localizedName": "quinoa",
+              "image": "uncooked-quinoa.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Pour over about half of the dressing, then toss to combine.  Taste the salad and add more dressing or sea salt if desired.  Enjoy at room temperature or chilled.  Makes 3 to 4 main dish servings or 6 to 8 side servings.",
+          "ingredients": [
+            {
+              "id": 1012047,
+              "name": "sea salt",
+              "localizedName": "sea salt",
+              "image": "salt.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 95.0262451171875,
+  "spoonacularSourceUrl": "https://spoonacular.com/radish-snap-pea-quinoa-salad-657719"
+}

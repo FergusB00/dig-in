@@ -1,0 +1,668 @@
+{
+  "vegetarian": true,
+  "vegan": true,
+  "glutenFree": false,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 5,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 1,
+  "healthScore": 100,
+  "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+  "license": "CC BY 3.0",
+  "sourceName": "Foodista",
+  "pricePerServing": 72.55,
+  "extendedIngredients": [
+    {
+      "id": 11485,
+      "aisle": "Produce",
+      "image": "butternut-squash.jpg",
+      "consistency": "SOLID",
+      "name": "butternut squash",
+      "nameClean": "butternut squash",
+      "original": "1 small butternut squash, peeled& seeded",
+      "originalName": "butternut squash, peeled& seeded",
+      "amount": 1.0,
+      "unit": "small",
+      "meta": [
+        "seeded"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "small",
+          "unitLong": "small"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "small",
+          "unitLong": "small"
+        }
+      }
+    },
+    {
+      "id": 11282,
+      "aisle": "Produce",
+      "image": "brown-onion.png",
+      "consistency": "SOLID",
+      "name": "onion",
+      "nameClean": "onion",
+      "original": "1/2 large onion, chopped",
+      "originalName": "onion, chopped",
+      "amount": 0.5,
+      "unit": "large",
+      "meta": [
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "large",
+          "unitLong": "larges"
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "large",
+          "unitLong": "larges"
+        }
+      }
+    },
+    {
+      "id": 11266,
+      "aisle": "Produce",
+      "image": "mushrooms.png",
+      "consistency": "SOLID",
+      "name": "baby portobella mushrooms",
+      "nameClean": "crimini mushrooms",
+      "original": "4 baby portobella mushrooms, chopped",
+      "originalName": "baby portobella mushrooms, chopped",
+      "amount": 4.0,
+      "unit": "",
+      "meta": [
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 11120420,
+      "aisle": "Pasta and Rice",
+      "image": "penne-pasta.jpg",
+      "consistency": "SOLID",
+      "name": "penne pasta",
+      "nameClean": "penne",
+      "original": "12 ounces penne pasta (I used Garden Delight, any would work)",
+      "originalName": "penne pasta (I used Garden Delight, any would work)",
+      "amount": 12.0,
+      "unit": "ounces",
+      "meta": [
+        "(I used Garden Delight, any would work)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 12.0,
+          "unitShort": "oz",
+          "unitLong": "ounces"
+        },
+        "metric": {
+          "amount": 340.194,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 11887,
+      "aisle": "Pasta and Rice",
+      "image": "tomato-paste.jpg",
+      "consistency": "SOLID",
+      "name": "tomato paste",
+      "nameClean": "tomato paste",
+      "original": "1/4 cup tomato paste",
+      "originalName": "tomato paste",
+      "amount": 0.25,
+      "unit": "cup",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 65.5,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 11979,
+      "aisle": "Canned and Jarred",
+      "image": "jalapeno-pepper.png",
+      "consistency": "SOLID",
+      "name": "jalapeño pepper",
+      "nameClean": "jalapeno pepper",
+      "original": "1 jalapeño pepper, chopped& partially seeded (depends how hot you want it!)",
+      "originalName": "jalapeño pepper, chopped& partially seeded (depends how hot you want it!)",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+        "hot",
+        "seeded",
+        "(depends how you want it!)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 14412,
+      "aisle": "Beverages",
+      "image": "water.png",
+      "consistency": "LIQUID",
+      "name": "water",
+      "nameClean": "water",
+      "original": "1 cup water",
+      "originalName": "water",
+      "amount": 1.0,
+      "unit": "cup",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "cup",
+          "unitLong": "cup"
+        },
+        "metric": {
+          "amount": 236.588,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 93690,
+      "aisle": "Spices and Seasonings",
+      "image": "nutritional-yeast.png",
+      "consistency": "SOLID",
+      "name": "nutritional yeast",
+      "nameClean": "nutritional yeast flakes",
+      "original": "cup nutritional yeast",
+      "originalName": "nutritional yeast",
+      "amount": 1.0,
+      "unit": "cup",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "cup",
+          "unitLong": "cup"
+        },
+        "metric": {
+          "amount": 44.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 1022020,
+      "aisle": "Spices and Seasonings",
+      "image": "garlic-powder.png",
+      "consistency": "SOLID",
+      "name": "garlic powder",
+      "nameClean": "garlic powder",
+      "original": "1/2 teaspoon garlic powder",
+      "originalName": "garlic powder",
+      "amount": 0.5,
+      "unit": "teaspoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 2047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt.jpg",
+      "consistency": "SOLID",
+      "name": "salt",
+      "nameClean": "table salt",
+      "original": "1/2 teaspoon salt",
+      "originalName": "salt",
+      "amount": 0.5,
+      "unit": "teaspoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 1002030,
+      "aisle": "Spices and Seasonings",
+      "image": "pepper.jpg",
+      "consistency": "SOLID",
+      "name": "pepper",
+      "nameClean": "black pepper",
+      "original": "1/2 teaspoon black pepper",
+      "originalName": "black pepper",
+      "amount": 0.5,
+      "unit": "teaspoon",
+      "meta": [
+        "black"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 1022027,
+      "aisle": "Spices and Seasonings",
+      "image": "dried-herbs.png",
+      "consistency": "SOLID",
+      "name": "seasoning",
+      "nameClean": "italian seasoning",
+      "original": "1 teaspoon Italian seasoning",
+      "originalName": "Italian seasoning",
+      "amount": 1.0,
+      "unit": "teaspoon",
+      "meta": [
+        "italian"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        }
+      }
+    },
+    {
+      "id": 11233,
+      "aisle": "Produce",
+      "image": "kale.jpg",
+      "consistency": "SOLID",
+      "name": "kale",
+      "nameClean": "kale",
+      "original": "2 cups kale, chopped",
+      "originalName": "kale, chopped",
+      "amount": 2.0,
+      "unit": "cups",
+      "meta": [
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 42.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    }
+  ],
+  "id": 633711,
+  "title": "Baked Penne",
+  "readyInMinutes": 45,
+  "servings": 8,
+  "sourceUrl": "https://www.foodista.com/recipe/VVH5Y7PG/baked-penne",
+  "image": "https://img.spoonacular.com/recipes/633711-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Baked Penne might be just the hor d'oeuvre you are searching for. Watching your figure? This dairy free, lacto ovo vegetarian, and vegan recipe has <b>241 calories</b>, <b>11g of protein</b>, and <b>1g of fat</b> per serving. This recipe serves 8. For <b>73 cents per serving</b>, this recipe <b>covers 21%</b> of your daily requirements of vitamins and minerals. Only a few people made this recipe, and 1 would say it hit the spot. If you have water, nutritional yeast, kale, and a few other ingredients on hand, you can make it. From preparation to the plate, this recipe takes around <b>45 minutes</b>. It is brought to you by Foodista. Taking all factors into account, this recipe <b>earns a spoonacular score of 92%</b>, which is excellent. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/baked-penne-1215509\">Baked Penne</a>, <a href=\"https://spoonacular.com/recipes/baked-penne-270650\">Baked Penne</a>, and <a href=\"https://spoonacular.com/recipes/baked-penne-138984\">Baked Penne</a>.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "side dish",
+    "antipasti",
+    "starter",
+    "snack",
+    "appetizer",
+    "antipasto",
+    "hor d'oeuvre"
+  ],
+  "diets": [
+    "dairy free",
+    "lacto ovo vegetarian",
+    "vegan"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "Preheat the oven to 400*.\nChop butternut squash into 1\" pieces and roast on a baking sheet sprayed with cooking spray until lightly browned, about 30-40 minutes.\nOnce the squash is done baking, reduce heat to 350*.\nBring a pot of water to a boil and cook pasta according to package directions, using the shortest recommended cooking time.\nWhile pasta is cooking, saute onions and mushrooms.\nIn a food processor, combine about 1 cup roasted butternut squash cubes, tomato paste, jalapeo, water, nutritional yeast, garlic powder, salt, black pepper, and Italian seasoning until well blended.\nMix with drained pasta, onions, mushrooms and kale.\nSpray a 9\"x13\" pan with cooking spray and pour pasta mixture into pan. Bake uncovered at 350* for 30 minutes.",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Preheat the oven to 400*.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Chop butternut squash into 1\" pieces and roast on a baking sheet sprayed with cooking spray until lightly browned, about 30-40 minutes.",
+          "ingredients": [
+            {
+              "id": 11485,
+              "name": "butternut squash",
+              "localizedName": "butternut squash",
+              "image": "butternut-squash.jpg"
+            },
+            {
+              "id": 4679,
+              "name": "cooking spray",
+              "localizedName": "cooking spray",
+              "image": "cooking-spray.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404727,
+              "name": "baking sheet",
+              "localizedName": "baking sheet",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/baking-sheet.jpg"
+            }
+          ],
+          "length": {
+            "number": 40,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 3,
+          "step": "Once the squash is done baking, reduce heat to 350*.",
+          "ingredients": [
+            {
+              "id": 10011485,
+              "name": "squash",
+              "localizedName": "squash",
+              "image": "butternut-squash.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 4,
+          "step": "Bring a pot of water to a boil and cook pasta according to package directions, using the shortest recommended cooking time.",
+          "ingredients": [
+            {
+              "id": 20420,
+              "name": "pasta",
+              "localizedName": "pasta",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/fusilli.jpg"
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404752,
+              "name": "pot",
+              "localizedName": "pot",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/stock-pot.jpg"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "step": "While pasta is cooking, saute onions and mushrooms.",
+          "ingredients": [
+            {
+              "id": 11260,
+              "name": "mushrooms",
+              "localizedName": "mushrooms",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/mushrooms.png"
+            },
+            {
+              "id": 11282,
+              "name": "onion",
+              "localizedName": "onion",
+              "image": "brown-onion.png"
+            },
+            {
+              "id": 20420,
+              "name": "pasta",
+              "localizedName": "pasta",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/fusilli.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 6,
+          "step": "In a food processor, combine about 1 cup roasted butternut squash cubes, tomato paste, jalapeo, water, nutritional yeast, garlic powder, salt, black pepper, and Italian seasoning until well blended.",
+          "ingredients": [
+            {
+              "id": 1022027,
+              "name": "italian seasoning",
+              "localizedName": "italian seasoning",
+              "image": "dried-herbs.png"
+            },
+            {
+              "id": 93690,
+              "name": "nutritional yeast",
+              "localizedName": "nutritional yeast",
+              "image": "nutritional-yeast.png"
+            },
+            {
+              "id": 11485,
+              "name": "butternut squash",
+              "localizedName": "butternut squash",
+              "image": "butternut-squash.jpg"
+            },
+            {
+              "id": 1022020,
+              "name": "garlic powder",
+              "localizedName": "garlic powder",
+              "image": "garlic-powder.png"
+            },
+            {
+              "id": 1002030,
+              "name": "black pepper",
+              "localizedName": "black pepper",
+              "image": "pepper.jpg"
+            },
+            {
+              "id": 11887,
+              "name": "tomato paste",
+              "localizedName": "tomato paste",
+              "image": "tomato-paste.jpg"
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            },
+            {
+              "id": 2047,
+              "name": "salt",
+              "localizedName": "salt",
+              "image": "salt.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404771,
+              "name": "food processor",
+              "localizedName": "food processor",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/food-processor.png"
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "step": "Mix with drained pasta, onions, mushrooms and kale.",
+          "ingredients": [
+            {
+              "id": 11260,
+              "name": "mushrooms",
+              "localizedName": "mushrooms",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/mushrooms.png"
+            },
+            {
+              "id": 11282,
+              "name": "onion",
+              "localizedName": "onion",
+              "image": "brown-onion.png"
+            },
+            {
+              "id": 20420,
+              "name": "pasta",
+              "localizedName": "pasta",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/fusilli.jpg"
+            },
+            {
+              "id": 11233,
+              "name": "kale",
+              "localizedName": "kale",
+              "image": "kale.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 8,
+          "step": "Spray a 9\"x13\" pan with cooking spray and pour pasta mixture into pan.",
+          "ingredients": [
+            {
+              "id": 4679,
+              "name": "cooking spray",
+              "localizedName": "cooking spray",
+              "image": "cooking-spray.png"
+            },
+            {
+              "id": 20420,
+              "name": "pasta",
+              "localizedName": "pasta",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/fusilli.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404645,
+              "name": "frying pan",
+              "localizedName": "frying pan",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "step": "Bake uncovered at 350* for 30 minutes.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            }
+          ],
+          "length": {
+            "number": 30,
+            "unit": "minutes"
+          }
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 94.7318344116211,
+  "spoonacularSourceUrl": "https://spoonacular.com/baked-penne-633711"
+}

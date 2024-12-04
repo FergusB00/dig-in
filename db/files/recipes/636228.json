@@ -1,0 +1,830 @@
+{
+  "vegetarian": true,
+  "vegan": true,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 1,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 4,
+  "healthScore": 89,
+  "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+  "license": "CC BY 3.0",
+  "sourceName": "Foodista",
+  "pricePerServing": 105.84,
+  "extendedIngredients": [
+    {
+      "id": 2048,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "apple-cider-vinegar.jpg",
+      "consistency": "LIQUID",
+      "name": "apple vinegar",
+      "nameClean": "apple cider vinegar",
+      "original": "1 tablespoon of apple vinegar",
+      "originalName": "apple vinegar",
+      "amount": 1.0,
+      "unit": "tablespoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        }
+      }
+    },
+    {
+      "id": 11090,
+      "aisle": "Produce",
+      "image": "broccoli.jpg",
+      "consistency": "SOLID",
+      "name": "broccoli",
+      "nameClean": "broccoli",
+      "original": "1/2 broccoli",
+      "originalName": "broccoli",
+      "amount": 0.5,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 10011531,
+      "aisle": "Canned and Jarred",
+      "image": "tomatoes-canned.png",
+      "consistency": "SOLID",
+      "name": "peeled/ tomatoes",
+      "nameClean": "canned whole tomatoes",
+      "original": "2 peeled/ seeded tomatoes",
+      "originalName": "peeled/ seeded tomatoes",
+      "amount": 2.0,
+      "unit": "",
+      "meta": [
+        "seeded"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 10511297,
+      "aisle": "Produce",
+      "image": "parsley.jpg",
+      "consistency": "SOLID",
+      "name": "parsley",
+      "nameClean": "fresh parsley",
+      "original": "2 handfuls finely chopped parsley",
+      "originalName": "finely chopped parsley",
+      "amount": 2.0,
+      "unit": "handfuls",
+      "meta": [
+        "finely chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "handfuls",
+          "unitLong": "handfuls"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "handfuls",
+          "unitLong": "handfuls"
+        }
+      }
+    },
+    {
+      "id": 1012042,
+      "aisle": "Spices and Seasonings",
+      "image": "dried-herbs.png",
+      "consistency": "SOLID",
+      "name": "herbs de provence",
+      "nameClean": "herbes de provence",
+      "original": "1 teaspoon large herbs de Provence",
+      "originalName": "herbs de Provence",
+      "amount": 1.0,
+      "unit": "teaspoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        }
+      }
+    },
+    {
+      "id": 4053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "olive oil",
+      "nameClean": "olive oil",
+      "original": "1 tablespoon olive oil",
+      "originalName": "olive oil",
+      "amount": 1.0,
+      "unit": "tablespoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        }
+      }
+    },
+    {
+      "id": 11677,
+      "aisle": "Produce",
+      "image": "shallots.jpg",
+      "consistency": "SOLID",
+      "name": "onion",
+      "nameClean": "shallot",
+      "original": "1 onion or 2 shallots",
+      "originalName": "onion or 2 shallots",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 11821,
+      "aisle": "Produce",
+      "image": "red-pepper.jpg",
+      "consistency": "SOLID",
+      "name": "bell pepper",
+      "nameClean": "red pepper",
+      "original": "1 red bell pepper",
+      "originalName": "red bell pepper",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+        "red"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 2009,
+      "aisle": "Spices and Seasonings",
+      "image": "chili-powder.jpg",
+      "consistency": "SOLID",
+      "name": "chili powder",
+      "nameClean": "chili powder",
+      "original": "small pinch of red hot chili powder",
+      "originalName": "red hot chili powder",
+      "amount": 1.0,
+      "unit": "small pinch",
+      "meta": [
+        "red",
+        "hot"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "small pinch",
+          "unitLong": "small pinch"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "small pinch",
+          "unitLong": "small pinch"
+        }
+      }
+    },
+    {
+      "id": 1012047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt.jpg",
+      "consistency": "SOLID",
+      "name": "sea salt",
+      "nameClean": "coarse sea salt",
+      "original": "sea salt to taste",
+      "originalName": "sea salt to taste",
+      "amount": 12.0,
+      "unit": "servings",
+      "meta": [
+        "to taste"
+      ],
+      "measures": {
+        "us": {
+          "amount": 12.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 12.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 12023,
+      "aisle": "Ethnic Foods",
+      "image": "sesame-seeds.png",
+      "consistency": "SOLID",
+      "name": "sesame seeds to decorate",
+      "nameClean": "sesame seeds",
+      "original": "toasted sesame seeds to decorate",
+      "originalName": "toasted sesame seeds to decorate",
+      "amount": 12.0,
+      "unit": "servings",
+      "meta": [
+        "toasted"
+      ],
+      "measures": {
+        "us": {
+          "amount": 12.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 12.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 16124,
+      "aisle": "Condiments",
+      "image": "soy-sauce.jpg",
+      "consistency": "LIQUID",
+      "name": "soy sauce",
+      "nameClean": "soy sauce",
+      "original": "dash of soy sauce",
+      "originalName": "soy sauce",
+      "amount": 1.0,
+      "unit": "dash",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "dash",
+          "unitLong": "dash"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "dash",
+          "unitLong": "dash"
+        }
+      }
+    },
+    {
+      "id": 11583,
+      "aisle": "Frozen",
+      "image": "mixed-vegetables.png",
+      "consistency": "SOLID",
+      "name": "colorful tartar on a bed of vegetables. also an touch",
+      "nameClean": "mixed vegetables",
+      "original": "Colorful tartar on a bed of raw green vegetables. Also an excellent touch for yo",
+      "originalName": "Colorful tartar on a bed of raw green vegetables. Also an excellent touch for yo",
+      "amount": 12.0,
+      "unit": "servings",
+      "meta": [
+        "raw",
+        "green",
+        "excellent",
+        "for yo"
+      ],
+      "measures": {
+        "us": {
+          "amount": 12.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 12.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": -1,
+      "aisle": "?",
+      "image": null,
+      "consistency": "SOLID",
+      "name": "a hand blender",
+      "nameClean": null,
+      "original": "A hand blender, griddle or grill",
+      "originalName": "A hand blender, griddle or grill",
+      "amount": 12.0,
+      "unit": "servings",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 12.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 12.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": -1,
+      "aisle": "?",
+      "image": null,
+      "consistency": "SOLID",
+      "name": "soaked arame",
+      "nameClean": null,
+      "original": "1 cup soaked arame (available in health food store)",
+      "originalName": "soaked arame (available in health food store)",
+      "amount": 1.0,
+      "unit": "cup",
+      "meta": [
+        "(available in health food store)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "cup",
+          "unitLong": "cup"
+        },
+        "metric": {
+          "amount": 236.588,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": -1,
+      "aisle": "?",
+      "image": null,
+      "consistency": "SOLID",
+      "name": "hand blender",
+      "nameClean": null,
+      "original": "A hand blender, griddle or grill",
+      "originalName": "A hand blender, griddle or grill",
+      "amount": 12.0,
+      "unit": "servings",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 12.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 12.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": -1,
+      "aisle": "?",
+      "image": null,
+      "consistency": "SOLID",
+      "name": "soaked arame",
+      "nameClean": null,
+      "original": "1 cup soaked arame (available in health food store)",
+      "originalName": "soaked arame (available in health food store)",
+      "amount": 1.0,
+      "unit": "cup",
+      "meta": [
+        "(available in health food store)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "cup",
+          "unitLong": "cup"
+        },
+        "metric": {
+          "amount": 236.588,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    }
+  ],
+  "id": 636228,
+  "title": "Broccoli Tartar",
+  "readyInMinutes": 45,
+  "servings": 12,
+  "sourceUrl": "https://www.foodista.com/recipe/364Q5CSN/broccoli-tartar",
+  "image": "https://img.spoonacular.com/recipes/636228-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Broccoli Tartar is a side dish that serves 12. One serving contains <b>140 calories</b>, <b>6g of protein</b>, and <b>6g of fat</b>. For <b>$1.06 per serving</b>, this recipe <b>covers 18%</b> of your daily requirements of vitamins and minerals. This recipe is liked by 4 foodies and cooks. This recipe from Foodista requires hand blender, colorful tartar on a bed of vegetables. also an touch, chili powder, and parsley. It is a good option if you're following a <b>gluten free, dairy free, lacto ovo vegetarian, and vegan</b> diet. From preparation to the plate, this recipe takes around <b>45 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 84%</b>, which is great. Similar recipes include <a href=\"https://spoonacular.com/recipes/broccoli-tartar-1370837\">Broccoli Tartar</a>, <a href=\"https://spoonacular.com/recipes/rollo-de-salmon-ahumado-con-salsa-tartar-y-lentejas-smoked-salmon-roll-with-tartar-sauce-and-lentils-334769\">Rollo De Salmon Ahumado Con Salsa Tartar Y Lentejas (Smoked Salmon Roll with Tartar Sauce and Lentils)</a>, and <a href=\"https://spoonacular.com/recipes/tartar-sauce-30090\">Tartar Sauce</a>.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "side dish"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free",
+    "lacto ovo vegetarian",
+    "vegan"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "<ol><li>Soak arame (seaweed can be found in a health-food store) in a bowl of pure water.</li><li>Put the grill of the oven and put a pot of water on the fire with a pinch of sea salt.</li><li>Wash the pepper, broccoli, parsley and tomatoes. Carve a cross down the tomatoes, halve the peppers and remove the seeds and cut the broccoli into chunks.</li><li>When the water boils you immerse the tomatoes and leave them for a swim, get them and let them scare in cold water. They are now ready to go out of their jackets.</li><li>Meanwhile, the broccoli  can be swimming for 6 minutes in the boiling water. Note: The water will cool off and when back to a boil, then add 5 minutes. Get them dry and cool under cold water, then they stay nice and green.</li><li>The pepper may be under the grill until it sees black. Let them cool and peel them.</li><li>Chop the parsley.</li><li>Put the cooled broccoli in a long narrow bowl and blend finely with a hand blender. Add the oil and vinegar with the salt. Add half the parsley and mix into a smooth puree. If too grainy (dry) put some extra oil.</li><li>Cut the unseeded, peeled tomatoes and peppers into very small pieces.</li><li>The shallot or onion may be chopped in mini pieces.</li><li>Add the chopped vegetables to the puree and stir gently with a spoon. The rest of the chopped parsley may be added now. A little salt, soy sauce and chili powder. Start with a little bit and add some more later if desired. The herbs de Provence can now embellish the whole with its bright flavor.</li><li>The seaweed may now well out of the water and squeeze out any excess moisture. Cut the seaweed finely and mix carefully with the puree.</li><li>With an ice cream spoon you  create beautiful balls and sprinkle with toasted sesame seeds.</li><li>bon apptit</li></ol>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Soak arame (seaweed can be found in a health-food store) in a bowl of pure water.",
+          "ingredients": [
+            {
+              "id": 11445,
+              "name": "seaweed",
+              "localizedName": "seaweed",
+              "image": "kombu.jpg"
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Put the grill of the oven and put a pot of water on the fire with a pinch of sea salt.Wash the pepper, broccoli, parsley and tomatoes. Carve a cross down the tomatoes, halve the peppers and remove the seeds and cut the broccoli into chunks.When the water boils you immerse the tomatoes and leave them for a swim, get them and let them scare in cold water. They are now ready to go out of their jackets.Meanwhile, the broccoli  can be swimming for 6 minutes in the boiling water. Note: The water will cool off and when back to a boil, then add 5 minutes. Get them dry and cool under cold water, then they stay nice and green.The pepper may be under the grill until it sees black.",
+          "ingredients": [
+            {
+              "id": 11090,
+              "name": "broccoli",
+              "localizedName": "broccoli",
+              "image": "broccoli.jpg"
+            },
+            {
+              "id": 1012047,
+              "name": "sea salt",
+              "localizedName": "sea salt",
+              "image": "salt.jpg"
+            },
+            {
+              "id": 11529,
+              "name": "tomato",
+              "localizedName": "tomato",
+              "image": "tomato.png"
+            },
+            {
+              "id": 11297,
+              "name": "parsley",
+              "localizedName": "parsley",
+              "image": "parsley.jpg"
+            },
+            {
+              "id": 10111333,
+              "name": "peppers",
+              "localizedName": "peppers",
+              "image": "green-pepper.jpg"
+            },
+            {
+              "id": 1002030,
+              "name": "pepper",
+              "localizedName": "pepper",
+              "image": "pepper.jpg"
+            },
+            {
+              "id": 93818,
+              "name": "seeds",
+              "localizedName": "seeds",
+              "image": "sunflower-seeds.jpg"
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404706,
+              "name": "grill",
+              "localizedName": "grill",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/grill.jpg"
+            },
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            },
+            {
+              "id": 404752,
+              "name": "pot",
+              "localizedName": "pot",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/stock-pot.jpg"
+            }
+          ],
+          "length": {
+            "number": 11,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 3,
+          "step": "Let them cool and peel them.Chop the parsley.",
+          "ingredients": [
+            {
+              "id": 11297,
+              "name": "parsley",
+              "localizedName": "parsley",
+              "image": "parsley.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 4,
+          "step": "Put the cooled broccoli in a long narrow bowl and blend finely with a hand blender.",
+          "ingredients": [
+            {
+              "id": 11090,
+              "name": "broccoli",
+              "localizedName": "broccoli",
+              "image": "broccoli.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404776,
+              "name": "immersion blender",
+              "localizedName": "immersion blender",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/immersion-blender.png"
+            },
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "step": "Add the oil and vinegar with the salt.",
+          "ingredients": [
+            {
+              "id": 2053,
+              "name": "vinegar",
+              "localizedName": "vinegar",
+              "image": "vinegar-(white).jpg"
+            },
+            {
+              "id": 2047,
+              "name": "salt",
+              "localizedName": "salt",
+              "image": "salt.jpg"
+            },
+            {
+              "id": 4582,
+              "name": "cooking oil",
+              "localizedName": "cooking oil",
+              "image": "vegetable-oil.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 6,
+          "step": "Add half the parsley and mix into a smooth puree. If too grainy (dry) put some extra oil.",
+          "ingredients": [
+            {
+              "id": 11297,
+              "name": "parsley",
+              "localizedName": "parsley",
+              "image": "parsley.jpg"
+            },
+            {
+              "id": 4582,
+              "name": "cooking oil",
+              "localizedName": "cooking oil",
+              "image": "vegetable-oil.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 7,
+          "step": "Cut the unseeded, peeled tomatoes and peppers into very small pieces.The shallot or onion may be chopped in mini pieces.",
+          "ingredients": [
+            {
+              "id": 10011531,
+              "name": "canned whole tomatoes",
+              "localizedName": "canned whole tomatoes",
+              "image": "tomatoes-canned.png"
+            },
+            {
+              "id": 10111333,
+              "name": "peppers",
+              "localizedName": "peppers",
+              "image": "green-pepper.jpg"
+            },
+            {
+              "id": 11677,
+              "name": "shallot",
+              "localizedName": "shallot",
+              "image": "shallots.jpg"
+            },
+            {
+              "id": 11282,
+              "name": "onion",
+              "localizedName": "onion",
+              "image": "brown-onion.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 8,
+          "step": "Add the chopped vegetables to the puree and stir gently with a spoon. The rest of the chopped parsley may be added now. A little salt, soy sauce and chili powder. Start with a little bit and add some more later if desired. The herbs de Provence can now embellish the whole with its bright flavor.The seaweed may now well out of the water and squeeze out any excess moisture.",
+          "ingredients": [
+            {
+              "id": 1012042,
+              "name": "herbes de provence",
+              "localizedName": "herbes de provence",
+              "image": "dried-herbs.png"
+            },
+            {
+              "id": 2009,
+              "name": "chili powder",
+              "localizedName": "chili powder",
+              "image": "chili-powder.jpg"
+            },
+            {
+              "id": 11583,
+              "name": "vegetable",
+              "localizedName": "vegetable",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/mixed-vegetables.png"
+            },
+            {
+              "id": 16124,
+              "name": "soy sauce",
+              "localizedName": "soy sauce",
+              "image": "soy-sauce.jpg"
+            },
+            {
+              "id": 11297,
+              "name": "parsley",
+              "localizedName": "parsley",
+              "image": "parsley.jpg"
+            },
+            {
+              "id": 11445,
+              "name": "seaweed",
+              "localizedName": "seaweed",
+              "image": "kombu.jpg"
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            },
+            {
+              "id": 2047,
+              "name": "salt",
+              "localizedName": "salt",
+              "image": "salt.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 9,
+          "step": "Cut the seaweed finely and mix carefully with the puree.With an ice cream spoon you  create beautiful balls and sprinkle with toasted sesame seeds.bon apptit",
+          "ingredients": [
+            {
+              "id": 12023,
+              "name": "sesame seeds",
+              "localizedName": "sesame seeds",
+              "image": "sesame-seeds.png"
+            },
+            {
+              "id": 19095,
+              "name": "ice cream",
+              "localizedName": "ice cream",
+              "image": "vanilla-ice-cream.png"
+            },
+            {
+              "id": 11445,
+              "name": "seaweed",
+              "localizedName": "seaweed",
+              "image": "kombu.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 95.54273986816406,
+  "spoonacularSourceUrl": "https://spoonacular.com/broccoli-tartar-636228"
+}

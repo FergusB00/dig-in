@@ -1,0 +1,536 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": false,
+  "dairyFree": false,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 14,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 9,
+  "healthScore": 79,
+  "creditsText": "foodista.com",
+  "sourceName": "foodista.com",
+  "pricePerServing": 427.24,
+  "extendedIngredients": [
+    {
+      "id": 23657,
+      "aisle": "Meat",
+      "image": "flank-steak.jpg",
+      "consistency": "SOLID",
+      "name": "flank steak",
+      "nameClean": "flank steak",
+      "original": "1 1 ½ to 2 pounds flank steak trimmed",
+      "originalName": "flank steak trimmed",
+      "amount": 1.5,
+      "unit": "pounds",
+      "meta": [
+        "trimmed"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.5,
+          "unitShort": "lb",
+          "unitLong": "pounds"
+        },
+        "metric": {
+          "amount": 680.389,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 4053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "olive oil",
+      "nameClean": "olive oil",
+      "original": "3 tablespoon olive oil",
+      "originalName": "olive oil",
+      "amount": 3.0,
+      "unit": "tablespoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 3.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 11677,
+      "aisle": "Produce",
+      "image": "shallots.jpg",
+      "consistency": "SOLID",
+      "name": "shallot",
+      "nameClean": "shallot",
+      "original": "1 shallot finely chopped",
+      "originalName": "shallot finely chopped",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+        "finely chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 10011457,
+      "aisle": "Produce",
+      "image": "spinach.jpg",
+      "consistency": "SOLID",
+      "name": "spinach",
+      "nameClean": "spinach",
+      "original": "½ pound spinach, washed, stemmed and chopped",
+      "originalName": "spinach, washed, stemmed and chopped",
+      "amount": 0.5,
+      "unit": "pound",
+      "meta": [
+        "washed",
+        "stemmed",
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "lb",
+          "unitLong": "pounds"
+        },
+        "metric": {
+          "amount": 226.796,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 18079,
+      "aisle": "Pasta and Rice",
+      "image": "breadcrumbs.jpg",
+      "consistency": "SOLID",
+      "name": "bread crumbs",
+      "nameClean": "breadcrumbs",
+      "original": "¾ cup fresh bread crumbs",
+      "originalName": "fresh bread crumbs",
+      "amount": 0.75,
+      "unit": "cup",
+      "meta": [
+        "fresh"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.75,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 81.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 1004,
+      "aisle": "Cheese",
+      "image": "blue-cheese.png",
+      "consistency": "SOLID",
+      "name": "gorgonzola",
+      "nameClean": "blue cheese",
+      "original": "¼ pound Gorgonzola or other blue cheese, crumbled",
+      "originalName": "Gorgonzola or other blue cheese, crumbled",
+      "amount": 0.25,
+      "unit": "pound",
+      "meta": [
+        "blue",
+        "crumbled"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "lb",
+          "unitLong": "pounds"
+        },
+        "metric": {
+          "amount": 113.398,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 1102047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt-and-pepper.jpg",
+      "consistency": "SOLID",
+      "name": "salt and pepper",
+      "nameClean": "salt and pepper",
+      "original": "Salt and pepper",
+      "originalName": "Salt and pepper",
+      "amount": 4.0,
+      "unit": "servings",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    }
+  ],
+  "id": 661259,
+  "title": "Spinach and Gorgonzola Stuffed Flank Steak",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "sourceUrl": "https://www.foodista.com/recipe/SWTFLZXM/spinach-and-gorgonzola-stuffed-flank-steak",
+  "image": "https://img.spoonacular.com/recipes/661259-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Spinach and Gorgonzola Stuffed Flank Steak might be just the main course you are searching for. For <b>$4.27 per serving</b>, this recipe <b>covers 39%</b> of your daily requirements of vitamins and minerals. One portion of this dish contains approximately <b>47g of protein</b>, <b>28g of fat</b>, and a total of <b>523 calories</b>. This recipe serves 4. 9 people found this recipe to be tasty and satisfying. It is perfect for <b>valentin day</b>. If you have gorgonzola, olive oil, shallot, and a few other ingredients on hand, you can make it. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. It is brought to you by Foodista. Taking all factors into account, this recipe <b>earns a spoonacular score of 95%</b>, which is super. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/bruce-aidells-spinach-and-gorgonzola-stuffed-flank-steak-202812\">Bruce Aidells' Spinach and Gorgonzola-Stuffed Flank Steak</a>, <a href=\"https://spoonacular.com/recipes/spinach-stuffed-flank-steak-19875\">Spinach-stuffed Flank Steak</a>, and <a href=\"https://spoonacular.com/recipes/spinach-and-carrot-stuffed-flank-steak-156209\">Spinach and Carrot Stuffed Flank Steak</a>.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "lunch",
+    "main course",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+
+  ],
+  "occasions": [
+    "valentine's day",
+    "father's day"
+  ],
+  "instructions": "Preheat oven to 375.\nButterfly the steak by using a long sharp knife holding it parallel to the work surface, cut through the long side of the steak, stopping about  inch from the opposite side. If the steak is already thin, just pound it with a mallet to  inch thick.\nIn a large skillet over medium heat add 1 tablespoon olive oil and saut` the shallots until soft, 2 minutes. Add the spinach and cook until just wilted, about 2 to 3 minutes. Transfer to a colander.\nWhen cool enough to handle, squeeze out all the moisture from the spinach and transfer to a medium bowl. Stir in the bread crumbs and cheese. Season with salt and pepper.\nPlace the steak on a sheet of plastic wrap. Smear the spinach mixture evenly over the steak, leaving about 1 inch border along the side edge. Beginning with the side near you and using the plastic wrap as an aid, rollup the steak, gently pressing on the filling.\nTie the rolled steak with twine at 2-3 inch interval.\nSeason the outside with salt and pepper.\nHeat the remaining 2 tablespoons olive oil in a large ovenproof skillet over medium high heat. Sear the roast on all sided, about 2 minutes per side.\nPlace in the oven and roast for 20 to 25 minutes.\nTransfer to a cutting board, tend with aluminum foil and allow resting for 10 minutes.\nTo serve, remove the twine from the roast and cut into  inch to 1 inch thick slices.",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Preheat oven to 37",
+          "ingredients": [
+
+          ],
+          "equipment": [
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Butterfly the steak by using a long sharp knife holding it parallel to the work surface, cut through the long side of the steak, stopping about  inch from the opposite side. If the steak is already thin, just pound it with a mallet to  inch thick.",
+          "ingredients": [
+            {
+              "id": 23232,
+              "name": "steak",
+              "localizedName": "steak",
+              "image": "ribeye-raw.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404745,
+              "name": "knife",
+              "localizedName": "knife",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/chefs-knife.jpg"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "step": "In a large skillet over medium heat add 1 tablespoon olive oil and saut` the shallots until soft, 2 minutes.",
+          "ingredients": [
+            {
+              "id": 4053,
+              "name": "olive oil",
+              "localizedName": "olive oil",
+              "image": "olive-oil.jpg"
+            },
+            {
+              "id": 11677,
+              "name": "shallot",
+              "localizedName": "shallot",
+              "image": "shallots.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404645,
+              "name": "frying pan",
+              "localizedName": "frying pan",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+            }
+          ],
+          "length": {
+            "number": 2,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 4,
+          "step": "Add the spinach and cook until just wilted, about 2 to 3 minutes.",
+          "ingredients": [
+            {
+              "id": 10011457,
+              "name": "spinach",
+              "localizedName": "spinach",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/spinach.jpg"
+            }
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 2,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 5,
+          "step": "Transfer to a colander.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+            {
+              "id": 404639,
+              "name": "colander",
+              "localizedName": "colander",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/colander.jpg"
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "step": "When cool enough to handle, squeeze out all the moisture from the spinach and transfer to a medium bowl. Stir in the bread crumbs and cheese. Season with salt and pepper.",
+          "ingredients": [
+            {
+              "id": 1102047,
+              "name": "salt and pepper",
+              "localizedName": "salt and pepper",
+              "image": "salt-and-pepper.jpg"
+            },
+            {
+              "id": 18079,
+              "name": "breadcrumbs",
+              "localizedName": "breadcrumbs",
+              "image": "breadcrumbs.jpg"
+            },
+            {
+              "id": 10011457,
+              "name": "spinach",
+              "localizedName": "spinach",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/spinach.jpg"
+            },
+            {
+              "id": 1041009,
+              "name": "cheese",
+              "localizedName": "cheese",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/cheddar-cheese.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "step": "Place the steak on a sheet of plastic wrap. Smear the spinach mixture evenly over the steak, leaving about 1 inch border along the side edge. Beginning with the side near you and using the plastic wrap as an aid, rollup the steak, gently pressing on the filling.",
+          "ingredients": [
+            {
+              "id": 10011457,
+              "name": "spinach",
+              "localizedName": "spinach",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/spinach.jpg"
+            },
+            {
+              "id": 23232,
+              "name": "steak",
+              "localizedName": "steak",
+              "image": "ribeye-raw.jpg"
+            },
+            {
+              "id": 10018364,
+              "name": "wrap",
+              "localizedName": "wrap",
+              "image": "flour-tortilla.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404730,
+              "name": "plastic wrap",
+              "localizedName": "plastic wrap",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/plastic-wrap.jpg"
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "step": "Tie the rolled steak with twine at 2-3 inch interval.",
+          "ingredients": [
+            {
+              "id": 23232,
+              "name": "steak",
+              "localizedName": "steak",
+              "image": "ribeye-raw.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404733,
+              "name": "kitchen twine",
+              "localizedName": "kitchen twine",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/kitchen-string.jpg"
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "step": "Season the outside with salt and pepper.",
+          "ingredients": [
+            {
+              "id": 1102047,
+              "name": "salt and pepper",
+              "localizedName": "salt and pepper",
+              "image": "salt-and-pepper.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 10,
+          "step": "Heat the remaining 2 tablespoons olive oil in a large ovenproof skillet over medium high heat. Sear the roast on all sided, about 2 minutes per side.",
+          "ingredients": [
+            {
+              "id": 4053,
+              "name": "olive oil",
+              "localizedName": "olive oil",
+              "image": "olive-oil.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404645,
+              "name": "frying pan",
+              "localizedName": "frying pan",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+            }
+          ],
+          "length": {
+            "number": 2,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 11,
+          "step": "Place in the oven and roast for 20 to 25 minutes.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            }
+          ],
+          "length": {
+            "number": 20,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 12,
+          "step": "Transfer to a cutting board, tend with aluminum foil and allow resting for 10 minutes.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+            {
+              "id": 404765,
+              "name": "aluminum foil",
+              "localizedName": "aluminum foil",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/aluminum-foil.png"
+            },
+            {
+              "id": 404716,
+              "name": "cutting board",
+              "localizedName": "cutting board",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/cutting-board.jpg"
+            }
+          ],
+          "length": {
+            "number": 10,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 13,
+          "step": "To serve, remove the twine from the roast and cut into  inch to 1 inch thick slices.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+            {
+              "id": 404733,
+              "name": "kitchen twine",
+              "localizedName": "kitchen twine",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/kitchen-string.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 95.54207611083984,
+  "spoonacularSourceUrl": "https://spoonacular.com/spinach-and-gorgonzola-stuffed-flank-steak-661259"
+}

@@ -1,0 +1,223 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": false,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": true,
+  "weightWatcherSmartPoints": 26,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 58,
+  "healthScore": 33,
+  "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+  "license": "CC BY 3.0",
+  "sourceName": "Foodista",
+  "pricePerServing": 144.77,
+  "extendedIngredients": [
+    {
+      "id": 10016223,
+      "aisle": null,
+      "image": null,
+      "consistency": "LIQUID",
+      "name": "almond milk",
+      "nameClean": "milk substitute",
+      "original": "1 cup almond milk or other non-dairy milk (see my almond milk recipe)",
+      "originalName": "almond milk or other non-dairy milk (see my almond milk recipe)",
+      "amount": 1.0,
+      "unit": "cup",
+      "meta": [
+        "(see my almond milk recipe)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "cup",
+          "unitLong": "cup"
+        },
+        "metric": {
+          "amount": 236.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 9040,
+      "aisle": "Produce",
+      "image": "bananas.jpg",
+      "consistency": "SOLID",
+      "name": "bananas",
+      "nameClean": "banana",
+      "original": "2 bananas, smashed (I used frozen)",
+      "originalName": "bananas, smashed (I used frozen)",
+      "amount": 2.0,
+      "unit": "",
+      "meta": [
+        "frozen",
+        "smashed",
+        "(I used )"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 16098,
+      "aisle": "Nut butters, Jams, and Honey",
+      "image": "peanut-butter.png",
+      "consistency": "SOLID",
+      "name": "peanut butter",
+      "nameClean": "peanut butter",
+      "original": "1/2 cup peanut butter",
+      "originalName": "peanut butter",
+      "amount": 0.5,
+      "unit": "cup",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 129.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 10819297,
+      "aisle": "Nut butters, Jams, and Honey",
+      "image": "strawberry-jam.png",
+      "consistency": "SOLID",
+      "name": "strawberries",
+      "nameClean": "strawberry jam",
+      "original": "½ cup strawberries (about 3 strawberries) or 1 Tbsp strawberry jam",
+      "originalName": "strawberries (about 3 strawberries) or 1 Tbsp strawberry jam",
+      "amount": 0.5,
+      "unit": "cup",
+      "meta": [
+        "( 3 strawberries)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 170.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    }
+  ],
+  "id": 655235,
+  "title": "Peanut Butter and Jelly Smoothie",
+  "readyInMinutes": 45,
+  "servings": 2,
+  "sourceUrl": "https://www.foodista.com/recipe/K5KVRWVR/peanut-butter-and-jelly-smoothie",
+  "image": "https://img.spoonacular.com/recipes/655235-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Peanut Butter and Jelly Smoothie might be a good recipe to expand your breakfast repertoire. Watching your figure? This gluten free, dairy free, and fodmap friendly recipe has <b>779 calories</b>, <b>20g of protein</b>, and <b>36g of fat</b> per serving. For <b>$1.45 per serving</b>, this recipe <b>covers 26%</b> of your daily requirements of vitamins and minerals. This recipe serves 2. 58 people were impressed by this recipe. This recipe from Foodista requires almond milk, bananas, peanut butter, and strawberries. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 95%</b>, which is super. Try <a href=\"https://spoonacular.com/recipes/peanut-butter-and-jelly-smoothie-609137\">Peanut Butter and Jelly Smoothie</a>, <a href=\"https://spoonacular.com/recipes/peanut-butter-and-jelly-smoothie-1419673\">Peanut Butter and Jelly Smoothie</a>, and <a href=\"https://spoonacular.com/recipes/peanut-butter-and-jelly-smoothie-1201725\">Peanut Butter and Jelly Smoothie</a> for similar recipes.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "morning meal",
+    "brunch",
+    "beverage",
+    "breakfast",
+    "drink"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free",
+    "fodmap friendly"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "<ol><li>Place ingredients in a high speed blender like Blendtec for super smooth texture, blend on high.</li><li>If using a regular blender put milk and strawberries in then blend.</li><li>Next, add banana pieces and peanut butter, process until smooth.</li><li>Garnish with crushed peanuts and serve.</li></ol>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place ingredients in a high speed blender like Blendtec for super smooth texture, blend on high.If using a regular blender put milk and strawberries in then blend.Next, add banana pieces and peanut butter, process until smooth.",
+          "ingredients": [
+            {
+              "id": 16098,
+              "name": "peanut butter",
+              "localizedName": "peanut butter",
+              "image": "peanut-butter.png"
+            },
+            {
+              "id": 9316,
+              "name": "strawberries",
+              "localizedName": "strawberries",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/strawberries.png"
+            },
+            {
+              "id": 9040,
+              "name": "banana",
+              "localizedName": "banana",
+              "image": "bananas.jpg"
+            },
+            {
+              "id": 1077,
+              "name": "milk",
+              "localizedName": "milk",
+              "image": "milk.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404726,
+              "name": "blender",
+              "localizedName": "blender",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/blender.png"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Garnish with crushed peanuts and serve.",
+          "ingredients": [
+            {
+              "id": 16091,
+              "name": "peanuts",
+              "localizedName": "peanuts",
+              "image": "peanuts.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 95.64241790771484,
+  "spoonacularSourceUrl": "https://spoonacular.com/peanut-butter-and-jelly-smoothie-655235"
+}

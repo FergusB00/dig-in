@@ -1,0 +1,319 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": false,
+  "dairyFree": true,
+  "veryHealthy": false,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 17,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 24,
+  "healthScore": 39,
+  "creditsText": "foodista.com",
+  "sourceName": "foodista.com",
+  "pricePerServing": 440.62,
+  "extendedIngredients": [
+    {
+      "id": 18334,
+      "aisle": "Refrigerated",
+      "image": "pie-crust.jpg",
+      "consistency": "SOLID",
+      "name": "pie crust",
+      "nameClean": "refrigerated pie crust",
+      "original": "1 package (15 ounces) refrigerated pie crust (2 crusts)",
+      "originalName": "package refrigerated pie crust (2 crusts)",
+      "amount": 15.0,
+      "unit": "ounces",
+      "meta": [
+        "refrigerated",
+        "(2 crusts)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 15.0,
+          "unitShort": "oz",
+          "unitLong": "ounces"
+        },
+        "metric": {
+          "amount": 425.243,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 6999,
+      "aisle": "Canned and Jarred",
+      "image": "gravy.jpg",
+      "consistency": "SOLID",
+      "name": "campbell's chicken gravy",
+      "nameClean": "chicken gravy",
+      "original": "1 can (10 1/2 ounces) Campbell's Chicken Gravy",
+      "originalName": "can Campbell's Chicken Gravy",
+      "amount": 10.5,
+      "unit": "ounces",
+      "meta": [
+        "canned"
+      ],
+      "measures": {
+        "us": {
+          "amount": 10.5,
+          "unitShort": "oz",
+          "unitLong": "ounces"
+        },
+        "metric": {
+          "amount": 297.67,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 11583,
+      "aisle": "Frozen",
+      "image": "mixed-vegetables.png",
+      "consistency": "SOLID",
+      "name": "cut-up vegetables",
+      "nameClean": "mixed vegetables",
+      "original": "3 cups cooked cut-up vegetables *",
+      "originalName": "cooked cut-up vegetables",
+      "amount": 3.0,
+      "unit": "cups",
+      "meta": [
+        "cooked"
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 546.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 5062,
+      "aisle": "Meat",
+      "image": "chicken-breasts.png",
+      "consistency": "SOLID",
+      "name": "cans swanson premium chicken breast in water",
+      "nameClean": "chicken breast",
+      "original": "2 ounces cans (4.5 each) Swanson Premium White Chunk Chicken Breast in Water, drained",
+      "originalName": "ounces cans each) Swanson Premium White Chunk Chicken Breast in Water, drained",
+      "amount": 9.0,
+      "unit": "",
+      "meta": [
+        "white",
+        "chunk",
+        "drained",
+        "canned"
+      ],
+      "measures": {
+        "us": {
+          "amount": 9.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 9.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    }
+  ],
+  "id": 631868,
+  "title": "4 Ingredient Chicken Pot Pie",
+  "readyInMinutes": 45,
+  "servings": 6,
+  "sourceUrl": "https://www.foodista.com/recipe/V7VFKMB2/chicken-pot-pie-with-swanson-chicken",
+  "image": "https://img.spoonacular.com/recipes/631868-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "4 Ingredient Chicken Pot Pie might be a good recipe to expand your main course recipe box. This recipe serves 6 and costs $4.41 per serving. One serving contains <b>802 calories</b>, <b>79g of protein</b>, and <b>30g of fat</b>. Head to the store and pick up pie crust, campbell's chicken gravy, cans swanson premium chicken breast in water, and a few other things to make it today. It is a good option if you're following a <b>dairy free</b> diet. 24 people have tried and liked this recipe. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. It is brought to you by Foodista. All things considered, we decided this recipe <b>deserves a spoonacular score of 90%</b>. This score is excellent. Try <a href=\"https://spoonacular.com/recipes/instant-pot-5-ingredient-chicken-tacos-885703\">Instant Pot 5-Ingredient Chicken Tacos</a>, <a href=\"https://spoonacular.com/recipes/5-ingredient-crock-pot-mexican-shredded-chicken-1724689\">5-Ingredient Crock Pot Mexican Shredded Chicken</a>, and <a href=\"https://spoonacular.com/recipes/4-ingredient-mini-chicken-pot-pies-simple-meals-616029\">4-Ingredient Mini Chicken Pot Pies | Simple Meals</a> for similar recipes.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "lunch",
+    "main course",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+    "dairy free"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "Let the pie crusts stand at room temperature for 15 minutes or until they're easy to handle. Place 1 pie crust into a 9-inch pie plate.\nStir the gravy, vegetables and chicken in a medium bowl. Spoon the chicken mixture into the pie plate. Place the remaining pie crust over the filling. Press the edges to seal. Cut several slits in the top crust.\nBake at 400F. for 45 minutes or until the crust is golden brown.\nUse a combination of sliced carrots, peas and cubed potatoes.",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Let the pie crusts stand at room temperature for 15 minutes or until they're easy to handle.",
+          "ingredients": [
+            {
+              "id": 18334,
+              "name": "pie crust",
+              "localizedName": "pie crust",
+              "image": "pie-crust.jpg"
+            }
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 15,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 2,
+          "step": "Place 1 pie crust into a 9-inch pie plate.",
+          "ingredients": [
+            {
+              "id": 18334,
+              "name": "pie crust",
+              "localizedName": "pie crust",
+              "image": "pie-crust.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Stir the gravy, vegetables and chicken in a medium bowl. Spoon the chicken mixture into the pie plate.",
+          "ingredients": [
+            {
+              "id": 11583,
+              "name": "vegetable",
+              "localizedName": "vegetable",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/mixed-vegetables.png"
+            },
+            {
+              "id": 0,
+              "name": "chicken",
+              "localizedName": "chicken",
+              "image": "whole-chicken.jpg"
+            },
+            {
+              "id": 6997,
+              "name": "gravy",
+              "localizedName": "gravy",
+              "image": "gravy.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "step": "Place the remaining pie crust over the filling. Press the edges to seal.",
+          "ingredients": [
+            {
+              "id": 18334,
+              "name": "pie crust",
+              "localizedName": "pie crust",
+              "image": "pie-crust.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 5,
+          "step": "Cut several slits in the top crust.",
+          "ingredients": [
+            {
+              "id": 0,
+              "name": "crust",
+              "localizedName": "crust",
+              "image": ""
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 6,
+          "step": "Bake at 400F. for 45 minutes or until the crust is golden brown.",
+          "ingredients": [
+            {
+              "id": 0,
+              "name": "crust",
+              "localizedName": "crust",
+              "image": ""
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg",
+              "temperature": {
+                "number": 400.0,
+                "unit": "Fahrenheit"
+              }
+            }
+          ],
+          "length": {
+            "number": 45,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 7,
+          "step": "Use a combination of sliced carrots, peas and cubed potatoes.",
+          "ingredients": [
+            {
+              "id": 11352,
+              "name": "potato",
+              "localizedName": "potato",
+              "image": "potatoes-yukon-gold.png"
+            },
+            {
+              "id": 11124,
+              "name": "carrot",
+              "localizedName": "carrot",
+              "image": "sliced-carrot.png"
+            },
+            {
+              "id": 11304,
+              "name": "peas",
+              "localizedName": "peas",
+              "image": "peas.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 94.7322769165039,
+  "spoonacularSourceUrl": "https://spoonacular.com/4-ingredient-chicken-pot-pie-631868"
+}

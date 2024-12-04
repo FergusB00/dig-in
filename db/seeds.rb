@@ -6,6 +6,7 @@ require 'net/http'
 puts "Cleaning database..."
 Meal.destroy_all
 RecipeIngredient.destroy_all
+UserIngredient.destroy_all
 Recipe.destroy_all
 User.destroy_all
 Ingredient.destroy_all
@@ -28,7 +29,7 @@ puts "Created #{User.count} users."
 
 # API URL for recipes
 
-url = "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/complexSearch\?offset\=0\&number\=60"
+url = "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/complexSearch\?offset\=0\&number\=105"
 
 # Creating a recipes file
 

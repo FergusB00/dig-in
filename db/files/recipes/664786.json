@@ -1,0 +1,446 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": false,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 5,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 3,
+  "healthScore": 93,
+  "creditsText": "foodista.com",
+  "sourceName": "foodista.com",
+  "pricePerServing": 202.02,
+  "extendedIngredients": [
+    {
+      "id": 10023618,
+      "aisle": "Meat",
+      "image": "beef-cubes-raw.png",
+      "consistency": "SOLID",
+      "name": "venison stew meat",
+      "nameClean": "beef cubes",
+      "original": "2 pounds venison stew meat, cut in cubes",
+      "originalName": "venison stew meat, cut in cubes",
+      "amount": 2.0,
+      "unit": "pounds",
+      "meta": [
+        "cut in cubes"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "lb",
+          "unitLong": "pounds"
+        },
+        "metric": {
+          "amount": 907.185,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 11960,
+      "aisle": "Produce",
+      "image": "baby-carrots.jpg",
+      "consistency": "SOLID",
+      "name": "baby carrots 4 stalks celery 1 can mushrooms 1 piece pepper 1 cup flour and 3 tbsp 2 tablespoons bee",
+      "nameClean": "baby carrots",
+      "original": "Spices: onion salt, 8 cups water 4 pieces large potatoes 1 piece large onion 4 pieces carrots or baby carrots 4 stalks celery 1 can mushrooms 1 piece green pepper 1 cup flour and 3 tbsp 2 tablespoons beef bouillon",
+      "originalName": "Spices: onion salt, water 4 pieces large potatoes 1 piece large onion 4 pieces carrots or baby carrots 4 stalks celery 1 can mushrooms 1 piece green pepper 1 cup flour and 3 tbsp 2 tablespoons beef bouillon",
+      "amount": 8.0,
+      "unit": "cups",
+      "meta": [
+        "green",
+        "canned"
+      ],
+      "measures": {
+        "us": {
+          "amount": 8.0,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 1.024,
+          "unitShort": "kgs",
+          "unitLong": "kgs"
+        }
+      }
+    },
+    {
+      "id": 14412,
+      "aisle": "Beverages",
+      "image": "water.png",
+      "consistency": "LIQUID",
+      "name": "water",
+      "nameClean": "water",
+      "original": "8 cups water",
+      "originalName": "water",
+      "amount": 8.0,
+      "unit": "cups",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 8.0,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 1.893,
+          "unitShort": "l",
+          "unitLong": "liters"
+        }
+      }
+    },
+    {
+      "id": 11352,
+      "aisle": "Produce",
+      "image": "potatoes-yukon-gold.png",
+      "consistency": "SOLID",
+      "name": "potatoes",
+      "nameClean": "potato",
+      "original": "4 pieces large potatoes",
+      "originalName": "potatoes",
+      "amount": 4.0,
+      "unit": "pieces",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 11282,
+      "aisle": "Produce",
+      "image": "brown-onion.png",
+      "consistency": "SOLID",
+      "name": "onion",
+      "nameClean": "onion",
+      "original": "1 piece large onion",
+      "originalName": "onion",
+      "amount": 1.0,
+      "unit": "piece",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 11960,
+      "aisle": "Produce",
+      "image": "baby-carrots.jpg",
+      "consistency": "SOLID",
+      "name": "baby carrots",
+      "nameClean": "baby carrots",
+      "original": "4 pieces carrots or baby carrots",
+      "originalName": "carrots or baby carrots",
+      "amount": 4.0,
+      "unit": "pieces",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 11143,
+      "aisle": "Produce",
+      "image": "celery.jpg",
+      "consistency": "SOLID",
+      "name": "celery",
+      "nameClean": "celery",
+      "original": "4 stalks celery",
+      "originalName": "celery",
+      "amount": 4.0,
+      "unit": "stalks",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "stalks",
+          "unitLong": "stalks"
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "stalks",
+          "unitLong": "stalks"
+        }
+      }
+    },
+    {
+      "id": 11264,
+      "aisle": "Canned and Jarred",
+      "image": "mushrooms.png",
+      "consistency": "SOLID",
+      "name": "mushrooms",
+      "nameClean": "canned mushrooms",
+      "original": "1 can mushrooms",
+      "originalName": "mushrooms",
+      "amount": 1.0,
+      "unit": "can",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "can",
+          "unitLong": "can"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "can",
+          "unitLong": "can"
+        }
+      }
+    },
+    {
+      "id": 11333,
+      "aisle": "Produce",
+      "image": "green-pepper.jpg",
+      "consistency": "SOLID",
+      "name": "bell pepper",
+      "nameClean": "green pepper",
+      "original": "1 piece green pepper",
+      "originalName": "green pepper",
+      "amount": 1.0,
+      "unit": "piece",
+      "meta": [
+        "green"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 20081,
+      "aisle": "Baking",
+      "image": "flour.png",
+      "consistency": "SOLID",
+      "name": "flour and 3 tbsp",
+      "nameClean": "wheat flour",
+      "original": "1 cup flour and 3 tbsp",
+      "originalName": "flour and 3 tbsp",
+      "amount": 1.0,
+      "unit": "cup",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "cup",
+          "unitLong": "cup"
+        },
+        "metric": {
+          "amount": 125.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 1016008,
+      "aisle": "Canned and Jarred",
+      "image": "stock-cube.jpg",
+      "consistency": "SOLID",
+      "name": "beef bouillon",
+      "nameClean": "beef bouillon",
+      "original": "2 tablespoons beef bouillon",
+      "originalName": "beef bouillon",
+      "amount": 2.0,
+      "unit": "tablespoons",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    }
+  ],
+  "id": 664786,
+  "title": "Venison Stew",
+  "readyInMinutes": 45,
+  "servings": 7,
+  "sourceUrl": "https://www.foodista.com/recipe/JJ7SSGCX/venison-stew",
+  "image": "https://img.spoonacular.com/recipes/664786-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Venison Stew is a <b>dairy free</b> main course. This recipe serves 7. One serving contains <b>316 calories</b>, <b>32g of protein</b>, and <b>7g of fat</b>. For <b>$2.02 per serving</b>, this recipe <b>covers 30%</b> of your daily requirements of vitamins and minerals. It can be enjoyed any time, but it is especially good for <b>Autumn</b>. 3 people found this recipe to be tasty and satisfying. Head to the store and pick up venison stew meat, baby carrots, bell pepper, and a few other things to make it today. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. It is brought to you by Foodista. All things considered, we decided this recipe <b>deserves a spoonacular score of 86%</b>. This score is tremendous. Similar recipes include <a href=\"https://spoonacular.com/recipes/venison-bourguignon-venison-stew-147886\">Venison Bourguignon (Venison Stew)</a>, <a href=\"https://spoonacular.com/recipes/venison-stew-629599\">Venison Stew</a>, and <a href=\"https://spoonacular.com/recipes/venison-stew-404173\">Venison Stew</a>.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "lunch",
+    "soup",
+    "main course",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+    "dairy free"
+  ],
+  "occasions": [
+    "fall",
+    "winter"
+  ],
+  "instructions": "Cut all ingredients into 1 inch pieces. Dredge venison with flour and spices. Brown venison in hot vegetable oil. Boil and simmer venison 2 hours with beef bouillon and water. Add remaining ingredients and simmer for 1/2 hour. Mix 3 tablespoons flour and 1 cup cold water and add to stew to thicken.",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Cut all ingredients into 1 inch pieces. Dredge venison with flour and spices. Brown venison in hot vegetable oil. Boil and simmer venison 2 hours with beef bouillon and water.",
+          "ingredients": [
+            {
+              "id": 1016008,
+              "name": "beef bouillon",
+              "localizedName": "beef bouillon",
+              "image": "stock-cube.jpg"
+            },
+            {
+              "id": 4669,
+              "name": "vegetable oil",
+              "localizedName": "vegetable oil",
+              "image": "vegetable-oil.jpg"
+            },
+            {
+              "id": 17164,
+              "name": "venison",
+              "localizedName": "venison",
+              "image": "deer-medaillons.jpg"
+            },
+            {
+              "id": 2035,
+              "name": "spices",
+              "localizedName": "spices",
+              "image": "spices.png"
+            },
+            {
+              "id": 20081,
+              "name": "all purpose flour",
+              "localizedName": "all purpose flour",
+              "image": "flour.png"
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            }
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 120,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 2,
+          "step": "Add remaining ingredients and simmer for 1/2 hour.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 120,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 3,
+          "step": "Mix 3 tablespoons flour and 1 cup cold water and add to stew to thicken.",
+          "ingredients": [
+            {
+              "id": 20081,
+              "name": "all purpose flour",
+              "localizedName": "all purpose flour",
+              "image": "flour.png"
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            },
+            {
+              "id": 0,
+              "name": "stew",
+              "localizedName": "stew",
+              "image": ""
+            }
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 95.04852294921875,
+  "spoonacularSourceUrl": "https://spoonacular.com/venison-stew-664786"
+}

@@ -1,0 +1,198 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 9,
+  "gaps": "no",
+  "preparationMinutes": 10,
+  "cookingMinutes": 480,
+  "aggregateLikes": 8,
+  "healthScore": 79,
+  "creditsText": "pinkwhen.com",
+  "sourceName": "pinkwhen.com",
+  "pricePerServing": 237.36,
+  "extendedIngredients": [
+    {
+      "id": 6008,
+      "aisle": "Canned and Jarred",
+      "image": "beef-broth.png",
+      "consistency": "LIQUID",
+      "name": "beef broth",
+      "nameClean": "beef broth",
+      "original": "beef broth",
+      "originalName": "beef broth",
+      "amount": 5.0,
+      "unit": "servings",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 5.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 5.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 23612,
+      "aisle": "Meat",
+      "image": "pot-roast.jpg",
+      "consistency": "SOLID",
+      "name": "pot roast",
+      "nameClean": "pot roast",
+      "original": "2 lb roast",
+      "originalName": "roast",
+      "amount": 2.0,
+      "unit": "lb",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "lb",
+          "unitLong": "pounds"
+        },
+        "metric": {
+          "amount": 907.185,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 1102047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt-and-pepper.jpg",
+      "consistency": "SOLID",
+      "name": "salt and pepper",
+      "nameClean": "salt and pepper",
+      "original": "salt and pepper to taste",
+      "originalName": "salt and pepper to taste",
+      "amount": 5.0,
+      "unit": "servings",
+      "meta": [
+        "to taste"
+      ],
+      "measures": {
+        "us": {
+          "amount": 5.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 5.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 11507,
+      "aisle": "Produce",
+      "image": "sweet-potato.png",
+      "consistency": "SOLID",
+      "name": "sweet potatoes",
+      "nameClean": "sweet potato",
+      "original": "6 sweet potatoes",
+      "originalName": "sweet potatoes",
+      "amount": 6.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 6.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 6.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    }
+  ],
+  "id": 1044252,
+  "title": "Shredded Roast Beef Stuffed Sweet Potatoes (Whole 30 & PALEO)",
+  "readyInMinutes": 490,
+  "servings": 5,
+  "sourceUrl": "https://www.pinkwhen.com/shredded-roast-beef-stuffed-sweet-potatoes/",
+  "image": "https://img.spoonacular.com/recipes/1044252-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Need a <b>gluten free, dairy free, paleolithic, and primal side dish</b>? Shredded Roast Beef Stuffed Sweet Potatoes (Whole 30 & PALEO) could be a great recipe to try. One portion of this dish contains around <b>135g of protein</b>, <b>242g of fat</b>, and a total of <b>3376 calories</b>. For <b>$4.24 per serving</b>, this recipe <b>covers 69%</b> of your daily requirements of vitamins and minerals. This recipe serves 5. Head to the store and pick up sweet potatoes, roast, beef broth, and a few other things to make it today. From preparation to the plate, this recipe takes about <b>8 hours and 10 minutes</b>. This recipe from Pink When has 8 fans. With a spoonacular <b>score of 62%</b>, this dish is pretty good. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/shredded-roast-beef-stuffed-sweet-potatoes-whole-30-paleo-769774\">Shredded Roast Beef Stuffed Sweet Potatoes (Whole 30 & PALEO)</a>, <a href=\"https://spoonacular.com/recipes/paleo-s-chicken-stuffed-sweet-potatoes-592982\">Paleo s: Chicken Stuffed Sweet Potatoes</a>, and <a href=\"https://spoonacular.com/recipes/paleo-shredded-slow-cooker-roast-beef-with-pumpkin-and-salsa-+-a-slow-cooker-roundup-and-giveaway-680175\">Paleo Shredded Slow Cooker Roast Beef with Pumpkin and Salsa + A Slow Cooker Roundup and GIVEAWAY</a>.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "lunch",
+    "main course",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free",
+    "paleolithic",
+    "primal",
+    "whole 30"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "InstructionsPlace the roast in Crock Pot, cover with beef broth,  and cook on low for 8 hours. Fully cook the sweet potatoes when ready. When roast is finished, shred and serve over the sweet potatoes.",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place the roast in Crock Pot, cover with beef broth,  and cook on low for 8 hours. Fully cook the sweet potatoes when ready. When roast is finished, shred and serve over the sweet potatoes.",
+          "ingredients": [
+            {
+              "id": 11507,
+              "name": "sweet potato",
+              "localizedName": "sweet potato",
+              "image": "sweet-potato.png"
+            },
+            {
+              "id": 6008,
+              "name": "beef broth",
+              "localizedName": "beef broth",
+              "image": "beef-broth.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404718,
+              "name": "slow cooker",
+              "localizedName": "slow cooker",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/slow-cooker.jpg"
+            }
+          ],
+          "length": {
+            "number": 480,
+            "unit": "minutes"
+          }
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 95.74702453613281,
+  "spoonacularSourceUrl": "https://spoonacular.com/shredded-roast-beef-stuffed-sweet-potatoes-whole-30-paleo-1044252"
+}

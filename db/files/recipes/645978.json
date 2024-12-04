@@ -1,0 +1,559 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": true,
+  "dairyFree": false,
+  "veryHealthy": false,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 11,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 112,
+  "healthScore": 39,
+  "creditsText": "foodista.com",
+  "sourceName": "foodista.com",
+  "pricePerServing": 299.64,
+  "extendedIngredients": [
+    {
+      "id": 10211821,
+      "aisle": "Produce",
+      "image": "bell-pepper-orange.png",
+      "consistency": "SOLID",
+      "name": "bell peppers",
+      "nameClean": "bell pepper",
+      "original": "4 bell peppers (choose your favorite color!)",
+      "originalName": "bell peppers (choose your favorite color!)",
+      "amount": 4.0,
+      "unit": "",
+      "meta": [
+        "your favorite",
+        "(choose color!)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 1002030,
+      "aisle": "Spices and Seasonings",
+      "image": "pepper.jpg",
+      "consistency": "SOLID",
+      "name": "pepper",
+      "nameClean": "black pepper",
+      "original": "1 tsp black pepper",
+      "originalName": "black pepper",
+      "amount": 1.0,
+      "unit": "tsp",
+      "meta": [
+        "black"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "tsp",
+          "unitLong": "teaspoon"
+        }
+      }
+    },
+    {
+      "id": 11549,
+      "aisle": "Canned and Jarred",
+      "image": "tomato-sauce-or-pasta-sauce.jpg",
+      "consistency": "SOLID",
+      "name": "tomato sauce",
+      "nameClean": "canned tomato sauce",
+      "original": "1 (8oz) can tomato sauce",
+      "originalName": "tomato sauce",
+      "amount": 8.0,
+      "unit": "oz",
+      "meta": [
+        "canned"
+      ],
+      "measures": {
+        "us": {
+          "amount": 8.0,
+          "unitShort": "oz",
+          "unitLong": "ounces"
+        },
+        "metric": {
+          "amount": 226.796,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 10011693,
+      "aisle": "Canned and Jarred",
+      "image": "tomatoes-canned.png",
+      "consistency": "SOLID",
+      "name": "canned tomatoes",
+      "nameClean": "canned tomatoes",
+      "original": "1 (8oz) can diced tomatoes",
+      "originalName": "diced tomatoes",
+      "amount": 8.0,
+      "unit": "oz",
+      "meta": [
+        "diced",
+        "canned"
+      ],
+      "measures": {
+        "us": {
+          "amount": 8.0,
+          "unitShort": "oz",
+          "unitLong": "ounces"
+        },
+        "metric": {
+          "amount": 226.796,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 2029,
+      "aisle": "Spices and Seasonings",
+      "image": "dried-parsley.png",
+      "consistency": "SOLID",
+      "name": "parsley",
+      "nameClean": "dried parsley",
+      "original": "2 tbsp dried parsley",
+      "originalName": "dried parsley",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "meta": [
+        "dried"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 1123,
+      "aisle": "Milk, Eggs, Other Dairy",
+      "image": "egg.png",
+      "consistency": "SOLID",
+      "name": "eggs",
+      "nameClean": "egg",
+      "original": "2 eggs",
+      "originalName": "eggs",
+      "amount": 2.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 11215,
+      "aisle": "Produce",
+      "image": "garlic.png",
+      "consistency": "SOLID",
+      "name": "garlic",
+      "nameClean": "garlic",
+      "original": "1 tbsp minced garlic",
+      "originalName": "minced garlic",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "meta": [
+        "minced"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        }
+      }
+    },
+    {
+      "id": 10023572,
+      "aisle": "Meat",
+      "image": "fresh-ground-beef.jpg",
+      "consistency": "SOLID",
+      "name": "ground beef",
+      "nameClean": "ground chuck",
+      "original": "1/2 lb ground beef",
+      "originalName": "ground beef",
+      "amount": 0.5,
+      "unit": "lb",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "lb",
+          "unitLong": "pounds"
+        },
+        "metric": {
+          "amount": 226.796,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 5662,
+      "aisle": "Meat",
+      "image": "meat-ground.jpg",
+      "consistency": "SOLID",
+      "name": "ground turkey",
+      "nameClean": "ground turkey",
+      "original": "1/2 lb ground turkey",
+      "originalName": "ground turkey",
+      "amount": 0.5,
+      "unit": "lb",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "lb",
+          "unitLong": "pounds"
+        },
+        "metric": {
+          "amount": 226.796,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 11282,
+      "aisle": "Produce",
+      "image": "brown-onion.png",
+      "consistency": "SOLID",
+      "name": "onion",
+      "nameClean": "onion",
+      "original": "1 onion, diced",
+      "originalName": "onion, diced",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+        "diced"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 1032,
+      "aisle": "Cheese",
+      "image": "parmesan.jpg",
+      "consistency": "SOLID",
+      "name": "parmesan cheese",
+      "nameClean": "grated parmesan cheese",
+      "original": "1/4 cup grated parmesan cheese",
+      "originalName": "grated parmesan cheese",
+      "amount": 0.25,
+      "unit": "cup",
+      "meta": [
+        "grated"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 25.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 20444,
+      "aisle": "Pasta and Rice",
+      "image": "uncooked-white-rice.png",
+      "consistency": "SOLID",
+      "name": "rice",
+      "nameClean": "rice",
+      "original": "1/2 cup uncooked rice",
+      "originalName": "uncooked rice",
+      "amount": 0.5,
+      "unit": "cup",
+      "meta": [
+        "uncooked"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 92.5,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 19335,
+      "aisle": "Baking",
+      "image": "sugar-in-bowl.png",
+      "consistency": "SOLID",
+      "name": "sugar",
+      "nameClean": "sugar",
+      "original": "1 heaping tbsp sugar",
+      "originalName": "heaping tbsp sugar",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        }
+      }
+    },
+    {
+      "id": 10011693,
+      "aisle": "Canned and Jarred",
+      "image": "tomatoes-canned.png",
+      "consistency": "SOLID",
+      "name": "tomato soup",
+      "nameClean": "canned tomatoes",
+      "original": "1 (8oz) can tomato soup",
+      "originalName": "tomato soup",
+      "amount": 8.0,
+      "unit": "oz",
+      "meta": [
+        "canned"
+      ],
+      "measures": {
+        "us": {
+          "amount": 8.0,
+          "unitShort": "oz",
+          "unitLong": "ounces"
+        },
+        "metric": {
+          "amount": 226.796,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 6971,
+      "aisle": "Condiments",
+      "image": "dark-sauce.jpg",
+      "consistency": "LIQUID",
+      "name": "worcestershire sauce",
+      "nameClean": "worcestershire sauce",
+      "original": "1 tbsp Worcestershire sauce",
+      "originalName": "Worcestershire sauce",
+      "amount": 1.0,
+      "unit": "tbsp",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        }
+      }
+    }
+  ],
+  "id": 645978,
+  "title": "Ground Turkey Stuffed Peppers",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "sourceUrl": "https://www.foodista.com/recipe/VKY3BZ5J/ground-turkey-stuffed-peppers",
+  "image": "https://img.spoonacular.com/recipes/645978-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Ground Turkey Stuffed Peppers might be just the main course you are searching for. Watching your figure? This gluten free recipe has <b>463 calories</b>, <b>34g of protein</b>, and <b>17g of fat</b> per serving. This recipe serves 4 and costs $3.0 per serving. 112 people were glad they tried this recipe. A mixture of bell peppers, garlic, onion, and a handful of other ingredients are all it takes to make this recipe so yummy. It is brought to you by Foodista. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 94%</b>, which is spectacular. Try <a href=\"https://spoonacular.com/recipes/ground-turkey-stuffed-peppers-1311407\">Ground Turkey Stuffed Peppers</a>, <a href=\"https://spoonacular.com/recipes/ground-turkey-stuffed-peppers-1227903\">Ground Turkey Stuffed Peppers</a>, and <a href=\"https://spoonacular.com/recipes/ground-turkey-stuffed-peppers-1353987\">Ground Turkey Stuffed Peppers</a> for similar recipes.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "lunch",
+    "main course",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+    "gluten free"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "<ol><li>Cook rice then knead it together with remaining filling ingredients. Cut tops off peppers and fill each one. Place in your slow cooker or a large stove-top pot. Mix together sauce ingredients. Top each stuffed pepper with sauce and pour remaining sauce all around the stuffed peppers. Cook on medium/low for about an hour. Top with grated parmesan cheese and a little parsley for looks and serve warm.</li></ol>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Cook rice then knead it together with remaining filling ingredients.",
+          "ingredients": [
+            {
+              "id": 20444,
+              "name": "rice",
+              "localizedName": "rice",
+              "image": "uncooked-white-rice.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Cut tops off peppers and fill each one.",
+          "ingredients": [
+            {
+              "id": 10111333,
+              "name": "peppers",
+              "localizedName": "peppers",
+              "image": "green-pepper.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Place in your slow cooker or a large stove-top pot.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+            {
+              "id": 404718,
+              "name": "slow cooker",
+              "localizedName": "slow cooker",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/slow-cooker.jpg"
+            },
+            {
+              "id": 404794,
+              "name": "stove",
+              "localizedName": "stove",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            },
+            {
+              "id": 404752,
+              "name": "pot",
+              "localizedName": "pot",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/stock-pot.jpg"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "step": "Mix together sauce ingredients. Top each stuffed pepper with sauce and pour remaining sauce all around the stuffed peppers. Cook on medium/low for about an hour. Top with grated parmesan cheese and a little parsley for looks and serve warm.",
+          "ingredients": [
+            {
+              "id": 1032,
+              "name": "grated parmesan cheese",
+              "localizedName": "grated parmesan cheese",
+              "image": "parmesan.jpg"
+            },
+            {
+              "id": 11297,
+              "name": "parsley",
+              "localizedName": "parsley",
+              "image": "parsley.jpg"
+            },
+            {
+              "id": 10111333,
+              "name": "peppers",
+              "localizedName": "peppers",
+              "image": "green-pepper.jpg"
+            },
+            {
+              "id": 1002030,
+              "name": "pepper",
+              "localizedName": "pepper",
+              "image": "pepper.jpg"
+            },
+            {
+              "id": 0,
+              "name": "sauce",
+              "localizedName": "sauce",
+              "image": ""
+            }
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 94.96935272216797,
+  "spoonacularSourceUrl": "https://spoonacular.com/ground-turkey-stuffed-peppers-645978"
+}

@@ -1,0 +1,688 @@
+{
+  "vegetarian": true,
+  "vegan": true,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 9,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 2,
+  "healthScore": 100,
+  "creditsText": "foodista.com",
+  "sourceName": "foodista.com",
+  "pricePerServing": 74.36,
+  "extendedIngredients": [
+    {
+      "id": 1002030,
+      "aisle": "Spices and Seasonings",
+      "image": "pepper.jpg",
+      "consistency": "SOLID",
+      "name": "pepper",
+      "nameClean": "black pepper",
+      "original": "Freshly-ground black pepper",
+      "originalName": "Freshly-ground black pepper",
+      "amount": 6.0,
+      "unit": "servings",
+      "meta": [
+        "black",
+        "freshly-ground"
+      ],
+      "measures": {
+        "us": {
+          "amount": 6.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 6.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 19334,
+      "aisle": "Baking",
+      "image": "light-brown-sugar.jpg",
+      "consistency": "SOLID",
+      "name": "brown sugar",
+      "nameClean": "golden brown sugar",
+      "original": "1 tablespoon molasses or brown sugar",
+      "originalName": "molasses or brown sugar",
+      "amount": 1.0,
+      "unit": "tablespoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        }
+      }
+    },
+    {
+      "id": 11124,
+      "aisle": "Produce",
+      "image": "sliced-carrot.png",
+      "consistency": "SOLID",
+      "name": "carrots",
+      "nameClean": "carrot",
+      "original": "1 cup chopped carrots",
+      "originalName": "chopped carrots",
+      "amount": 1.0,
+      "unit": "cup",
+      "meta": [
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "cup",
+          "unitLong": "cup"
+        },
+        "metric": {
+          "amount": 128.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 11143,
+      "aisle": "Produce",
+      "image": "celery.jpg",
+      "consistency": "SOLID",
+      "name": "celery",
+      "nameClean": "celery",
+      "original": "1 cup minced celery",
+      "originalName": "minced celery",
+      "amount": 1.0,
+      "unit": "cup",
+      "meta": [
+        "minced"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "cup",
+          "unitLong": "cup"
+        },
+        "metric": {
+          "amount": 101.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 1022042,
+      "aisle": "Spices and Seasonings",
+      "image": "dried-herbs.png",
+      "consistency": "SOLID",
+      "name": "herbs",
+      "nameClean": "dried herbs",
+      "original": "3 pinches of dried herbs (thyme, oregano, or basil)",
+      "originalName": "dried herbs (thyme, oregano, or basil)",
+      "amount": 3.0,
+      "unit": "pinches",
+      "meta": [
+        "dried",
+        "(thyme, oregano, or basil)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "pinches",
+          "unitLong": "pinches"
+        },
+        "metric": {
+          "amount": 3.0,
+          "unitShort": "pinches",
+          "unitLong": "pinches"
+        }
+      }
+    },
+    {
+      "id": 11215,
+      "aisle": "Produce",
+      "image": "garlic.png",
+      "consistency": "SOLID",
+      "name": "garlic",
+      "nameClean": "garlic",
+      "original": "1 clove garlic, chopped,",
+      "originalName": "garlic, chopped",
+      "amount": 1.0,
+      "unit": "clove",
+      "meta": [
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "clove",
+          "unitLong": "clove"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "clove",
+          "unitLong": "clove"
+        }
+      }
+    },
+    {
+      "id": 4517,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "vegetable-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "grapeseed oil",
+      "nameClean": "grape seed oil",
+      "original": "1 tablespoon grapeseed oil or butter",
+      "originalName": "grapeseed oil or butter",
+      "amount": 1.0,
+      "unit": "tablespoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        }
+      }
+    },
+    {
+      "id": 9152,
+      "aisle": "Produce",
+      "image": "lemon-juice.jpg",
+      "consistency": "LIQUID",
+      "name": "lemon juice",
+      "nameClean": "lemon juice",
+      "original": "2 tablespoons fresh lemon juice",
+      "originalName": "fresh lemon juice",
+      "amount": 2.0,
+      "unit": "tablespoons",
+      "meta": [
+        "fresh"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 10316069,
+      "aisle": "Pasta and Rice",
+      "image": "lentils-brown.jpg",
+      "consistency": "SOLID",
+      "name": "lentils",
+      "nameClean": "lentils",
+      "original": "3 cups lentils, any type",
+      "originalName": "lentils, any type",
+      "amount": 3.0,
+      "unit": "cups",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 576.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 11282,
+      "aisle": "Produce",
+      "image": "brown-onion.png",
+      "consistency": "SOLID",
+      "name": "onion",
+      "nameClean": "onion",
+      "original": "1 large onion, finely chopped",
+      "originalName": "onion, finely chopped",
+      "amount": 1.0,
+      "unit": "large",
+      "meta": [
+        "finely chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "large",
+          "unitLong": "large"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "large",
+          "unitLong": "large"
+        }
+      }
+    },
+    {
+      "id": 1022068,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "red-wine-vinegar.jpg",
+      "consistency": "LIQUID",
+      "name": "red wine vinegar",
+      "nameClean": "red wine vinegar",
+      "original": "Red wine vinegar for the top",
+      "originalName": "Red wine vinegar for the top",
+      "amount": 6.0,
+      "unit": "servings",
+      "meta": [
+        "for the top"
+      ],
+      "measures": {
+        "us": {
+          "amount": 6.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 6.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 2047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt.jpg",
+      "consistency": "SOLID",
+      "name": "salt",
+      "nameClean": "table salt",
+      "original": "1/2 teaspoon salt",
+      "originalName": "salt",
+      "amount": 0.5,
+      "unit": "teaspoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 11529,
+      "aisle": "Produce",
+      "image": "tomato.png",
+      "consistency": "SOLID",
+      "name": "tomatoes",
+      "nameClean": "tomato",
+      "original": "medium ripe tomatoes, chopped",
+      "originalName": "ripe tomatoes, chopped",
+      "amount": 1.0,
+      "unit": "medium",
+      "meta": [
+        "ripe",
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "medium",
+          "unitLong": "medium"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "medium",
+          "unitLong": "medium"
+        }
+      }
+    },
+    {
+      "id": 14412,
+      "aisle": "Beverages",
+      "image": "water.png",
+      "consistency": "LIQUID",
+      "name": "water",
+      "nameClean": "water",
+      "original": "1/4 cup Boiling water",
+      "originalName": "Boiling water",
+      "amount": 0.25,
+      "unit": "cup",
+      "meta": [
+        "boiling"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 59.147,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    }
+  ],
+  "id": 652393,
+  "title": "Moosewood Lentil Soup",
+  "readyInMinutes": 45,
+  "servings": 6,
+  "sourceUrl": "https://www.foodista.com/recipe/TNZ67L5Y/moosewood-lentil-soup",
+  "image": "https://img.spoonacular.com/recipes/652393-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Moosewood Lentil Soup might be a good recipe to expand your main course recipe box. This gluten free, dairy free, lacto ovo vegetarian, and vegan recipe serves 6 and costs <b>74 cents per serving</b>. One portion of this dish contains roughly <b>26g of protein</b>, <b>4g of fat</b>, and a total of <b>396 calories</b>. A mixture of pepper, lentils, salt, and a handful of other ingredients are all it takes to make this recipe so yummy. 2 people found this recipe to be flavorful and satisfying. It is perfect for <b>Autumn</b>. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. It is brought to you by Foodista. All things considered, we decided this recipe <b>deserves a spoonacular score of 95%</b>. This score is spectacular. Similar recipes are <a href=\"https://spoonacular.com/recipes/moosewood-lentil-soup-1319699\">Moosewood Lentil Soup</a>, <a href=\"https://spoonacular.com/recipes/moosewood-mushroom-barley-soup-143909\">Moosewood Mushroom Barley Soup!</a>, and <a href=\"https://spoonacular.com/recipes/hungarian-mushroom-soup-from-the-moosewood-cookbook-143242\">Hungarian Mushroom Soup, from the Moosewood Cookbook</a>.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "lunch",
+    "soup",
+    "main course",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free",
+    "lacto ovo vegetarian",
+    "vegan"
+  ],
+  "occasions": [
+    "fall",
+    "winter"
+  ],
+  "instructions": "<ol><li>Place lentils and water in a soup pot or Dutch oven.</li><li>Bring to a boil, lower heat to a simmer, and let cook until lentils are mushy (about 45 minutes).</li><li>Add more water as needed, until the soup is your favorite consistency.</li><li>Heat oil or melt butter in a medium-sized skillet.</li><li>Add onion, celery, and carrots, and saut over medium heat for about 10 minutes.</li><li>Add garlic, salt, pepper, and herbs of your choice, and saut about 5 minutes longer. Transfer to lentils.</li><li>Stir in wine, if desired, lemon juice and molasses or brown sugar.</li><li>Taste to correct seasonings, then simmer for</li><li>At least 15 minutes longer. Serve hot, with a little vinegar drizzled onto each serving, and a sprinkling of minced</li><li>Scallions or parsley on top, if desired.</li></ol>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place lentils and water in a soup pot or Dutch oven.Bring to a boil, lower heat to a simmer, and let cook until lentils are mushy (about 45 minutes).",
+          "ingredients": [
+            {
+              "id": 10316069,
+              "name": "lentils",
+              "localizedName": "lentils",
+              "image": "lentils-brown.jpg"
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            },
+            {
+              "id": 0,
+              "name": "soup",
+              "localizedName": "soup",
+              "image": ""
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404667,
+              "name": "dutch oven",
+              "localizedName": "dutch oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/dutch-oven.jpg"
+            }
+          ],
+          "length": {
+            "number": 45,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 2,
+          "step": "Add more water as needed, until the soup is your favorite consistency.",
+          "ingredients": [
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            },
+            {
+              "id": 0,
+              "name": "soup",
+              "localizedName": "soup",
+              "image": ""
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Heat oil or melt butter in a medium-sized skillet.",
+          "ingredients": [
+            {
+              "id": 1001,
+              "name": "butter",
+              "localizedName": "butter",
+              "image": "butter-sliced.jpg"
+            },
+            {
+              "id": 4582,
+              "name": "cooking oil",
+              "localizedName": "cooking oil",
+              "image": "vegetable-oil.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404645,
+              "name": "frying pan",
+              "localizedName": "frying pan",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "step": "Add onion, celery, and carrots, and saut over medium heat for about 10 minutes.",
+          "ingredients": [
+            {
+              "id": 11124,
+              "name": "carrot",
+              "localizedName": "carrot",
+              "image": "sliced-carrot.png"
+            },
+            {
+              "id": 11143,
+              "name": "celery",
+              "localizedName": "celery",
+              "image": "celery.jpg"
+            },
+            {
+              "id": 11282,
+              "name": "onion",
+              "localizedName": "onion",
+              "image": "brown-onion.png"
+            }
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 10,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 5,
+          "step": "Add garlic, salt, pepper, and herbs of your choice, and saut about 5 minutes longer.",
+          "ingredients": [
+            {
+              "id": 11215,
+              "name": "garlic",
+              "localizedName": "garlic",
+              "image": "garlic.png"
+            },
+            {
+              "id": 1002030,
+              "name": "pepper",
+              "localizedName": "pepper",
+              "image": "pepper.jpg"
+            },
+            {
+              "id": 1002044,
+              "name": "herbs",
+              "localizedName": "herbs",
+              "image": "mixed-fresh-herbs.jpg"
+            },
+            {
+              "id": 2047,
+              "name": "salt",
+              "localizedName": "salt",
+              "image": "salt.jpg"
+            }
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 5,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 6,
+          "step": "Transfer to lentils.Stir in wine, if desired, lemon juice and molasses or brown sugar.Taste to correct seasonings, then simmer for",
+          "ingredients": [
+            {
+              "id": 19334,
+              "name": "brown sugar",
+              "localizedName": "brown sugar",
+              "image": "dark-brown-sugar.png"
+            },
+            {
+              "id": 9152,
+              "name": "lemon juice",
+              "localizedName": "lemon juice",
+              "image": "lemon-juice.jpg"
+            },
+            {
+              "id": 1042027,
+              "name": "seasoning",
+              "localizedName": "seasoning",
+              "image": "seasoning.png"
+            },
+            {
+              "id": 19304,
+              "name": "molasses",
+              "localizedName": "molasses",
+              "image": "molasses.jpg"
+            },
+            {
+              "id": 10316069,
+              "name": "lentils",
+              "localizedName": "lentils",
+              "image": "lentils-brown.jpg"
+            },
+            {
+              "id": 14084,
+              "name": "wine",
+              "localizedName": "wine",
+              "image": "red-wine.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 7,
+          "step": "At least 15 minutes longer.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 15,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 8,
+          "step": "Serve hot, with a little vinegar drizzled onto each serving, and a sprinkling of minced",
+          "ingredients": [
+            {
+              "id": 2053,
+              "name": "vinegar",
+              "localizedName": "vinegar",
+              "image": "vinegar-(white).jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 9,
+          "step": "Scallions or parsley on top, if desired.",
+          "ingredients": [
+            {
+              "id": 11291,
+              "name": "green onions",
+              "localizedName": "green onions",
+              "image": "spring-onions.jpg"
+            },
+            {
+              "id": 11297,
+              "name": "parsley",
+              "localizedName": "parsley",
+              "image": "parsley.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 95.63610076904297,
+  "spoonacularSourceUrl": "https://spoonacular.com/moosewood-lentil-soup-652393"
+}

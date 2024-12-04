@@ -8,24 +8,29 @@
       <% end %>
     <% end %>
 
-    <!-- Dropdown for recipe options -->
-    <div class="dropdown">
-      <button class="dropdown-toggle filter-button" type="button" data-bs-toggle="dropdown">
-        <i class="fa-solid fa-list"></i>
-      </button>
-      <ul class="dropdown-menu">
-        <li><%= link_to "All Recipes", recipes_path, class: "dropdown-item" %></li>
-        <% if params[:query] %>
-          <li><%= link_to "Recipes I can make", recipes_path(available_ingredients_only: true, query: params[:query]), class: "dropdown-item" %></li>
-        <% else %>
-          <li><%= link_to "Recipes I can make", recipes_path(available_ingredients_only: true), class: "dropdown-item" %></li>
-        <% end %>
-        <% if params[:query] %>
-          <li><%= link_to "Expiry date", recipes_path(order: 'expiry_date', query: params[:query]), class: "dropdown-item" %></li>
-        <% else %>
-          <li><%= link_to "Expiry date", recipes_path(order: 'expiry_date'), class: "dropdown-item" %></li>
-        <% end %>
-      </ul>
-    </div>
+  <!-- Dropdown for recipe options -->
   </div>
+  <details class="dropdown-container" style="position: relative;">
+    <summary class="float-end filter-button" style="position: absolute; top: -44px; right: 20px;">
+      <i class="fa-solid fa-list"></i>
+    </summary>
+    <ul class="dropdown-links">
+      <li class="dropdown-link"><%= link_to "All Recipes", recipes_path, class: "dropdown-text" %></li>
+      <% if params[:query] %>
+        <li class="dropdown-link"><%= link_to "Recipes I can make", recipes_path(available_ingredients_only: true, query: params[:query]), class: "dropdown-text" %></li>
+      <% else %>
+        <li class="dropdown-link"><%= link_to "Recipes I can make", recipes_path(available_ingredients_only: true), class: "dropdown-text" %></li>
+      <% end %>
+      <% if params[:query] %>
+        <li class="dropdown-link"><%= link_to "Expiry date", recipes_path(order: 'expiry_date', query: params[:query]), class: "dropdown-text" %></li>
+      <% else %>
+        <li class="dropdown-link"><%= link_to "Expiry date", recipes_path(order: 'expiry_date'), class: "dropdown-text" %></li>
+      <% end %>
+      <% if params[:query] %>
+        <li class="dropdown-link"><%= link_to "Recipes that use most ingredients", recipes_path(order: 'expiry_date', query: params[:query]), class: "dropdown-text" %></li>
+      <% else %>
+        <li class="dropdown-link"><%= link_to "Recipes that use most ingredients", recipes_path(order: 'expiry_date'), class: "dropdown-text" %></li>
+      <% end %>
+    </ul>
+  </details>
 </div>

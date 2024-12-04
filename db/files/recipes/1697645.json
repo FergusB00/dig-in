@@ -1,0 +1,313 @@
+{
+  "vegetarian": true,
+  "vegan": true,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 8,
+  "gaps": "no",
+  "preparationMinutes": 5,
+  "cookingMinutes": 10,
+  "aggregateLikes": 0,
+  "healthScore": 100,
+  "creditsText": "maplewoodroad",
+  "license": "spoonacular's terms",
+  "sourceName": "Maplewood Road",
+  "pricePerServing": 522.83,
+  "extendedIngredients": [
+    {
+      "id": 11135,
+      "aisle": "Produce",
+      "image": "cauliflower.jpg",
+      "consistency": "SOLID",
+      "name": "cauliflower",
+      "nameClean": "cauliflower",
+      "original": "1 (1-1/2 lb) head of cauliflower",
+      "originalName": "cauliflower",
+      "amount": 1.5,
+      "unit": "lb",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.5,
+          "unitShort": "lb",
+          "unitLong": "pounds"
+        },
+        "metric": {
+          "amount": 680.389,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 1034053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "olive oil",
+      "nameClean": "extra virgin olive oil",
+      "original": "2 Tbsp extra-virgin olive oil",
+      "originalName": "extra-virgin olive oil",
+      "amount": 2.0,
+      "unit": "Tbsp",
+      "meta": [
+        "extra-virgin"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 11246,
+      "aisle": "Produce",
+      "image": "leeks.jpg",
+      "consistency": "SOLID",
+      "name": "leek",
+      "nameClean": "leek",
+      "original": "1 leek, finely chopped (about 1/2 c)",
+      "originalName": "leek, finely chopped (about",
+      "amount": 0.5,
+      "unit": "c",
+      "meta": [
+        "finely chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 44.5,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 1102047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt-and-pepper.jpg",
+      "consistency": "SOLID",
+      "name": "salt and pepper",
+      "nameClean": "salt and pepper",
+      "original": "1/4 tsp each of salt and pepper (more to taste)",
+      "originalName": "each of salt and pepper (more to taste)",
+      "amount": 0.25,
+      "unit": "tsp",
+      "meta": [
+        "to taste",
+        "(more )"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 0.25,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 10311297,
+      "aisle": "Produce",
+      "image": "parsley.jpg",
+      "consistency": "SOLID",
+      "name": "flat leaf parsley",
+      "nameClean": "flat leaf parsley",
+      "original": "1/2 c flat leaf Italian parsley, roughly chopped",
+      "originalName": "flat leaf Italian parsley, roughly chopped",
+      "amount": 0.5,
+      "unit": "c",
+      "meta": [
+        "italian",
+        "roughly chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 30.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    }
+  ],
+  "id": 1697645,
+  "title": "Cauliflower Rice",
+  "author": "maplewoodroad",
+  "readyInMinutes": 15,
+  "servings": 1,
+  "sourceUrl": "https://maplewoodroad.com/cauliflower-rice-and-oven-roasted-cauliflower/",
+  "image": "https://img.spoonacular.com/recipes/1697645-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "If you want to add more <b>gluten free, dairy free, paleolithic, and lacto ovo vegetarian</b> recipes to your recipe box, Cauliflower Rice might be a recipe you should try. This recipe makes 1 servings with <b>456 calories</b>, <b>15g of protein</b>, and <b>30g of fat</b> each. For <b>$5.23 per serving</b>, this recipe <b>covers 39%</b> of your daily requirements of vitamins and minerals. It works best as a side dish, and is done in approximately <b>15 minutes</b>. A mixture of cauliflower, olive oil, flat leaf parsley, and a handful of other ingredients are all it takes to make this recipe so scrumptious. It is brought to you by spoonacular user <a href=\"/profile/maplewoodroad\">maplewoodroad</a>. Similar recipes include <a href=\"https://spoonacular.com/recipes/cauliflower-brown-rice-and-vegetable-fried-rice-1625893\">Cauliflower, Brown Rice, and Vegetable Fried Rice</a>, <a href=\"https://spoonacular.com/recipes/cauliflower-brown-rice-and-vegetable-fried-rice-1584601\">Cauliflower, Brown Rice, and Vegetable Fried Rice</a>, and <a href=\"https://spoonacular.com/recipes/cauliflower-brown-rice-and-vegetable-fried-rice-1403527\">Cauliflower, Brown Rice, and Vegetable Fried Rice</a>.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "side dish"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free",
+    "paleolithic",
+    "lacto ovo vegetarian",
+    "primal",
+    "whole 30",
+    "vegan"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "Cut cauliflower into chunks, rinse in colander, and pat dry.\n\nPulse in the food processor for about 20 seconds.\n\nOver medium-high heat, heat up extra-vigin olive oil and sauté a finely chopped leek for 2 minutes.\n\nAdd uncooked cauliflower rice and stir occasionally for about 4 minutes. If you cook the cauliflower rice for too long it’ll become a) mushy and b) bitter.\n\nSeason with ¼ tsp each of salt and pepper. Toward the end, stir in parsley. Taste and re-season as necessary. Serve and garnish with some extra parsley.",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Cut cauliflower into chunks, rinse in colander, and pat dry.",
+          "ingredients": [
+            {
+              "id": 11135,
+              "name": "cauliflower",
+              "localizedName": "cauliflower",
+              "image": "cauliflower.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404639,
+              "name": "colander",
+              "localizedName": "colander",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/colander.jpg"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Pulse in the food processor for about 20 seconds.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+            {
+              "id": 404771,
+              "name": "food processor",
+              "localizedName": "food processor",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/food-processor.png"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Over medium-high heat, heat up extra-vigin olive oil and sauté a finely chopped leek for 2 minutes.",
+          "ingredients": [
+            {
+              "id": 4053,
+              "name": "olive oil",
+              "localizedName": "olive oil",
+              "image": "olive-oil.jpg"
+            },
+            {
+              "id": 11246,
+              "name": "leek",
+              "localizedName": "leek",
+              "image": "leeks.jpg"
+            }
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 2,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 4,
+          "step": "Add uncooked cauliflower rice and stir occasionally for about 4 minutes. If you cook the cauliflower rice for too long it’ll become a) mushy and b) bitter.",
+          "ingredients": [
+            {
+              "id": 10111135,
+              "name": "cauliflower rice",
+              "localizedName": "cauliflower rice",
+              "image": "cauliflower.jpg"
+            }
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 4,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 5,
+          "step": "Season with ¼ tsp each of salt and pepper. Toward the end, stir in parsley. Taste and re-season as necessary.",
+          "ingredients": [
+            {
+              "id": 1102047,
+              "name": "salt and pepper",
+              "localizedName": "salt and pepper",
+              "image": "salt-and-pepper.jpg"
+            },
+            {
+              "id": 11297,
+              "name": "parsley",
+              "localizedName": "parsley",
+              "image": "parsley.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 6,
+          "step": "Serve and garnish with some extra parsley.",
+          "ingredients": [
+            {
+              "id": 11297,
+              "name": "parsley",
+              "localizedName": "parsley",
+              "image": "parsley.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 94.3708267211914,
+  "spoonacularSourceUrl": "https://spoonacular.com/cauliflower-rice-1697645"
+}

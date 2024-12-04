@@ -1,0 +1,537 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 9,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 19,
+  "healthScore": 68,
+  "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+  "license": "CC BY 3.0",
+  "sourceName": "Foodista",
+  "pricePerServing": 881.11,
+  "extendedIngredients": [
+    {
+      "id": 6172,
+      "aisle": "Canned and Jarred",
+      "image": "chicken-broth.png",
+      "consistency": "LIQUID",
+      "name": "chicken stock",
+      "nameClean": "chicken stock",
+      "original": "1/4 cup chicken stock",
+      "originalName": "chicken stock",
+      "amount": 0.25,
+      "unit": "cup",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 60.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 11165,
+      "aisle": "Produce",
+      "image": "cilantro.png",
+      "consistency": "SOLID",
+      "name": "cilantro",
+      "nameClean": "cilantro",
+      "original": "A bunch of fresh cilantro",
+      "originalName": "fresh cilantro",
+      "amount": 1.0,
+      "unit": "bunch",
+      "meta": [
+        "fresh"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "bunch",
+          "unitLong": "bunch"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "bunch",
+          "unitLong": "bunch"
+        }
+      }
+    },
+    {
+      "id": 11291,
+      "aisle": "Produce",
+      "image": "spring-onions.jpg",
+      "consistency": "SOLID",
+      "name": "green onions",
+      "nameClean": "spring onions",
+      "original": "2 green onions, chopped from the white part halfway up the green part",
+      "originalName": "green onions, chopped from the white part halfway up the green part",
+      "amount": 2.0,
+      "unit": "",
+      "meta": [
+        "chopped"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 15036,
+      "aisle": "Seafood",
+      "image": "halibut-fillet.jpg",
+      "consistency": "SOLID",
+      "name": "pacific halibut filets",
+      "nameClean": "halibut fillets",
+      "original": "2 (1/2 lb) Wild Pacific Halibut Filets",
+      "originalName": "Wild Pacific Halibut Filets",
+      "amount": 1.0,
+      "unit": "lb",
+      "meta": [
+        "wild"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "lb",
+          "unitLong": "pound"
+        },
+        "metric": {
+          "amount": 453.592,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 9160,
+      "aisle": "Produce",
+      "image": "lime-juice.png",
+      "consistency": "LIQUID",
+      "name": "juice of lime",
+      "nameClean": "lime juice",
+      "original": "juice of lime, divided",
+      "originalName": "juice of lime, divided",
+      "amount": 2.0,
+      "unit": "",
+      "meta": [
+        "divided"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 4053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "another slug of blood orange olive oil",
+      "nameClean": "olive oil",
+      "original": "Another slug of Blood Orange Olive Oil",
+      "originalName": "Another slug of Blood Orange Olive Oil",
+      "amount": 2.0,
+      "unit": "servings",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 4053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "mollie stone's blood orange olive oil",
+      "nameClean": "olive oil",
+      "original": "2 tsp Mollie Stone's Blood Orange Olive Oil (or regular olive oil)",
+      "originalName": "Mollie Stone's Blood Orange Olive Oil (or regular olive oil)",
+      "amount": 2.0,
+      "unit": "tsp",
+      "meta": [
+        "(or regular olive oil)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 11215,
+      "aisle": "Produce",
+      "image": "garlic.png",
+      "consistency": "SOLID",
+      "name": "dusting of garlic-pepper",
+      "nameClean": "garlic",
+      "original": "Dusting of garlic-pepper",
+      "originalName": "Dusting of garlic-pepper",
+      "amount": 2.0,
+      "unit": "servings",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 1102047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt-and-pepper.jpg",
+      "consistency": "SOLID",
+      "name": "salt and pepper",
+      "nameClean": "salt and pepper",
+      "original": "Salt and pepper to taste",
+      "originalName": "Salt and pepper to taste",
+      "amount": 2.0,
+      "unit": "servings",
+      "meta": [
+        "to taste"
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 14106,
+      "aisle": "Alcoholic Beverages",
+      "image": "white-wine.jpg",
+      "consistency": "LIQUID",
+      "name": "white wine",
+      "nameClean": "dry white wine",
+      "original": "1/4 cup white wine",
+      "originalName": "white wine",
+      "amount": 0.25,
+      "unit": "cup",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 0.25,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 60.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    }
+  ],
+  "id": 639411,
+  "title": "Cilantro Lime Halibut",
+  "readyInMinutes": 45,
+  "servings": 2,
+  "sourceUrl": "https://www.foodista.com/recipe/W2C6K48J/cilantro-lime-halibut",
+  "image": "https://img.spoonacular.com/recipes/639411-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Cilantro Lime Halibut might be a good recipe to expand your main course recipe box. This recipe serves 2. One portion of this dish contains roughly <b>44g of protein</b>, <b>22g of fat</b>, and a total of <b>422 calories</b>. For <b>$8.81 per serving</b>, this recipe <b>covers 29%</b> of your daily requirements of vitamins and minerals. This recipe from Foodista requires chicken stock, juice of lime, green onions, and salt and pepper. 19 people found this recipe to be delicious and satisfying. From preparation to the plate, this recipe takes around <b>45 minutes</b>. It is a good option if you're following a <b>gluten free, dairy free, paleolithic, and primal</b> diet. Overall, this recipe earns an <b>outstanding spoonacular score of 95%</b>. Similar recipes are <a href=\"https://spoonacular.com/recipes/cilantro-ginger-halibut-1281969\">Cilantro-Ginger Halibut</a>, <a href=\"https://spoonacular.com/recipes/cilantro-ginger-halibut-86400\">Cilantro-Ginger Halibut</a>, and <a href=\"https://spoonacular.com/recipes/halibut-with-citrus-and-cilantro-3296\">Halibut With Citrus And Cilantro</a>.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "lunch",
+    "main course",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free",
+    "paleolithic",
+    "primal",
+    "pescatarian"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "<ol><li>1. Heat the oil in a large frying pan over medium heat. Coat the filets with garlic pepper on the flesh side. When pan is heated, add filet flesh side down to pan to sear that side. Allow to cook for about 30 seconds. Then flip filets over with tongs.</li><li>2. Add white wine to pan and cover to steam. After about 2 minutes, much of the wine will have evaporated. Add the chicken stock gradually. Allow the filets to steam for another couple of minutes. Then add the lime juice. When bubbling and both filets are opaque all the way through, add the green onions to the pan and swirl in the sauce for a moment.</li><li>3. Remove filets to beds of lettuce. Add a tsp of the Blood Orange Olive, swirl the green onions in the sauce one more time and then pour equal parts over the fish.</li><li>4. Garnish with fresh cilantro and lime wedges. Sprinkle with salt and pepper to taste. Serve immediately.</li></ol>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Heat the oil in a large frying pan over medium heat. Coat the filets with garlic pepper on the flesh side. When pan is heated, add filet flesh side down to pan to sear that side. Allow to cook for about 30 seconds. Then flip filets over with tongs.",
+          "ingredients": [
+            {
+              "id": 11215,
+              "name": "garlic",
+              "localizedName": "garlic",
+              "image": "garlic.png"
+            },
+            {
+              "id": 1002030,
+              "name": "pepper",
+              "localizedName": "pepper",
+              "image": "pepper.jpg"
+            },
+            {
+              "id": 4582,
+              "name": "cooking oil",
+              "localizedName": "cooking oil",
+              "image": "vegetable-oil.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404645,
+              "name": "frying pan",
+              "localizedName": "frying pan",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+            },
+            {
+              "id": 404641,
+              "name": "tongs",
+              "localizedName": "tongs",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/tongs.jpg"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Add white wine to pan and cover to steam. After about 2 minutes, much of the wine will have evaporated.",
+          "ingredients": [
+            {
+              "id": 14106,
+              "name": "white wine",
+              "localizedName": "white wine",
+              "image": "white-wine.jpg"
+            },
+            {
+              "id": 14084,
+              "name": "wine",
+              "localizedName": "wine",
+              "image": "red-wine.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404645,
+              "name": "frying pan",
+              "localizedName": "frying pan",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+            }
+          ],
+          "length": {
+            "number": 2,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 3,
+          "step": "Add the chicken stock gradually. Allow the filets to steam for another couple of minutes. Then add the lime juice. When bubbling and both filets are opaque all the way through, add the green onions to the pan and swirl in the sauce for a moment.",
+          "ingredients": [
+            {
+              "id": 6172,
+              "name": "chicken stock",
+              "localizedName": "chicken stock",
+              "image": "chicken-broth.png"
+            },
+            {
+              "id": 11291,
+              "name": "green onions",
+              "localizedName": "green onions",
+              "image": "spring-onions.jpg"
+            },
+            {
+              "id": 9160,
+              "name": "lime juice",
+              "localizedName": "lime juice",
+              "image": "lime-juice.png"
+            },
+            {
+              "id": 0,
+              "name": "sauce",
+              "localizedName": "sauce",
+              "image": ""
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404645,
+              "name": "frying pan",
+              "localizedName": "frying pan",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "step": "Remove filets to beds of lettuce.",
+          "ingredients": [
+            {
+              "id": 11252,
+              "name": "lettuce",
+              "localizedName": "lettuce",
+              "image": "iceberg-lettuce.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 5,
+          "step": "Add a tsp of the Blood Orange Olive, swirl the green onions in the sauce one more time and then pour equal parts over the fish.",
+          "ingredients": [
+            {
+              "id": 1009200,
+              "name": "blood orange",
+              "localizedName": "blood orange",
+              "image": "blood-orange.jpg"
+            },
+            {
+              "id": 11291,
+              "name": "green onions",
+              "localizedName": "green onions",
+              "image": "spring-onions.jpg"
+            },
+            {
+              "id": 9195,
+              "name": "olives",
+              "localizedName": "olives",
+              "image": "olives-mixed.jpg"
+            },
+            {
+              "id": 0,
+              "name": "sauce",
+              "localizedName": "sauce",
+              "image": ""
+            },
+            {
+              "id": 10115261,
+              "name": "fish",
+              "localizedName": "fish",
+              "image": "fish-fillet.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 6,
+          "step": "Garnish with fresh cilantro and lime wedges.",
+          "ingredients": [
+            {
+              "id": 11165,
+              "name": "fresh cilantro",
+              "localizedName": "fresh cilantro",
+              "image": "cilantro.png"
+            },
+            {
+              "id": 1029159,
+              "name": "lime wedge",
+              "localizedName": "lime wedge",
+              "image": "lime-wedge.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 7,
+          "step": "Sprinkle with salt and pepper to taste.",
+          "ingredients": [
+            {
+              "id": 1102047,
+              "name": "salt and pepper",
+              "localizedName": "salt and pepper",
+              "image": "salt-and-pepper.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 8,
+          "step": "Serve immediately.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 95.54310607910156,
+  "spoonacularSourceUrl": "https://spoonacular.com/cilantro-lime-halibut-639411"
+}

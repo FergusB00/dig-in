@@ -1,0 +1,512 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 9,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 4,
+  "healthScore": 92,
+  "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+  "license": "CC BY 3.0",
+  "sourceName": "Foodista",
+  "pricePerServing": 427.76,
+  "extendedIngredients": [
+    {
+      "id": 10015072,
+      "aisle": "Gourmet",
+      "image": "caviar.png",
+      "consistency": "SOLID",
+      "name": "arënkha msc caviar substitute",
+      "nameClean": "caviar substitute",
+      "original": "4 teaspoons Arënkha MSC caviar substitute",
+      "originalName": "Arënkha MSC caviar substitute",
+      "amount": 4.0,
+      "unit": "teaspoons",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 10111080,
+      "aisle": "Produce",
+      "image": "baby-beets.jpg",
+      "consistency": "SOLID",
+      "name": "baby beets",
+      "nameClean": "baby beets",
+      "original": "12 cooked baby beets",
+      "originalName": "cooked baby beets",
+      "amount": 12.0,
+      "unit": "",
+      "meta": [
+        "cooked"
+      ],
+      "measures": {
+        "us": {
+          "amount": 12.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 12.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 2004,
+      "aisle": "Spices and Seasonings",
+      "image": "bay-leaves.jpg",
+      "consistency": "SOLID",
+      "name": "bay leaf",
+      "nameClean": "bay leaves",
+      "original": "1 bay leaf",
+      "originalName": "bay leaf",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 1002030,
+      "aisle": "Spices and Seasonings",
+      "image": "pepper.jpg",
+      "consistency": "SOLID",
+      "name": "pepper",
+      "nameClean": "black pepper",
+      "original": "freshly ground black pepper",
+      "originalName": "freshly ground black pepper",
+      "amount": 4.0,
+      "unit": "servings",
+      "meta": [
+        "black",
+        "freshly ground"
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 1034053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "extra virgin olive oil",
+      "nameClean": "extra virgin olive oil",
+      "original": "6 tbsp extra virgin olive oil",
+      "originalName": "extra virgin olive oil",
+      "amount": 6.0,
+      "unit": "tbsp",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 6.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 6.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 11957,
+      "aisle": "Produce",
+      "image": "fennel.png",
+      "consistency": "SOLID",
+      "name": "fennel",
+      "nameClean": "fennel",
+      "original": "1 head fennel, outside leaves discarded, finely sliced",
+      "originalName": "fennel, outside leaves discarded, finely sliced",
+      "amount": 1.0,
+      "unit": "head",
+      "meta": [
+        "finely sliced"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "head",
+          "unitLong": "head"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "head",
+          "unitLong": "head"
+        }
+      }
+    },
+    {
+      "id": 9152,
+      "aisle": "Produce",
+      "image": "lemon-juice.jpg",
+      "consistency": "LIQUID",
+      "name": "lemon juice",
+      "nameClean": "lemon juice",
+      "original": "2 tbsp lemon juice",
+      "originalName": "lemon juice",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 10115076,
+      "aisle": "Seafood",
+      "image": "salmon.png",
+      "consistency": "SOLID",
+      "name": "salmon fillets",
+      "nameClean": "salmon fillets",
+      "original": "4 110g (4oz) skinless salmon fillets",
+      "originalName": "110g skinless salmon fillets",
+      "amount": 16.0,
+      "unit": "oz",
+      "meta": [
+        "skinless"
+      ],
+      "measures": {
+        "us": {
+          "amount": 16.0,
+          "unitShort": "oz",
+          "unitLong": "ounces"
+        },
+        "metric": {
+          "amount": 453.592,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 2041,
+      "aisle": "Produce",
+      "image": "tarragon.jpg",
+      "consistency": "SOLID",
+      "name": "tarragon stalks",
+      "nameClean": "tarragon",
+      "original": "tarragon stalks",
+      "originalName": "tarragon stalks",
+      "amount": 4.0,
+      "unit": "servings",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 2041,
+      "aisle": "Produce",
+      "image": "tarragon.jpg",
+      "consistency": "SOLID",
+      "name": "tarragon leaves",
+      "nameClean": "tarragon",
+      "original": "few tarragon leaves",
+      "originalName": "few tarragon leaves",
+      "amount": 9.0,
+      "unit": "servings",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 9.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 9.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 11591,
+      "aisle": "Produce",
+      "image": "watercress.jpg",
+      "consistency": "SOLID",
+      "name": "watercress",
+      "nameClean": "watercress",
+      "original": "1 bunch watercress, picked over, washed & dried",
+      "originalName": "watercress, picked over, washed & dried",
+      "amount": 1.0,
+      "unit": "bunch",
+      "meta": [
+        "dried",
+        "washed",
+        "picked over"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "bunch",
+          "unitLong": "bunch"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "bunch",
+          "unitLong": "bunch"
+        }
+      }
+    },
+    {
+      "id": 14106,
+      "aisle": "Alcoholic Beverages",
+      "image": "white-wine.jpg",
+      "consistency": "LIQUID",
+      "name": "white wine",
+      "nameClean": "dry white wine",
+      "original": "1 tablespoon white wine",
+      "originalName": "white wine",
+      "amount": 1.0,
+      "unit": "tablespoon",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "Tbsp",
+          "unitLong": "Tbsp"
+        }
+      }
+    }
+  ],
+  "id": 659143,
+  "title": "Salmon, Watercress, Fennel and Baby Beetroot Salad With Lemony \"Caviar\" Dressing",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "sourceUrl": "https://www.foodista.com/recipe/WHSTLX2T/salmon-watercress-fennel-and-baby-beetroot-salad-with-lemony-arenkha-msc-dressing",
+  "image": "https://img.spoonacular.com/recipes/659143-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Salmon, Watercress, Fennel and Baby Beetroot Salad With Lemony \"Caviar\" Dressing might be a good recipe to expand your main course recipe box. One portion of this dish contains approximately <b>27g of protein</b>, <b>29g of fat</b>, and a total of <b>440 calories</b>. This recipe serves 4 and costs $4.28 per serving. A mixture of white wine, baby beets, watercress, and a handful of other ingredients are all it takes to make this recipe so delicious. Not a lot of people made this recipe, and 4 would say it hit the spot. It is brought to you by Foodista. From preparation to the plate, this recipe takes about <b>45 minutes</b>. It is a good option if you're following a <b>gluten free, dairy free, paleolithic, and primal</b> diet. With a spoonacular <b>score of 95%</b>, this dish is super. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/wild-rice-baby-beetroot-beef-kofta-salad-ft-love-beets-baby-beetroot-494268\">Wild Rice, Baby Beetroot & Beef Kofta Salad (ft. Love Beets Baby Beetroot)</a>, <a href=\"https://spoonacular.com/recipes/poached-salmon-and-watercress-salad-with-dill-yogurt-dressing-14170\">Poached Salmon and Watercress Salad with Dill-Yogurt Dressing</a>, and <a href=\"https://spoonacular.com/recipes/beetroot-red-apple-and-watercress-salad-9732\">Beetroot, Red Apple And Watercress Salad</a>.",
+  "cuisines": [
+
+  ],
+  "dishTypes": [
+    "side dish",
+    "lunch",
+    "main course",
+    "salad",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free",
+    "paleolithic",
+    "primal",
+    "pescatarian"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "<ol><li>Place the salmon in a pan, cover with water, and add the wine, bay and tarragon stalks.  Bring to the boil and then immediately turn off and leave for a couple of minutes to cook in the residual heat. Remove to a plate with a slotted spoon and leave to cool before flaking into large pieces.</li><li>Make the dressing by lightly whisking the olive oil and lemon juice together. Stir in the Arnkha MSC and season with some black pepper.</li><li>Next, arrange the watercress, beets and fennel in 4 shallow salad bowls, then add the salmon and tarragon.  Drizzle over the Arnkha MSC dressing and serve.</li></ol>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place the salmon in a pan, cover with water, and add the wine, bay and tarragon stalks.  Bring to the boil and then immediately turn off and leave for a couple of minutes to cook in the residual heat.",
+          "ingredients": [
+            {
+              "id": 2041,
+              "name": "tarragon",
+              "localizedName": "tarragon",
+              "image": "tarragon.jpg"
+            },
+            {
+              "id": 15076,
+              "name": "salmon",
+              "localizedName": "salmon",
+              "image": "salmon.png"
+            },
+            {
+              "id": 14412,
+              "name": "water",
+              "localizedName": "water",
+              "image": "water.png"
+            },
+            {
+              "id": 14084,
+              "name": "wine",
+              "localizedName": "wine",
+              "image": "red-wine.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404645,
+              "name": "frying pan",
+              "localizedName": "frying pan",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Remove to a plate with a slotted spoon and leave to cool before flaking into large pieces.Make the dressing by lightly whisking the olive oil and lemon juice together. Stir in the Arnkha MSC and season with some black pepper.Next, arrange the watercress, beets and fennel in 4 shallow salad bowls, then add the salmon and tarragon.",
+          "ingredients": [
+            {
+              "id": 1002030,
+              "name": "black pepper",
+              "localizedName": "black pepper",
+              "image": "pepper.jpg"
+            },
+            {
+              "id": 9152,
+              "name": "lemon juice",
+              "localizedName": "lemon juice",
+              "image": "lemon-juice.jpg"
+            },
+            {
+              "id": 11591,
+              "name": "watercress",
+              "localizedName": "watercress",
+              "image": "watercress.jpg"
+            },
+            {
+              "id": 4053,
+              "name": "olive oil",
+              "localizedName": "olive oil",
+              "image": "olive-oil.jpg"
+            },
+            {
+              "id": 2041,
+              "name": "tarragon",
+              "localizedName": "tarragon",
+              "image": "tarragon.jpg"
+            },
+            {
+              "id": 11957,
+              "name": "fennel",
+              "localizedName": "fennel",
+              "image": "fennel.png"
+            },
+            {
+              "id": 15076,
+              "name": "salmon",
+              "localizedName": "salmon",
+              "image": "salmon.png"
+            },
+            {
+              "id": 11080,
+              "name": "beet",
+              "localizedName": "beet",
+              "image": "beets.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404636,
+              "name": "slotted spoon",
+              "localizedName": "slotted spoon",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/slotted-spoon.jpg"
+            },
+            {
+              "id": 404661,
+              "name": "whisk",
+              "localizedName": "whisk",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/whisk.png"
+            },
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Drizzle over the Arnkha MSC dressing and serve.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 95.0247802734375,
+  "spoonacularSourceUrl": "https://spoonacular.com/salmon-watercress-fennel-and-baby-beetroot-salad-with-lemony-caviar-dressing-659143"
+}

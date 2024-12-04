@@ -1,0 +1,654 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": true,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 10,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 3,
+  "healthScore": 100,
+  "creditsText": "foodista.com",
+  "sourceName": "foodista.com",
+  "pricePerServing": 382.96,
+  "extendedIngredients": [
+    {
+      "id": 20035,
+      "aisle": "Pasta and Rice",
+      "image": "uncooked-quinoa.png",
+      "consistency": "SOLID",
+      "name": "quinoa",
+      "nameClean": "quinoa",
+      "original": "1 cup Quinoa",
+      "originalName": "Quinoa",
+      "amount": 1.0,
+      "unit": "cup",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "cup",
+          "unitLong": "cup"
+        },
+        "metric": {
+          "amount": 170.0,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 11282,
+      "aisle": "Produce",
+      "image": "brown-onion.png",
+      "consistency": "SOLID",
+      "name": "onion",
+      "nameClean": "onion",
+      "original": "1 medium Onion (diced)",
+      "originalName": "Onion (diced)",
+      "amount": 1.0,
+      "unit": "medium",
+      "meta": [
+        "diced",
+        "()"
+      ],
+      "measures": {
+        "us": {
+          "amount": 1.0,
+          "unitShort": "medium",
+          "unitLong": "medium"
+        },
+        "metric": {
+          "amount": 1.0,
+          "unitShort": "medium",
+          "unitLong": "medium"
+        }
+      }
+    },
+    {
+      "id": 11233,
+      "aisle": "Produce",
+      "image": "kale.jpg",
+      "consistency": "SOLID",
+      "name": "kale",
+      "nameClean": "kale",
+      "original": "8 Leaves of Kale (stems removed and cut into ribbons)",
+      "originalName": "Kale (stems removed and cut into ribbons)",
+      "amount": 8.0,
+      "unit": "Leaves",
+      "meta": [
+        "cut into ribbons)"
+      ],
+      "measures": {
+        "us": {
+          "amount": 8.0,
+          "unitShort": "leaf",
+          "unitLong": "leaves"
+        },
+        "metric": {
+          "amount": 8.0,
+          "unitShort": "leaf",
+          "unitLong": "leaves"
+        }
+      }
+    },
+    {
+      "id": 10211215,
+      "aisle": "Produce",
+      "image": "garlic.jpg",
+      "consistency": "SOLID",
+      "name": "garlic cloves",
+      "nameClean": "whole garlic cloves",
+      "original": "5 Garlic Cloves (finely chopped)",
+      "originalName": "Garlic Cloves (finely chopped)",
+      "amount": 5.0,
+      "unit": "",
+      "meta": [
+        "finely chopped",
+        "()"
+      ],
+      "measures": {
+        "us": {
+          "amount": 5.0,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 5.0,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 4053,
+      "aisle": "Oil, Vinegar, Salad Dressing",
+      "image": "olive-oil.jpg",
+      "consistency": "LIQUID",
+      "name": "olive oil",
+      "nameClean": "olive oil",
+      "original": "3 tablespoons Olive Oil (divided)",
+      "originalName": "Olive Oil (divided)",
+      "amount": 3.0,
+      "unit": "tablespoons",
+      "meta": [
+        "divided",
+        "()"
+      ],
+      "measures": {
+        "us": {
+          "amount": 3.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        },
+        "metric": {
+          "amount": 3.0,
+          "unitShort": "Tbsps",
+          "unitLong": "Tbsps"
+        }
+      }
+    },
+    {
+      "id": 15076,
+      "aisle": "Seafood",
+      "image": "salmon.png",
+      "consistency": "SOLID",
+      "name": "poached salmon",
+      "nameClean": "salmon",
+      "original": "10 ounces Poached Salmon (flaked)*",
+      "originalName": "Poached Salmon (flaked)",
+      "amount": 10.0,
+      "unit": "ounces",
+      "meta": [
+        "flaked",
+        "()"
+      ],
+      "measures": {
+        "us": {
+          "amount": 10.0,
+          "unitShort": "oz",
+          "unitLong": "ounces"
+        },
+        "metric": {
+          "amount": 283.495,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 6615,
+      "aisle": "Canned and Jarred",
+      "image": "chicken-broth.png",
+      "consistency": "LIQUID",
+      "name": "vegetable stock",
+      "nameClean": "vegetable stock",
+      "original": "32 ounces Organic Vegetable Stock",
+      "originalName": "Organic Vegetable Stock",
+      "amount": 32.0,
+      "unit": "ounces",
+      "meta": [
+        "organic"
+      ],
+      "measures": {
+        "us": {
+          "amount": 32.0,
+          "unitShort": "oz",
+          "unitLong": "ounces"
+        },
+        "metric": {
+          "amount": 907.185,
+          "unitShort": "g",
+          "unitLong": "grams"
+        }
+      }
+    },
+    {
+      "id": 2047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt.jpg",
+      "consistency": "SOLID",
+      "name": "salt",
+      "nameClean": "table salt",
+      "original": "Salt",
+      "originalName": "Salt",
+      "amount": 4.0,
+      "unit": "servings",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 10211821,
+      "aisle": "Produce",
+      "image": "bell-pepper-orange.png",
+      "consistency": "SOLID",
+      "name": "bell pepper",
+      "nameClean": "bell pepper",
+      "original": "Pepper",
+      "originalName": "Pepper",
+      "amount": 4.0,
+      "unit": "servings",
+      "meta": [
+
+      ],
+      "measures": {
+        "us": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 4.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    }
+  ],
+  "id": 659109,
+  "title": "Salmon Quinoa Risotto",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "sourceUrl": "https://www.foodista.com/recipe/KH5STR7N/salmon-quinoa-risotto",
+  "image": "https://img.spoonacular.com/recipes/659109-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "Salmon Quinoa Risotto might be just the main course you are searching for. One serving contains <b>437 calories</b>, <b>25g of protein</b>, and <b>20g of fat</b>. This recipe serves 4. For <b>$3.83 per serving</b>, this recipe <b>covers 43%</b> of your daily requirements of vitamins and minerals. Head to the store and pick up quinoa, poached salmon, olive oil, and a few other things to make it today. It is a good option if you're following a <b>gluten free, dairy free, and pescatarian</b> diet. It is a <b>rather expensive</b> recipe for fans of Mediterranean food. 3 people found this recipe to be yummy and satisfying. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. It is brought to you by Foodista. Overall, this recipe earns an <b>outstanding spoonacular score of 94%</b>. Similar recipes include <a href=\"https://spoonacular.com/recipes/salmon-quinoa-risotto-1360771\">Salmon Quinoa Risotto</a>, <a href=\"https://spoonacular.com/recipes/salmon-quinoa-risotto-1288579\">Salmon Quinoa Risotto</a>, and <a href=\"https://spoonacular.com/recipes/quinoa-risotto-with-salmon-and-kale-15276\">Quinoa Risotto With Salmon And Kale</a>.",
+  "cuisines": [
+    "Mediterranean",
+    "Italian",
+    "European"
+  ],
+  "dishTypes": [
+    "side dish",
+    "lunch",
+    "main course",
+    "main dish",
+    "dinner"
+  ],
+  "diets": [
+    "gluten free",
+    "dairy free",
+    "pescatarian"
+  ],
+  "occasions": [
+
+  ],
+  "instructions": "In a 4 quart saucepan, heat 2 tablespoons of olive oil over medium high heat.\nWhen oil is shimmering, add diced onion.\nSaute onion until transparent.  Add quinoa to onion mixture and stir, to toast quinoa, for 2 minutes.\nAdd 1 cup of vegetable stock to quinoa and onions.\nStir until stock is absorbed.  Once stock is absorbed, add 1 cup of stock.\nContinue stirring until stock is absorbed.\nAdd remaining stock in 1/2 cup intervals, stirring until all stock is absorbed.\nRemove from heat.\nWhile preparing the onion quinoa mixture, heat 1 tablespoon of oil in a saute pan with chopped garlic (over medium high heat).\nOnce garlic is sizzling, add chopped kale to the pan.\nTurn kale to coat with oil and garlic.\nTurn kale mixture until fragrant (approximately 2 minutes).  Remove kale mixture from heat.\nOnce quinoa is complete, add kale and salmon.\nStir to combine.\nAdd salt and pepper to taste.",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "In a 4 quart saucepan, heat 2 tablespoons of olive oil over medium high heat.",
+          "ingredients": [
+            {
+              "id": 4053,
+              "name": "olive oil",
+              "localizedName": "olive oil",
+              "image": "olive-oil.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404669,
+              "name": "sauce pan",
+              "localizedName": "sauce pan",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/sauce-pan.jpg"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "When oil is shimmering, add diced onion.",
+          "ingredients": [
+            {
+              "id": 11282,
+              "name": "onion",
+              "localizedName": "onion",
+              "image": "brown-onion.png"
+            },
+            {
+              "id": 4582,
+              "name": "cooking oil",
+              "localizedName": "cooking oil",
+              "image": "vegetable-oil.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Saute onion until transparent.",
+          "ingredients": [
+            {
+              "id": 11282,
+              "name": "onion",
+              "localizedName": "onion",
+              "image": "brown-onion.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 4,
+          "step": "Add quinoa to onion mixture and stir, to toast quinoa, for 2 minutes.",
+          "ingredients": [
+            {
+              "id": 20035,
+              "name": "quinoa",
+              "localizedName": "quinoa",
+              "image": "uncooked-quinoa.png"
+            },
+            {
+              "id": 11282,
+              "name": "onion",
+              "localizedName": "onion",
+              "image": "brown-onion.png"
+            },
+            {
+              "id": 0,
+              "name": "sandwich bread",
+              "localizedName": "sandwich bread",
+              "image": "white-bread.jpg"
+            }
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 2,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 5,
+          "step": "Add 1 cup of vegetable stock to quinoa and onions.",
+          "ingredients": [
+            {
+              "id": 6615,
+              "name": "vegetable stock",
+              "localizedName": "vegetable stock",
+              "image": "chicken-broth.png"
+            },
+            {
+              "id": 11282,
+              "name": "onion",
+              "localizedName": "onion",
+              "image": "brown-onion.png"
+            },
+            {
+              "id": 20035,
+              "name": "quinoa",
+              "localizedName": "quinoa",
+              "image": "uncooked-quinoa.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 6,
+          "step": "Stir until stock is absorbed.  Once stock is absorbed, add 1 cup of stock.",
+          "ingredients": [
+            {
+              "id": 1006615,
+              "name": "stock",
+              "localizedName": "stock",
+              "image": "chicken-broth.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 7,
+          "step": "Continue stirring until stock is absorbed.",
+          "ingredients": [
+            {
+              "id": 1006615,
+              "name": "stock",
+              "localizedName": "stock",
+              "image": "chicken-broth.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 8,
+          "step": "Add remaining stock in 1/2 cup intervals, stirring until all stock is absorbed.",
+          "ingredients": [
+            {
+              "id": 1006615,
+              "name": "stock",
+              "localizedName": "stock",
+              "image": "chicken-broth.png"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 9,
+          "step": "Remove from heat.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 10,
+          "step": "While preparing the onion quinoa mixture, heat 1 tablespoon of oil in a saute pan with chopped garlic (over medium high heat).",
+          "ingredients": [
+            {
+              "id": 11215,
+              "name": "garlic",
+              "localizedName": "garlic",
+              "image": "garlic.png"
+            },
+            {
+              "id": 20035,
+              "name": "quinoa",
+              "localizedName": "quinoa",
+              "image": "uncooked-quinoa.png"
+            },
+            {
+              "id": 11282,
+              "name": "onion",
+              "localizedName": "onion",
+              "image": "brown-onion.png"
+            },
+            {
+              "id": 4582,
+              "name": "cooking oil",
+              "localizedName": "cooking oil",
+              "image": "vegetable-oil.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404645,
+              "name": "frying pan",
+              "localizedName": "frying pan",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "step": "Once garlic is sizzling, add chopped kale to the pan.",
+          "ingredients": [
+            {
+              "id": 11215,
+              "name": "garlic",
+              "localizedName": "garlic",
+              "image": "garlic.png"
+            },
+            {
+              "id": 11233,
+              "name": "kale",
+              "localizedName": "kale",
+              "image": "kale.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404645,
+              "name": "frying pan",
+              "localizedName": "frying pan",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/pan.png"
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "step": "Turn kale to coat with oil and garlic.",
+          "ingredients": [
+            {
+              "id": 11215,
+              "name": "garlic",
+              "localizedName": "garlic",
+              "image": "garlic.png"
+            },
+            {
+              "id": 11233,
+              "name": "kale",
+              "localizedName": "kale",
+              "image": "kale.jpg"
+            },
+            {
+              "id": 4582,
+              "name": "cooking oil",
+              "localizedName": "cooking oil",
+              "image": "vegetable-oil.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 13,
+          "step": "Turn kale mixture until fragrant (approximately 2 minutes).",
+          "ingredients": [
+            {
+              "id": 11233,
+              "name": "kale",
+              "localizedName": "kale",
+              "image": "kale.jpg"
+            }
+          ],
+          "equipment": [
+
+          ],
+          "length": {
+            "number": 2,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 14,
+          "step": "Remove kale mixture from heat.",
+          "ingredients": [
+            {
+              "id": 11233,
+              "name": "kale",
+              "localizedName": "kale",
+              "image": "kale.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 15,
+          "step": "Once quinoa is complete, add kale and salmon.",
+          "ingredients": [
+            {
+              "id": 20035,
+              "name": "quinoa",
+              "localizedName": "quinoa",
+              "image": "uncooked-quinoa.png"
+            },
+            {
+              "id": 15076,
+              "name": "salmon",
+              "localizedName": "salmon",
+              "image": "salmon.png"
+            },
+            {
+              "id": 11233,
+              "name": "kale",
+              "localizedName": "kale",
+              "image": "kale.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 16,
+          "step": "Stir to combine.",
+          "ingredients": [
+
+          ],
+          "equipment": [
+
+          ]
+        },
+        {
+          "number": 17,
+          "step": "Add salt and pepper to taste.",
+          "ingredients": [
+            {
+              "id": 1102047,
+              "name": "salt and pepper",
+              "localizedName": "salt and pepper",
+              "image": "salt-and-pepper.jpg"
+            }
+          ],
+          "equipment": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 95.16724395751953,
+  "spoonacularSourceUrl": "https://spoonacular.com/salmon-quinoa-risotto-659109"
+}

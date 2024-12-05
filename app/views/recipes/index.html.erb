@@ -1,4 +1,7 @@
 <div class="recipes-container">
+  <div class="filter-header">
+    <p class="mb-0"><%= params[:filter] || "All Recipes" %></p>
+  </div>
   <%= render "shared/search_bar"%>
   <%= render "shared/page_divider"%>
   <% @recipes.each do |recipe| %>

@@ -1,8 +1,12 @@
 class UserIngredientsController < ApplicationController
   def create
-    ingredient = Ingredient.find_by_name(user_ingredient_params[:ingredient])
-    @user_ingredient = UserIngredient.new(user_ingredient_params)
-    @user_ingredient.ingredient = ingredient
+    ingredient = Ingredient.find_or_create_by(name: user_ingredient_params[:ingredient_attributes][:name])
+    @user_ingredient = UserIngredient.new(
+      ingredient: ingredient,
+      quantity: user_ingredient_params[:quantity],
+      unit: user_ingredient_params[:unit],
+      price_in_pounds: user_ingredient_params[:price_in_pounds],
+      expiry_date: user_ingredient_params[:expiry_date])
     @user_ingredient.user = current_user
     if @user_ingredient.save
       redirect_to profile_path, notice: "Ingredient successfully added!"
@@ -21,6 +25,6 @@ class UserIngredientsController < ApplicationController
   private
 
   def user_ingredient_params
-    params.require(:user_ingredient).permit(:ingredient, :quantity, :unit, :price_in_pounds, :expiry_date)
+    params.require(:user_ingredient).permit(:quantity, :unit, :price_in_pounds, :expiry_date, ingredient_attributes: [:name])
   end
 end

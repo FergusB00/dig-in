@@ -20,7 +20,9 @@
       </div>
 
       <div class="recipe-info" data-recipedropdown-target="content">
-        <p class="each-recipe-info"><strong>Cuisine:</strong> <%= recipe.cuisine %></p>
+        <% if recipe.cuisine.present? %>
+          <p class="each-recipe-info"><strong>Cuisine:</strong> <%= recipe.cuisine %></p>
+        <% end %>
         <p class="each-recipe-info"><strong>Total time:</strong> <%= recipe.cook_time %></p>
         <p class="each-recipe-info"><strong>Difficulty:</strong>
           <% if recipe.difficulty == "hard" %>

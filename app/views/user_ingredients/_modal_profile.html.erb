@@ -1,8 +1,12 @@
-  <div class="text-center">
-    <button type="button" class="btn add-items-button" data-bs-toggle="modal" data-bs-target="#ingredient">
-      +ADD ITEMS
-    </button>
+<div class="add-button-container">
+  <div class="add-outer-circle-profile">
+    <div class="add-inner-circle-profile">
+      <button type="button" class="btn add-items-button" data-bs-toggle="modal" data-bs-target="#ingredient">
+        ADD ITEMS
+      </button>
+    </div>
   </div>
+</div>
 
 <div class="modal fade" id="ingredient" tabindex="-1" role="dialog" aria-labelledby="ingredient" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -35,7 +39,6 @@
               <i class="fa-solid fa-plus"></i>
             </button>
           </div>
-
           <!-- Simple form -->
           <div data-modal-target="manualForm" class="d-none">
             <%= simple_form_for(user_ingredient, html: { class: "user-ingredient-form" }) do |f| %>

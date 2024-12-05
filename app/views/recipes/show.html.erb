@@ -26,13 +26,11 @@
       </p>
       <p class="recipe-show-info"><strong>Servings:</strong> <%= @recipe.servings %></p>
     </div>
-    <div class="meals-cooked">
-      <div class="circle-check-button">
-        <div class="inner-circle">
-          <%= button_to recipe_meals_path(@recipe), data: {turbo_method: :post}, class: "btn" do %>
-            <i class="fa-solid fa-check"></i>
-          <% end %>
-        </div>
+    <div class="cook-outer-circle-show">
+      <div class="cook-inner-circle-show">
+        <%= button_to recipe_meals_path(@recipe), data: {turbo_method: :post}, class: "btn cook-items-button" do %>
+          COOK
+        <% end %>
       </div>
       <p class="click-when-cooked">Click when cooked</p>
     </div>

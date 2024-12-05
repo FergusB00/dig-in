@@ -13,6 +13,41 @@
   color: #333;
 }
 
+.add-button-container {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-outer-circle-profile {
+  display: inline-block;
+  padding: 7px;
+  border: 3px solid #B3EDDB;
+  border-radius: 36px;
+  background-color: white;
+  text-align: center;
+}
+
+.add-inner-circle-profile {
+  display: inline-block;
+  padding: 5px 10px;
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  border: 3px solid #B3EDDB;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.add-items-button {
+  padding: 0px;
+  font-family: Aboreto, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: #000;
+}
+
 .form-control {
   background-color: white !important;
   border: 1px solid #d0d0d0;

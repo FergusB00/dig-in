@@ -276,6 +276,13 @@ Recipe.find_by(name: "Balsamic & Honey Glazed Salmon with Lemony Asparagus")&.up
 
 Recipe.find_by(name: "Curried Butternut Squash and Apple Soup")&.update(cuisine: "Indian", image_url: "https://www.aheadofthyme.com/wp-content/uploads/2020/10/butternut-squash-apple-soup.jpg", difficulty: "medium")
 
+Recipe.find_by(name: "Chicken and Mango Skewer")&.update(cuisine: "Indian", image_url: "https://www.togethertoeat.com/wp-content/uploads/2024/04/Mango-and-lime-chicken-skewers-1.jpg", difficulty: "medium")
+
+Recipe.find_by(name: "4 Ingredient Chicken Pot Pie")&.update(cuisine: "British", image_url: "https://www.onceuponachef.com/images/2017/10/Chicken-Pot-Pie-2.jpg", difficulty: "hard")
+
+Recipe.find_by(name: "Herb chicken with sweet potato mash and sautéed broccoli")&.update(cuisine: "British", image_url: "https://production-media.gousto.co.uk/cms/mood-image/3324_Garlic--Herb-Stuffed-Chicken-With-Sweet-Potato-Mash-9034-1615371517322.jpg", difficulty: "medium")
+
+
 Ingredient.create(
   name: "Wild Rocket",
   carbon_per_gram: 4.6

@@ -13,12 +13,12 @@
 <div class="home-page-content">
   <div class="home-page-background-image">
     <div class="text-overlay">
-      <h1>TRACK</h1>
+      <h1><%= link_to "TRACK", profile_path, class: "overlaying-link-big" %></h1>
       <p>food usage</p>
-      <h1>SUGGEST</h1>
+      <h1><%= link_to "SUGGEST", recipes_path, class: "overlaying-link-big" %></h1>
       <p>recipes</p>
-      <h1>REDUCE</h1>
-      <p class="mb-0">spend & </p>
+      <h1><%= link_to "REDUCE", profile_path, class: "overlaying-link-big" %></h1>
+      <p class="mb-0">spend &</p>
       <p>carbon footprint</p>
     </div>
   </div>

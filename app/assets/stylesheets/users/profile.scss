@@ -26,7 +26,9 @@
 .profile-pic-wrapper {
   display: flex;
   justify-content: space-between;
-  align-items: stretch
+  align-items: stretch;
+  width: 100%;
+  margin-left: 0;
 }
 
 .stats-container {

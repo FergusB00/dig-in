@@ -8,7 +8,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content styled-modal">
       <div class="modal-header">
-        <h3 class="modal-title" id="ingredient" style="font-family: Aboreto, sans-serif;"><strong>Add ingredients</strong></h3>
+        <h3 class="modal-title" id="ingredient" style="font-family: Aboreto, sans-serif;"><strong>Scan an item</strong></h3>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
 
@@ -16,50 +16,58 @@
       <div data-controller="barcode" data-barcode-api-value="<%= ENV['BARCODE_API_KEY'] %>" class="modal-body">
 
         <!-- Barcode scanner -->
+
         <div class="d-flex justify-content-center align-items-center">
-          <h5 class="manual-upload-title" style="font-family: Aboreto, sans-serif;"><strong>Scan an item</strong></h5>
+          <video id="video" class="mt-2" style="border: 1px solid gray; height: 20dvh; width: 58dvw"></video>
         </div>
-        <div>
-          <div class="d-flex justify-content-center align-items-center">
-            <video id="video" class="mt-2" style="border: 1px solid gray; height: 20dvh; width: 58dvw"></video>
-          </div>
-            <div class="d-flex justify-content-center mt-2 mb-3">
-              <button data-action='click->barcode#captureCode' class="modal-scan-btn"><i class="fa-solid fa-camera"></i></button>
-              <button data-action='click->barcode#resetButton' class="modal-stop-scan-btn"><i class="fa-regular fa-circle-stop"></i></button>
-            </div>
+        <div class="d-flex justify-content-center mt-2 mb-3">
+          <button data-action='click->barcode#captureCode' class="modal-scan-btn"><i class="fa-solid fa-camera"></i></button>
+          <button data-action='click->barcode#resetButton' class="modal-stop-scan-btn"><i class="fa-regular fa-circle-stop"></i></button>
         </div>
+
 
         <!-- Manual upload -->
-        <div class="d-flex justify-content-center align-items-center">
-          <h5 class="manual-upload-title" style="font-family: Aboreto, sans-serif;"><strong>Manual upload</strong></h5>
+        <div class="modal-manual-upload d-none" data-barcode-target="manualForm">
+          <div class="d-flex justify-content-center align-items-center">
+            <h5 class="manual-upload-title" style="font-family: Aboreto, sans-serif;"><strong>Manual upload</strong></h5>
+          </div>
+          <%= simple_form_for(user_ingredient, html: { class: "user-ingredient-form" }) do |f| %>
+            <div class="form-group" >
+              <label for="ingredient-name">Ingredient:</label>
+              <%= f.simple_fields_for :ingredient do |nf| %>
+                <%= nf.input :name, label: false, class: "user-ingredient-form-control",
+              input_html: {data: { barcode_target: "ingredient" }} %>
+                <% end %>
+            </div>
+            <!-- >
+                 <%= f.association :ingredient, collection: Ingredient.all, label: false, placeholder: "Enter your ingredient",
+              input_html: { class: "user-ingredient-form-control",
+              data: { controller: "tom-select", barcode_target: "ingredient", action: "tom-select->DOMContentLoaded#autoInput"}} %>
+              -->
+            <%# </div> %>
+            <div class="form-group d-flex">
+              <div class="weight-input me-2" style="flex: 3;">
+                <label for="weight">Weight:</label>
+                <%= f.input :quantity, label: false, placeholder: "500", class: "user-ingredient-form-control", input_html: { data: { barcode_target: "weight" } } %>
+              </div>
+              <div class="unit-input" style="flex: 1;">
+                <label for="unit">Unit:</label>
+                <%= f.input :unit, collection: %w[g kg ml l servings], label: false, include_blank: "...", class: "user-ingredient-form-control", input_html: {data: {barcode_target: "unit"}} %>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="price">Price:</label>
+              <%= f.input :price_in_pounds, label: false, placeholder: "£", class: "user-ingredient-form-control", input_html: {step: "0.01"} %>
+            </div>
+            <div class="form-group">
+              <label for="expiry-date">Expiry:</label>
+              <%= f.input :expiry_date, html5: true, label: false, placeholder: "Please enter expiry date (dd/mm/yyyy)", class: "user-ingredient-form-control" %>
+            </div>
+            <div class="modal-footer modal-btn-alignment">
+              <%= f.button :submit, "Done", class: "btn modal-done-btn" %>
+            </div>
+          <% end %>
         </div>
-        <%= simple_form_for(user_ingredient, html: { class: "user-ingredient-form" }) do |f| %>
-          <div class="form-group" >
-            <label for="ingredient-name">Ingredient:</label>
-            <%= f.association :ingredient, collection: Ingredient.all, label: false, placeholder: "Enter your ingredient",
-            input_html: {class: "user-ingredient-form-control", data: {controller: "tom-select", barcode_target: "ingredient"}} %>
-          </div>
-          <div class="form-group">
-            <label for="weight">Weight:</label>
-            <%= f.input :quantity, label: false, class: "user-ingredient-form-control", input_html: { data: { barcode_target: "weight" } } %>
-          </div>
-          <div class="form-group">
-            <label for="unit">Unit:</label>
-            <%= f.input :unit, collection: %w[g kg ml l], label: false, class: "user-ingredient-form-control", input_html: {data: {barcode_target: "unit"}} %>
-          </div>
-          <div class="form-group">
-            <label for="price">Price:</label>
-            <%= f.input :price_in_pounds, label: false, placeholder: "£", class: "user-ingredient-form-control", input_html: {step: "0.01"} %>
-          </div>
-          <div class="form-group">
-            <label for="expiry-date">Expiry:</label>
-            <%= f.input :expiry_date, label: false, placeholder: "Please enter expiry date (dd/mm/yyyy)", class: "user-ingredient-form-control" %>
-          </div>
-          <div class="modal-footer modal-btn-alignment">
-            <%= f.button :submit, "Done", class: "btn modal-done-btn" %>
-
-          </div>
-        <% end %>
       </div>
     </div>
   </div>

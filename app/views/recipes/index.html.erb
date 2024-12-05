@@ -17,10 +17,17 @@
       </div>
 
       <div class="recipe-info" data-recipedropdown-target="content">
-        <h3><%= recipe.name %></h3>
         <p class="each-recipe-info"><strong>Cuisine:</strong> <%= recipe.cuisine %></p>
         <p class="each-recipe-info"><strong>Total time:</strong> <%= recipe.cook_time %></p>
-        <p class="each-recipe-info"><strong>Difficulty:</strong> <%= recipe.difficulty.capitalize %></p>
+        <p class="each-recipe-info"><strong>Difficulty:</strong>
+          <% if recipe.difficulty == "hard" %>
+            <i class="fa-solid fa-spoon"></i><i class="fa-solid fa-spoon"></i><i class="fa-solid fa-spoon"></i>
+          <% elsif recipe.difficulty == "medium" %>
+            <i class="fa-solid fa-spoon"></i><i class="fa-solid fa-spoon"></i>
+          <% elsif recipe.difficulty == "easy" %>
+            <i class="fa-solid fa-spoon"></i>
+          <% end %>
+        </p>
       </div>
     </div>
   <% end %>

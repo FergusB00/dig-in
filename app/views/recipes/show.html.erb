@@ -5,13 +5,13 @@
 <div class="recipe-show">
   <div class="recipe-show-header">
     <img src="<%= @recipe.image_url %>" alt="<%= @recipe.name %>" class="recipe-image">
-  </div>
-  <div class="recipe-show-name">
-    <h2 class="mb-2"><%= @recipe.name %></h2>
+    <div class="recipe-name-overlay-show">
+      <%=@recipe.name%>
+    </div>
   </div>
   <div class="recipe-show-details">
     <div>
-      <p class="recipe-show-info"><strong>Cuisine:</strong> <%= @recipe.cuisine %></p>
+      <p class="recipe-show-info mt-3 "><strong>Cuisine:</strong> <%= @recipe.cuisine %></p>
       <p class="recipe-show-info"><strong>Total time:</strong> <%= @recipe.cook_time %></p>
       <p class="recipe-show-info"><strong>Difficulty:</strong> <%= @recipe.difficulty.capitalize %></p>
       <p class="recipe-show-info"><strong>Servings:</strong> <%= @recipe.servings %></p>

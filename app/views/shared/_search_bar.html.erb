@@ -21,15 +21,18 @@
       <% else %>
         <li class="dropdown-link"><%= link_to "Recipes I can make", recipes_path(filter: 'Recipes I can make', available_ingredients_only: true), class: "dropdown-text" %></li>
       <% end %>
-      <% if params[:query] %>
-        <li class="dropdown-link"><%= link_to "Expiry date", recipes_path(filter: 'Expiry date', order: 'expiry_date', query: params[:query]), class: "dropdown-text" %></li>
-      <% else %>
-        <li class="dropdown-link"><%= link_to "Expiry date", recipes_path(filter: 'Expiry date', order: 'expiry_date'), class: "dropdown-text" %></li>
-      <% end %>
-      <% if params[:query] %>
-        <li class="dropdown-link"><%= link_to "Recipes that use most ingredients", recipes_path(filter: 'Recipes that use most ingredients', order: 'most_user_ingredients', query: params[:query]), class: "dropdown-text" %></li>
-      <% else %>
-        <li class="dropdown-link"><%= link_to "Recipes that use most ingredients", recipes_path(filter: 'Recipes that use most ingredients', order: 'most_user_ingredients'), class: "dropdown-text" %></li>
+      <%# Feature flag: ordering of results %>
+      <% if false %>
+        <% if params[:query] %>
+          <li class="dropdown-link"><%= link_to "Expiry date", recipes_path(filter: 'Expiry date', order: 'expiry_date', query: params[:query]), class: "dropdown-text" %></li>
+        <% else %>
+          <li class="dropdown-link"><%= link_to "Expiry date", recipes_path(filter: 'Expiry date', order: 'expiry_date'), class: "dropdown-text" %></li>
+        <% end %>
+        <% if params[:query] %>
+          <li class="dropdown-link"><%= link_to "Recipes that use most ingredients", recipes_path(filter: 'Recipes that use most ingredients', order: 'most_user_ingredients', query: params[:query]), class: "dropdown-text" %></li>
+        <% else %>
+          <li class="dropdown-link"><%= link_to "Recipes that use most ingredients", recipes_path(filter: 'Recipes that use most ingredients', order: 'most_user_ingredients'), class: "dropdown-text" %></li>
+        <% end %>
       <% end %>
     </ul>
   </details>

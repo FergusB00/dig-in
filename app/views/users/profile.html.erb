@@ -5,7 +5,7 @@
   <div class="stats-container">
     <div class="stat-card large">
       <p class="stat-title-large">TOTAL MEALS COOKED:</p>
-      <p class="stat-value-large"><%= @meals.count %></p>
+      <p><%= link_to "#{@meals.count}", meals_path, class: "stat-value-large text-decoration-none" %></p>
     </div>
     <div class="stats-sub-container">
       <div class="stat-card small">

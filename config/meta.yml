@@ -1,0 +1,6 @@
+# config/meta.yml
+meta_product_name: "Dig In"
+meta_title: "Dig In - Cook a meal. Save the planet"
+meta_description: "Reduce your food waste CO2, save cash and cook some great recipes"
+meta_image: "image.jpg" # should exist in `app/assets/images/`
+twitter_account: "@DigInMeals" # required for Twitter Cards

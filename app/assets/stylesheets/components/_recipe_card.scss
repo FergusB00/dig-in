@@ -6,6 +6,15 @@
   padding-top: 0%;
 }
 
+.filter-header {
+  color: #c3b3a4;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Aboreto, sans-serif;
+  text-align: center;
+  margin-top: 5px;
+}
+
 .recipe-card {
   border-radius: 10px;
   overflow: hidden;
@@ -30,7 +39,7 @@
   right: -10px;
   width: 60px;
   height: 60px;
-  background-color: #f6f1e9;
+  background-color: #DEFFF5;
   border: none;
   border-top-left-radius: 100%;
   display: flex;
@@ -39,14 +48,14 @@
 }
 
 .recipe-dropdown-button i {
-  color: #c3b3a4;
+  color: #71c5ab;
   font-size: 20px;
 }
 
 .recipe-info {
   display: none;
   padding: 15px;
-  background-color: #f6f1e9;
+  background-color: #DEFFF5;
 }
 
 .each-recipe-info {

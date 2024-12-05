@@ -2,18 +2,19 @@
   <div class="mt-4">
     <h1 class="profile-title">Your Pantry</h1>
   </div>
-
-  <div class="profile-card mt-3">
-    <div class="profile-pic-wrapper">
-      <div class="profile-page-stats">
-        <div class="per-stat mb-1">
-          <p>Carbon Savings:</p>
-          <h2><%= number_with_precision(@total_carbon.to_f, precision: 2) %> kg CO<span class="subscript"><sub>2</sub></span>e</h2>
-        </div>
-        <div class="per-stat">
-          <p>Cost Savings:</p>
-          <h2><%= number_to_currency(@total_saving, unit: "£", precision: 2) %></h2>
-        </div>
+  <div class="stats-container">
+    <div class="stat-card large">
+      <p class="stat-title-large">TOTAL MEALS COOKED:</p>
+      <p><%= link_to "#{@meals.count}", meals_path, class: "stat-value-large text-decoration-none" %></p>
+    </div>
+    <div class="stats-sub-container">
+      <div class="stat-card small">
+        <p class="stat-title">CARBON SAVINGS:</p>
+        <p class="stat-value"><%= number_with_precision(@total_carbon.to_f, precision: 2) %> kg CO<span class="subscript"><sub>2</sub></span></p>
+      </div>
+      <div class="stat-card small">
+        <p class="stat-title">COST SAVINGS:</p>
+        <p class="stat-value"><%= number_to_currency(@total_saving, unit: "£", precision: 2) %></p>
       </div>
     </div>
   </div>

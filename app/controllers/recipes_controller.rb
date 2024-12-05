@@ -1,5 +1,5 @@
 class RecipesController < ApplicationController
-  before_action :set_recipe, only: [:show]
+  # before_action :set_recipe, only: [:show]
 
   def index
     if params[:query].present?
@@ -27,9 +27,22 @@ class RecipesController < ApplicationController
 
       @recipes = @recipes.joins(:ingredients).group("recipes.id").order("COUNT(ingredients.id) DESC").where(ingredients: { id: user_ingredient_ids })
     end
+
+    case params[:filter]
+    when 'Recipes I Can Make'
+      @recipes = @recipes.select do |recipe|
+        (recipe.ingredients - current_user.ingredients).empty?
+      end
+    when 'Expiry Date'
+      @recipes = @recipes.order(:expiry_date)
+    when 'Recipes That Use Most Ingredients'
+      user_ingredient_ids = current_user.ingredients.pluck(:id)
+      @recipes = @recipes.joins(:ingredients).group("recipes.id").order("COUNT(ingredients.id) DESC").where(ingredients: { id: user_ingredient_ids })
+    end
   end
 
   def show
+    @recipe = Recipe.includes(:ingredients, :recipe_ingredients).find(params[:id])
     @user_ingredients = current_user.user_ingredients.pluck(:ingredient_id)
   end
 

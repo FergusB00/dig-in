@@ -1,3 +1,9 @@
+@mixin footer-icon {
+  font-size: 24px;
+  color: #D1BFAD;
+  text-decoration: none;
+}
+
 .footer {
   background-color: transparent;
   padding: 20px 0;
@@ -12,15 +18,27 @@
 }
 
 .footer-icons {
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   gap: 30px;
+  font-size: large;
 }
 
-.footer-icon {
-  font-size: 24px;
-  color: #D1BFAD;
-  text-decoration: none;
+.footer-icon-1 {
+  color: #fdc39f;
+}
+
+.footer-icon-2 {
+  color: #b3eddb;
+}
+
+.footer-icon-3 {
+  color: #d1bfad;
+}
+
+.footer-icon-4 {
+  color: #fae9ad;
 }
 
 .footer-icon-mid {

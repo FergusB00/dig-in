@@ -2,7 +2,8 @@ class MealsController < ApplicationController
   # before_action :set_meal, only: [:show]
 
   def index
-    @meals = current_user.meals
+    @meals = current_user.meals.includes(:recipe)
+    @recipes = @meals.map(&:recipe).uniq
   end
 
   def create
@@ -42,10 +43,10 @@ class MealsController < ApplicationController
                                     .where('weight_in_grams >= ?', recipeingredient.weight_in_grams)
                                     .where('expiry_date >= ?', Date.today).order(expiry_date: :desc).first
       if user_ingredient.nil?
-        0
+        0.0
       else
         ingredient = recipeingredient.ingredient
-        ingredient.carbon_per_gram * user_ingredient.weight_in_grams
+        ingredient.carbon_per_gram.to_f * user_ingredient.weight_in_grams
       end
     end
   end
@@ -56,7 +57,6 @@ class MealsController < ApplicationController
                                     .where(ingredient: recipeingredient.ingredient)
                                     .where('weight_in_grams >= ?', recipeingredient.weight_in_grams)
                                     .where('expiry_date >= ?', Date.today).order(expiry_date: :desc).first
-      #add if statement so if attribute is nil then will assign random
       if user_ingredient.nil?
         0
       else
@@ -72,7 +72,14 @@ class MealsController < ApplicationController
                                     .where(ingredient: recipeingredient.ingredient)
                                     .where('weight_in_grams >= ?', recipeingredient.weight_in_grams)
                                     .where('expiry_date >= ?', Date.today).order(expiry_date: :desc).first
-      user_ingredient&.update(weight_in_grams: user_ingredient.weight_in_grams - recipeingredient.weight_in_grams)
+      if user_ingredient
+        updated_weight = user_ingredient.weight_in_grams - recipeingredient.weight_in_grams
+        if updated_weight <=0
+          user_ingredient.destroy
+        else
+          user_ingredient&.update(weight_in_grams: user_ingredient.weight_in_grams - recipeingredient.weight_in_grams)
+        end
+      end
     end
   end
 end

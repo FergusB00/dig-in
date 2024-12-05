@@ -4,9 +4,10 @@ class UsersController < ApplicationController
     @recipes = current_user.recipes
     @ingredients = current_user.user_ingredients.includes(:ingredient).order(expiry_date: :asc)
     @user_ingredient = UserIngredient.new
+    @user_ingredient.build_ingredient
     @meals = current_user.meals
-    @total_carbon = @meals.map { |meal| meal.carbon_saving }.sum / 1000
-    @total_saving = @meals.map { |meal| meal.cost_saving }.sum / 100
+    @total_carbon = @meals.map { |meal| meal.carbon_saving }.sum / 1000.0
+    @total_saving = @meals.map { |meal| meal.cost_saving }.sum / 100.0
     @questions = current_user.questions
   end
 end

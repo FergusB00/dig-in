@@ -25,14 +25,6 @@ class MealsController < ApplicationController
       p @meal.errors.messages
       render "recipes/show", status: :unprocessable_entity
     end
-
-    # if @meal.save
-    #   update_user_ingredients_price(@recipe)
-    #   redirect_to profile_path
-    # else
-    #   p @meal.errors.messages
-    #   render "recipes/show", status: :unprocessable_entity
-    # end
   end
 
   private
@@ -64,7 +56,6 @@ class MealsController < ApplicationController
                                     .where(ingredient: recipeingredient.ingredient)
                                     .where('weight_in_grams >= ?', recipeingredient.weight_in_grams)
                                     .where('expiry_date >= ?', Date.today).order(expiry_date: :desc).first
-      #add if statement so if attribute is nil then will assign random
       if user_ingredient.nil?
         0
       else
@@ -80,17 +71,14 @@ class MealsController < ApplicationController
                                     .where(ingredient: recipeingredient.ingredient)
                                     .where('weight_in_grams >= ?', recipeingredient.weight_in_grams)
                                     .where('expiry_date >= ?', Date.today).order(expiry_date: :desc).first
-      user_ingredient&.update(weight_in_grams: user_ingredient.weight_in_grams - recipeingredient.weight_in_grams)
+      if user_ingredient
+        updated_weight = user_ingredient.weight_in_grams - recipeingredient.weight_in_grams
+        if updated_weight <=0
+          user_ingredient.destroy
+        else
+          user_ingredient&.update(weight_in_grams: user_ingredient.weight_in_grams - recipeingredient.weight_in_grams)
+        end
+      end
     end
   end
-
-  # def update_user_ingredients_price(recipe)
-  #   recipe.recipe_ingredients.each do |recipeingredient|
-  #     user_ingredient = current_user.user_ingredients
-  #                                   .where(ingredient: recipeingredient.ingredient)
-  #                                   .where('weight_in_grams >= ?', recipeingredient.weight_in_grams)
-  #                                   .where('expiry_date >= ?', Date.today).order(expiry_date: :desc).first
-  #     user_ingredient&.update(price_in_pence: user_ingredient.price_in_pence / user_ingredient.weight_in_grams * update_user_ingredients_qty(recipe))
-  #   end
-  # end
 end

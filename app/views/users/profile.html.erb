@@ -13,6 +13,9 @@
         <div class="per-stat">
           <p>Cost Savings:</p>
           <h2><%= number_to_currency(@total_saving, unit: "£", precision: 2) %></h2>
+        <div class="per-stat">
+          <p>Meals Cooked:</p>
+          <h2><%= @meals.count %></h2>
         </div>
       </div>
     </div>

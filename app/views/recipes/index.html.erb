@@ -36,12 +36,13 @@
       </div>
     </div>
   <% end %>
-  <div class="btn-position-fixed cook-outer-circle-show">
+    <div class="btn-position-fixed cook-outer-circle-show">
       <div class="cook-inner-circle-show">
-        <%= button_to questions_path, method: :get, class: "btn cook-items-button" do %>
+        <%= link_to questions_path, class: "btn cook-items-button" do %>
           CHAT WITH US
         <% end %>
       </div>
     </div>
-  <%# <%= link_to "Chat with us", questions_path, class: "btn-position-fixed add-button-container add-outer-circle-profile ", data: {controller: 'button'} %> %>
 </div>
+
+  <%# <%= link_to "Chat with us", questions_path, class: "btn-position-fixed add-button-container add-outer-circle-profile ", data: {controller: 'button'} %> %>

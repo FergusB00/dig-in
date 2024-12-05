@@ -1,0 +1,29 @@
+=> 
+[[32m#<Question:0x0000ff4e1343b910[0m
+  id: [34m[1m49[0m,
+  user_question: [31m[1m"[0m[31mCan you suggest a healthy side dish please[0m[31m[1m"[0m,
+  ai_answer: [31m[1m"[0m[31mI recommend the recipe for Crunchy Brussels Sprout...[0m[31m[1m"[0m,
+  user_id: [34m[1m1[0m,
+  created_at: [31m[1m"[0m[31m2024-12-05 20:00:00.326530000 +0000[0m[31m[1m"[0m,
+  updated_at: [31m[1m"[0m[31m2024-12-05 20:00:04.595408000 +0000[0m[31m[1m"[0m[32m>[0m,
+ [32m#<Question:0x0000ff4e1343b7d0[0m
+  id: [34m[1m50[0m,
+  user_question: [31m[1m"[0m[31mGreat! Thank you[0m[31m[1m"[0m,
+  ai_answer: [31m[1m"[0m[31mYou're welcome! If you have any more questions or ...[0m[31m[1m"[0m,
+  user_id: [34m[1m1[0m,
+  created_at: [31m[1m"[0m[31m2024-12-05 20:00:18.792135000 +0000[0m[31m[1m"[0m,
+  updated_at: [31m[1m"[0m[31m2024-12-05 20:00:21.074851000 +0000[0m[31m[1m"[0m[32m>[0m,
+ [32m#<Question:0x0000ff4e1343b690[0m
+  id: [34m[1m51[0m,
+  user_question: [31m[1m"[0m[31mCan you suggest a healthy side dish to go with som...[0m[31m[1m"[0m,
+  ai_answer: [31m[1m"[0m[31mI suggest trying the Crunchy Brussels Sprouts Side...[0m[31m[1m"[0m,
+  user_id: [34m[1m1[0m,
+  created_at: [31m[1m"[0m[31m2024-12-05 20:00:41.464586000 +0000[0m[31m[1m"[0m,
+  updated_at: [31m[1m"[0m[31m2024-12-05 20:00:44.048919000 +0000[0m[31m[1m"[0m[32m>[0m,
+ [32m#<Question:0x0000ff4e1343b550[0m
+  id: [34m[1m52[0m,
+  user_question: [31m[1m"[0m[31mGreat! I love this suggestion. Brussels sprouts si...[0m[31m[1m"[0m,
+  ai_answer: [31m[1m"[0m[31mYou're welcome! I'm glad you liked the suggestion....[0m[31m[1m"[0m,
+  user_id: [34m[1m1[0m,
+  created_at: [31m[1m"[0m[31m2024-12-05 20:01:19.513457000 +0000[0m[31m[1m"[0m,
+  updated_at: [31m[1m"[0m[31m2024-12-05 20:01:22.544933000 +0000[0m[31m[1m"[0m[32m>[0m]

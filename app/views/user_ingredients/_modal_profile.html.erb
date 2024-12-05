@@ -32,7 +32,7 @@
 
         <!-- Manual upload -->
 
-        <div class="modal-manual-upload" data-controller="modal" data-barcode-target="manualForm">
+        <div class="modal-manual-upload" data-controller="modal">
           <div class="d-flex justify-content-center align-items-center">
             <h5 class="manual-upload-title mb-0" style="font-family: Aboreto, sans-serif;"><strong>Manual upload</strong></h5>
             <button class="" data-action="click->modal#toggle" style="border: none; background: none;">
@@ -40,7 +40,7 @@
             </button>
           </div>
           <!-- Simple form -->
-          <div data-modal-target="manualForm" class="d-none">
+          <div data-modal-target="manualForm" data-barcode-target="manualForm" class="d-none">
             <%= simple_form_for(user_ingredient, html: { class: "user-ingredient-form" }) do |f| %>
               <div class="form-group" >
                 <label for="ingredient-name">Ingredient:</label>

@@ -3,7 +3,9 @@
   <div class="input-group mb-3 w-100">
     <div class="form-floating">
       <%= f.input :user_question, label: false, wrapper: false %>
-      <%= f.label :user_question, "Your question" %>
+      <%= f.label :user_question do %>
+      Cooking for a date? Craving comfort food? <br> Ask us for recipe ideas!"
+      <% end %>
     </div>
     <%= f.submit "Ask", id: "new-question-button", class: "btn btn-primary" %>
   </div>

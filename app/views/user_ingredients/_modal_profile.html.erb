@@ -34,8 +34,10 @@
           <%= simple_form_for(user_ingredient, html: { class: "user-ingredient-form" }) do |f| %>
             <div class="form-group" >
               <label for="ingredient-name">Ingredient:</label>
-              <%= f.input :ingredient, label: false, class: "user-ingredient-form-control",
+              <%= f.simple_fields_for :ingredient do |nf| %>
+                <%= nf.input :name, label: false, class: "user-ingredient-form-control",
               input_html: {data: { barcode_target: "ingredient" }} %>
+                <% end %>
             </div>
             <!-- >
                  <%= f.association :ingredient, collection: Ingredient.all, label: false, placeholder: "Enter your ingredient",

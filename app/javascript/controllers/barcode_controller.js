@@ -12,7 +12,7 @@ export default class extends Controller {
     this.codeReader = new ZXing.BrowserMultiFormatReader()
     console.log('ZXing code reader initialized')
     console.log(this.apiValue)
-    console.dir(Object.entries(this.ingredientTarget.options))
+    // console.dir(Object.entries(this.ingredientTarget.options))
   }
 
 
@@ -50,7 +50,6 @@ export default class extends Controller {
     const apiKey = this.apiValue;
     console.log(apiKey)
     const url = `/barcode_lookup?barcode=${result.text}`;
-
     fetch(url)
       .then(response => response.json())
       .then((data) => {
@@ -58,7 +57,7 @@ export default class extends Controller {
         console.log(ingredientName);
 
         const size = data.products[0].size;
-        const sizeFormat = /(\d+)([a-zA-Z]+)/;
+        const sizeFormat = /(\d+)\s*([a-zA-Z]+)/;
         const match = size.match(sizeFormat);
         const ingredientWeight = match[1];
         const ingredientUnit = match[2];

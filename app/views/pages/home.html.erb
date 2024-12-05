@@ -10,27 +10,31 @@
 <%= render "shared/page_divider" %>
 
 <!-- Food image / Slideshow experiement -->
-<div class="home-page-img-container column mt-3">
-  <img id="slideshow-image" src="<%= asset_path('latest_front_still.png') %>" alt="Lovely meals">
-  <div class="overlaying-text-big">
-    <%= link_to "TRACK", profile_path, class: "overlaying-link-big" %>
-  </div>
-  <div class="overlaying-text-small">
-    food usage
-  </div>
-  <div class="overlaying-text-big-2">
-    <%= link_to "SUGGEST", recipes_path, class: "overlaying-link-big" %>
-  </div>
-  <div class="overlaying-text-small-2">
-    recipes
-  </div>
-  <div class="overlaying-text-big-3">
-    <%= link_to "REDUCE", profile_path, class: "overlaying-link-big" %>
-  </div>
-  <div class="overlaying-text-small-3">
-    spend &
-  </div>
-  <div class="overlaying-text-small-4">
-    carbon footprint
+<div class="home-page-content">
+  <div class="home-page-background-image">
+    <div class="home-page-img-container column mt-3">
+      <img id="slideshow-image" src="<%= asset_path('latest_front_still.png') %>" alt="Lovely meals">
+      <div class="overlaying-text-big">
+        <%= link_to "TRACK", profile_path, class: "overlaying-link-big" %>
+      </div>
+      <div class="overlaying-text-small">
+        food usage
+      </div>
+      <div class="overlaying-text-big-2">
+        <%= link_to "SUGGEST", recipes_path, class: "overlaying-link-big" %>
+      </div>
+      <div class="overlaying-text-small-2">
+        recipes
+      </div>
+      <div class="overlaying-text-big-3">
+        <%= link_to "REDUCE", profile_path, class: "overlaying-link-big" %>
+      </div>
+      <div class="overlaying-text-small-3">
+        spend &
+      </div>
+      <div class="overlaying-text-small-4">
+        carbon footprint
+      </div>
+    </div>
   </div>
 </div>

@@ -177,7 +177,7 @@ recipes["results"].each do |recipe|
       RecipeIngredient.create(
         ingredient: new_ingredient,
         recipe: recipe,
-        quantity: ingredient["amount"],
+        quantity: ingredient["measures"]["metric"]["amount"],
         unit: serving
         )
     end

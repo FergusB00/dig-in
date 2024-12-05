@@ -1,5 +1,5 @@
 class RecipesController < ApplicationController
-  before_action :set_recipe, only: [:show]
+  # before_action :set_recipe, only: [:show]
 
   def index
     if params[:query].present?
@@ -42,6 +42,7 @@ class RecipesController < ApplicationController
   end
 
   def show
+    @recipe = Recipe.includes(:ingredients, :recipe_ingredients).find(params[:id])
     @user_ingredients = current_user.user_ingredients.pluck(:ingredient_id)
   end
 

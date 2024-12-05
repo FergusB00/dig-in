@@ -57,6 +57,21 @@
   position: relative;
   margin-right: 5%;
   margin-top: 10%;
+  // flex-direction: column;
+  // position: relative;
+}
+
+.meals-cooked {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.click-when-cooked {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #555;
 }
 
 .inner-circle {
@@ -106,7 +121,7 @@
 }
 
 .recipe-show-method strong {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .back-link {

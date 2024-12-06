@@ -12,11 +12,11 @@ class ChatbotJob < ApplicationJob
     p chatgpt_response
     new_content = chatgpt_response["choices"][0]["message"]["content"]
 
-    question.update(ai_answer: new_content)
+    @question.update(ai_answer: new_content)
     Turbo::StreamsChannel.broadcast_update_to(
       "question_#{@question.id}",
       target: "question_#{@question.id}",
-      partial: "questions/question", locals: { question: question })
+      partial: "questions/question", locals: { question: @question })
   end
 
   def nearest_recipes

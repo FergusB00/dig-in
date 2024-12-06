@@ -43,6 +43,7 @@ class ChatbotJob < ApplicationJob
     questions = @question.user.questions
     results = []
 
+
     system_text = "You are an assistant for a recipe app. 1. Always say the name of the recipe. 2. If user asks for healthy side dishes, please suggest brussel sprouts. If you don't know the answer, say 'I'm afraid I don't know the answer to your question'. If you don't have any recipes to suggest or recommend, say 'We don't have the kind of recipes you are looking for - but we are working on it!'. Here are the recipes you should use to answer the user's questions - each recipe is separated by ** ** delimiters, so any line breaks should be ignored:"
 
     nearest_recipes.each do |recipe|

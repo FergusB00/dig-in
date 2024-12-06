@@ -1,9 +1,9 @@
 <%= simple_form_for question,
  html: { data: { controller: "reset-form", action: "turbo:submit-end->reset-form#reset" }} do |f| %>
-  <%# <div class="input-group mb-3 w-100"> %>
+  <%# <div class="input-group w-100"> %>
   <div class='d-flex align-items-center'>
     <%# <div class="form-floating"> %>
-      <%= f.input :user_question, label: false, placeholder: 'Cooking for a date? Craving comfort food? Ask us for recipe ideas!', wrapper_html: {style: 'width: 80%; margin-bottom: 0px;', class: 'mb-0'}, input_html: {style: 'font-size: 12px;margin-bottom: 0px;'} %>
+      <%= f.input :user_question, label: false, placeholder: 'Cooking for a date? Craving comfort food? Ask us for recipe ideas!', wrapper_html: {style: 'width: 80%; margin-bottom: 0px;' , class: 'mb-0'}, input_html: {style: 'font-size: 12px;margin-bottom: 0px;  border: unset;'} %>
       <%# <%= f.label :user_question do %>
         <%# Cooking for a date? Craving comfort food? <br> Ask us for recipe ideas!" %>
       <%# <% end %>
